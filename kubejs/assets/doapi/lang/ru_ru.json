@@ -1,0 +1,23 @@
+{
+  "block.doapi.standard": "Знамя перфекциониста",
+  "block.doapi.wall_standard": "Настенное знамя перфекциониста",
+  "sound.doapi.cabinet_close": "Шкаф закрывается",
+  "sound.doapi.cabinet_open": "Шкаф открывается",
+  "sound.doapi.drawer_close": "Ящик закрывается",
+  "sound.doapi.drawer_open": "Ящик открывается",
+  "sound.doapi.cake_cut": "Торт разрезается",
+  "sound.doapi.typewriter": "Стук печатной машинки",
+  "sound.doapi.dinner_bell": "Звон обеденного колокольчика",
+  "sound.doapi.brewstation_ambient": "Гудение варочной станции",
+  "sound.doapi.brewstation_oven": "Потрескивание печи",
+  "sound.doapi.brewstation_timer": "Тиканье таймера",
+  "sound.doapi.brewstation_kettle": "Лопающиеся пузырьки",
+  "sound.doapi.brewstation_whistle": "Свист свистка",
+  "sound.doapi.breath": "Дыхание",
+  "sound.doapi.beer_elemental_death": "Хмельной погибает",
+  "sound.doapi.beer_elemental_ambient": "Звуки хмельного",
+  "sound.doapi.beer_elemental_hurt": "Хмельной ранен",
+  "sound.doapi.beer_elemental_attack": "Атака хмельного",
+  "sound.doapi.timer_ticking": "Тиканье таймера",
+  "pack.source.builtinMod": "встроенный: %s"
+}

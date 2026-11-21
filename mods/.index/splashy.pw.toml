@@ -1,0 +1,18 @@
+filename = 'Splashy-Forge-1.20.1-14.0.5.jar'
+name = 'Splashy'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Splashy-Forge-1.20.1-14.0.5.jar'
+
+[download]
+hash = 'eda76c3aa218f667315bd08909ffaac48792bdce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7613250
+project-id = 354674

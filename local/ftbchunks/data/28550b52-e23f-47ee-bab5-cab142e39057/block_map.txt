@@ -1,0 +1,8 @@
+#52B53D minecraft:air
+#5D698F angelblockrenewed:angel_block
+#208CB0 ae2:cable_bus
+#194874 minecraft:cyan_terracotta
+#8D372E glassential:glass_light
+#2D74D4 minecraft:gray_concrete
+#91B682 gtceu:lv_super_chest
+#45DA85 gtceu:rubber_leaves

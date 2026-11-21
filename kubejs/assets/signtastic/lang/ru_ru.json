@@ -1,0 +1,13 @@
+{
+  "block.signtastic.square_sign": "Квадратная табличка",
+  "block.signtastic.block_sign": "Табличка-блок",
+  "block.signtastic.slab_sign": "Табличка-плита",
+  "item.signtastic.sign_configurator": "Конфигуратор табличек",
+  "itemGroup.signtastic": "SignTastic",
+  "message.signtastic.shiftmessage": "<Нажмите Shift>",
+  "message.signtastic.square_sign.header": "Плоская квадратная табличка с широкими возможностями настройки",
+  "message.signtastic.block_sign.header": "Табличка в форме блока с широкими возможностями настройки",
+  "message.signtastic.slab_sign.header": "Табличка в форме плиты с широкими возможностями настройки",
+  "message.signtastic.sign_configurator.header": "Используйте для копирования настроек таблички",
+  "message.signtastic.sign_configurator.gold": "ПКМ — копировать, Shift + ПКМ — вставить"
+}

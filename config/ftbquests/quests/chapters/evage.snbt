@@ -1,0 +1,919 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "evage"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:ev_machine_hull"
+	id: "5B195FC87B4D5FF3"
+	images: [{
+		height: 2.0d
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -2.0d
+		y: 2.0d
+	}]
+	order_index: 4
+	quest_links: [{
+		id: "099075E022708331"
+		linked_quest: "67E2C5405551C079"
+		size: 1.25d
+		x: -5.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: ["4F787F7BE9142058"]
+			description: [
+				"{sky_greg.quests.chapters_evage.1}"
+				""
+				"{sky_greg.quests.chapters_evage.2}"
+				""
+				"{sky_greg.quests.chapters_evage.3}"
+			]
+			id: "04BE1F878C713A9E"
+			rewards: [{
+				id: "0972A200E4F716CF"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_evage.4}"
+			tasks: [{
+				id: "00BE8B4201B6538A"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06B25AF165CADF77"]
+			description: [
+				"{sky_greg.quests.chapters_evage.5}"
+				""
+				"{sky_greg.quests.chapters_evage.6}"
+			]
+			id: "601570809627DA2F"
+			rewards: [{
+				id: "388C0A513A373D27"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_evage.7}"
+			tasks: [{
+				id: "2181D41829A80FD5"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D82EBC15CA65CAF"
+				"1C9D613C8F70F50F"
+			]
+			description: ["{sky_greg.quests.chapters_evage.8}"]
+			icon: "gtceu:tungsten_dust"
+			id: "06B25AF165CADF77"
+			rewards: [{
+				id: "08965D5EA4C14E01"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.9}"
+			tasks: [{
+				id: "4157B9FBE175463D"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52BE4EBE580D3CC4"]
+			description: [
+				"{sky_greg.quests.chapters_evage.10}"
+				""
+				"{sky_greg.quests.chapters_evage.11}"
+				""
+				"{sky_greg.quests.chapters_evage.12}"
+			]
+			id: "0D82EBC15CA65CAF"
+			rewards: [{
+				id: "69920DB259CECF65"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.13}"
+			tasks: [{
+				id: "2792491E0265ABBA"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2D3AC686CE6911BB"
+				"7AD75FBC7F31057A"
+			]
+			description: ["{sky_greg.quests.chapters_evage.14}"]
+			icon: "gtceu:ev_energy_output_hatch"
+			id: "74442DAB3A512999"
+			optional: true
+			rewards: [{
+				id: "5DF41C5CF51F98C5"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.15}"
+			tasks: [{
+				id: "4F77070CD3F7A993"
+				item: "gtceu:ev_energy_output_hatch"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["262B598A6383D986"]
+			description: [
+				"{sky_greg.quests.chapters_evage.16}"
+				""
+				"{sky_greg.quests.chapters_evage.17}"
+				""
+				"{sky_greg.quests.chapters_evage.18}"
+			]
+			id: "2D3AC686CE6911BB"
+			rewards: [{
+				id: "5D4E0CA75460D89C"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.19}"
+			tasks: [{
+				id: "387A3F794A365234"
+				item: "gtceu:mpic_chip"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2FA447E14C542526"]
+			description: ["{sky_greg.quests.chapters_evage.20}"]
+			id: "7AD75FBC7F31057A"
+			rewards: [{
+				id: "647FEB4E826E70C2"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.21}"
+			tasks: [{
+				id: "06EB6F95B4FC0621"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["555BAF206982D072"]
+			description: ["{sky_greg.quests.chapters_evage.22}"]
+			id: "6A0C37CCF3E57623"
+			optional: true
+			rewards: [{
+				id: "05AA787D2CBCE124"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.23}"
+			tasks: [{
+				id: "130295AA4967A664"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2FA447E14C542526"
+				"225B64C56CF2A58D"
+			]
+			description: ["{sky_greg.quests.chapters_evage.24}"]
+			id: "1A420543054362B5"
+			rewards: [{
+				id: "39D34E2B81E54683"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.25}"
+			tasks: [{
+				id: "00A355F39FFCB543"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_evage.26}"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"01A3EB516A884B7C"
+				"70ABBE93FCD35564"
+			]
+			description: ["{sky_greg.quests.chapters_evage.27}"]
+			id: "4F787F7BE9142058"
+			rewards: [{
+				id: "2BEBCE7FF041E444"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_evage.28}"
+			tasks: [{
+				id: "2F87326EC233F7D2"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16F2E8832642298A"]
+			description: ["{sky_greg.quests.chapters_evage.29}"]
+			id: "1C9D613C8F70F50F"
+			rewards: [{
+				id: "34C1D0FA3594C75B"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			size: 1.258d
+			subtitle: "{sky_greg.quests.chapters_evage.30}"
+			tasks: [{
+				id: "2914C9C3E5805495"
+				item: "gtceu:ev_electrolyzer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16F2E8832642298A"]
+			description: [
+				"{sky_greg.quests.chapters_evage.31}"
+				""
+				"{sky_greg.quests.chapters_evage.32}"
+			]
+			id: "7A5AA5F55E207E47"
+			rewards: [{
+				id: "0E9B4FC3EC10786B"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_evage.33}"
+			tasks: [{
+				id: "1FDA975BBD0A1B38"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16F2E8832642298A"]
+			description: ["{sky_greg.quests.chapters_evage.34}"]
+			id: "52BE4EBE580D3CC4"
+			rewards: [{
+				id: "41CB1D5C3276EEC0"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_evage.35}"
+			tasks: [{
+				id: "7466F91A52A7BBAF"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16F2E8832642298A"]
+			description: ["{sky_greg.quests.chapters_evage.36}"]
+			id: "262B598A6383D986"
+			rewards: [{
+				id: "5DE6165A380EE31E"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_evage.37}"
+			tasks: [{
+				id: "06AF75882DE227E2"
+				item: "gtceu:ev_cutter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["16F2E8832642298A"]
+			description: ["{sky_greg.quests.chapters_evage.38}"]
+			id: "2FA447E14C542526"
+			rewards: [{
+				id: "765D8D7FD6487787"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_evage.39}"
+			tasks: [{
+				id: "497686A59F1B836C"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7A5AA5F55E207E47"
+				"06B25AF165CADF77"
+				"67E2C5405551C079"
+			]
+			description: ["{sky_greg.quests.chapters_evage.40}"]
+			id: "225B64C56CF2A58D"
+			rewards: [{
+				id: "0CF0E9CEE0CF09A8"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.41}"
+			tasks: [{
+				id: "65B4BB4F0B6FF580"
+				item: "gtceu:rtm_alloy_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08A868EE88E4D392"]
+			description: [
+				"{sky_greg.quests.chapters_evage.42}"
+				""
+				"{sky_greg.quests.chapters_evage.43}"
+				""
+				"{sky_greg.quests.chapters_evage.44}"
+				""
+				"{sky_greg.quests.chapters_evage.45}"
+				""
+				"{sky_greg.quests.chapters_evage.46}"
+				""
+				"{sky_greg.quests.chapters_evage.47}"
+				""
+				"{sky_greg.quests.chapters_evage.48}"
+				""
+				"{sky_greg.quests.chapters_evage.49}"
+			]
+			id: "0210ABFFB072CF84"
+			rewards: [{
+				id: "174EAF61DA0B4067"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.50}"
+			tasks: [{
+				id: "037DA1B94F53D138"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_evage.51}"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["715E704C99C24FD1"]
+			description: [
+				"{sky_greg.quests.chapters_evage.52}"
+				""
+				"{sky_greg.quests.chapters_evage.53}"
+				""
+				"{sky_greg.quests.chapters_evage.54}"
+				""
+				"{sky_greg.quests.chapters_evage.55}"
+				""
+				"{sky_greg.quests.chapters_evage.56}"
+				""
+				"{sky_greg.quests.chapters_evage.57}"
+			]
+			id: "6AB677DE9BAAF3C8"
+			optional: true
+			rewards: [{
+				id: "1E3833C826FD7D47"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.58}"
+			tasks: [{
+				icon: "gtceu:ev_perfect_electrolyzer"
+				id: "68D7D773D7A1ED5B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:multiblocks/ev_perfect"
+					}
+				}
+				title: "{sky_greg.quests.chapters_evage.59}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_evage.60}"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A3CF05786F1275B"]
+			description: [
+				"{sky_greg.quests.chapters_evage.61}"
+				""
+				"{sky_greg.quests.chapters_evage.62}"
+				""
+				"{sky_greg.quests.chapters_evage.63}"
+				""
+				"{sky_greg.quests.chapters_evage.64}"
+				""
+				"{sky_greg.quests.chapters_evage.65}"
+				""
+				"{sky_greg.quests.chapters_evage.66}"
+			]
+			id: "181F277E8CCFF5BB"
+			optional: true
+			rewards: [{
+				id: "45C2410767FBF19D"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.67}"
+			tasks: [{
+				icon: "gtceu:ev_energy_input_hatch_4a"
+				id: "47E16E68B657BC98"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ev_energy_input_hatch_4a"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_energy_input_hatch_16a"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_evage.68}"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7AD75FBC7F31057A"
+				"2D3AC686CE6911BB"
+			]
+			description: ["{sky_greg.quests.chapters_evage.69}"]
+			id: "5A3CF05786F1275B"
+			rewards: [{
+				id: "7C077FAD07BF02A7"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.70}"
+			tasks: [{
+				id: "6DE8490ED282831D"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04BE1F878C713A9E"]
+			description: [
+				"{sky_greg.quests.chapters_evage.71}"
+				""
+				"{sky_greg.quests.chapters_evage.72}"
+				""
+				"{sky_greg.quests.chapters_evage.73}"
+				""
+				"{sky_greg.quests.chapters_evage.74}"
+				""
+				"{sky_greg.quests.chapters_evage.75}"
+				""
+				"{sky_greg.quests.chapters_evage.76}"
+				""
+				"{sky_greg.quests.chapters_evage.77}"
+			]
+			id: "14E58325A84985FC"
+			optional: true
+			rewards: [{
+				id: "7CBD16C79657380B"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.78}"
+			tasks: [{
+				id: "1FED7E8E93CFE0EF"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0210ABFFB072CF84"]
+			description: [
+				"{sky_greg.quests.chapters_evage.79}"
+				""
+				"{sky_greg.quests.chapters_evage.80}"
+			]
+			icon: "gtceu:stress_proof_casing"
+			id: "715E704C99C24FD1"
+			optional: true
+			rewards: [{
+				id: "551BC43CAA869E4C"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.81}"
+			tasks: [
+				{
+					id: "2A9EFCF441057E2D"
+					item: "gtceu:stress_proof_casing"
+					type: "item"
+				}
+				{
+					id: "4DE105B747B57307"
+					item: "gtceu:molten_maraging_steel_300_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "287041CEEBD6078D"
+					title: "{sky_greg.quests.chapters_evage.82}"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A420543054362B5"]
+			description: [
+				"{sky_greg.quests.chapters_evage.83}"
+				""
+				"{sky_greg.quests.chapters_evage.84}"
+			]
+			icon: "gtceu:tantalum_carbide_ingot"
+			id: "08A868EE88E4D392"
+			rewards: [{
+				id: "192F6ED13BE2F6C2"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.85}"
+			tasks: [
+				{
+					id: "66ED1FD0FEEE16D6"
+					item: "gtceu:tantalum_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "3E851D5FED2D4B80"
+					item: "gtceu:titanium_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "67631A83BC69D7C5"
+					item: "gtceu:tungsten_carbide_ingot"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_evage.86}"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FA447E14C542526"]
+			description: [
+				"{sky_greg.quests.chapters_evage.87}"
+				""
+				"{sky_greg.quests.chapters_evage.88}"
+				""
+				"{sky_greg.quests.chapters_evage.89}"
+				""
+				"{sky_greg.quests.chapters_evage.90}"
+				""
+				"{sky_greg.quests.chapters_evage.91}"
+				""
+				"{sky_greg.quests.chapters_evage.92}"
+			]
+			id: "4DA3B78D2AC9E82B"
+			optional: true
+			rewards: [{
+				id: "54F4F59BCBCBD79C"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.93}"
+			tasks: [{
+				id: "503D4CBD40B94A3A"
+				item: "gtceu:ev_input_hatch_4x"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2FA447E14C542526"]
+			description: ["{sky_greg.quests.chapters_evage.94}"]
+			icon: "gtceu:me_input_bus"
+			id: "26D45F17A735C3E0"
+			optional: true
+			rewards: [{
+				id: "105090A3317C703B"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.95}"
+			tasks: [
+				{
+					id: "186C99A1E46C52E0"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "7FCC9231C1F9CBE4"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_evage.96}"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2FA447E14C542526"]
+			description: ["{sky_greg.quests.chapters_evage.97}"]
+			icon: "gtceu:me_input_hatch"
+			id: "0EEA12A746111772"
+			optional: true
+			rewards: [{
+				id: "2C5D130814C7D009"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.98}"
+			tasks: [
+				{
+					id: "6C51B76052F6C1C8"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "03E9FF8B559D2CB5"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_evage.99}"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1A420543054362B5"]
+			description: [
+				"{sky_greg.quests.chapters_evage.100}"
+				""
+				"{sky_greg.quests.chapters_evage.101}"
+				""
+				"{sky_greg.quests.chapters_evage.102}"
+				""
+				"{sky_greg.quests.chapters_evage.103}"
+				""
+				"{sky_greg.quests.chapters_evage.104}"
+				""
+				"{sky_greg.quests.chapters_evage.105}"
+				""
+				"{sky_greg.quests.chapters_evage.106}"
+			]
+			id: "555BAF206982D072"
+			optional: true
+			rewards: [{
+				id: "55C3265A88D3F97F"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.107}"
+			tasks: [{
+				id: "34BD2B46E223688B"
+				item: "gtceu:uranium_triplatinum_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"601570809627DA2F"
+				"784F375D87F43818"
+				"394B072BDD61D2A6"
+			]
+			description: ["{sky_greg.quests.chapters_evage.108}"]
+			id: "02115754EB174C3E"
+			rewards: [{
+				id: "40FDA392E4041D60"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.109}"
+			tasks: [{
+				id: "72114003D19A015C"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_evage.110}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_evage.111_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"039C158C964422F9\"}, \"translate\": \"sky_greg.quests.chapters_evage.111_2\"}, {\"translate\": \"sky_greg.quests.chapters_evage.111_3\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21BE602B24C8AA5B\"}, \"translate\": \"sky_greg.quests.chapters_evage.111_4\"}, {\"translate\": \"sky_greg.quests.chapters_evage.111_5\"}]"
+				""
+				"{sky_greg.quests.chapters_evage.112}"
+			]
+			icon: "gtceu:silicone_rubber_bucket"
+			id: "784F375D87F43818"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_evage.113}"
+			tasks: [
+				{
+					icon: "gtceu:silicone_rubber_bucket"
+					id: "566CBE78CE4CE1F2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:silicone_rubber_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:styrene_butadiene_rubber_bucket"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "{sky_greg.quests.chapters_evage.114}"
+					type: "item"
+				}
+				{
+					id: "4EB63021C45096FF"
+					title: "{sky_greg.quests.chapters_evage.115}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_evage.116}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2D3AC686CE6911BB"
+				"784F375D87F43818"
+			]
+			description: ["{sky_greg.quests.chapters_evage.117}"]
+			id: "3A718DE7D8F32205"
+			rewards: [{
+				id: "12FB2CCAE2C56ACD"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_evage.118}"
+			tasks: [{
+				icon: "gtceu:ev_transformer_1a"
+				id: "1025485C67E361AB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ev_transformer_1a"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_battery_buffer_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_battery_buffer_8x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_battery_buffer_16x"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_evage.119}"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0210ABFFB072CF84"
+				"7AD75FBC7F31057A"
+			]
+			description: [
+				"{sky_greg.quests.chapters_evage.120}"
+				""
+				"{sky_greg.quests.chapters_evage.121}"
+				""
+				"{sky_greg.quests.chapters_evage.122}"
+				""
+				"{sky_greg.quests.chapters_evage.123}"
+				""
+				"{sky_greg.quests.chapters_evage.124}"
+				""
+				"{sky_greg.quests.chapters_evage.125}"
+				""
+				"{sky_greg.quests.chapters_evage.126}"
+				""
+				"{sky_greg.quests.chapters_evage.127}"
+				"{sky_greg.quests.chapters_evage.128}"
+				"{sky_greg.quests.chapters_evage.129}"
+				"{sky_greg.quests.chapters_evage.130}"
+			]
+			icon: "kubejs:harvester_tier_1"
+			id: "11CD17F1BE53E5B7"
+			optional: true
+			rewards: [{
+				id: "64525201A58DCE06"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_evage.131}"
+			tasks: [
+				{
+					id: "4DA5593DB5DEF66F"
+					item: "kubejs:harvester_tier_1"
+					type: "item"
+				}
+				{
+					id: "784B7F2B0B5BB9CA"
+					item: "gtceu:celestial_harvester"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_evage.132}"
+			x: -8.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Titanium!"]
+	title: "{sky_greg.quests.chapters_evage.133}"
+}

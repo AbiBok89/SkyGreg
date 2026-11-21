@@ -1,0 +1,20 @@
+{
+  "key.lightoverlay.category": "Оверлей освещённости",
+  "key.lightoverlay.enable_overlay": "Переключить оверлей освещённости",
+  "description.lightoverlay.caching": "Кэширование рекомендуется, если дальность превышает 16 или вы играете на слабом ПК.",
+  "config.lightoverlay.general": "Основные",
+  "config.lightoverlay.reach": "Дальность:",
+  "config.lightoverlay.caching": "Кэширование:",
+  "config.lightoverlay.crossLevel": "Уровень освещения:",
+  "config.lightoverlay.secondaryLevel": "Вторичный уровень освещения:",
+  "config.lightoverlay.showNumber": "Показывать число вместо меток:",
+  "config.lightoverlay.smoothLines": "Сглаживание линий:",
+  "config.lightoverlay.underwater": "Отображать под водой:",
+  "config.lightoverlay.lineWidth": "Толщина линий:",
+  "config.lightoverlay.yellowColor": "Жёлтый цвет:",
+  "config.lightoverlay.secondaryColor": "Вторичный цвет:",
+  "config.lightoverlay.redColor": "Красный цвет:",
+  "config.lightoverlay.invalidColor": "Недопустимый цвет",
+  "config.lightoverlay.mushroom": "Отображать в грибных биомах:",
+  "config.lightoverlay.useListWhileCaching": "Использовать glList при кэшировании:"
+}

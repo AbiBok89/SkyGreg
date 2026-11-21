@@ -1,0 +1,13 @@
+{
+  "gui.darkmodeeverywhere.dark_mode": "Тёмная тема",
+  "gui.darkmodeeverywhere.light_mode": "Светлая тема",
+  "gui.darkmodeeverywhere.perfect_dark": "Идеальная тьма",
+  "gui.darkmodeeverywhere.less_perfect_dark": "Менее идеальная тьма",
+  "gui.darkmodeeverywhere.toasted_light": "Поджаренная светлая тема",
+  "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * Удерживайте Shift, чтобы сразу перейти к светлой теме",
+  "config.darkemodeeverywhere.method_shader_blacklist": "Список строк вида class:method (методов отрисовки), к которым не будет применяться тёмный шейдер.\\nКаждая строка состоит из класса и метода (или любой подстроки) для блокировки тёмного шейдера.\\nНапример, 'renderHunger' достаточно, чтобы заблокировать 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (подойдёт любой вариант)",
+  "config.darkemodeeverywhere.method_shader_dump": "Включение этой настройки будет (каждые 5 секунд) выгружать список методов, использованных для отрисовки интерфейсов, к которым применялся тёмный шейдер.\\nВыгрузка состоит из списка строк class:method, например: 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'.\\nИспользуйте эту функцию, чтобы найти строки методов отрисовки интерфейсов, которые вы хотите добавить в чёрный список.",
+  "config.darkemodeeverywhere.button_position_x": "Отступ в пикселях от левого края интерфейса по оси X",
+  "config.darkemodeeverywhere.button_position_y": "Отступ в пикселях от нижнего края интерфейса по оси Y",
+  "config.darkmodeeverywhere.enabled": "Включено"
+}

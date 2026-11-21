@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "kubejs:block/railed_bricks"
+        },
+        "facing=east": {
+            "model": "kubejs:block/railed_bricks",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "kubejs:block/railed_bricks",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "kubejs:block/railed_bricks",
+            "y": 270
+        }
+    }
+}

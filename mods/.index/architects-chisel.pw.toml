@@ -1,0 +1,18 @@
+filename = 'ArchitectsChisel-1.20.1-1.0.0.jar'
+name = "Architect's Chisel"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ArchitectsChisel-1.20.1-1.0.0.jar'
+
+[download]
+hash = '355d28639abef5cbc59ca811f23134f3d440eed5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5056011
+project-id = 937004

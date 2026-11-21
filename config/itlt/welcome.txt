@@ -1,0 +1,13 @@
+Welcome to Sky Greg! It's been a while and some things have changed...
+
+
+FIRST OFF - FRAMED COMPACTING DRAWERS HAS BEEN REMOVED, IF YOU HAD ANY AND LOG IN TO YOUR WORLD, THEY AND THEIR CONTENTS WILL BE REMOVED.
+
+
+In this update many things have changed, both with my changes and GregTech changes.
+With this being said, just a general warning that some things in an existing world may need some changes, there may be some broken multiblocks and crafting patterns.
+
+This does not mean you cannot continue your existing world, but you may want to make a backup of your world or just duplicate your profile in CurseForge.
+If you do continue on an existing world there may be some things not working that used to, either due to changes to multiblock formations/behaviours, changes to recipes, the removal of mods, or mechanics changing in general. You may need to change crafting patterns, processing lines, and multiblock setups.
+
+Please check both my changelog for this update and the general GregTech update changelogs, my changelog contains a link to the GregTech changelogs as well.

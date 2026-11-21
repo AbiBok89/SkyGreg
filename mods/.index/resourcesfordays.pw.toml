@@ -1,0 +1,18 @@
+filename = 'rfd-2.0.0.jar'
+name = 'ResourcesForDays - A CoobleForDays Addon'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ResourcesForDays 2.0.0'
+
+[download]
+hash = 'cadeb9b017d54f495b72f64ed7b0709a6adf10d2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4586344
+project-id = 635043

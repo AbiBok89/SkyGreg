@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "kubejs:block/chisel_blocks/marble_dent_large"
+    }
+}

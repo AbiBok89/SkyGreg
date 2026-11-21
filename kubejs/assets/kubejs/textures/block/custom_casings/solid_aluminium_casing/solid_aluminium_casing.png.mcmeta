@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/custom_casings/solid_aluminium_casing/solid_aluminium_casing_ctm"
+    }
+}

@@ -1,0 +1,18 @@
+filename = 'bedrockbreakers-1.5.jar'
+name = 'Bedrock Breakers [Fabric | Forge]'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BedrockBreakers-Forge-1.5+1.20.1'
+
+[download]
+hash = '0ce21a75b91a22b6e10122b58fbadec201860001'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4786478
+project-id = 659194

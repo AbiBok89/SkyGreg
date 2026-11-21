@@ -1,0 +1,31 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        { "item": "factory_blocks:factory" },
+        { "item": "factory_blocks:rust" },
+        { "item": "factory_blocks:vrust" },
+        { "item": "factory_blocks:srust" },
+        { "item": "factory_blocks:wireframe" },
+        { "item": "factory_blocks:pwireframe" },
+        { "item": "factory_blocks:hazard" },
+        { "item": "factory_blocks:hazardo" },
+        { "item": "factory_blocks:circuit" },
+        { "item": "factory_blocks:metalbox" },
+        { "item": "factory_blocks:gcircuit" },
+        { "item": "factory_blocks:pgcircuit" },
+        { "item": "factory_blocks:grinder" },
+        { "item": "factory_blocks:old_vents" },
+        { "item": "factory_blocks:rust_plates" },
+        { "item": "factory_blocks:bcircuit" },
+        { "item": "factory_blocks:ice" },
+        { "item": "factory_blocks:mosaic" },
+        { "item": "factory_blocks:bwireframe" },
+        { "item": "factory_blocks:rusty_scaffold" },
+        { "item": "factory_blocks:caution" },
+        { "item": "factory_blocks:large_pipes" },
+        { "item": "factory_blocks:small_pipes" },
+        { "item": "factory_blocks:vent" },
+        { "item": "factory_blocks:gvent" }
+    ],
+    "overwrite": false
+  }

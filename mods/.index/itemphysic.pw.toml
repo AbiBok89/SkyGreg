@@ -1,0 +1,21 @@
+filename = 'ItemPhysic_FORGE_v1.8.12_mc1.20.1.jar'
+name = 'ItemPhysic Full'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ItemPhysic_FORGE_v1.8.12_mc1.20.1.jar'
+
+[download]
+hash = 'e091db4add549643378517b9f5a777cd13766c93'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8004878
+project-id = 258587
+
+[[x-prismlauncher-dependencies]]
+addonId = '257814'
+type = 'REQUIRED'

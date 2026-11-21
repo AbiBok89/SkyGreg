@@ -1,0 +1,32 @@
+{
+	icon: "gtceu:good_electronic_circuit"
+	id: "244D6E251E1CA919"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "gtceu:mv_electric_motor" }
+		{ item: "gtceu:mv_electric_pump" }
+		{ item: "gtceu:mv_fluid_regulator", weight: 0.5f }
+		{ item: "gtceu:mv_conveyor_module" }
+		{ item: "gtceu:mv_robot_arm" }
+		{ item: "gtceu:good_electronic_circuit" }
+		{ item: "gtceu:mv_machine_hull" }
+		{ count: 8, item: "gtceu:annealed_copper_quadruple_cable" }
+		{ item: "gtceu:mv_super_chest", weight: 0.1f }
+		{ item: "gtceu:mv_super_tank", weight: 0.1f }
+		{ item: "dimstorage:dimensional_tank", weight: 0.2f }
+		{
+			item: {
+				Count: 1
+				id: "endertanks:ender_tank"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
+			weight: 0.2f
+		}
+	]
+	title: "{sky_greg.quests.reward_tables_mv_rewards.1}"
+	use_title: true
+}

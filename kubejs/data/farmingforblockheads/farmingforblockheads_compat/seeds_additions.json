@@ -1,0 +1,31 @@
+{
+    "modId": "minecraft",
+    "group": {
+      "name": "Seeds Additions",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {"output": "farmersdelight:onion"},
+      {"output": "ex_hammers:grass_seed"},
+      {"output": "vinery:red_grape_seeds"},
+      {"output": "vinery:white_grape_seeds"},
+      {"output": "vinery:savanna_grape_seeds_red"},
+      {"output": "vinery:savanna_grape_seeds_white"},
+      {"output": "vinery:taiga_grape_seeds_red"},
+      {"output": "vinery:taiga_grape_seeds_white"},
+      {"output": "vinery:jungle_grape_seeds_red"},
+      {"output": "vinery:jungle_grape_seeds_white"},
+      {"output": "bakery:strawberry_seeds"},
+      {"output": "bakery:oat_seeds"},
+      {"output": "brewery:hops_seeds"},
+      {"output": "brewery:barley_seeds"},
+      {"output": "brewery:corn_seeds"},
+      {"output": "minecraft:torchflower_seeds"},
+      {"output": "minecraft:pitcher_pod"}
+    ]
+  }
+  

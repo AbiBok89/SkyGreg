@@ -1,0 +1,17 @@
+{
+    "modId": "minecraft",
+    "group": {
+      "name": "Sapling Additions",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {"output": "gtceu:rubber_sapling"},
+      {"output": "vinery:dark_cherry_sapling"},
+      {"output": "vinery:apple_tree_sapling"}
+    ]
+  }
+  

@@ -1,0 +1,5354 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "lv_age"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:lv_machine_hull"
+	id: "2786124F461C02BC"
+	images: [{
+		height: 2.0d
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -4.0d
+		y: 2.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.1}"
+				""
+				"{sky_greg.quests.chapters_lv_age.2}"
+				""
+				"{sky_greg.quests.chapters_lv_age.3}"
+				""
+				"{sky_greg.quests.chapters_lv_age.4}"
+				""
+				"{sky_greg.quests.chapters_lv_age.5}"
+			]
+			id: "25D3CA0CAEA8E3EF"
+			rewards: [{
+				id: "02B0F502377A0B15"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "{sky_greg.quests.chapters_lv_age.6}"
+			tasks: [{
+				id: "0C83DAA7D5B22E6C"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.7}"
+				""
+				"{sky_greg.quests.chapters_lv_age.8}"
+			]
+			id: "435FDC0A28A0D250"
+			rewards: [{
+				id: "1F4B243844B28310"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.9}"
+			tasks: [{
+				id: "1B8DE533210BEECE"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.10}"
+				""
+				"{sky_greg.quests.chapters_lv_age.11}"
+			]
+			id: "4CFC26E92D6F47DE"
+			rewards: [{
+				id: "5861DB420E76EB1C"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.12}"
+			tasks: [{
+				id: "102BBE65290E282C"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.13}"
+				""
+				"{sky_greg.quests.chapters_lv_age.14}"
+			]
+			id: "1E1ECE8F80A72D7B"
+			rewards: [{
+				id: "4EEE0F0805945599"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.15}"
+			tasks: [{
+				id: "4A1D60FD259C92D5"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.16}"
+				""
+				"{sky_greg.quests.chapters_lv_age.17}"
+			]
+			id: "580F5ED757646224"
+			optional: true
+			rewards: [{
+				id: "004B6AA2C7173B85"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.18}"
+			tasks: [{
+				id: "4DF7E607BBA6D4FE"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.19}"
+				""
+				"{sky_greg.quests.chapters_lv_age.20}"
+				""
+				"{sky_greg.quests.chapters_lv_age.21}"
+				""
+				"{sky_greg.quests.chapters_lv_age.22}"
+				""
+				"{sky_greg.quests.chapters_lv_age.23}"
+				""
+				"{sky_greg.quests.chapters_lv_age.24}"
+			]
+			id: "5C596A4E47505283"
+			rewards: [{
+				id: "0B041DE9BA6A4A64"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.25}"
+			tasks: [{
+				id: "746025BC8DF29E11"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C596A4E47505283"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.26}"
+				""
+				"{sky_greg.quests.chapters_lv_age.27}"
+				""
+				"{sky_greg.quests.chapters_lv_age.28}"
+				""
+				"{sky_greg.quests.chapters_lv_age.29}"
+				""
+				"{sky_greg.quests.chapters_lv_age.30}"
+				""
+				"{sky_greg.quests.chapters_lv_age.31}"
+				""
+				"{sky_greg.quests.chapters_lv_age.32}"
+				""
+				"{sky_greg.quests.chapters_lv_age.33}"
+				""
+				"{sky_greg.quests.chapters_lv_age.34}"
+				"{@pagebreak}"
+				"{sky_greg.quests.chapters_lv_age.35}"
+				""
+				"{sky_greg.quests.chapters_lv_age.36}"
+				""
+				"{sky_greg.quests.chapters_lv_age.37}"
+				""
+				"{sky_greg.quests.chapters_lv_age.38}"
+				""
+				"{sky_greg.quests.chapters_lv_age.39}"
+				""
+				"{sky_greg.quests.chapters_lv_age.40}"
+				""
+				"{sky_greg.quests.chapters_lv_age.41}"
+				""
+				"{sky_greg.quests.chapters_lv_age.42}"
+				""
+				"{sky_greg.quests.chapters_lv_age.43}"
+				""
+				"{sky_greg.quests.chapters_lv_age.44}"
+				""
+				"{sky_greg.quests.chapters_lv_age.45}"
+				""
+				"{sky_greg.quests.chapters_lv_age.46}"
+				""
+				"{sky_greg.quests.chapters_lv_age.47}"
+				""
+				"{sky_greg.quests.chapters_lv_age.48}"
+				""
+				"{sky_greg.quests.chapters_lv_age.49}"
+				""
+				"{sky_greg.quests.chapters_lv_age.50}"
+				""
+				"{sky_greg.quests.chapters_lv_age.51}"
+				""
+				"{sky_greg.quests.chapters_lv_age.52}"
+				""
+				"{sky_greg.quests.chapters_lv_age.53}"
+				""
+				"{sky_greg.quests.chapters_lv_age.54}"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "055AB5DB06B34A92"
+			rewards: [{
+				id: "78D4CCC042E36F4C"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{sky_greg.quests.chapters_lv_age.55}"
+			tasks: [
+				{
+					id: "1B3BCCC416D809BA"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "561ACA7071323BC0"
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7DA5EEEAE94B002D"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49C1D94286A0EBD7"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "317E148D9A9E1244"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0A52F68347E6ABE5"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "05542533C9AC52E9"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "48200977167DBF2D"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "05020C701EF6E221"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "7B79E0119F57B81E"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_lv_age.56}"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["055AB5DB06B34A92"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.57}"
+				""
+				"{sky_greg.quests.chapters_lv_age.58}"
+				""
+				"{sky_greg.quests.chapters_lv_age.59}"
+				""
+				"{sky_greg.quests.chapters_lv_age.60}"
+			]
+			id: "2D5F4D4F39DF2C43"
+			rewards: [{
+				id: "79A9BBBBDC925370"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_lv_age.61}"
+			tasks: [{
+				id: "5869824E12A04255"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"3F1B428B81FFA5F7"
+				"349F1E1F4EF8E7D9"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.62}"
+				""
+				"{sky_greg.quests.chapters_lv_age.63}"
+				""
+				"{sky_greg.quests.chapters_lv_age.64}"
+			]
+			id: "5B0EF72BE9A1C92C"
+			rewards: [{
+				id: "365DF6108A42B05F"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_lv_age.65}"
+			tasks: [{
+				id: "403DBE4A90277388"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.66}"
+				""
+				"{sky_greg.quests.chapters_lv_age.67}"
+			]
+			id: "5DD8B43BB62D4878"
+			optional: true
+			rewards: [{
+				id: "4AC65E818FCE04BF"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.68}"
+			tasks: [{
+				id: "7AD787A8DE2D4BB0"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.69}"
+				""
+				"{sky_greg.quests.chapters_lv_age.70}"
+				""
+				"{sky_greg.quests.chapters_lv_age.71}"
+				""
+				"{sky_greg.quests.chapters_lv_age.72}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "1F4C2E297935CB08"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_lv_age.73}"
+			tasks: [{
+				id: "4C86CBA6434DD34A"
+				title: "{sky_greg.quests.chapters_lv_age.74}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.75}"
+				""
+				"{sky_greg.quests.chapters_lv_age.76}"
+				""
+				"{sky_greg.quests.chapters_lv_age.77}"
+				""
+				"{sky_greg.quests.chapters_lv_age.78}"
+				""
+				"{sky_greg.quests.chapters_lv_age.79}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "1F6E52E777CD5FC1"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_lv_age.80}"
+			tasks: [{
+				id: "5DE7B13024BBB6E5"
+				title: "{sky_greg.quests.chapters_lv_age.81}"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"24077F274DED7F5B"
+				"1AC41AF66CD9D22D"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.82}"
+				""
+				"{sky_greg.quests.chapters_lv_age.83}"
+				""
+				"{sky_greg.quests.chapters_lv_age.84}"
+			]
+			id: "34BEE1F1C33642D7"
+			rewards: [{
+				id: "47C102061BC2AE06"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_lv_age.85}"
+			tasks: [{
+				id: "228919F79D481E1A"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: ["{sky_greg.quests.chapters_lv_age.86}"]
+			id: "1AC41AF66CD9D22D"
+			rewards: [{
+				id: "3133691C8A7B36DD"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.87}"
+			tasks: [{
+				id: "741502FC7850116A"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.88}"
+				""
+				"{sky_greg.quests.chapters_lv_age.89}"
+				""
+				"{sky_greg.quests.chapters_lv_age.90}"
+				""
+				"{sky_greg.quests.chapters_lv_age.91}"
+			]
+			id: "424587526AFCE39A"
+			optional: true
+			rewards: [{
+				id: "008F885F70AFC643"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.258d
+			subtitle: "{sky_greg.quests.chapters_lv_age.92}"
+			tasks: [{
+				icon: "gtceu:lv_battery_buffer_4x"
+				id: "40E776E00BADB9EA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_8x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_16x"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_lv_age.93}"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.94}"
+				""
+				"{sky_greg.quests.chapters_lv_age.95}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_lv_age.96_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2AB2262EFAC00C68\"}, \"translate\": \"sky_greg.quests.chapters_lv_age.96_2\"}, {\"translate\": \"sky_greg.quests.chapters_lv_age.96_3\"}]"
+				""
+				"{sky_greg.quests.chapters_lv_age.97}"
+			]
+			id: "23D05D816142D42F"
+			optional: true
+			rewards: [{
+				id: "62694FA01D181A33"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.98}"
+			tasks: [{
+				id: "7E47DEE23BC4F2D5"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.99}"
+				""
+				"{sky_greg.quests.chapters_lv_age.100}"
+				""
+				"{sky_greg.quests.chapters_lv_age.101}"
+				""
+				"{sky_greg.quests.chapters_lv_age.102}"
+				""
+				"{sky_greg.quests.chapters_lv_age.103}"
+			]
+			id: "106A9926C5C398EB"
+			optional: true
+			rewards: [{
+				id: "64296D32CF78351B"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.104}"
+			tasks: [{
+				icon: "gtceu:lv_4a_energy_converter"
+				id: "112E48ADEF490E65"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_1a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_4a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_8a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_16a_energy_converter"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_lv_age.105}"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1F5B540E64CD03A5"
+				"1AC41AF66CD9D22D"
+				"1E1ECE8F80A72D7B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{sky_greg.quests.chapters_lv_age.106}"
+				""
+				"{sky_greg.quests.chapters_lv_age.107}"
+				""
+				"{sky_greg.quests.chapters_lv_age.108}"
+				""
+				"{sky_greg.quests.chapters_lv_age.109}"
+				""
+				"{sky_greg.quests.chapters_lv_age.110}"
+			]
+			icon: "gtceu:diode"
+			id: "3F1B428B81FFA5F7"
+			rewards: [{
+				id: "4C043CC00FE2A19B"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_lv_age.111}"
+			tasks: [
+				{
+					id: "134F47504CA6DB7F"
+					item: "gtceu:gallium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4ABF932E280A0194"
+					item: "gtceu:arsenic_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F67A27AD8B52FC9"
+					item: "gtceu:gallium_arsenide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "454D43A7613ED127"
+					item: "gtceu:diode"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_lv_age.112}"
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.113}"
+				""
+				"{sky_greg.quests.chapters_lv_age.114}"
+				""
+				"{sky_greg.quests.chapters_lv_age.115}"
+			]
+			id: "1F5B540E64CD03A5"
+			rewards: [{
+				id: "019114A7929BA2C8"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.116}"
+			tasks: [{
+				id: "67AB06E2C5592A8F"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.117}"
+				""
+				"{sky_greg.quests.chapters_lv_age.118}"
+				""
+				"{sky_greg.quests.chapters_lv_age.119}"
+			]
+			id: "150318D8BFBD50F3"
+			rewards: [{
+				id: "20CC1D0DEADF6570"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.120}"
+			tasks: [{
+				id: "2B3E6A5E21DEDEAC"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.121}"
+				""
+				"{sky_greg.quests.chapters_lv_age.122}"
+			]
+			id: "354520DC79DC1C53"
+			rewards: [{
+				id: "3B842365F7811708"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.123}"
+			tasks: [{
+				id: "19CA40191F742843"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.124}"
+				""
+				"{sky_greg.quests.chapters_lv_age.125}"
+			]
+			id: "5540078B60F9E87A"
+			rewards: [{
+				id: "6BFA9ADC16EE9BD0"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.126}"
+			tasks: [{
+				id: "5D8CB7D5AEA0C9A2"
+				item: "gtceu:lv_autoclave"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.127}"
+				""
+				"{sky_greg.quests.chapters_lv_age.128}"
+			]
+			id: "208C5D2253FE0AD8"
+			rewards: [{
+				id: "74E27456BDA58F58"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.129}"
+			tasks: [{
+				id: "5FC9D39030812985"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.130}"
+				""
+				"{sky_greg.quests.chapters_lv_age.131}"
+				""
+				"{sky_greg.quests.chapters_lv_age.132}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "5AA84AD6921CCB8D"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_lv_age.133}"
+			tasks: [{
+				id: "4F9A6706EE0ECEF5"
+				title: "{sky_greg.quests.chapters_lv_age.134}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.135}"
+				""
+				"{sky_greg.quests.chapters_lv_age.136}"
+				""
+				"{sky_greg.quests.chapters_lv_age.137}"
+				""
+				"{sky_greg.quests.chapters_lv_age.138}"
+				""
+				"{sky_greg.quests.chapters_lv_age.139}"
+				""
+				"{sky_greg.quests.chapters_lv_age.140}"
+				"{sky_greg.quests.chapters_lv_age.141}"
+				"{sky_greg.quests.chapters_lv_age.142}"
+				"{sky_greg.quests.chapters_lv_age.143}"
+				"{sky_greg.quests.chapters_lv_age.144}"
+				""
+				"{sky_greg.quests.chapters_lv_age.145}"
+				""
+				"{sky_greg.quests.chapters_lv_age.146}"
+				""
+				"{sky_greg.quests.chapters_lv_age.147}"
+				""
+				"{sky_greg.quests.chapters_lv_age.148}"
+				""
+				"{sky_greg.quests.chapters_lv_age.149}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "1C29BB6AE5EC9F9A"
+			optional: true
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{sky_greg.quests.chapters_lv_age.150}"
+			tasks: [{
+				id: "5379291F6387A25E"
+				title: "{sky_greg.quests.chapters_lv_age.151}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.152}"
+				""
+				"{sky_greg.quests.chapters_lv_age.153}"
+				""
+				"{sky_greg.quests.chapters_lv_age.154}"
+				""
+				"{sky_greg.quests.chapters_lv_age.155}"
+			]
+			id: "4EFC27C25381C726"
+			optional: true
+			rewards: [{
+				id: "55F0A99C004317B1"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.156}"
+			tasks: [{
+				id: "1AC2EC0933EEF91D"
+				item: "gtceu:lv_block_breaker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.157}"
+				""
+				"{sky_greg.quests.chapters_lv_age.158}"
+				""
+				"{sky_greg.quests.chapters_lv_age.159}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "122D71CE732484EA"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_lv_age.160}"
+			tasks: [{
+				id: "607FEDF91294600D"
+				title: "{sky_greg.quests.chapters_lv_age.161}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.162}"
+				""
+				"{sky_greg.quests.chapters_lv_age.163}"
+				""
+				"{sky_greg.quests.chapters_lv_age.164}"
+				""
+				"{image:kubejs:block/rock_breaker width:200 height:100 align:1}"
+			]
+			id: "4CD1FB80F9DFD381"
+			optional: true
+			rewards: [{
+				id: "6A33CC42833B3E57"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.165}"
+			tasks: [{
+				id: "259BDED65F47C00C"
+				item: "gtceu:lv_rock_crusher"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.166}"
+				""
+				"{sky_greg.quests.chapters_lv_age.167}"
+				""
+				"{sky_greg.quests.chapters_lv_age.168}"
+				""
+				"{sky_greg.quests.chapters_lv_age.169}"
+				""
+				"{sky_greg.quests.chapters_lv_age.170}"
+				""
+				"{sky_greg.quests.chapters_lv_age.171}"
+				""
+				"{sky_greg.quests.chapters_lv_age.172}"
+				""
+				"{sky_greg.quests.chapters_lv_age.173}"
+				""
+				"{sky_greg.quests.chapters_lv_age.174}"
+				""
+				"{sky_greg.quests.chapters_lv_age.175}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "49604BE9D81DC188"
+			optional: true
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_lv_age.176}"
+			tasks: [{
+				id: "43A8AEFA91EC1F7F"
+				title: "{sky_greg.quests.chapters_lv_age.177}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.178}"
+				""
+				"{sky_greg.quests.chapters_lv_age.179}"
+				""
+				"{sky_greg.quests.chapters_lv_age.180}"
+				""
+				"{sky_greg.quests.chapters_lv_age.181}"
+				""
+				"{sky_greg.quests.chapters_lv_age.182}"
+				""
+				"{sky_greg.quests.chapters_lv_age.183}"
+				""
+				"{sky_greg.quests.chapters_lv_age.184}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "1A4D202C51A1BAC7"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_lv_age.185}"
+			tasks: [{
+				id: "006FD7A09D7F16A8"
+				title: "{sky_greg.quests.chapters_lv_age.186}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2AD0DA7B8666BFC6"
+				"435FDC0A28A0D250"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.187}"
+				""
+				"{sky_greg.quests.chapters_lv_age.188}"
+				""
+				"{sky_greg.quests.chapters_lv_age.189}"
+				""
+				"{sky_greg.quests.chapters_lv_age.190}"
+				""
+				"{sky_greg.quests.chapters_lv_age.191}"
+			]
+			id: "1DAB9657C50B80DA"
+			optional: true
+			rewards: [{
+				id: "3EC998067F01160F"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.192}"
+			tasks: [{
+				id: "320470E320418B50"
+				item: "gtceu:manganese_phosphide_single_wire"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"055AB5DB06B34A92"
+				"4982A9D1F30DEFAB"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.193}"
+				""
+				"{sky_greg.quests.chapters_lv_age.194}"
+			]
+			id: "2AD0DA7B8666BFC6"
+			optional: true
+			rewards: [{
+				id: "05646E3051BF869D"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.195}"
+			tasks: [{
+				id: "5CD42B9C3ACBAA6B"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1AC41AF66CD9D22D"
+				"1F5B540E64CD03A5"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.196}"
+				""
+				"{sky_greg.quests.chapters_lv_age.197}"
+			]
+			id: "4982A9D1F30DEFAB"
+			optional: true
+			rewards: [{
+				id: "06FDB2E8D4545EF0"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.198}"
+			tasks: [{
+				id: "1B9305F0E94F41C1"
+				item: "gtceu:manganese_phosphide_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C596A4E47505283"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.199}"
+				""
+				"{sky_greg.quests.chapters_lv_age.200}"
+				""
+				"{sky_greg.quests.chapters_lv_age.201}"
+				""
+				"{sky_greg.quests.chapters_lv_age.202}"
+				""
+				"{sky_greg.quests.chapters_lv_age.203}"
+				"{sky_greg.quests.chapters_lv_age.204}"
+				"{sky_greg.quests.chapters_lv_age.205}"
+				"{sky_greg.quests.chapters_lv_age.206}"
+				"{sky_greg.quests.chapters_lv_age.207}"
+			]
+			id: "5525313A43685BD4"
+			optional: true
+			rewards: [{
+				id: "5DCF833307DAD87B"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.208}"
+			tasks: [{
+				id: "392EDCDC42E5C3BF"
+				item: "simplefluidgenerators:basic_water_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C596A4E47505283"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.209}"
+				""
+				"{sky_greg.quests.chapters_lv_age.210}"
+				""
+				"{sky_greg.quests.chapters_lv_age.211}"
+				""
+				"{sky_greg.quests.chapters_lv_age.212}"
+				""
+				"{sky_greg.quests.chapters_lv_age.213}"
+				"{sky_greg.quests.chapters_lv_age.214}"
+				"{sky_greg.quests.chapters_lv_age.215}"
+				"{sky_greg.quests.chapters_lv_age.216}"
+				"{sky_greg.quests.chapters_lv_age.217}"
+			]
+			id: "018E537D13400A7F"
+			optional: true
+			rewards: [{
+				id: "096747D034FA5434"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.218}"
+			tasks: [{
+				id: "494934BD0A92D108"
+				item: "simplefluidgenerators:basic_lava_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D5F4D4F39DF2C43"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.219}"
+				""
+				"{sky_greg.quests.chapters_lv_age.220}"
+				""
+				"{sky_greg.quests.chapters_lv_age.221}"
+				""
+				"{sky_greg.quests.chapters_lv_age.222}"
+				""
+				"{sky_greg.quests.chapters_lv_age.223}"
+			]
+			id: "51D8E331CBE4A2B2"
+			optional: true
+			rewards: [{
+				id: "01FEC86580E56C32"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.224}"
+			tasks: [{
+				id: "481026C92CE91B99"
+				item: "gtceu:computer_monitor_cover"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_lv_age.225}"
+				""
+				"{sky_greg.quests.chapters_lv_age.226}"
+				"{sky_greg.quests.chapters_lv_age.227}"
+				""
+				"{sky_greg.quests.chapters_lv_age.228}"
+				"{sky_greg.quests.chapters_lv_age.229}"
+				""
+				"{sky_greg.quests.chapters_lv_age.230}"
+				"{sky_greg.quests.chapters_lv_age.231}"
+				""
+				"{sky_greg.quests.chapters_lv_age.232}"
+				"{sky_greg.quests.chapters_lv_age.233}"
+				""
+				"{sky_greg.quests.chapters_lv_age.234}"
+				"{sky_greg.quests.chapters_lv_age.235}"
+				""
+				"{sky_greg.quests.chapters_lv_age.236}"
+				"{sky_greg.quests.chapters_lv_age.237}"
+				""
+				"{sky_greg.quests.chapters_lv_age.238}"
+				"{sky_greg.quests.chapters_lv_age.239}"
+				""
+				"{sky_greg.quests.chapters_lv_age.240}"
+				"{sky_greg.quests.chapters_lv_age.241}"
+				""
+				"{sky_greg.quests.chapters_lv_age.242}"
+				"{sky_greg.quests.chapters_lv_age.243}"
+				""
+				"{sky_greg.quests.chapters_lv_age.244}"
+				"{sky_greg.quests.chapters_lv_age.245}"
+				""
+				"{sky_greg.quests.chapters_lv_age.246}"
+				"{sky_greg.quests.chapters_lv_age.247}"
+				""
+				"{sky_greg.quests.chapters_lv_age.248}"
+				"{sky_greg.quests.chapters_lv_age.249}"
+				""
+				"{sky_greg.quests.chapters_lv_age.250}"
+				"{sky_greg.quests.chapters_lv_age.251}"
+				""
+				"{sky_greg.quests.chapters_lv_age.252}"
+				"{sky_greg.quests.chapters_lv_age.253}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "54375698DDDA87F8"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_lv_age.254}"
+			tasks: [{
+				id: "0CBC62D25AD9B3E3"
+				title: "{sky_greg.quests.chapters_lv_age.255}"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.256}"
+				""
+				"{sky_greg.quests.chapters_lv_age.257}"
+				""
+				"{sky_greg.quests.chapters_lv_age.258}"
+				""
+				"{sky_greg.quests.chapters_lv_age.259}"
+				""
+				"{sky_greg.quests.chapters_lv_age.260}"
+				""
+				"{sky_greg.quests.chapters_lv_age.261}"
+				""
+				"{sky_greg.quests.chapters_lv_age.262}"
+			]
+			id: "287EC447E11E0FB4"
+			optional: true
+			rewards: [{
+				id: "2CB5F0521F5B6BF6"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.263}"
+			tasks: [{
+				id: "010D8D737408F900"
+				item: "gtexolegs:lv_exoskeleton_legs"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"435FDC0A28A0D250"
+				"5C596A4E47505283"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.264}"
+				""
+				"{sky_greg.quests.chapters_lv_age.265}"
+				""
+				"{sky_greg.quests.chapters_lv_age.266}"
+				""
+				"{sky_greg.quests.chapters_lv_age.267}"
+				""
+				"{sky_greg.quests.chapters_lv_age.268}"
+			]
+			icon: "gtceu:steam_wiremill"
+			id: "747BF1FA7EBFD734"
+			optional: true
+			rewards: [{
+				id: "744DE9AB224DC727"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.269}"
+			tasks: [{
+				id: "059142C5C438318E"
+				item: "gtceu:steam_wiremill"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_lv_age.270}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1AC41AF66CD9D22D"
+				"580F5ED757646224"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.271}"
+				""
+				"{sky_greg.quests.chapters_lv_age.272}"
+				""
+				"{sky_greg.quests.chapters_lv_age.273}"
+				""
+				"{sky_greg.quests.chapters_lv_age.274}"
+				""
+				"{sky_greg.quests.chapters_lv_age.275}"
+				""
+				"{sky_greg.quests.chapters_lv_age.276}"
+			]
+			icon: "gtceu:light_concrete"
+			id: "603363A5C54E5CCA"
+			optional: true
+			rewards: [{
+				id: "4596A8145E8E49B0"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.277}"
+			tasks: [
+				{
+					id: "67BF0340BBF1D8FD"
+					item: "gtceu:light_concrete"
+					type: "item"
+				}
+				{
+					id: "3E2BBE5A0B5D4E48"
+					item: "gtceu:dark_concrete"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C6B53409A924811"
+					item: "kubejs:darker_concrete"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_lv_age.278}"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5C596A4E47505283"
+				"150318D8BFBD50F3"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.279}"
+				""
+				"{sky_greg.quests.chapters_lv_age.280}"
+				""
+				"{sky_greg.quests.chapters_lv_age.281}"
+				""
+				"{sky_greg.quests.chapters_lv_age.282}"
+			]
+			id: "349F1E1F4EF8E7D9"
+			rewards: [{
+				id: "4117C1F43ABE26B8"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_lv_age.283}"
+			tasks: [{
+				id: "55C8D901D1DD591B"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"354520DC79DC1C53"
+				"2AB2262EFAC00C68"
+			]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.284}"
+				""
+				"{sky_greg.quests.chapters_lv_age.285}"
+				""
+				"{sky_greg.quests.chapters_lv_age.286}"
+				""
+				"{sky_greg.quests.chapters_lv_age.287}"
+				""
+				"{sky_greg.quests.chapters_lv_age.288}"
+			]
+			id: "2214E8B59C05AF22"
+			optional: true
+			rewards: [{
+				id: "2B8ABDD0124DE178"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.289}"
+			tasks: [{
+				id: "662425342CFF9B67"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DAB9657C50B80DA"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.290}"
+				""
+				"{sky_greg.quests.chapters_lv_age.291}"
+				""
+				"{sky_greg.quests.chapters_lv_age.292}"
+			]
+			id: "72877C6A08F3AF96"
+			optional: true
+			rewards: [{
+				id: "10F586A809055885"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.293}"
+			tasks: [{
+				id: "20F7F14D07C0A75E"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72877C6A08F3AF96"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.294}"
+				""
+				"{sky_greg.quests.chapters_lv_age.295}"
+				""
+				"{sky_greg.quests.chapters_lv_age.296}"
+				""
+				"{sky_greg.quests.chapters_lv_age.297}"
+				""
+				"{sky_greg.quests.chapters_lv_age.298}"
+			]
+			icon: "easy_piglins:barterer"
+			id: "080A6E2837F1C528"
+			optional: true
+			rewards: [{
+				id: "7B4E7030C3BC579D"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.299}"
+			tasks: [
+				{
+					id: "54343E6AE5091006"
+					item: "easy_piglins:barterer"
+					type: "item"
+				}
+				{
+					id: "73E9771B805E4EDD"
+					item: "easy_piglins:piglin"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72877C6A08F3AF96"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.300}"
+				""
+				"{sky_greg.quests.chapters_lv_age.301}"
+				""
+				"{sky_greg.quests.chapters_lv_age.302}"
+				""
+				"{sky_greg.quests.chapters_lv_age.303}"
+				""
+				"{sky_greg.quests.chapters_lv_age.304}"
+				""
+				"{sky_greg.quests.chapters_lv_age.305}"
+				""
+				"{sky_greg.quests.chapters_lv_age.306}"
+				""
+				"{sky_greg.quests.chapters_lv_age.307}"
+			]
+			icon: "easy_villagers:trader"
+			id: "34F697F0CDD996E8"
+			optional: true
+			rewards: [{
+				id: "5FAB3C3CD3276C0F"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.308}"
+			tasks: [
+				{
+					id: "2A94817A81C09B84"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+				{
+					id: "18D339517A7A7820"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.309}"
+				""
+				"{sky_greg.quests.chapters_lv_age.310}"
+				""
+				"{sky_greg.quests.chapters_lv_age.311}"
+				""
+				"{sky_greg.quests.chapters_lv_age.312}"
+				""
+				"{sky_greg.quests.chapters_lv_age.313}"
+				""
+				"{sky_greg.quests.chapters_lv_age.314}"
+				""
+				"{sky_greg.quests.chapters_lv_age.315}"
+				""
+				"{sky_greg.quests.chapters_lv_age.316}"
+				""
+				"{sky_greg.quests.chapters_lv_age.317}"
+				""
+				"{sky_greg.quests.chapters_lv_age.318}"
+				""
+				"{sky_greg.quests.chapters_lv_age.319}"
+			]
+			icon: "gtceu:bronze_large_boiler"
+			id: "15E8A6C162C7B9A0"
+			optional: true
+			rewards: [{
+				id: "0B1AF00681E76C45"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.320}"
+			tasks: [
+				{
+					id: "2515D18F7F8DD9EB"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+				{
+					id: "6FEE7FFB3DE9B537"
+					item: "gtceu:bronze_firebox_casing"
+					type: "item"
+				}
+				{
+					id: "004BA76DE81823B3"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "38F6067272052ACF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_hatch"
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.321}"
+					type: "item"
+				}
+				{
+					id: "03F0254A2D3CB13E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_hatch"
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.322}"
+					type: "item"
+				}
+				{
+					id: "1ED016541CD3710D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_hatch"
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.323}"
+					type: "item"
+				}
+				{
+					id: "5DD0188C1C90BD3C"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "3628A1DE3F71DC54"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_lv_age.324}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C596A4E47505283"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.325}"
+				""
+				"{sky_greg.quests.chapters_lv_age.326}"
+				""
+				"{sky_greg.quests.chapters_lv_age.327}"
+				""
+				"{sky_greg.quests.chapters_lv_age.328}"
+			]
+			id: "221CE4367018CA35"
+			optional: true
+			rewards: [{
+				id: "4244C948994D61DE"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.329}"
+			tasks: [{
+				id: "57957E3D999DDF09"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AB2262EFAC00C68"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.330}"
+				""
+				"{sky_greg.quests.chapters_lv_age.331}"
+				""
+				"{sky_greg.quests.chapters_lv_age.332}"
+				""
+				"{sky_greg.quests.chapters_lv_age.333}"
+				""
+				"{sky_greg.quests.chapters_lv_age.334}"
+			]
+			id: "16A59E312685B6E9"
+			optional: true
+			rewards: [{
+				id: "3D187FFD53DE899A"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.335}"
+			tasks: [{
+				id: "248448C8D9014DFB"
+				item: "gtceu:lv_power_unit"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23D05D816142D42F"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.336}"
+				""
+				"{sky_greg.quests.chapters_lv_age.337}"
+				""
+				"{sky_greg.quests.chapters_lv_age.338}"
+				""
+				"{sky_greg.quests.chapters_lv_age.339}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_lv_age.340_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"424587526AFCE39A\"}, \"translate\": \"sky_greg.quests.chapters_lv_age.340_2\"}, {\"translate\": \"sky_greg.quests.chapters_lv_age.340_3\"}]"
+			]
+			id: "2AB2262EFAC00C68"
+			optional: true
+			rewards: [{
+				id: "69E15200139E1786"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.341}"
+			tasks: [{
+				icon: "gtceu:lv_lithium_battery"
+				id: "0C7E581A8E0BA4B8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_sodium_battery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_lithium_battery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_cadmium_battery"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_lv_age.342}"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: ["{sky_greg.quests.chapters_lv_age.343}"]
+			id: "430613E55C1CDC2A"
+			optional: true
+			rewards: [{
+				id: "309F7EAA2E6980AC"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_lv_age.344}"
+			tasks: [{
+				id: "31D1D0883BE967F2"
+				item: "gtceu:lv_charger_4x"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["16A59E312685B6E9"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.345}"
+				""
+				"{sky_greg.quests.chapters_lv_age.346}"
+				""
+				"{sky_greg.quests.chapters_lv_age.347}"
+				"{sky_greg.quests.chapters_lv_age.348}"
+				"{sky_greg.quests.chapters_lv_age.349}"
+				"{sky_greg.quests.chapters_lv_age.350}"
+				"{sky_greg.quests.chapters_lv_age.351}"
+				"{sky_greg.quests.chapters_lv_age.352}"
+				""
+				"{sky_greg.quests.chapters_lv_age.353}"
+				"{sky_greg.quests.chapters_lv_age.354}"
+				"{sky_greg.quests.chapters_lv_age.355}"
+				""
+				"{sky_greg.quests.chapters_lv_age.356}"
+				"{sky_greg.quests.chapters_lv_age.357}"
+				""
+				"{sky_greg.quests.chapters_lv_age.358}"
+				"{sky_greg.quests.chapters_lv_age.359}"
+				""
+				"{sky_greg.quests.chapters_lv_age.360}"
+				"{sky_greg.quests.chapters_lv_age.361}"
+				""
+				"{sky_greg.quests.chapters_lv_age.362}"
+				"{sky_greg.quests.chapters_lv_age.363}"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:lv_wrought_iron_drill"
+				tag: {
+					Charge: 2147483647L
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 5
+						HarvestLevel: 2
+						MaxDamage: 1151
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+			id: "3F7384A32E6AEC78"
+			optional: true
+			rewards: [{
+				id: "34B289DD73E2016E"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.364}"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:lv_wrought_iron_drill"
+						tag: {
+							Charge: 2147483647L
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 5
+								HarvestLevel: 2
+								MaxDamage: 1151
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+						}
+					}
+					id: "3C9590F67BCAA296"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_ultimet_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 8.0f
+											AttackSpeed: -3.1000001f
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 6143
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_invar_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:efficiency"
+												lvl: 1s
+											}]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 1151
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_cobalt_brass_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 3071
+											ToolSpeed: 6.5f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_iron_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_vanadium_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 3
+											MaxDamage: 4607
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_naquadah_alloy_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 9215
+											ToolSpeed: 44.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_bronze_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 575
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_blue_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 3071
+											ToolSpeed: 19.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_titanium_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 4607
+											ToolSpeed: 12.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_rose_gold_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 2s
+											}]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 2303
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_wrought_iron_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 1151
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_forged_netherite_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 10
+											HarvestLevel: 4
+											MaxDamage: 6095
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_carbide_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 3071
+											ToolSpeed: 64.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 4
+											MaxDamage: 6143
+											ToolSpeed: 13.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_duranium_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 24575
+											ToolSpeed: 18.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_hsse_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 4
+											MaxDamage: 9215
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_diamond_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 3
+											MaxDamage: 2303
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_neutronium_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 6
+											MaxDamage: 196604
+											ToolSpeed: 184.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_stainless_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 3071
+											ToolSpeed: 11.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_red_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 3
+											MaxDamage: 7679
+											ToolSpeed: 11.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_aluminium_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 2303
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_damascus_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 3s
+											}]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 3071
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_sterling_silver_drill"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 0
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 0
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 2303
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.365}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:lv_wrought_iron_chainsaw"
+						tag: {
+							Charge: 2147483647L
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								HarvestIce: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 5
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 8.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+						}
+					}
+					id: "29F3F7258BAF04C5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_ultimet_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 24.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_invar_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:efficiency"
+												lvl: 1s
+											}]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 12.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_cobalt_brass_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 1023
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_iron_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 255
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_vanadium_steel_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_naquadah_alloy_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 3071
+											ToolSpeed: 84.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_bronze_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 191
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_steel_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 511
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_blue_steel_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 34.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_titanium_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 20.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_rose_gold_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 2s
+											}]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 28.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_wrought_iron_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_forged_netherite_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 10
+											HarvestLevel: 4
+											MaxDamage: 2031
+											ToolSpeed: 24.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_carbide_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 1023
+											ToolSpeed: 124.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_steel_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 22.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_duranium_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 8191
+											ToolSpeed: 32.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_hsse_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 4
+											MaxDamage: 3071
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_diamond_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 3
+											MaxDamage: 767
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_neutronium_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 6
+											MaxDamage: 65534
+											ToolSpeed: 364.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_stainless_steel_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 18.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_red_steel_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 3
+											MaxDamage: 2559
+											ToolSpeed: 18.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_aluminium_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_damascus_steel_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 3s
+											}]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_sterling_silver_chainsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											HarvestIce: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.366}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:wrought_iron_buzzsaw"
+						tag: {
+							Charge: 2147483647L
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 5
+								MaxDamage: 383
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+						}
+					}
+					id: "33AD4DF121EAA28B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ultimet_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											MaxDamage: 2047
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:invar_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											MaxDamage: 383
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:cobalt_brass_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:iron_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 255
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:vanadium_steel_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											MaxDamage: 1535
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:naquadah_alloy_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 3071
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											MaxDamage: 191
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:steel_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 511
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:blue_steel_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:titanium_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 1535
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:rose_gold_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											MaxDamage: 383
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:forged_netherite_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 10
+											MaxDamage: 2031
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:tungsten_carbide_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:tungsten_steel_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 2047
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:duranium_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 8191
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:hsse_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 3071
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:diamond_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:neutronium_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 65534
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:stainless_steel_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:red_steel_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											MaxDamage: 2559
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:aluminium_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:damascus_steel_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:sterling_silver_buzzsaw"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.367}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:lv_wrought_iron_wrench"
+						tag: {
+							Charge: 2147483647L
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 5
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 8.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+						}
+					}
+					id: "2864D07B61878D35"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_ultimet_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 24.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_invar_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:efficiency"
+												lvl: 1s
+											}]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 12.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_cobalt_brass_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 1023
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_iron_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 255
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_vanadium_steel_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_naquadah_alloy_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 3071
+											ToolSpeed: 84.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_bronze_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 191
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_steel_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 511
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_blue_steel_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 34.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_titanium_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 20.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_rose_gold_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 2s
+											}]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 28.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_wrought_iron_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_forged_netherite_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 10
+											HarvestLevel: 4
+											MaxDamage: 2031
+											ToolSpeed: 24.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_carbide_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 1023
+											ToolSpeed: 124.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_steel_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 22.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_duranium_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 8191
+											ToolSpeed: 32.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_hsse_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 4
+											MaxDamage: 3071
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_diamond_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 3
+											MaxDamage: 767
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_neutronium_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 6
+											MaxDamage: 65534
+											ToolSpeed: 364.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_stainless_steel_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 18.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_red_steel_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 3
+											MaxDamage: 2559
+											ToolSpeed: 18.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_aluminium_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_damascus_steel_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 3s
+											}]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_sterling_silver_wrench"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.368}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:lv_wrought_iron_wire_cutter"
+						tag: {
+							Charge: 2147483647L
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 5
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+						}
+					}
+					id: "607A0A5BA094B003"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_iron_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 255
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_forged_netherite_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 10
+											HarvestLevel: 4
+											MaxDamage: 2031
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_carbide_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 1023
+											ToolSpeed: 64.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_sterling_silver_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_damascus_steel_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 3s
+											}]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_invar_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:efficiency"
+												lvl: 1s
+											}]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_blue_steel_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 19.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_titanium_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 12.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_cobalt_brass_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 1023
+											ToolSpeed: 6.5f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_neutronium_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 6
+											MaxDamage: 65534
+											ToolSpeed: 184.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_wrought_iron_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_steel_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 13.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_steel_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 511
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_hsse_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 4
+											MaxDamage: 3071
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_stainless_steel_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 11.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_vanadium_steel_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_duranium_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 8191
+											ToolSpeed: 18.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_bronze_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 2
+											MaxDamage: 191
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_aluminium_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_red_steel_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 3
+											MaxDamage: 2559
+											ToolSpeed: 11.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_rose_gold_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [{
+												id: "minecraft:fortune"
+												lvl: 2s
+											}]
+											Enchantability: 33
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_naquadah_alloy_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											HarvestLevel: 5
+											MaxDamage: 3071
+											ToolSpeed: 44.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_ultimet_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_diamond_wire_cutter"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											HarvestLevel: 3
+											MaxDamage: 767
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.369}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:lv_wrought_iron_screwdriver"
+						tag: {
+							Charge: 2147483647L
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 5
+								MaxDamage: 383
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+						}
+					}
+					id: "25CDB035A74AF34A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_iron_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 255
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_forged_netherite_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 10
+											MaxDamage: 2031
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_carbide_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_sterling_silver_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_damascus_steel_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_invar_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											MaxDamage: 383
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_blue_steel_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_titanium_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 1535
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_cobalt_brass_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_neutronium_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 65534
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_wrought_iron_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											MaxDamage: 383
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_tungsten_steel_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 2047
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_steel_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 511
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_hsse_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 3071
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_stainless_steel_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 1023
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_vanadium_steel_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 5
+											MaxDamage: 1535
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_duranium_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 8191
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_bronze_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											MaxDamage: 191
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_aluminium_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 14
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_red_steel_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											MaxDamage: 2559
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_rose_gold_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_naquadah_alloy_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 33
+											MaxDamage: 3071
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_ultimet_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 21
+											MaxDamage: 2047
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_diamond_screwdriver"
+									tag: {
+										Charge: 2147483647L
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											Enchantability: 18
+											MaxDamage: 767
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+							]
+						}
+					}
+					title: "{sky_greg.quests.chapters_lv_age.370}"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_lv_age.371}"
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72877C6A08F3AF96"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.372}"
+				""
+				"{sky_greg.quests.chapters_lv_age.373}"
+				""
+				"{sky_greg.quests.chapters_lv_age.374}"
+				""
+				"{sky_greg.quests.chapters_lv_age.375}"
+				"{sky_greg.quests.chapters_lv_age.376}"
+				"{sky_greg.quests.chapters_lv_age.377}"
+				"{sky_greg.quests.chapters_lv_age.378}"
+				"{sky_greg.quests.chapters_lv_age.379}"
+				"{sky_greg.quests.chapters_lv_age.380}"
+				""
+				"{sky_greg.quests.chapters_lv_age.381}"
+				"{sky_greg.quests.chapters_lv_age.382}"
+				"{sky_greg.quests.chapters_lv_age.383}"
+				"{sky_greg.quests.chapters_lv_age.384}"
+				"{sky_greg.quests.chapters_lv_age.385}"
+				""
+				"{sky_greg.quests.chapters_lv_age.386}"
+				"{sky_greg.quests.chapters_lv_age.387}"
+				"{sky_greg.quests.chapters_lv_age.388}"
+				"{sky_greg.quests.chapters_lv_age.389}"
+				"{sky_greg.quests.chapters_lv_age.390}"
+				"{sky_greg.quests.chapters_lv_age.391}"
+				"{sky_greg.quests.chapters_lv_age.392}"
+				"{sky_greg.quests.chapters_lv_age.393}"
+				"{sky_greg.quests.chapters_lv_age.394}"
+				"{sky_greg.quests.chapters_lv_age.395}"
+				""
+				"{sky_greg.quests.chapters_lv_age.396}"
+				"{sky_greg.quests.chapters_lv_age.397}"
+				"{sky_greg.quests.chapters_lv_age.398}"
+				"{sky_greg.quests.chapters_lv_age.399}"
+				"{sky_greg.quests.chapters_lv_age.400}"
+				"{sky_greg.quests.chapters_lv_age.401}"
+				"{sky_greg.quests.chapters_lv_age.402}"
+				"{sky_greg.quests.chapters_lv_age.403}"
+				"{sky_greg.quests.chapters_lv_age.404}"
+				"{sky_greg.quests.chapters_lv_age.405}"
+				""
+				"{sky_greg.quests.chapters_lv_age.406}"
+				"{sky_greg.quests.chapters_lv_age.407}"
+				"{sky_greg.quests.chapters_lv_age.408}"
+				"{sky_greg.quests.chapters_lv_age.409}"
+				"{sky_greg.quests.chapters_lv_age.410}"
+				"{sky_greg.quests.chapters_lv_age.411}"
+				"{sky_greg.quests.chapters_lv_age.412}"
+				"{sky_greg.quests.chapters_lv_age.413}"
+				"{sky_greg.quests.chapters_lv_age.414}"
+				"{sky_greg.quests.chapters_lv_age.415}"
+				"{sky_greg.quests.chapters_lv_age.416}"
+				"{sky_greg.quests.chapters_lv_age.417}"
+				"{sky_greg.quests.chapters_lv_age.418}"
+			]
+			id: "7C079D57D097A292"
+			optional: true
+			rewards: [{
+				id: "4A6C52BD12C2DD12"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.419}"
+			tasks: [{
+				id: "66EE7883EDAC05FE"
+				item: "gtceu:lv_world_accelerator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5C596A4E47505283"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.420}"
+				""
+				"{sky_greg.quests.chapters_lv_age.421}"
+			]
+			icon: {
+				Count: 1
+				id: "entangled:block"
+				tag: { }
+			}
+			id: "110AFEE405B28B19"
+			optional: true
+			rewards: [{
+				id: "45051B72559C0C60"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.422}"
+			tasks: [
+				{
+					id: "3F6665D89FD2AB1B"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "15126E72A1A81BD2"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1DAB9657C50B80DA"]
+			description: [
+				"{sky_greg.quests.chapters_lv_age.423}"
+				""
+				"{sky_greg.quests.chapters_lv_age.424}"
+				""
+				"{sky_greg.quests.chapters_lv_age.425}"
+				"{sky_greg.quests.chapters_lv_age.426}"
+				"{sky_greg.quests.chapters_lv_age.427}"
+				""
+				"{sky_greg.quests.chapters_lv_age.428}"
+				""
+				"{sky_greg.quests.chapters_lv_age.429}"
+				""
+				"{sky_greg.quests.chapters_lv_age.430}"
+			]
+			id: "08548A781879ED08"
+			optional: true
+			rewards: [{
+				id: "44068A334745C7CF"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_lv_age.431}"
+			tasks: [{
+				id: "746F14B900A86EA4"
+				item: "gtceu:lv_solar_generator"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_lv_age.432}"
+			x: 5.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["Steel!"]
+	title: "{sky_greg.quests.chapters_lv_age.433}"
+}

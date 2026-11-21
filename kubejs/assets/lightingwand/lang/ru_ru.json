@@ -1,0 +1,23 @@
+{
+  "item.lightingwand.wand": "Жезл освещения",
+  "block.lightingwand.light": "Источник света",
+  "block.lightingwand.colored_light": "Источник света",
+  "entity.lightingwand.light": "Источник света",
+  "tip.lightingwand.uncharged": "Незаряженный",
+  "lightingwand.spellpiece.trick_conjure_invisible_light": "Фокус: Наколдовать невидимый свет",
+  "lightingwand.spellpiece.trick_conjure_invisible_light.desc": "Наколдовывает свет в данной позиции. Имея только CAD в руке, можно увидеть обрамляющую рамку. Второй параметр - значение свера.",
+  "psi.spellerror.lightingwand.light": "ОШИБКА: Уровень может быть между (0,15]",
+  "lightingwand.config.defaultLightColor": "Цвет света по умолчанию",
+  "lightingwand.config.energyPerUse": "Энергия за использование",
+  "lightingwand.config.energyPerUse.desc": "Сколько FE требуется для восстановления одного использования жезла. 0 — отключить.",
+  "lightingwand.config.repairRecipe": "Рецепт починки",
+  "lightingwand.config.repairRecipe.desc": "Использовать светокаменную пыль для починки жезла.",
+  "lightingwand.config.shootProjectile": "Стрельба снарядом",
+  "lightingwand.config.shootProjectile.desc": "Должен ли жезл уметь стрелять снарядами.",
+  "lightingwand.config.wandDurability": "Прочность жезла",
+  "lightingwand.config.wandDurability.desc": "Максимальная прочность жезла.",
+  "tip.lightingwand.color": "Цвет: %s",
+  "tip.lightingwand.light": "Дальность: %s",
+  "tip.lightingwand.noShimmer": "Shimmer не установлен. Пользовательский цвет недоступен.",
+  "tip.lightingwand.opacity": "Непрозрачность: %s%%"
+}

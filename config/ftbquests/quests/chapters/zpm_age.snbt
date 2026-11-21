@@ -1,0 +1,1132 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "zpm_age"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:zpm_machine_hull"
+	id: "2F7512F59887B99B"
+	images: [{
+		height: 2.0d
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 3.0d
+		y: 8.0d
+	}]
+	order_index: 7
+	quest_links: [{
+		id: "2A8EAA5A02B80110"
+		linked_quest: "4E192CE0D4B93646"
+		x: 0.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"024CF19E028F72DE"
+				"625D6030B42F618B"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.1}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.2}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.3}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.4}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.5}"
+			]
+			id: "66B59DA7705E5F65"
+			rewards: [{
+				id: "4E2CCF1463722855"
+				item: "kubejs:uv_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.6}"
+			tasks: [{
+				id: "52A74E1F3214B04D"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5CD32FC3EB92ABB7"
+				"63493A70229956F4"
+				"503F831E45C9A245"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.7}"]
+			id: "11AA54003982943F"
+			rewards: [{
+				id: "78825E8DB5F5DF9C"
+				item: "kubejs:uv_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.8}"
+			tasks: [{
+				id: "37A1CA1F2B25BEDF"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["276908A9D2164BEB"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.9}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.10}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.11}"
+			]
+			icon: "gtceu:darmstadtium_bucket"
+			id: "5CD32FC3EB92ABB7"
+			rewards: [{
+				id: "4CAF66319B1435B3"
+				item: "kubejs:uv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.12}"
+			tasks: [
+				{
+					id: "6B97EF457DA981DF"
+					item: "gtceu:darmstadtium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0303E5977D0E45FB"
+					title: "{sky_greg.quests.chapters_zpm_age.13}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.14}"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6CB8FD82D25646EC"
+				"66B59DA7705E5F65"
+				"4E192CE0D4B93646"
+				"55F7796342351C3F"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.15}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.16}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.17}"
+			]
+			id: "276908A9D2164BEB"
+			rewards: [{
+				id: "293951AFF0C09E05"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.18}"
+			tasks: [{
+				id: "0370C8268629AC8E"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_zpm_age.19}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3844A4360FE0D7A2"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.20}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.21}"
+			]
+			icon: "gtceu:mutagen_bucket"
+			id: "39F9B0003CF24441"
+			rewards: [{
+				id: "60B0BC568A2A78AD"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.22}"
+			tasks: [
+				{
+					id: "767BB5E86E540DF6"
+					item: "gtceu:mutagen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F5E870E07F519FE"
+					title: "{sky_greg.quests.chapters_zpm_age.23}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.24}"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39F9B0003CF24441"]
+			description: ["{sky_greg.quests.chapters_zpm_age.25}"]
+			icon: "gtceu:raw_growth_medium_bucket"
+			id: "199ED5EA62A4B48B"
+			rewards: [{
+				id: "71A52EED72ED61D7"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.26}"
+			tasks: [
+				{
+					id: "1B2F116B182BB4FE"
+					item: "gtceu:raw_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "669F85585000BC92"
+					title: "{sky_greg.quests.chapters_zpm_age.27}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.28}"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34364010D6D1E475"]
+			description: ["{sky_greg.quests.chapters_zpm_age.29}"]
+			icon: "gtceu:enriched_bacterial_sludge_bucket"
+			id: "3844A4360FE0D7A2"
+			rewards: [{
+				id: "1EC35C3EB292FAC7"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.30}"
+			tasks: [
+				{
+					id: "08A5B3848A186054"
+					item: "gtceu:enriched_bacterial_sludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DD88051E03A1AF9"
+					title: "{sky_greg.quests.chapters_zpm_age.31}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.32}"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"63493A70229956F4"
+				"58E63C36A1AC2FCB"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.33}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.34}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.35}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.36}"
+			]
+			icon: "gtceu:bacteria_bucket"
+			id: "7C3FE944393D497F"
+			rewards: [{
+				id: "2806388C868494D7"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.37}"
+			tasks: [
+				{
+					id: "1BB0B94346345E99"
+					item: "gtceu:bacteria_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "018560B134595078"
+					item: "gtceu:biomass_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2812DB90FC28AE3F"
+					title: "{sky_greg.quests.chapters_zpm_age.38}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.39}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["199ED5EA62A4B48B"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.40}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.41}"
+			]
+			icon: "gtceu:sterilized_growth_medium_bucket"
+			id: "23CC9A09C65AEDA6"
+			rewards: [{
+				id: "5BEACC7A1B93A9F0"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.42}"
+			tasks: [
+				{
+					id: "24128B6410BCD257"
+					item: "gtceu:sterilized_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75E828634E588B49"
+					title: "{sky_greg.quests.chapters_zpm_age.43}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.44}"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"23CC9A09C65AEDA6"
+				"21CCDF4C08333BEC"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.45}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.46}"
+			]
+			id: "0C31E267C000F772"
+			rewards: [{
+				id: "395278C19EE11D29"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.47}"
+			tasks: [{
+				id: "79B3BF51ED7070CA"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"23CC9A09C65AEDA6"
+				"7C3FE944393D497F"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.48}"]
+			id: "06214B744034AD7B"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.49}"
+			tasks: [{
+				id: "4A173B727DCA78EA"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"63493A70229956F4"
+				"5796CD089F48D266"
+				"437BD8F7E00A30D6"
+				"3F9F9F9BE2962F2B"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.50}"]
+			id: "42E8BDBA04A7EB49"
+			rewards: [{
+				id: "53E21FD14A0360F6"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.51}"
+			tasks: [{
+				id: "011D1C30FF12213B"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"453F8437CD4582A6"
+				"17AACFB65354507C"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.52}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.53}"
+			]
+			id: "40B170CB569C2449"
+			rewards: [{
+				id: "2B873C591CE93274"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.54}"
+			tasks: [{
+				id: "016BB91748F791C6"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40B170CB569C2449"]
+			id: "5A6C252EC96A4E83"
+			rewards: [{
+				id: "2460F7D8C93C27ED"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.55}"
+			tasks: [{
+				id: "701F8F5E0A774863"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21CCDF4C08333BEC"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.56}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.57}"
+			]
+			id: "453F8437CD4582A6"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.58}"
+			tasks: [{
+				id: "1779F668AF3DFCDE"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2595291E7F1986B9"]
+			description: ["{sky_greg.quests.chapters_zpm_age.59}"]
+			id: "21CCDF4C08333BEC"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.60}"
+			tasks: [{
+				id: "52874DE638EA47F0"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A6C252EC96A4E83"]
+			id: "024CF19E028F72DE"
+			rewards: [{
+				id: "58D2271AD3D8A36E"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.61}"
+			tasks: [{
+				id: "21D9407F57AD3105"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"63493A70229956F4"
+				"63FB24F6E31F6CC8"
+				"356781414652DEE1"
+				"6F7800FA11DCBA68"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.62}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.63}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.64}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.65}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.66}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.67}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.68}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.69}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.70}"
+			]
+			icon: "gtceu:research_station"
+			id: "625D6030B42F618B"
+			rewards: [{
+				count: 2
+				id: "0BDB25C81C982C59"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.71}"
+			tasks: [
+				{
+					id: "01897AC7EED43D6F"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					id: "579AD6E833B93556"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.72}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4512C0753ABC12C8"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.73}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.74}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.75}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.76}"
+			]
+			id: "391208D25A462C2F"
+			rewards: [{
+				id: "3B697098E7C4D6B5"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.77}"
+			tasks: [{
+				id: "379F373C2AFC474F"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["391208D25A462C2F"]
+			description: ["{sky_greg.quests.chapters_zpm_age.78}"]
+			id: "7CF37CB6BBBD57A4"
+			rewards: [{
+				id: "280D42F24E7FEF2F"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.79}"
+			tasks: [{
+				id: "66F7DBFFA506A480"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CF37CB6BBBD57A4"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.80}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.81}"
+			]
+			id: "17AACFB65354507C"
+			rewards: [{
+				id: "76D1FADDEB0A0B8C"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.82}"
+			tasks: [{
+				id: "6FD8C4B2074E37E2"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"63493A70229956F4"
+				"5F3821F3D44C4392"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.83}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.84}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.85}"
+			]
+			id: "58E63C36A1AC2FCB"
+			rewards: [{
+				id: "3C37AA8F8213EE30"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.86}"
+			tasks: [{
+				id: "475B6BA33C364F81"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"63493A70229956F4"
+				"503F831E45C9A245"
+				"4512C0753ABC12C8"
+				"5796CD089F48D266"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.87}"]
+			id: "6CB8FD82D25646EC"
+			rewards: [{
+				id: "3863E1700A6810B2"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.88}"
+			tasks: [{
+				id: "0457F0F6A2269A94"
+				item: "gtceu:fusion_coil"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C3FE944393D497F"]
+			description: ["{sky_greg.quests.chapters_zpm_age.89}"]
+			icon: "gtceu:bacterial_sludge_bucket"
+			id: "34364010D6D1E475"
+			rewards: [{
+				id: "1DF245F9E1208DAF"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.90}"
+			tasks: [
+				{
+					id: "48A19EA32F29A866"
+					item: "gtceu:bacterial_sludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F6450901AD78819"
+					title: "{sky_greg.quests.chapters_zpm_age.91}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.92}"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42E8BDBA04A7EB49"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.93}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.94}"
+			]
+			id: "356781414652DEE1"
+			rewards: [{
+				id: "6A146FF28E159F3B"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.95}"
+			tasks: [{
+				id: "27C5951A06FE9FA1"
+				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_zpm_age.96}"]
+			icon: "gtceu:gallium_bucket"
+			id: "709C5D7B56C3D78B"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.97}"
+			tasks: [
+				{
+					id: "28CC4FA2E5A00D11"
+					item: "gtceu:gallium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0362FB630D97D3C4"
+					item: "gtceu:radon_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5456E7F8D9471379"
+					title: "{sky_greg.quests.chapters_zpm_age.98}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.99}"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"709C5D7B56C3D78B"
+				"6002FB018BF5F5BC"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.100}"]
+			icon: "gtceu:duranium_bucket"
+			id: "1D2D73856D23B129"
+			rewards: [{
+				id: "4EA8B97427FEA0B9"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.101}"
+			tasks: [
+				{
+					id: "3F46D718B60DE77F"
+					item: "gtceu:duranium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10652D518C276195"
+					item: "gtceu:titanium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2168E00B53D88033"
+					title: "{sky_greg.quests.chapters_zpm_age.102}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.103}"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1D2D73856D23B129"
+				"276908A9D2164BEB"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.104}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.105}"
+			]
+			icon: "gtceu:tritanium_bucket"
+			id: "5F3821F3D44C4392"
+			rewards: [{
+				id: "2BD6BA3A6B913D32"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.106}"
+			tasks: [
+				{
+					id: "60A44494FC3B0CCA"
+					item: "gtceu:tritanium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F9FD848A7C55ABE"
+					title: "{sky_greg.quests.chapters_zpm_age.107}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_zpm_age.108}"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5ABE7B030DCBD081"
+				"625D6030B42F618B"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.109}"]
+			id: "55F7796342351C3F"
+			rewards: [{
+				id: "4BFA1FE3FB09464F"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.110}"
+			tasks: [{
+				id: "74188F871E2C2489"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5796CD089F48D266"]
+			description: ["{sky_greg.quests.chapters_zpm_age.111}"]
+			id: "5ABE7B030DCBD081"
+			rewards: [{
+				id: "30B3409041ACC7C1"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.112}"
+			tasks: [{
+				id: "4E869E3E997A30A8"
+				item: "gtceu:zpm_voltage_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4512C0753ABC12C8"
+				"0599F3C301D870E6"
+				"63493A70229956F4"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.113}"]
+			id: "5796CD089F48D266"
+			rewards: [{
+				id: "2BD446ECE54E580A"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.114}"
+			tasks: [{
+				id: "5FF90A7A3D40084F"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21E809F736D9CA43"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.115}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.116}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_zpm_age.117_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B1B0A65DDF78028\"}, \"translate\": \"sky_greg.quests.chapters_zpm_age.117_2\"}, {\"translate\": \"sky_greg.quests.chapters_zpm_age.117_3\"}]"
+			]
+			id: "437BD8F7E00A30D6"
+			rewards: [{
+				id: "0E359720E24C306F"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_zpm_age.118}"
+			tasks: [{
+				id: "0D9EF59441ACB8A2"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6F7800FA11DCBA68"
+				"77D8E575EA3614C4"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.119}"]
+			id: "64AC4C80E102B526"
+			optional: true
+			rewards: [{
+				id: "5A28C6DD5BE189D0"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.120}"
+			tasks: [{
+				id: "4468F61CF92AEF5F"
+				item: "gtceu:zpm_dual_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5796CD089F48D266"]
+			description: ["{sky_greg.quests.chapters_zpm_age.121}"]
+			id: "6F7800FA11DCBA68"
+			rewards: [{
+				id: "3719258800C04636"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.122}"
+			tasks: [{
+				id: "6A9D29F4E720AC8B"
+				item: "gtceu:zpm_input_bus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5796CD089F48D266"]
+			description: ["{sky_greg.quests.chapters_zpm_age.123}"]
+			id: "77D8E575EA3614C4"
+			optional: true
+			rewards: [{
+				id: "5A3F7E30D3EF9BCC"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.124}"
+			tasks: [{
+				id: "5BDBF9942143A75A"
+				item: "gtceu:zpm_input_hatch"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["17AACFB65354507C"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.125}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.126}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.127}"
+			]
+			id: "4C66AFD66C336376"
+			optional: true
+			rewards: [{
+				id: "54F0F72ED932C327"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.128}"
+			tasks: [{
+				id: "365B699405B60A0A"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"625D6030B42F618B"
+				"324928371CA2E61D"
+			]
+			description: ["{sky_greg.quests.chapters_zpm_age.129}"]
+			id: "0E56F85C5E9F45DC"
+			rewards: [{
+				id: "669B5F685DA973A6"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.130}"
+			tasks: [{
+				id: "5C9AFBB942B8FBF3"
+				item: "gtceu:zpm_field_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11AA54003982943F"]
+			description: ["{sky_greg.quests.chapters_zpm_age.131}"]
+			id: "1E531CF9F2A4D42B"
+			rewards: [{
+				id: "45EF6BC68DDE5C17"
+				item: "kubejs:uv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.132}"
+			tasks: [{
+				id: "6A26590CA95D0EFE"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"66B59DA7705E5F65"
+				"0E56F85C5E9F45DC"
+			]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.133}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.134}"
+			]
+			id: "766CB27428A5CA6E"
+			rewards: [{
+				id: "63024162FEDBFDE8"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_zpm_age.135}"
+			tasks: [{
+				id: "19F2F73692ED6BA2"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66B59DA7705E5F65"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.136}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.137}"
+			]
+			id: "34C35881BA385C32"
+			optional: true
+			rewards: [{
+				id: "15A533959EA0406D"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.138}"
+			tasks: [{
+				id: "0E1DBB604A79C337"
+				item: "gtceu:zpm_parallel_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0E56F85C5E9F45DC"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.139}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.140}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.141}"
+			]
+			id: "41A9904028AB1F8B"
+			optional: true
+			rewards: [{
+				id: "6718934D7D1FD5B2"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.142}"
+			tasks: [{
+				id: "1528E7276E6DC862"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_zpm_age.143}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E56F85C5E9F45DC"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.144}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.145}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.146}"
+			]
+			id: "3B6C4A5F81D21096"
+			optional: true
+			rewards: [{
+				id: "2812665A3243CB07"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.147}"
+			tasks: [{
+				id: "34FEF10218EAE055"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_zpm_age.148}"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E56F85C5E9F45DC"]
+			description: [
+				"{sky_greg.quests.chapters_zpm_age.149}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.150}"
+				""
+				"{sky_greg.quests.chapters_zpm_age.151}"
+			]
+			id: "7E49B1405E6D57F3"
+			optional: true
+			rewards: [{
+				id: "28AD457EDC0CAF89"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_zpm_age.152}"
+			tasks: [{
+				id: "7BED50E46E1313BD"
+				item: "gtceu:mega_alloy_blast_smelter"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_zpm_age.153}"
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Naquadah Alloy!"]
+	title: "{sky_greg.quests.chapters_zpm_age.154}"
+}

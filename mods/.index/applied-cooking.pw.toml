@@ -1,0 +1,37 @@
+filename = 'appliedcooking-4.0.0.jar'
+name = 'Applied Cooking'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'appliedcooking-4.0.0.jar'
+
+[download]
+hash = 'a034d84dee09bdc9985a49b241cb26cfbfc8564a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4708347
+project-id = 689579
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231484'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '709936'
+type = 'REQUIRED'

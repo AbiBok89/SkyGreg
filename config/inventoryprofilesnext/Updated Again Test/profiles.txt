@@ -1,0 +1,96 @@
+
+
+
+
+profile Saved activate HOT5
+	HOT1
+		"ex_hammers:netherite_hammer"
+	HOT8
+		"minecraft:bread"
+	HOT9
+		"minecraft:torch"
+
+profile Saved activate HOT6
+	HOT1
+		"gtceu:hv_rose_gold_drill" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:5}]
+	HOT2
+		"easypaxellite:diamond_paxel" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:5},{id:"minecraft:silk_touch",lvl:1}]
+	HOT3
+		"travelanchors:travel_staff"
+	HOT4
+		"saturatingitem:saturating_item"
+	HOT5
+		"shrink:shrinking_device"
+	HOT8
+		"ae2wtlib:wireless_pattern_encoding_terminal"
+	HOT9
+		"dimstorage:dimensional_tablet"
+	HEAD
+		"gtceu:nightvision_goggles"
+	FEET
+		"gtceu:steel_boots" -> "Enchantments" : [{id:"apotheosis:stable_footing",lvl:1}]
+
+profile Saved activate HOT6
+	HOT1
+		"gtceu:hv_rose_gold_drill" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:5}]
+	HOT2
+		"easypaxellite:diamond_paxel" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:5},{id:"minecraft:silk_touch",lvl:1}]
+	HOT3
+		"travelanchors:travel_staff"
+	HOT4
+		"saturatingitem:saturating_item"
+	HOT5
+		"shrink:shrinking_device"
+	HOT8
+		"ae2wtlib:wireless_pattern_encoding_terminal"
+	HOT9
+		"dimstorage:dimensional_tablet"
+	HEAD
+		"gtceu:nightvision_goggles"
+	FEET
+		"gtceu:steel_boots" -> "Enchantments" : [{id:"apotheosis:stable_footing",lvl:1}]
+
+profile Saved activate HOT6
+	HOT1
+		"gtceu:hv_rose_gold_drill" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:5}]
+	HOT2
+		"easypaxellite:diamond_paxel" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:5},{id:"minecraft:silk_touch",lvl:1}]
+	HOT3
+		"travelanchors:travel_staff"
+	HOT4
+		"saturatingitem:saturating_item"
+	HOT5
+		"shrink:shrinking_device"
+	HOT8
+		"ae2wtlib:wireless_pattern_encoding_terminal"
+	HOT9
+		"dimstorage:dimensional_tablet"
+	HEAD
+		"gtceu:nightvision_goggles"
+	FEET
+		"gtceu:steel_boots" -> "Enchantments" : [{id:"apotheosis:stable_footing",lvl:1}]
+
+profile Saved activate HOT6
+	HOT1
+		"easypaxellite:diamond_paxel" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:5},{id:"minecraft:silk_touch",lvl:1}]
+	HOT2
+		"gtceu:iv_neutronium_drill"
+	HOT3
+		"travelanchors:travel_staff"
+	HOT4
+		"saturatingitem:saturating_item"
+	HOT5
+		"shrink:shrinking_device"
+	HOT8
+		"expatternprovider:wireless_ex_pat"
+	HOT9
+		"ae2wtlib:wireless_pattern_encoding_terminal"
+	HEAD
+		"advanced_ae:quantum_helmet"
+	CHEST
+		"advanced_ae:quantum_chestplate"
+	LEGS
+		"advanced_ae:quantum_leggings"
+	FEET
+		"advanced_ae:quantum_boots"
+

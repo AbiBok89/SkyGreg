@@ -1,0 +1,23 @@
+{
+  "config.forgivingvoid.title": "Forgiving Void",
+  "config.forgivingvoid.triggerAtDistanceBelow": "Срабатывание на расстоянии ниже",
+  "config.forgivingvoid.triggerAtDistanceBelow.tooltip": "Расстояние ниже минимального уровня Y, на котором Forgiving Void спасёт игрока и подбросит его в небо.",
+  "config.forgivingvoid.damageOnFall": "Урон при падении",
+  "config.forgivingvoid.damageOnFall.tooltip": "Количество урона, наносимого игроку при приземлении.",
+  "config.forgivingvoid.fallingHeight": "Высота падения",
+  "config.forgivingvoid.fallingHeight.tooltip": "Высота, с которой игрок будет падать после провала в пустоту.",
+  "config.forgivingvoid.preventDeath": "Предотвращать смерть",
+  "config.forgivingvoid.preventDeath.tooltip": "Предотвращать смерть при падении в пустоту (ограничивает урон, оставляя минимум 0.5 сердца)",
+  "config.forgivingvoid.triggerInOverworld": "Срабатывать в Верхнем мире",
+  "config.forgivingvoid.triggerInOverworld.tooltip": "Установите false, чтобы Forgiving Void не срабатывал в пустоте Верхнего мира (измерение 0).",
+  "config.forgivingvoid.triggerInNether": "Срабатывать в Незере",
+  "config.forgivingvoid.triggerInNether.tooltip": "Установите false, чтобы Forgiving Void не срабатывал в пустоте Незера (измерение -1).",
+  "config.forgivingvoid.triggerInEnd": "Срабатывать в Энде",
+  "config.forgivingvoid.triggerInEnd.tooltip": "Установите false, чтобы Forgiving Void не срабатывал в пустоте Энда (измерение 1).",
+  "config.forgivingvoid.disableVanillaAntiCheatWhileFalling": "Отключать ванильный античит при падении",
+  "config.forgivingvoid.disableVanillaAntiCheatWhileFalling.tooltip": "Установите true, если игроков отбрасывает назад при падении в пустоту. На публичных серверах включайте это только при наличии стороннего античита.",
+  "config.forgivingvoid.dimensionAllowList": "Белый список измерений",
+  "config.forgivingvoid.dimensionAllowList.tooltip": "Список ID измерений, разрешённых для Forgiving Void. Параметры вроде triggerInOverworld имеют приоритет.",
+  "config.forgivingvoid.dimensionDenyList": "Чёрный список измерений",
+  "config.forgivingvoid.dimensionDenyList.tooltip": "Список дополнительных ID измерений, запрещённых для Forgiving Void. Параметры вроде triggerInOverworld имеют приоритет. Игнорируется, если задан dimensionAllowList."
+}

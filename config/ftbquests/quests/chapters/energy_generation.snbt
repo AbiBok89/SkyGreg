@@ -1,0 +1,961 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	disable_toast: true
+	filename: "energy_generation"
+	group: "52FBD9CE03396779"
+	icon: "gtceu:uhv_ultimate_battery"
+	id: "388D10465CE66AB0"
+	images: [{
+		height: 2.0d
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -4.0d
+		y: 3.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.1}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "65B4793490ED0C1E"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.3}"
+			tasks: [{
+				id: "2CEFFF7E5066AA18"
+				title: "{sky_greg.quests.chapters_energy_generation.4}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.5}"]
+			disable_toast: true
+			id: "2249AF3FC20187B4"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.6}"
+			tasks: [{
+				id: "6A920F0D1D610457"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.7}"]
+			disable_toast: true
+			id: "2D4FAD0465CCFCF6"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.8}"
+			tasks: [{
+				id: "1DE032A108E52530"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.9}"]
+			disable_toast: true
+			id: "12A35D238EE4DDBC"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.10}"
+			tasks: [{
+				id: "160C39E0D03C8BD4"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.11}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.12}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.13}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.14}"
+			]
+			disable_toast: true
+			id: "4E71620095420D43"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.15}"
+			tasks: [{
+				id: "3311B5EDF8C2F224"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.16}"]
+			disable_toast: true
+			id: "738CE483E02BA7DC"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.17}"
+			tasks: [{
+				id: "09E9F26747C04A1A"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.18}"]
+			disable_toast: true
+			id: "7A36C0DA68D24DC9"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.19}"
+			tasks: [{
+				id: "185ECE380F11D720"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.20}"]
+			disable_toast: true
+			id: "6C9FBE8022A39BE4"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.21}"
+			tasks: [{
+				id: "1CD1770799484D96"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.22}"]
+			disable_toast: true
+			id: "47654BACEE394C6B"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.23}"
+			tasks: [{
+				id: "264F567C9F0331B9"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			id: "12C4695BDD858AA4"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.24}"
+			tasks: [{
+				id: "6CF63866F898E8F8"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.25}"]
+			disable_toast: true
+			id: "2ED946D4F08F3E17"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.26}"
+			tasks: [{
+				id: "1493F34284968270"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.27}"]
+			disable_toast: true
+			id: "43C8AF734E1C35BE"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.28}"
+			tasks: [{
+				id: "55E3CDE54094B12F"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.29}"]
+			disable_toast: true
+			id: "1A8085FA9B2CA182"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.30}"
+			tasks: [{
+				id: "5E99A0DF88AC0157"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.31}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.32}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.33}"
+			]
+			disable_toast: true
+			id: "36D586B5519D2A4D"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.34}"
+			tasks: [{
+				id: "369B76044A5A9443"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.35}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.36}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.37}"
+			]
+			disable_toast: true
+			icon: "gtceu:lv_lithium_battery"
+			id: "0960A7AC750133A8"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.38}"
+			tasks: [{
+				id: "7A58C9D81B49919E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/lv"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.39}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.40}"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.41}"]
+			disable_toast: true
+			icon: "gtceu:mv_lithium_battery"
+			id: "327D6CCB63904DC3"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.42}"
+			tasks: [{
+				id: "412A2DD65E9DFBA3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/mv"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.43}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.44}"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.45}"]
+			disable_toast: true
+			icon: "gtceu:hv_lithium_battery"
+			id: "6FBFCD749301A8FA"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.46}"
+			tasks: [{
+				id: "44C83B5722B9EFAD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/hv"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.47}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.48}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.49}"]
+			disable_toast: true
+			icon: "gtceu:ev_vanadium_battery"
+			id: "3F28F5A6B9973665"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.50}"
+			tasks: [{
+				id: "08FA6FA6B4B48B4B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/ev"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.51}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.52}"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.53}"]
+			disable_toast: true
+			icon: "gtceu:iv_vanadium_battery"
+			id: "712A3EE989775569"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.54}"
+			tasks: [{
+				id: "12CE75CE5AA8271A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/iv"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.55}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.56}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.57}"]
+			disable_toast: true
+			icon: "gtceu:luv_vanadium_battery"
+			id: "3E475A430EBA78F4"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.58}"
+			tasks: [{
+				id: "1CF81E7F73766743"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/luv"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.59}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.60}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.61}"]
+			disable_toast: true
+			icon: "gtceu:zpm_naquadria_battery"
+			id: "30300B2D0D4327BB"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.62}"
+			tasks: [{
+				id: "4DADBBFE1C0D7710"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/zpm"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.63}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.64}"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.65}"]
+			disable_toast: true
+			icon: "gtceu:uv_naquadria_battery"
+			id: "5500DA4CFFFB969A"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.66}"
+			tasks: [{
+				id: "41099E5B5B2E56E3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/uv"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.67}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.68}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.69}"]
+			disable_toast: true
+			icon: "gtceu:max_battery"
+			id: "12A920473F3B1ECE"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.70}"
+			tasks: [{
+				id: "759BBE13D3481C61"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/uhv"
+					}
+				}
+				title: "{sky_greg.quests.chapters_energy_generation.71}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.72}"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.73}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.74}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.75}"
+			]
+			disable_toast: true
+			id: "5984D8577AAC3E97"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_energy_generation.76}"
+			tasks: [{
+				id: "2B9B7217BB1071D0"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6F3580FE739DF749"
+			tasks: [{
+				id: "5CC16145166FA4D3"
+				item: "gtceu:active_transformer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.77}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.78}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.79}"
+			]
+			disable_toast: true
+			id: "740E058E286AE5D1"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.80}"
+			tasks: [{
+				id: "502AEAB0EAC81E11"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.81}"]
+			disable_toast: true
+			id: "43E21CF3A81E6A53"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.82}"
+			tasks: [{
+				id: "69C66C4E79BD5323"
+				item: "gtceu:manganese_phosphide_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.83}"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.84}"]
+			disable_toast: true
+			id: "738C37738EB8FB35"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.85}"
+			tasks: [{
+				id: "187BBC70BD730F74"
+				item: "gtceu:magnesium_diboride_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.86}"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.87}"]
+			disable_toast: true
+			id: "3CFB4F21CC0170FC"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.88}"
+			tasks: [{
+				id: "1144E5EC2E113FA8"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.89}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.90}"]
+			disable_toast: true
+			id: "157AEBF3E53A0246"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.91}"
+			tasks: [{
+				id: "1B27451CA1C48750"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.92}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.93}"]
+			disable_toast: true
+			id: "7A4C80702FB850D0"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.94}"
+			tasks: [{
+				id: "4621075EA1CF33B9"
+				item: "gtceu:samarium_iron_arsenic_oxide_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.95}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.96}"]
+			disable_toast: true
+			id: "010DF958BC636339"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.97}"
+			tasks: [{
+				id: "05952BBB08294446"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.98}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.99}"]
+			disable_toast: true
+			id: "0B6FA3455400DEA4"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.100}"
+			tasks: [{
+				id: "0E64CD89FE40C0C9"
+				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.101}"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.102}"]
+			disable_toast: true
+			id: "2C9BA1D7048EBC9B"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.103}"
+			tasks: [{
+				id: "17E4FE9B5D467DD7"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.104}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.105}"]
+			disable_toast: true
+			id: "00A6AC24EC1F1E09"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.106}"
+			tasks: [{
+				id: "536A71AA1E7BEC3E"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.107}"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "362AF6497DA53159"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.108}"
+			tasks: [{
+				id: "67D9056ED3F3349A"
+				item: "gtceu:lv_transformer_1a"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "320DD399BCE5A0FC"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.109}"
+			tasks: [{
+				id: "50BD536CAF32F73A"
+				item: "gtceu:mv_transformer_1a"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6D43206358F4C413"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.110}"
+			tasks: [{
+				id: "04B11908B14BC6B2"
+				item: "gtceu:hv_transformer_1a"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "689D938C10F7BF92"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.111}"
+			tasks: [{
+				id: "544E64A16D6C80CD"
+				item: "gtceu:ev_transformer_1a"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "50533D8302752FC6"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.112}"
+			tasks: [{
+				id: "33BE058C1333D2DB"
+				item: "gtceu:iv_transformer_1a"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "534A6845439A86C3"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.113}"
+			tasks: [{
+				id: "5D0E2F54417F288F"
+				item: "gtceu:luv_transformer_1a"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "4419EC560D9004D7"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.114}"
+			tasks: [{
+				id: "47D2DCEFFA063957"
+				item: "gtceu:zpm_transformer_1a"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "3957EBE64100EA54"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.115}"
+			tasks: [{
+				id: "52E5EBED1B200575"
+				item: "gtceu:uv_transformer_1a"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.116}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.117}"
+			]
+			disable_toast: true
+			id: "70D724ED2A297BDC"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.118}"
+			tasks: [{
+				id: "06AA15AC2FAC7948"
+				item: "gtceu:lv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "443AF3EFC5DED7ED"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.119}"
+			tasks: [{
+				id: "0BF17C0A7FF9B411"
+				item: "gtceu:mv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.120}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.121}"
+			]
+			disable_toast: true
+			id: "046BEFE4C7841422"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.122}"
+			tasks: [{
+				id: "275932791BC3AA66"
+				item: "gtceu:hv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.123}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.124}"
+			]
+			disable_toast: true
+			id: "122CF6BC293472B1"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.125}"
+			tasks: [{
+				id: "7664BA6FD33A0EA6"
+				item: "gtceu:iv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.126}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.127}"
+			]
+			disable_toast: true
+			id: "3A744A2EC3163FB4"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.128}"
+			tasks: [{
+				id: "061284475B07FD1D"
+				item: "gtceu:ev_1a_energy_converter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.129}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.130}"
+			]
+			disable_toast: true
+			id: "1F1305838AD7C3AF"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.131}"
+			tasks: [{
+				id: "15F8B5B959CAE5F8"
+				item: "gtceu:luv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.132}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.133}"
+			]
+			disable_toast: true
+			id: "0555A98C1E49DC82"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.134}"
+			tasks: [{
+				id: "6EEAE6B79B686894"
+				item: "gtceu:zpm_1a_energy_converter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.135}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.136}"
+			]
+			disable_toast: true
+			id: "79E8E796B22E2A35"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.137}"
+			tasks: [{
+				id: "3697BF9A45004422"
+				item: "gtceu:uv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.138}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.139}"
+			]
+			disable_toast: true
+			id: "75C8FD4FF2D59DD6"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.140}"
+			tasks: [{
+				id: "3E1139D868D007CA"
+				item: "gtceu:uhv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.141}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.142}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.143}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.144}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.145}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.146}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "3A15F06E67782700"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.147}"
+			tasks: [{
+				id: "2D400A84C687B09E"
+				title: "{sky_greg.quests.chapters_energy_generation.148}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_energy_generation.149}"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.150}"]
+			disable_toast: true
+			id: "7F048FCDB9E7A7EF"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.151}"
+			tasks: [{
+				id: "094F08253A3E7751"
+				item: "advgenerators:fuel_turbine_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.152}"]
+			disable_toast: true
+			id: "0150CAB597759564"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.153}"
+			tasks: [{
+				id: "0A46AB3BC14F4205"
+				item: "advgenerators:steam_turbine_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_energy_generation.154}"]
+			disable_toast: true
+			id: "76B203993AFC1C58"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.155}"
+			tasks: [{
+				id: "178C78906E931092"
+				item: "advgenerators:syngas_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_energy_generation.156}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.157}"
+				""
+				"{sky_greg.quests.chapters_energy_generation.158}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "1894FB51BAF307CA"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_energy_generation.159}"
+			tasks: [{
+				id: "2438DC5121109D19"
+				title: "{sky_greg.quests.chapters_energy_generation.160}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+	]
+	subtitle: ["An overview!"]
+	title: "{sky_greg.quests.chapters_energy_generation.161}"
+}

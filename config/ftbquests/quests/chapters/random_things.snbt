@@ -1,0 +1,1639 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "random_things"
+	group: "3483E4EBAD9C4714"
+	icon: "saturatingitem:saturating_item"
+	id: "36A472AEE9CCE50B"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity_icon/chicken.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity_icon/steve.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbchunks:textures/faces/waddles/adelie_penguin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity_icon/alex.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.1}"
+				""
+				"{sky_greg.quests.chapters_random_things.2}"
+				""
+				"{sky_greg.quests.chapters_random_things.3}"
+				""
+				"{sky_greg.quests.chapters_random_things.4}"
+				""
+				"{sky_greg.quests.chapters_random_things.5}"
+			]
+			id: "7B199FF56DFC4286"
+			subtitle: "{sky_greg.quests.chapters_random_things.6}"
+			tasks: [{
+				id: "0347641D20FDBB27"
+				item: {
+					Count: 1
+					id: "packedup:basicbackpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.7}"
+				""
+				"{sky_greg.quests.chapters_random_things.8}"
+				""
+				"{sky_greg.quests.chapters_random_things.9}"
+				""
+				"{sky_greg.quests.chapters_random_things.10}"
+			]
+			icon: "waystones:waystone"
+			id: "199681973FE6BD21"
+			subtitle: "{sky_greg.quests.chapters_random_things.11}"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "42BAAD5420767CAE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:waystones"
+					}
+				}
+				title: "{sky_greg.quests.chapters_random_things.12}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_random_things.13}"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.14}"
+				""
+				"{sky_greg.quests.chapters_random_things.15}"
+				""
+				"{sky_greg.quests.chapters_random_things.16}"
+				""
+				"{sky_greg.quests.chapters_random_things.17}"
+				""
+				"{sky_greg.quests.chapters_random_things.18}"
+				""
+				"{sky_greg.quests.chapters_random_things.19}"
+				""
+				"{sky_greg.quests.chapters_random_things.20}"
+			]
+			id: "182D39B24C4E8FA9"
+			subtitle: "{sky_greg.quests.chapters_random_things.21}"
+			tasks: [{
+				id: "2D30CFBEC49956AB"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.22}"
+				""
+				"{sky_greg.quests.chapters_random_things.23}"
+				""
+				"{sky_greg.quests.chapters_random_things.24}"
+				""
+				"{sky_greg.quests.chapters_random_things.25}"
+			]
+			icon: "gtceu:lv_item_magnet"
+			id: "3B2DCD05F432AD01"
+			subtitle: "{sky_greg.quests.chapters_random_things.26}"
+			tasks: [{
+				icon: "gtceu:lv_item_magnet"
+				id: "1D54A2D85029467A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:gtceu_magnet"
+					}
+				}
+				title: "{sky_greg.quests.chapters_random_things.27}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_random_things.28}"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.29}"
+				""
+				"{sky_greg.quests.chapters_random_things.30}"
+				""
+				"{sky_greg.quests.chapters_random_things.31}"
+			]
+			id: "2D328EC3C03375D0"
+			subtitle: "{sky_greg.quests.chapters_random_things.32}"
+			tasks: [{
+				id: "6BC2FFC44A7E8174"
+				item: {
+					Count: 1
+					id: "charginggadgets:charging_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.33}"
+				""
+				"{sky_greg.quests.chapters_random_things.34}"
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "6C983E7D8ADB65DE"
+			subtitle: "{sky_greg.quests.chapters_random_things.35}"
+			tasks: [
+				{
+					id: "660CC32D525C77EF"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "2BC47EBDFDCB0F33"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+				{
+					id: "226A3D42BC086775"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.36}"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.37}"
+				""
+				"{sky_greg.quests.chapters_random_things.38}"
+			]
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_cut_paste"
+				tag: {
+					pastereplace: 1b
+				}
+			}
+			id: "105F978E8FFFA97C"
+			subtitle: "{sky_greg.quests.chapters_random_things.39}"
+			tasks: [
+				{
+					id: "03D1031418159760"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3978340778F49DDF"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.40}"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.41}"
+				""
+				"{sky_greg.quests.chapters_random_things.42}"
+				""
+				"{sky_greg.quests.chapters_random_things.43}"
+				""
+				"{sky_greg.quests.chapters_random_things.44}"
+			]
+			id: "06EFBFA64B610CDE"
+			subtitle: "{sky_greg.quests.chapters_random_things.45}"
+			tasks: [{
+				id: "4044BED556F29E2C"
+				item: "travelanchors:travel_staff"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.46}"
+				""
+				"{sky_greg.quests.chapters_random_things.47}"
+				""
+				"{sky_greg.quests.chapters_random_things.48}"
+				""
+				"{sky_greg.quests.chapters_random_things.49}"
+				""
+				"{sky_greg.quests.chapters_random_things.50}"
+			]
+			id: "2C1441D7E54919A1"
+			subtitle: "{sky_greg.quests.chapters_random_things.51}"
+			tasks: [{
+				id: "2AA9B826ACBAE7F2"
+				item: "travelanchors:travel_anchor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.52}"
+				""
+				"{sky_greg.quests.chapters_random_things.53}"
+				""
+				"{sky_greg.quests.chapters_random_things.54}"
+			]
+			id: "7B98F40A0F2056B8"
+			subtitle: "{sky_greg.quests.chapters_random_things.55}"
+			tasks: [{
+				id: "43DD62AE965C66C3"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.56}"
+				""
+				"{sky_greg.quests.chapters_random_things.57}"
+				""
+				"{sky_greg.quests.chapters_random_things.58}"
+			]
+			id: "5FFAC11F068C7990"
+			subtitle: "{sky_greg.quests.chapters_random_things.59}"
+			tasks: [{
+				id: "5E838D1C4F21E8CE"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.60}"
+				""
+				"{sky_greg.quests.chapters_random_things.61}"
+			]
+			id: "59C873A939C4D6C6"
+			subtitle: "{sky_greg.quests.chapters_random_things.62}"
+			tasks: [{
+				id: "3BE664884F156D6D"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.63}"
+				""
+				"{sky_greg.quests.chapters_random_things.64}"
+				""
+				"{sky_greg.quests.chapters_random_things.65}"
+			]
+			id: "4D105D6B5083C9BC"
+			subtitle: "{sky_greg.quests.chapters_random_things.66}"
+			tasks: [{
+				id: "451EE843CD8742F2"
+				item: {
+					Count: 1
+					id: "endertanks:ender_tank"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.67}"
+				""
+				"{sky_greg.quests.chapters_random_things.68}"
+			]
+			id: "410E6876A204A059"
+			subtitle: "{sky_greg.quests.chapters_random_things.69}"
+			tasks: [{
+				id: "3654B0EB92C6B501"
+				item: {
+					Count: 1
+					id: "enderchests:ender_chest"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.70}"
+				""
+				"{sky_greg.quests.chapters_random_things.71}"
+				""
+				"{sky_greg.quests.chapters_random_things.72}"
+				""
+				"{sky_greg.quests.chapters_random_things.73}"
+				""
+				"{sky_greg.quests.chapters_random_things.74}"
+				"{sky_greg.quests.chapters_random_things.75}"
+				"{sky_greg.quests.chapters_random_things.76}"
+				"{sky_greg.quests.chapters_random_things.77}"
+				"{sky_greg.quests.chapters_random_things.78}"
+				"{sky_greg.quests.chapters_random_things.79}"
+				"{sky_greg.quests.chapters_random_things.80}"
+				"{sky_greg.quests.chapters_random_things.81}"
+				"{sky_greg.quests.chapters_random_things.82}"
+				"{sky_greg.quests.chapters_random_things.83}"
+				""
+				"{sky_greg.quests.chapters_random_things.84}"
+			]
+			disable_toast: true
+			id: "51B1AE2DF9616C5F"
+			subtitle: "{sky_greg.quests.chapters_random_things.85}"
+			tasks: [{
+				id: "6214FD0284220DE1"
+				item: "infinite_blocks:infinite_block_generator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.86}"
+				""
+				"{sky_greg.quests.chapters_random_things.87}"
+			]
+			id: "6AE690511FD7F74A"
+			subtitle: "{sky_greg.quests.chapters_random_things.88}"
+			tasks: [{
+				id: "1466093E6F674A53"
+				item: "rainshield:rain_shield"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.89}"
+				""
+				"{sky_greg.quests.chapters_random_things.90}"
+				""
+				"{sky_greg.quests.chapters_random_things.91}"
+			]
+			id: "638C3912A6F764BE"
+			subtitle: "{sky_greg.quests.chapters_random_things.92}"
+			tasks: [{
+				id: "62E158231F2B982E"
+				item: "dimstorage:dimensional_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.93}"
+				""
+				"{sky_greg.quests.chapters_random_things.94}"
+			]
+			id: "01C3B0DB4C6A6FAE"
+			subtitle: "{sky_greg.quests.chapters_random_things.95}"
+			tasks: [{
+				id: "47C23BBF43380D72"
+				item: "dimstorage:dimensional_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.96}"
+				""
+				"{sky_greg.quests.chapters_random_things.97}"
+				""
+				"{sky_greg.quests.chapters_random_things.98}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "77898BD300971A36"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_random_things.99}"
+			tasks: [{
+				id: "7AE899E85E70682D"
+				title: "{sky_greg.quests.chapters_random_things.100}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_random_things.101}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.102}"
+				""
+				"{sky_greg.quests.chapters_random_things.103}"
+				""
+				"{sky_greg.quests.chapters_random_things.104}"
+				""
+				"{sky_greg.quests.chapters_random_things.105}"
+				""
+				"{sky_greg.quests.chapters_random_things.106}"
+			]
+			disable_toast: true
+			id: "666A68DFE6217071"
+			subtitle: "{sky_greg.quests.chapters_random_things.107}"
+			tasks: [{
+				id: "13AF5EFCDFC740F3"
+				item: "saturatingitem:saturating_item"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.108}"
+				""
+				"{sky_greg.quests.chapters_random_things.109}"
+				""
+				"{sky_greg.quests.chapters_random_things.110}"
+			]
+			disable_toast: true
+			id: "52E0DAFED5BDF489"
+			subtitle: "{sky_greg.quests.chapters_random_things.111}"
+			tasks: [{
+				id: "011EE9C74F79E97F"
+				item: "gtceu:forged_netherite_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.112}"
+				""
+				"{sky_greg.quests.chapters_random_things.113}"
+				""
+				"{sky_greg.quests.chapters_random_things.114}"
+			]
+			id: "1352CE3F416A3EB3"
+			subtitle: "{sky_greg.quests.chapters_random_things.115}"
+			tasks: [{
+				id: "5EAFC1DF2251B254"
+				item: "wirelesschargers:basic_wireless_block_charger"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.116}"
+				""
+				"{sky_greg.quests.chapters_random_things.117}"
+				""
+				"{sky_greg.quests.chapters_random_things.118}"
+				""
+				"{sky_greg.quests.chapters_random_things.119}"
+			]
+			id: "51E69851575DEDDE"
+			subtitle: "{sky_greg.quests.chapters_random_things.120}"
+			tasks: [{
+				id: "0B80B05A75655EA5"
+				item: "wirelesschargers:basic_wireless_player_charger"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.121}"
+				""
+				"{sky_greg.quests.chapters_random_things.122}"
+				""
+				"{sky_greg.quests.chapters_random_things.123}"
+				""
+				"{sky_greg.quests.chapters_random_things.124}"
+			]
+			icon: "toolbelt:belt"
+			id: "5BD5D5818DBD50F7"
+			subtitle: "{sky_greg.quests.chapters_random_things.125}"
+			tasks: [
+				{
+					id: "656A22427837A1BA"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+				{
+					id: "69E7945C72CDFC98"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.126}"
+				""
+				"{sky_greg.quests.chapters_random_things.127}"
+				""
+				"{sky_greg.quests.chapters_random_things.128}"
+				""
+				"{sky_greg.quests.chapters_random_things.129}"
+			]
+			id: "5FB230A3AEB91055"
+			subtitle: "{sky_greg.quests.chapters_random_things.130}"
+			tasks: [{
+				id: "443B631D6D204874"
+				item: "flopper:flopper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.131}"
+				""
+				"{sky_greg.quests.chapters_random_things.132}"
+				""
+				"{sky_greg.quests.chapters_random_things.133}"
+				""
+				"{sky_greg.quests.chapters_random_things.134}"
+				""
+				"{sky_greg.quests.chapters_random_things.135}"
+			]
+			id: "40123EB952032960"
+			subtitle: "{sky_greg.quests.chapters_random_things.136}"
+			tasks: [{
+				id: "3AE6C1F5D6237D6D"
+				item: "hyperbox:hyperbox"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.137}"
+				"{sky_greg.quests.chapters_random_things.138}"
+				"{sky_greg.quests.chapters_random_things.139}"
+				"{sky_greg.quests.chapters_random_things.140}"
+				""
+				"{sky_greg.quests.chapters_random_things.141}"
+			]
+			icon: {
+				Count: 1
+				id: "exocraft:atlas_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "00B9D74FFD318F2F"
+			subtitle: "{sky_greg.quests.chapters_random_things.142}"
+			tasks: [
+				{
+					id: "47890B5BCF8EA178"
+					item: {
+						Count: 1
+						id: "exocraft:atlas_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6786DB33845C888B"
+					item: {
+						Count: 1
+						id: "exocraft:atlas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "238698C135593D25"
+					item: {
+						Count: 1
+						id: "exocraft:atlas_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39F8B8203007C21D"
+					item: {
+						Count: 1
+						id: "exocraft:atlas_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.143}"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.144}"
+				"{sky_greg.quests.chapters_random_things.145}"
+				"{sky_greg.quests.chapters_random_things.146}"
+				"{sky_greg.quests.chapters_random_things.147}"
+				""
+				"{sky_greg.quests.chapters_random_things.148}"
+			]
+			icon: {
+				Count: 1
+				id: "exocraft:legion_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "568FE962A3DFBF6B"
+			subtitle: "{sky_greg.quests.chapters_random_things.149}"
+			tasks: [
+				{
+					id: "313E4DC50C0F17A6"
+					item: {
+						Count: 1
+						id: "exocraft:legion_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F40246FB24E9EAC"
+					item: {
+						Count: 1
+						id: "exocraft:legion_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C40247C5626B190"
+					item: {
+						Count: 1
+						id: "exocraft:legion_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "453B787CD375D5BD"
+					item: {
+						Count: 1
+						id: "exocraft:legion_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.150}"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.151}"
+				"{sky_greg.quests.chapters_random_things.152}"
+				"{sky_greg.quests.chapters_random_things.153}"
+				"{sky_greg.quests.chapters_random_things.154}"
+				""
+				"{sky_greg.quests.chapters_random_things.155}"
+			]
+			icon: {
+				Count: 1
+				id: "exocraft:stryder_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C3B363F6B2335AB"
+			subtitle: "{sky_greg.quests.chapters_random_things.156}"
+			tasks: [
+				{
+					id: "3FCE15AD4BA83DB6"
+					item: {
+						Count: 1
+						id: "exocraft:stryder_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E90848801387E46"
+					item: {
+						Count: 1
+						id: "exocraft:stryder_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32002DBCD9C4B87E"
+					item: {
+						Count: 1
+						id: "exocraft:stryder_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "621A358C591C5B59"
+					item: {
+						Count: 1
+						id: "exocraft:stryder_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.157}"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.158}"
+				"{sky_greg.quests.chapters_random_things.159}"
+				"{sky_greg.quests.chapters_random_things.160}"
+				"{sky_greg.quests.chapters_random_things.161}"
+				""
+				"{sky_greg.quests.chapters_random_things.162}"
+			]
+			icon: {
+				Count: 1
+				id: "exocraft:ogre_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FF195CD713F0350"
+			subtitle: "{sky_greg.quests.chapters_random_things.163}"
+			tasks: [
+				{
+					id: "7BD02E0D2FD95E9C"
+					item: {
+						Count: 1
+						id: "exocraft:ogre_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B9BC710350DBAC7"
+					item: {
+						Count: 1
+						id: "exocraft:ogre_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16AF713669D8120D"
+					item: {
+						Count: 1
+						id: "exocraft:ogre_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64CEC069E175B8AD"
+					item: {
+						Count: 1
+						id: "exocraft:ogre_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.164}"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.165}"
+				"{sky_greg.quests.chapters_random_things.166}"
+				"{sky_greg.quests.chapters_random_things.167}"
+				"{sky_greg.quests.chapters_random_things.168}"
+				""
+				"{sky_greg.quests.chapters_random_things.169}"
+			]
+			icon: {
+				Count: 1
+				id: "exocraft:ion_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "702227EF3F9181A3"
+			subtitle: "{sky_greg.quests.chapters_random_things.170}"
+			tasks: [
+				{
+					id: "4D08179C6A8781E6"
+					item: {
+						Count: 1
+						id: "exocraft:ion_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34AB6B9840F1CAE8"
+					item: {
+						Count: 1
+						id: "exocraft:ion_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A83112996C485C2"
+					item: {
+						Count: 1
+						id: "exocraft:ion_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "710AF012139DF339"
+					item: {
+						Count: 1
+						id: "exocraft:ion_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.171}"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_random_things.172}"]
+			id: "0BD9144EE0B9CB5F"
+			subtitle: "{sky_greg.quests.chapters_random_things.173}"
+			tasks: [{
+				id: "05A5115ADD533A7E"
+				item: "domum_ornamentum:architectscutter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_random_things.174}"]
+			id: "4515FB1A9BF6EDA4"
+			subtitle: "{sky_greg.quests.chapters_random_things.175}"
+			tasks: [{
+				id: "318E2C2FD5163E2D"
+				item: "fantasyfurniture:furniture_station"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.176}"
+				""
+				"{sky_greg.quests.chapters_random_things.177}"
+				""
+				"{sky_greg.quests.chapters_random_things.178}"
+			]
+			icon: "framedblocks:framed_cube"
+			id: "1352DFC06FB99BAC"
+			subtitle: "{sky_greg.quests.chapters_random_things.179}"
+			tasks: [
+				{
+					id: "201239758794D1F8"
+					item: "framedblocks:framed_cube"
+					type: "item"
+				}
+				{
+					id: "5214ECB650ECCA69"
+					item: "framedblocks:framing_saw"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.180}"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.181}"
+				""
+				"{sky_greg.quests.chapters_random_things.182}"
+			]
+			icon: "enderio:ender_fluid_conduit"
+			id: "3DAE4BAA6BB72668"
+			subtitle: "{sky_greg.quests.chapters_random_things.183}"
+			tasks: [
+				{
+					id: "6747368E21C37F2B"
+					item: "enderio:ender_fluid_conduit"
+					type: "item"
+				}
+				{
+					id: "7F9A9CD57B16B26A"
+					item: "enderio:item_conduit"
+					type: "item"
+				}
+				{
+					id: "1F783F7AB93A9A44"
+					item: "enderio:me_conduit"
+					type: "item"
+				}
+				{
+					id: "6D3CBBB21113D203"
+					item: "enderio:yeta_wrench"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.184}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.185}"
+				""
+				"{sky_greg.quests.chapters_random_things.186}"
+				""
+				"{sky_greg.quests.chapters_random_things.187}"
+			]
+			icon: "modularrouters:modular_router"
+			id: "5B87C9229D0FBFCA"
+			subtitle: "{sky_greg.quests.chapters_random_things.188}"
+			tasks: [
+				{
+					id: "2BEC05E07B5260B5"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "35E3ACBDC5A608A2"
+					item: "modularrouters:blank_module"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.189}"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.190}"
+				""
+				"{sky_greg.quests.chapters_random_things.191}"
+				""
+				"{sky_greg.quests.chapters_random_things.192}"
+				""
+				"{sky_greg.quests.chapters_random_things.193}"
+			]
+			disable_toast: true
+			id: "098031EB589E064F"
+			subtitle: "{sky_greg.quests.chapters_random_things.194}"
+			tasks: [{
+				id: "5A972138F5408747"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2394AD7DE7FC079E"]
+			description: ["{sky_greg.quests.chapters_random_things.195}"]
+			id: "07BFCD0CC1FC2EE4"
+			subtitle: "{sky_greg.quests.chapters_random_things.196}"
+			tasks: [{
+				id: "717F55A5B88D06CD"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_random_things.197}"]
+			id: "7CCA058360CBFD75"
+			subtitle: "{sky_greg.quests.chapters_random_things.198}"
+			tasks: [{
+				id: "76E196E15CFA055D"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_random_things.199}"]
+			id: "2394AD7DE7FC079E"
+			subtitle: "{sky_greg.quests.chapters_random_things.200}"
+			tasks: [{
+				id: "642062E82B3615AC"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.201}"
+				""
+				"{sky_greg.quests.chapters_random_things.202}"
+				""
+				"{sky_greg.quests.chapters_random_things.203}"
+				""
+				"{sky_greg.quests.chapters_random_things.204}"
+				""
+				"{sky_greg.quests.chapters_random_things.205}"
+			]
+			id: "12DA3685737C7CF2"
+			subtitle: "{sky_greg.quests.chapters_random_things.206}"
+			tasks: [{
+				id: "353D6A877EF776DE"
+				item: "cardboardboxes:cardboardbox"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_random_things.207}"]
+			id: "76DFCEA7E3363F3E"
+			subtitle: "{sky_greg.quests.chapters_random_things.208}"
+			tasks: [{
+				id: "5A2A987200BA77C1"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.209}"
+				""
+				"{sky_greg.quests.chapters_random_things.210}"
+				""
+				"{sky_greg.quests.chapters_random_things.211}"
+				""
+				"{sky_greg.quests.chapters_random_things.212}"
+			]
+			id: "2868DAC7C62B0851"
+			subtitle: "{sky_greg.quests.chapters_random_things.213}"
+			tasks: [{
+				id: "2486572CE8E1A5F7"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.214}"
+				""
+				"{sky_greg.quests.chapters_random_things.215}"
+				""
+				"{sky_greg.quests.chapters_random_things.216}"
+			]
+			id: "76406F587A2BF232"
+			subtitle: "{sky_greg.quests.chapters_random_things.217}"
+			tasks: [{
+				id: "620E79E80F03587C"
+				item: "tesseract:tesseract"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.218}"
+				""
+				"{sky_greg.quests.chapters_random_things.219}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "entangled:block"
+				tag: { }
+			}
+			id: "4567A985DAE4BA97"
+			subtitle: "{sky_greg.quests.chapters_random_things.220}"
+			tasks: [
+				{
+					id: "3BF93E4500C98773"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "404B111ECEA36C81"
+					item: {
+						Count: 1
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.221}"
+				""
+				"{sky_greg.quests.chapters_random_things.222}"
+				""
+				"{sky_greg.quests.chapters_random_things.223}"
+				""
+				"{sky_greg.quests.chapters_random_things.224}"
+				""
+				"{sky_greg.quests.chapters_random_things.225}"
+				""
+				"{sky_greg.quests.chapters_random_things.226}"
+				""
+				"{sky_greg.quests.chapters_random_things.227}"
+			]
+			icon: "nomowanderer:trader_rug"
+			id: "52A33426667EC9AF"
+			rewards: [{
+				id: "65D059ACF3B5155C"
+				item: "darkutils:vector_plate_ultra"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_random_things.228}"
+			tasks: [
+				{
+					id: "4EE12506C3493341"
+					item: "nomowanderer:trader_rug"
+					type: "item"
+				}
+				{
+					id: "4D477CDCAFFD0EAA"
+					item: "nomowanderer:no_soliciting_sign"
+					type: "item"
+				}
+				{
+					id: "29429C84A4BAF77C"
+					item: {
+						Count: 1
+						id: "nomowanderer:no_mo_wanderer_totem"
+						tag: {
+							Enabled: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.229}"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.230}"
+				""
+				"{sky_greg.quests.chapters_random_things.231}"
+				""
+				"{sky_greg.quests.chapters_random_things.232}"
+				""
+				"{sky_greg.quests.chapters_random_things.233}"
+			]
+			id: "31042FAA086FD19E"
+			subtitle: "{sky_greg.quests.chapters_random_things.234}"
+			tasks: [{
+				icon: "storagedrawers:oak_full_drawers_1"
+				id: "2CFB29C11EE6E464"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "{sky_greg.quests.chapters_random_things.235}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_random_things.236}"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.237}"
+				""
+				"{sky_greg.quests.chapters_random_things.238}"
+				""
+				"{sky_greg.quests.chapters_random_things.239}"
+				""
+				"{sky_greg.quests.chapters_random_things.240}"
+			]
+			id: "4C9D9B53283A56EC"
+			subtitle: "{sky_greg.quests.chapters_random_things.241}"
+			tasks: [{
+				icon: "functionalstorage:oak_1"
+				id: "5C5BCA74354A7F3F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "{sky_greg.quests.chapters_random_things.242}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_random_things.243}"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.244}"
+				""
+				"{sky_greg.quests.chapters_random_things.245}"
+			]
+			icon: "functionalstorage:fluid_1"
+			id: "213ED4D4E3BCE939"
+			subtitle: "{sky_greg.quests.chapters_random_things.246}"
+			tasks: [{
+				id: "07A9B59015DA67E2"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.247}"
+				""
+				"{sky_greg.quests.chapters_random_things.248}"
+				""
+				"{sky_greg.quests.chapters_random_things.249}"
+				""
+				"{sky_greg.quests.chapters_random_things.250}"
+				""
+				"{sky_greg.quests.chapters_random_things.251}"
+			]
+			id: "5E8A0E559FD2F2C9"
+			subtitle: "{sky_greg.quests.chapters_random_things.252}"
+			tasks: [{
+				id: "3EA52E96202DAA27"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.253}"
+				""
+				"{sky_greg.quests.chapters_random_things.254}"
+				""
+				"{sky_greg.quests.chapters_random_things.255}"
+			]
+			id: "6604ABE8D91136AB"
+			subtitle: "{sky_greg.quests.chapters_random_things.256}"
+			tasks: [{
+				id: "0E9EFC73562BAEE3"
+				item: {
+					Count: 1
+					id: "lightingwand:wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_random_things.257}"]
+			id: "672D1091F8DC8859"
+			subtitle: "{sky_greg.quests.chapters_random_things.258}"
+			tasks: [{
+				id: "6AE73084A8049719"
+				item: "darkutils:charm_sleep"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.259}"
+				""
+				"{sky_greg.quests.chapters_random_things.260}"
+				""
+				"{sky_greg.quests.chapters_random_things.261}"
+				""
+				"{sky_greg.quests.chapters_random_things.262}"
+				""
+				"{sky_greg.quests.chapters_random_things.263}"
+			]
+			icon: "cable_facades:facade"
+			id: "3CD00B65EC91C9C4"
+			subtitle: "{sky_greg.quests.chapters_random_things.264}"
+			tasks: [
+				{
+					id: "45F0F661ECC28A85"
+					item: "cable_facades:facade"
+					type: "item"
+				}
+				{
+					id: "2DCB38ED4B483246"
+					item: "cable_facades:facade_wrench"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.265}"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.266}"
+				""
+				"{sky_greg.quests.chapters_random_things.267}"
+				""
+				"{sky_greg.quests.chapters_random_things.268}"
+			]
+			id: "7908F1E23129F674"
+			subtitle: "{sky_greg.quests.chapters_random_things.269}"
+			tasks: [{
+				icon: "elevatorid:elevator_white"
+				id: "2F25A87ED9DD3619"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+				title: "{sky_greg.quests.chapters_random_things.270}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_random_things.271}"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.272}"
+				""
+				"{sky_greg.quests.chapters_random_things.273}"
+				""
+				"{sky_greg.quests.chapters_random_things.274}"
+				""
+				"{sky_greg.quests.chapters_random_things.275}"
+			]
+			icon: "trashcans:item_trash_can"
+			id: "2410B600EC267A89"
+			subtitle: "{sky_greg.quests.chapters_random_things.276}"
+			tasks: [
+				{
+					id: "50240CF7738BD98E"
+					item: "trashcans:item_trash_can"
+					type: "item"
+				}
+				{
+					id: "4123C5EB957B2896"
+					item: "trashcans:liquid_trash_can"
+					type: "item"
+				}
+				{
+					id: "027D4BA9AE31A3E0"
+					item: "trashcans:energy_trash_can"
+					type: "item"
+				}
+				{
+					id: "04F771779C165343"
+					item: "trashcans:ultimate_trash_can"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_random_things.277}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.278}"
+				""
+				"{sky_greg.quests.chapters_random_things.279}"
+				""
+				"{sky_greg.quests.chapters_random_things.280}"
+				""
+				"{sky_greg.quests.chapters_random_things.281}"
+				""
+				"{sky_greg.quests.chapters_random_things.282}"
+			]
+			icon: "warp_pipes:lime_warp_pipe"
+			id: "5434C974BE1ED201"
+			subtitle: "{sky_greg.quests.chapters_random_things.283}"
+			tasks: [
+				{
+					icon: "warp_pipes:lime_warp_pipe"
+					id: "7EDDDA14E47DD476"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "warp_pipes:warp_pipes"
+						}
+					}
+					title: "{sky_greg.quests.chapters_random_things.284}"
+					type: "item"
+				}
+				{
+					id: "4E003053FBF02BED"
+					item: {
+						Count: 1
+						id: "warp_pipes:pipe_wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_random_things.285}"
+				""
+				"{sky_greg.quests.chapters_random_things.286}"
+				""
+				"{sky_greg.quests.chapters_random_things.287}"
+				""
+				"{sky_greg.quests.chapters_random_things.288}"
+				""
+				"{sky_greg.quests.chapters_random_things.289}"
+				""
+				"{sky_greg.quests.chapters_random_things.290}"
+				"{sky_greg.quests.chapters_random_things.291}"
+				"{sky_greg.quests.chapters_random_things.292}"
+				"{sky_greg.quests.chapters_random_things.293}"
+				"{sky_greg.quests.chapters_random_things.294}"
+				"{sky_greg.quests.chapters_random_things.295}"
+			]
+			id: "38D6B546C33A99DD"
+			subtitle: "{sky_greg.quests.chapters_random_things.296}"
+			tasks: [{
+				id: "2B28EE3252A8974B"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+	]
+	subtitle: ["Helpful stuff!"]
+	title: "{sky_greg.quests.chapters_random_things.297}"
+}

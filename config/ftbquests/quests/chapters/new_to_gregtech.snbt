@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "new_to_gregtech"
+	group: "52FBD9CE03396779"
+	icon: "ftbquests:book"
+	id: "70355DCEE3BEBB7E"
+	images: [
+		{
+			height: 2.0d
+			image: "gtceu:textures/gui/base/indicator_no_energy.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:textures/gui/icon/gregtech_logo.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.1}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.2}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.3}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.4}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.5}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.6}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.7}"
+			]
+			icon: "gtceu:gregification_hazard_sign_block"
+			id: "5B831D008A04AFDC"
+			size: 1.5d
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.8}"
+			tasks: [{
+				id: "210AA6B0DE60DC3B"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.9}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.10}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.11}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.12}"
+			]
+			icon: "gtceu:potin_large_fluid_pipe"
+			id: "3E1F8F167EEFDE98"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.13}"
+			tasks: [{
+				id: "6777E3B449AAD03D"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.14}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_new_to_gregtech.15}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.16}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.17}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.18}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.19}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.20}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.21}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.22}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.23}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.24}"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iv_neutronium_wrench"
+				tag: {
+					Charge: 2147483647L
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 724.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+					Unbreakable: 1b
+				}
+			}
+			id: "30B882502304E764"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.25}"
+			tasks: [{
+				id: "215FA38B0514977C"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.26}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.27}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.28}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.29}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.30}"
+			]
+			icon: "gtceu:lv_electric_motor"
+			id: "56561FD0C2FAF9D7"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.31}"
+			tasks: [{
+				id: "631D2B7ADDE9FB67"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.32}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.33}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.34}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.35}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.36}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.37}"
+			]
+			icon: "gtceu:item_tag_filter"
+			id: "68AA0E91221370B5"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.38}"
+			tasks: [{
+				id: "18207E8A40A45BC6"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.39}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_new_to_gregtech.40}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.41}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.42}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.43}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.44}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.45}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.46}"
+			]
+			icon: "gtceu:lv_conveyor_module"
+			id: "2C3EFB6BF73156D6"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.47}"
+			tasks: [{
+				id: "30836C0887E403CE"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.48}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.49}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.50}"
+				"{@pagebreak}"
+				"{sky_greg.quests.chapters_new_to_gregtech.51}"
+				"{sky_greg.quests.chapters_new_to_gregtech.52}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.53}"
+				"{@pagebreak}"
+				"{sky_greg.quests.chapters_new_to_gregtech.54}"
+				"{sky_greg.quests.chapters_new_to_gregtech.55}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.56}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.57}"
+				"{@pagebreak}"
+				"{sky_greg.quests.chapters_new_to_gregtech.58}"
+				"{sky_greg.quests.chapters_new_to_gregtech.59}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.60}"
+				"{@pagebreak}"
+				"{sky_greg.quests.chapters_new_to_gregtech.61}"
+				"{sky_greg.quests.chapters_new_to_gregtech.62}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.63}"
+				"{@pagebreak}"
+				"{sky_greg.quests.chapters_new_to_gregtech.64}"
+				"{sky_greg.quests.chapters_new_to_gregtech.65}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.66}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.67}"
+			]
+			icon: "gtceu:mercury_barium_calcium_cuprate_quadruple_wire"
+			id: "75AE9772558C029F"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.68}"
+			tasks: [{
+				id: "7848B72EA8D92ED6"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.69}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_new_to_gregtech.70}"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.71}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.72}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.73}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.74}"
+			]
+			icon: "gtceu:lv_transformer_1a"
+			id: "3B9CA72E4824660A"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.75}"
+			tasks: [{
+				id: "1F871B59A06ABE86"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.76}"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.77}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.78}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.79}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.80}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.81}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_new_to_gregtech.82_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5F6990F09B6ABAE3\"}, \"translate\": \"sky_greg.quests.chapters_new_to_gregtech.82_2\"}, {\"translate\": \"sky_greg.quests.chapters_new_to_gregtech.82_3\"}]"
+			]
+			icon: "ae2:creative_energy_cell"
+			id: "1F132BF7E9ED49EB"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.83}"
+			tasks: [{
+				id: "34F67DCD4EFBDB18"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.84}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_new_to_gregtech.85}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_new_to_gregtech.86}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.87}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.88}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.89}"
+				""
+				"{sky_greg.quests.chapters_new_to_gregtech.90}"
+			]
+			icon: "gtceu:lv_wiremill"
+			id: "37BB69A204CA4F38"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_new_to_gregtech.91}"
+			tasks: [{
+				id: "387E8C3DBB659978"
+				title: "{sky_greg.quests.chapters_new_to_gregtech.92}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["GregTech basics!"]
+	title: "{sky_greg.quests.chapters_new_to_gregtech.93}"
+}

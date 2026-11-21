@@ -1,0 +1,15 @@
+{
+  "config.gtexolegs.option.enableJumpBoost": "enableJumpBoost",
+  "config.gtexolegs.option.jumpBoostModifiers": "jumpBoostModifiers",
+  "config.gtexolegs.option.movementSpeedMultipliers": "movementSpeedMultipliers",
+  "config.gtexolegs.option.stepHeightModifiers": "stepHeightModifiers",
+  "curios.identifier.exoskeleton_legs": "Поножи экзоскелета",
+  "gtexolegs.tooltip.jump_boost.disabled": "§cУсиление прыжка отключено",
+  "gtexolegs.tooltip.jump_boost.enabled": "§aУсиление прыжка включено",
+  "item.gtexolegs.ev_exoskeleton_legs": "EV поножи экзоскелета",
+  "item.gtexolegs.hv_exoskeleton_legs": "HV поножи экзоскелета",
+  "item.gtexolegs.iv_exoskeleton_legs": "IV поножи экзоскелета",
+  "item.gtexolegs.lv_exoskeleton_legs": "LV поножи экзоскелета",
+  "item.gtexolegs.mv_exoskeleton_legs": "MV поножи экзоскелета",
+  "itemGroup.gtexolegs.creative_tab": "GT поножи экзоскелета"
+}

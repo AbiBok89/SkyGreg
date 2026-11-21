@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "kubejs:block/custom_casings/solid_aluminium_casing/solid_aluminium_casing"
+    }
+}

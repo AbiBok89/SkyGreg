@@ -1,0 +1,1284 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "applied_energistcs_2"
+	group: "3483E4EBAD9C4714"
+	icon: "ae2:creative_energy_cell"
+	id: "033E8D21A95583DB"
+	images: [{
+		height: 2.0d
+		image: "ae2:block/controller_lights"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.1}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.2}"
+			]
+			id: "23FD1322DFB4CA86"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.3}"
+			tasks: [{
+				icon: "ae2:crafting_terminal"
+				id: "6657FEDFA5FAADD0"
+				observe_type: 0
+				timer: 0L
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.4}"
+				to_observe: "ae2:cable_bus"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.5}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.6}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.7}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.8}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.9}"
+			]
+			id: "2B816005CA6F01E2"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.10}"
+			tasks: [{
+				icon: "ae2:drive"
+				id: "1ABC14B21D30EF8E"
+				observe_type: 0
+				timer: 0L
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.11}"
+				to_observe: "ae2:drive"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.12}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.13}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.14}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.15}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.16}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:pattern_encoding_terminal"
+			id: "1D470C8FB386C65B"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.17}"
+			tasks: [
+				{
+					id: "3F91B60E94621200"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "00A5A100509DE4A5"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.18}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.19}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.20}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.21}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.22}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.23}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:pattern_provider"
+			id: "617B498A98E3C9F1"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.24}"
+			tasks: [
+				{
+					id: "2DB2AE0081D58AE2"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "78B44095A3F100E6"
+					item: "ae2:cable_pattern_provider"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["700A3F6157EC6803"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.25}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.26}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.27}"
+			]
+			hide_dependency_lines: true
+			id: "4EBD125B7959B412"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.28}"
+			tasks: [{
+				id: "1EF6A8F8F6E56C88"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.29}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.30}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.31}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:inscriber"
+			id: "5E10F448F38B7DE3"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.32}"
+			tasks: [
+				{
+					id: "4E63A8183F5EFFDD"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "39660EFA71231E19"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "2C4FC66F440E711E"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "4DAD5551E49F237B"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "3EF13A0EDD5E664A"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.33}"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.34}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.35}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.36}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.37}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.38}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.39}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:interface"
+			id: "0D3349AD94971FD6"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.40}"
+			tasks: [
+				{
+					id: "545F00C1AA561209"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "66CDDD564AA7C6DC"
+					item: "ae2:cable_interface"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.41}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.42}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.43}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.44}"
+			]
+			hide_dependency_lines: true
+			id: "0FC970B194B0BB19"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.45}"
+			tasks: [{
+				icon: "ae2:1k_crafting_storage"
+				id: "68D873E5432CB0F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:1k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:4k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:16k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:64k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:256k_crafting_storage"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.46}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.47}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.48}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.49}"
+			]
+			id: "4A3F8DFD73D62E32"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.50}"
+			tasks: [{
+				id: "6E21CCB85B13F7A3"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A3F8DFD73D62E32"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.51}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.52}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.53}"
+			]
+			hide_dependency_lines: true
+			id: "06209FAA096BADA7"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.54}"
+			tasks: [{
+				id: "605EA51312743658"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06209FAA096BADA7"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.55}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.56}"
+			]
+			hide_dependency_lines: true
+			id: "700A3F6157EC6803"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.57}"
+			tasks: [{
+				id: "3A583D690E874272"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.58}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.59}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.60}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.61}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.62}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.63}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "5F6990F09B6ABAE3"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.64}"
+			tasks: [{
+				id: "1FA75D7089EB6D46"
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.65}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.66}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"700A3F6157EC6803"
+				"5E10F448F38B7DE3"
+				"23FD1322DFB4CA86"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.67}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.68}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.69}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.70}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:wireless_crafting_terminal"
+			id: "6EAADE4CC19154FD"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "768B03949AB99506"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.71}"
+			tasks: [
+				{
+					id: "234CEF5048FF0C0F"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "63F383CF81310C28"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A3F8DFD73D62E32"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.72}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.73}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.74}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:certus_quartz_charger"
+			id: "6A5CE0941A5B2C26"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.75}"
+			tasks: [{
+				id: "6FF9B20E7A5B14E9"
+				item: "gtceu:certus_quartz_charger"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.76}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E10F448F38B7DE3"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.77}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.78}"
+			]
+			hide_dependency_lines: true
+			id: "24774662E4449286"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.79}"
+			tasks: [{
+				id: "4B12CCD73327C852"
+				item: "gtceu:large_inscriber"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.80}"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.81}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.82}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.83}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.84}"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:facade"
+				tag: {
+					item: "minecraft:stone"
+				}
+			}
+			id: "1635D377F3044B5A"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.85}"
+			tasks: [
+				{
+					id: "797D1EFAE7A4F1B4"
+					item: {
+						Count: 2
+						id: "ae2:facade"
+						tag: {
+							item: "minecraft:stone"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E059E95B9475951"
+					item: { Count: 4, id: "ae2:cable_anchor" }
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.86}"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD6A1E7927099F1"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.87}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.88}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.89}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.90}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.91}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.92}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.93}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:quantum_link"
+			id: "251EC7D6E32CA5DE"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.94}"
+			tasks: [
+				{
+					count: 8L
+					id: "2F7553BEE1E9DD09"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "1CA5EF26C19AE9DD"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "282C5F9EDB9BA700"
+					item: "ae2:quantum_entangled_singularity"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.95}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["700A3F6157EC6803"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.96}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.97}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.98}"
+			]
+			hide_dependency_lines: true
+			id: "57B39432E87D4120"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.99}"
+			tasks: [{
+				id: "33D7EB5C54316C49"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.100}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.101}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.102}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "19A404524F2DB799"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.103}"
+			tasks: [{
+				id: "69C601BE3BE2F055"
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.104}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.105}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.106}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "72F895F2FED546F3"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.107}"
+			tasks: [{
+				id: "1BDFACC936D930C6"
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.108}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.109}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.110}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "07EA34F2415FEBB2"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.111}"
+			tasks: [{
+				id: "657D34A09FD48527"
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.112}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23FD1322DFB4CA86"]
+			description: ["{sky_greg.quests.chapters_applied_energistcs_2.113}"]
+			hide_dependency_lines: true
+			id: "4D287F0677AAE373"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.114}"
+			tasks: [{
+				id: "6B4A6CAA6E8ECB2F"
+				item: "fulleng:crafting_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.115}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.116}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "5814A0DC6E55ACC8"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.117}"
+			tasks: [{
+				id: "14AFEB4EC9EB5D5C"
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.118}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.119}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.120}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.121}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.122}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.123}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.124}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.125}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.126}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.127}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "7264C6CBFF72640F"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.128}"
+			tasks: [{
+				id: "4A340755045AE51D"
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.129}"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2B816005CA6F01E2"
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.130}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.131}"
+			]
+			hide_dependency_lines: true
+			id: "3CC3887E4BEFA1BD"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.132}"
+			tasks: [{
+				id: "36B11573222E8912"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.133}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.134}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.135}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:import_bus"
+			id: "451698A77103A2E4"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "57849F82F89DD104"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "3C3C9302135BFBC3"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.136}"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E10F448F38B7DE3"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.137}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.138}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.139}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.140}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.141}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.142}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.143}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.144}"
+			]
+			hide_dependency_lines: true
+			id: "507CC11A871D3512"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.145}"
+			tasks: [{
+				id: "3F8E23E27080BAAC"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E10F448F38B7DE3"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.146}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.147}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.148}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.149}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.150}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.151}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.152}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.153}"
+				"{sky_greg.quests.chapters_applied_energistcs_2.154}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.155}"
+			]
+			hide_dependency_lines: true
+			id: "3AD3E1BF7C0888E9"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.156}"
+			tasks: [{
+				id: "56103A7A678DB5F1"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.157}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.158}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.159}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.160}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.161}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.162}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.163}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:condenser"
+			id: "1BD6A1E7927099F1"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.164}"
+			tasks: [
+				{
+					id: "721764031CA80A17"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "3B28D1B350C5D220"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BD6A1E7927099F1"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.165}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.166}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.167}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.168}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.169}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.170}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.171}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.172}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.173}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.174}"
+				"{image:kubejs:textures/questimages/quantum_computer.png width:200 height:125 align:center}"
+			]
+			hide_dependency_lines: true
+			icon: "advanced_ae:quantum_core"
+			id: "1A379B2F7BBF9810"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.175}"
+			tasks: [
+				{
+					id: "2C286C4D084BE856"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "29EC4A24630349B3"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.176}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.177}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.178}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.179}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.180}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.181}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.182}"
+			]
+			hide_dependency_lines: true
+			icon: "mae2:eu_p2p_tunnel"
+			id: "31AD9D29F4176C33"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.183}"
+			tasks: [
+				{
+					id: "0385D268078E44AE"
+					item: "mae2:eu_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "312D504CA7F1715F"
+					item: "mae2:eu_multi_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.184}"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.185}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.186}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.187}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "774692037530960C"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.188}"
+			tasks: [{
+				id: "6E517E5309717946"
+				title: "{sky_greg.quests.chapters_applied_energistcs_2.189}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BD6A1E7927099F1"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.190}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.191}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.192}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.193}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.194}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.195}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.196}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "advanced_ae:quantum_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "533294773F44A6C8"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.197}"
+			tasks: [
+				{
+					id: "1A849E65D4FA1476"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AF59A82245EC1C5"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1442BDFFD098EADF"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C4E701A23D3D55F"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "656DACA437D375B7"
+					item: "advanced_ae:quantum_upgrade_base"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_applied_energistcs_2.198}"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"24077F274DED7F5B"
+				"507CC11A871D3512"
+			]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.199}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.200}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.201}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.202}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.203}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.204}"
+			]
+			hide_dependency_lines: true
+			id: "749B9175264E4B4D"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.205}"
+			tasks: [{
+				id: "4E673BCDE5E51A3C"
+				item: "pccard:card_programmed_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["617B498A98E3C9F1"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.206}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.207}"
+			]
+			hide_dependency_lines: true
+			icon: "expandedae:exp_pattern_provider"
+			id: "64F2CFC5B16C3BBA"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.208}"
+			tasks: [
+				{
+					id: "10D53E8518F9A641"
+					item: "expandedae:exp_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "057B8363897D4B53"
+					item: "expandedae:exp_pattern_provider_part"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71C186A19A7612D1"
+					item: "expandedae:exp_pattern_provider_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["700A3F6157EC6803"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.209}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.210}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.211}"
+			]
+			hide_dependency_lines: true
+			id: "3870182CB96FD565"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.212}"
+			tasks: [{
+				id: "6619A6A208D2BBAD"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["700A3F6157EC6803"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.213}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.214}"
+			]
+			hide_dependency_lines: true
+			id: "058CA07134F64471"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "00805F9E6FFA29F0"
+				item: "ae2_ftbquest_detector:me_quests_detector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49ACC5BBBF501EB4"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.215}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.216}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.217}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.218}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.219}"
+			]
+			id: "228FD546E3FEEBBB"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.220}"
+			tasks: [{
+				id: "29968E92FF451801"
+				item: "expatternprovider:threshold_level_emitter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57849F82F89DD104"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.221}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.222}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.223}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.224}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.225}"
+			]
+			id: "263FDC4D3BA7F3CE"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.226}"
+			tasks: [{
+				id: "062A189DF8CD586E"
+				item: "expatternprovider:threshold_export_bus"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E10F448F38B7DE3"]
+			description: [
+				"{sky_greg.quests.chapters_applied_energistcs_2.227}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.228}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.229}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.230}"
+				""
+				"{sky_greg.quests.chapters_applied_energistcs_2.231}"
+			]
+			hide_dependency_lines: true
+			id: "49ACC5BBBF501EB4"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_applied_energistcs_2.232}"
+			tasks: [{
+				id: "5FDA0039E65467A0"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Just the basics!"]
+	title: "{sky_greg.quests.chapters_applied_energistcs_2.233}"
+}

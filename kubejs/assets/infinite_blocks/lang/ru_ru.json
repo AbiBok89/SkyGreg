@@ -1,0 +1,6 @@
+{
+  "gui.infinite_blocks.infinite_block_generator_gui.label_infinite_block_generator": "Генератор бесконечных блоков",
+  "block.infinite_blocks.infinite_block_generator": "Генератор бесконечных блоков",
+  "block.infinite_blocks.blackest_stone": "Чернейший камень",
+  "item_group.infinite_blocks.infinite_blocks_creative_tab": "Бесконечные блоки"
+}

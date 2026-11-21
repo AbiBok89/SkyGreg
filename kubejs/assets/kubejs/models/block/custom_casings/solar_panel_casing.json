@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "kubejs:block/custom_casings/solar_panel_casing/solar_panel_casing"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "config.kleeslabs.title": "KleeSlabs",
+  "config.kleeslabs.mode": "Режим",
+  "config.kleeslabs.mode.tooltip": "Определяет режим работы KleeSlabs: ALWAYS, ONLY_WHEN_SNEAKING или ONLY_WHEN_NOT_SNEAKING",
+  "config.kleeslabs.disabledCompat": "Отключённая совместимость",
+  "config.kleeslabs.disabledCompat.tooltip": "ID модов, совместимость с которыми нужно отключить.",
+  "config.kleeslabs.dumpSlabs": "Отладочный дамп плит",
+  "config.kleeslabs.dumpSlabs.tooltip": "Для разработки. Если true, KleeSlabs выведет в лог список предметов со словом 'slab' в названии при загрузке мира."
+}

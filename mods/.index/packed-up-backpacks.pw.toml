@@ -1,0 +1,29 @@
+filename = 'packedup-1.1.0-forge-mc1.20.1.jar'
+name = 'Packed Up (Backpacks)'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Packed Up 1.1.0 for Forge 1.20.1'
+
+[download]
+hash = '692e91c445346e2032b9a2a5dc1439e1b1bf14ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6091445
+project-id = 361867
+
+[[x-prismlauncher-dependencies]]
+addonId = '438332'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '454372'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'OPTIONAL'

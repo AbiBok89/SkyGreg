@@ -1,0 +1,1492 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "hv_age"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:hv_machine_hull"
+	id: "20110746F9254CD0"
+	images: [{
+		height: 2.0d
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 7.0d
+		y: 5.0d
+	}]
+	order_index: 3
+	quest_links: [
+		{
+			id: "3E98D97D2317CABE"
+			linked_quest: "2C7DC2092E9EE13E"
+			size: 1.25d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "5CDF99B18B4CB302"
+			linked_quest: "394B072BDD61D2A6"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "433447823A51D47A"
+			linked_quest: "2709EE6DCCAB43EA"
+			x: 7.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"3572CE7FB88DFD07"
+				"72EEEF8EC9D3693C"
+			]
+			description: ["{sky_greg.quests.chapters_hv_age.1}"]
+			id: "01A3EB516A884B7C"
+			rewards: [{
+				id: "6368604C872E6B89"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_hv_age.2}"
+			tasks: [{
+				id: "28C4164B6C2614F8"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"684FA75E5D8A941D"
+				"31C96EDE68DEAABC"
+			]
+			id: "3572CE7FB88DFD07"
+			rewards: [{
+				id: "7EAEBAD3B6FE0A80"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.3}"
+			tasks: [{
+				id: "2C0CA1BF9C22AA6F"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"71AA8A822A5A2015"
+				"48F565D11CFD07E2"
+			]
+			description: ["{sky_greg.quests.chapters_hv_age.4}"]
+			id: "684FA75E5D8A941D"
+			rewards: [{
+				id: "7436C5B38DAB5102"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.5}"
+			tasks: [{
+				id: "670EFBA56E182B6B"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_hv_age.6}"
+				""
+				"{sky_greg.quests.chapters_hv_age.7}"
+				""
+				"{sky_greg.quests.chapters_hv_age.8}"
+			]
+			id: "71AA8A822A5A2015"
+			rewards: [{
+				id: "559CBFCC2B6C6C29"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.9}"
+			tasks: [{
+				id: "04DE697F80E04EAC"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_hv_age.10}"]
+			id: "31C96EDE68DEAABC"
+			rewards: [{
+				id: "0C79613E303FA1D9"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.11}"
+			tasks: [{
+				icon: "gtceu:inductor"
+				id: "15FFC1EB5BEA46A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:inductors"
+					}
+				}
+				title: "{sky_greg.quests.chapters_hv_age.12}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.13}"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"75D15295C7901382"
+				"69BC1B15A95D25D7"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.14}"
+				""
+				"{sky_greg.quests.chapters_hv_age.15}"
+				""
+				"{sky_greg.quests.chapters_hv_age.16}"
+				""
+				"{sky_greg.quests.chapters_hv_age.17}"
+				""
+				"{sky_greg.quests.chapters_hv_age.18}"
+				""
+				"{sky_greg.quests.chapters_hv_age.19}"
+			]
+			icon: "gtceu:cleanroom"
+			id: "72EEEF8EC9D3693C"
+			rewards: [{
+				id: "7B8CE268C4191D95"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.20}"
+			tasks: [{
+				id: "48F10AEB7FE95862"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.21}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.22}"
+				""
+				"{sky_greg.quests.chapters_hv_age.23}"
+				""
+				"{sky_greg.quests.chapters_hv_age.24}"
+				""
+				"{sky_greg.quests.chapters_hv_age.25}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_hv_age.26_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5F5F5F5A0972EFA1\"}, \"translate\": \"sky_greg.quests.chapters_hv_age.26_2\"}, {\"translate\": \"sky_greg.quests.chapters_hv_age.26_3\"}]"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_hv_age.27_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A882C54D81B9F08\"}, \"translate\": \"sky_greg.quests.chapters_hv_age.27_2\"}, {\"translate\": \"sky_greg.quests.chapters_hv_age.27_3\"}]"
+				""
+				"{sky_greg.quests.chapters_hv_age.28}"
+				"{image:kubejs:block/distillation_small width:200 height:100 align:1}"
+				"{sky_greg.quests.chapters_hv_age.29}"
+				"{image:kubejs:block/distillation_large width:200 height:100 align:1}"
+			]
+			icon: "gtceu:distillation_tower"
+			id: "1322E409CC3BC950"
+			optional: true
+			rewards: [{
+				id: "76045B01E32136DA"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.30}"
+			tasks: [{
+				id: "7FE399B84E4411C6"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.31}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4AE575A11212921D"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.32}"
+				""
+				"{sky_greg.quests.chapters_hv_age.33}"
+				""
+				"{sky_greg.quests.chapters_hv_age.34}"
+				""
+				"{sky_greg.quests.chapters_hv_age.35}"
+			]
+			icon: "gtceu:smd_transistor"
+			id: "429091621533FD72"
+			rewards: [{
+				id: "6F73C92A1FF5F6E6"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.36}"
+			tasks: [
+				{
+					id: "419A6DBCACC40FDC"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "269B3931A311ADE7"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "55994E8F851B45DE"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "4130989B8A971CAE"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "56AE81C80196387E"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_hv_age.37}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"75D15295C7901382"
+				"69BC1B15A95D25D7"
+			]
+			description: ["{sky_greg.quests.chapters_hv_age.38}"]
+			id: "4AE575A11212921D"
+			rewards: [{
+				id: "51CF71D97F2C0FB5"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.39}"
+			tasks: [{
+				id: "0A94B27B65DEB5A4"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BDC0AA4E8BF547A"]
+			description: ["{sky_greg.quests.chapters_hv_age.40}"]
+			id: "7890F48BB3CDB0C8"
+			rewards: [{
+				id: "5EE7664298DCFEB3"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.41}"
+			tasks: [{
+				id: "20ADA47906719192"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74FF5231869BEF95"]
+			description: ["{sky_greg.quests.chapters_hv_age.42}"]
+			id: "1BDC0AA4E8BF547A"
+			rewards: [{
+				id: "2C81259F6B49C961"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.43}"
+			tasks: [{
+				id: "1A77507874CC21BB"
+				item: "gtceu:red_steel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7890F48BB3CDB0C8"
+				"3A2EE50EC56A9C08"
+				"72EEEF8EC9D3693C"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.44}"
+				""
+				"{sky_greg.quests.chapters_hv_age.45}"
+				""
+				"{sky_greg.quests.chapters_hv_age.46}"
+			]
+			id: "13F69B03F2EF5CBF"
+			rewards: [{
+				id: "4FB62298B06F6663"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.47}"
+			tasks: [{
+				id: "2288BC72A0D1731C"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"560C7763B0AA9B02"
+				"6D3C856B7C0F310A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{sky_greg.quests.chapters_hv_age.48}"
+				""
+				"{sky_greg.quests.chapters_hv_age.49}"
+				""
+				"{sky_greg.quests.chapters_hv_age.50}"
+				""
+				"{sky_greg.quests.chapters_hv_age.51}"
+			]
+			id: "5CF0210609BCE0AA"
+			rewards: [{
+				id: "2815C056B70AB35F"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.52}"
+			tasks: [{
+				id: "328EBC7359CAEFAB"
+				item: "gtceu:orange_glass_lens"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"75D15295C7901382"
+				"69BC1B15A95D25D7"
+			]
+			description: ["{sky_greg.quests.chapters_hv_age.53}"]
+			id: "560C7763B0AA9B02"
+			rewards: [{
+				id: "270A17B9D268AB1F"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.54}"
+			tasks: [{
+				id: "48338B509E15A157"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5CF0210609BCE0AA"]
+			description: ["{sky_greg.quests.chapters_hv_age.55}"]
+			id: "3A2EE50EC56A9C08"
+			rewards: [{
+				id: "78D8A7C5B18F90F5"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.56}"
+			tasks: [{
+				id: "4D8D4A911E5F681A"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071FE6997A8E1978"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.57}"
+				""
+				"{sky_greg.quests.chapters_hv_age.58}"
+			]
+			id: "74FF5231869BEF95"
+			rewards: [{
+				id: "782F1F28E1384821"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.59}"
+			tasks: [{
+				id: "6D10AB4BE326D133"
+				item: "gtceu:red_steel_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_hv_age.60}"
+				""
+				"{sky_greg.quests.chapters_hv_age.61}"
+			]
+			id: "48D114312B99C955"
+			rewards: [{
+				id: "6A07DA5E0D8DA8A8"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.62}"
+			tasks: [{
+				id: "47408633B7354F72"
+				item: "gtceu:black_bronze_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48D114312B99C955"]
+			description: ["{sky_greg.quests.chapters_hv_age.63}"]
+			id: "071FE6997A8E1978"
+			rewards: [{
+				id: "4A027662A84B30A1"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.64}"
+			tasks: [{
+				id: "0CDEC6E9191264F2"
+				item: "gtceu:black_steel_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"13F69B03F2EF5CBF"
+				"4AE575A11212921D"
+				"45AC05CB79B8FBB8"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.65}"
+				""
+				"{sky_greg.quests.chapters_hv_age.66}"
+				""
+				"{sky_greg.quests.chapters_hv_age.67}"
+			]
+			id: "61A11EE51B2DBF65"
+			rewards: [{
+				id: "6853BDAC38939EF6"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.68}"
+			tasks: [{
+				id: "68C734DA05E94D13"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"32C2CF87C7C52797"
+				"25592128DA52C5EC"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.69}"
+				""
+				"{sky_greg.quests.chapters_hv_age.70}"
+				""
+				"{sky_greg.quests.chapters_hv_age.71}"
+			]
+			id: "3C97B2BEF5077424"
+			rewards: [{
+				id: "3CBC431B43C916EC"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_hv_age.72}"
+			tasks: [{
+				id: "24ED67A16D341D2A"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.73}"
+				""
+				"{sky_greg.quests.chapters_hv_age.74}"
+			]
+			icon: "gtceu:vacuum_freezer"
+			id: "32C2CF87C7C52797"
+			rewards: [{
+				id: "0139923397F43FAE"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.75}"
+			tasks: [{
+				id: "3CA7D4891B620DD7"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.76}"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5027E1163D4DCC38"
+				"183432E7C28DCEA9"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.77}"
+				""
+				"{sky_greg.quests.chapters_hv_age.78}"
+				""
+				"{sky_greg.quests.chapters_hv_age.79}"
+				""
+				"{sky_greg.quests.chapters_hv_age.80}"
+				""
+				"{sky_greg.quests.chapters_hv_age.81}"
+				""
+				"{sky_greg.quests.chapters_hv_age.82}"
+				""
+				"{sky_greg.quests.chapters_hv_age.83}"
+			]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			id: "25592128DA52C5EC"
+			rewards: [{
+				id: "4C29A4130172F1F5"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.84}"
+			tasks: [
+				{
+					id: "78D4B2DB84FC693F"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "146CD882A2E0C7D1"
+					item: "gtceu:magnesium_dust"
+					type: "item"
+				}
+				{
+					id: "368869B900DFEEEE"
+					title: "{sky_greg.quests.chapters_hv_age.85}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_hv_age.86}"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"75D15295C7901382"
+				"69BC1B15A95D25D7"
+			]
+			description: ["{sky_greg.quests.chapters_hv_age.87}"]
+			id: "5027E1163D4DCC38"
+			rewards: [{
+				id: "6624327A102FD2CE"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.88}"
+			tasks: [{
+				id: "08C0F3926CB58A84"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_hv_age.89}"
+				""
+				"{sky_greg.quests.chapters_hv_age.90}"
+			]
+			id: "183432E7C28DCEA9"
+			rewards: [{
+				id: "43169E9B320D9B35"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.91}"
+			tasks: [{
+				id: "7E3F9ACF21F30E36"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"75D15295C7901382"
+				"69BC1B15A95D25D7"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.92}"
+				""
+				"{sky_greg.quests.chapters_hv_age.93}"
+				""
+				"{sky_greg.quests.chapters_hv_age.94}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_hv_age.95_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5F5F5F5A0972EFA1\"}, \"translate\": \"sky_greg.quests.chapters_hv_age.95_2\"}, {\"translate\": \"sky_greg.quests.chapters_hv_age.95_3\"}]"
+				""
+				"{sky_greg.quests.chapters_hv_age.96}"
+			]
+			icon: "gtceu:cracker"
+			id: "1A882C54D81B9F08"
+			optional: true
+			rewards: [{
+				id: "17099E842D54508A"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.97}"
+			tasks: [{
+				id: "6671525832939837"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.98}"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["071FE6997A8E1978"]
+			description: ["{sky_greg.quests.chapters_hv_age.99}"]
+			id: "45AC05CB79B8FBB8"
+			rewards: [{
+				id: "185DBC97C0F5F504"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.100}"
+			tasks: [{
+				id: "7965FEC725F806F5"
+				item: "gtceu:hv_voltage_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: ["{sky_greg.quests.chapters_hv_age.101}"]
+			id: "48F565D11CFD07E2"
+			rewards: [{
+				id: "54CD581982EB7D63"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.102}"
+			tasks: [{
+				id: "6933563691D30906"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["588A50FF962E74DF"]
+			description: ["{sky_greg.quests.chapters_hv_age.103}"]
+			id: "3422A397FA4B23FC"
+			rewards: [{
+				id: "59DADAB945CCB1E6"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.104}"
+			tasks: [{
+				id: "5E290F6DCE1EEC86"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.105}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_hv_age.106}"
+				""
+				"{sky_greg.quests.chapters_hv_age.107}"
+				""
+				"{sky_greg.quests.chapters_hv_age.108}"
+			]
+			id: "00CFCCAF68E65352"
+			rewards: [{
+				id: "11C46DBACE7C59AC"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.109}"
+			tasks: [{
+				id: "0F54A5950F358771"
+				item: "gtceu:nichrome_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"00CFCCAF68E65352"
+				"32C2CF87C7C52797"
+				"61A11EE51B2DBF65"
+			]
+			description: ["{sky_greg.quests.chapters_hv_age.110}"]
+			id: "588A50FF962E74DF"
+			rewards: [{
+				id: "1BA89E2C927D797B"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.111}"
+			tasks: [{
+				id: "4886583B5054BBF6"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3422A397FA4B23FC"]
+			description: ["{sky_greg.quests.chapters_hv_age.112}"]
+			id: "1D33BD3CBB4CEE32"
+			optional: true
+			rewards: [{
+				id: "1B67F10D26F929BB"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.113}"
+			tasks: [{
+				id: "58F1D0FB15EA6514"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"75D15295C7901382"
+				"394B072BDD61D2A6"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.114}"
+				""
+				"{sky_greg.quests.chapters_hv_age.115}"
+				""
+				"{sky_greg.quests.chapters_hv_age.116}"
+			]
+			icon: "gtceu:large_chemical_reactor"
+			id: "129DD069D81D09F2"
+			rewards: [{
+				id: "5A9B26EECDDE685D"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.117}"
+			tasks: [{
+				id: "28AFA61BE8C2E7E2"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.118}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.119}"
+				""
+				"{sky_greg.quests.chapters_hv_age.120}"
+				""
+				"{sky_greg.quests.chapters_hv_age.121}"
+				""
+				"{sky_greg.quests.chapters_hv_age.122}"
+			]
+			icon: "gtceu:multi_smelter"
+			id: "726FAF5E142C6D70"
+			optional: true
+			rewards: [{
+				id: "0975CD1C509444FA"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.123}"
+			tasks: [{
+				id: "34809080CD590A83"
+				item: "gtceu:multi_smelter"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.124}"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_hv_age.125}"
+				""
+				"{sky_greg.quests.chapters_hv_age.126}"
+				""
+				"{sky_greg.quests.chapters_hv_age.127}"
+				""
+				"{sky_greg.quests.chapters_hv_age.128}"
+				""
+				"{sky_greg.quests.chapters_hv_age.129}"
+				""
+				"{sky_greg.quests.chapters_hv_age.130}"
+				""
+				"{sky_greg.quests.chapters_hv_age.131}"
+				""
+				"{image:kubejs:textures/questimages/overclocking.png width:250 height:75 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "792119263A92B8A9"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_hv_age.132}"
+			tasks: [{
+				id: "79EA99C35CA01890"
+				title: "{sky_greg.quests.chapters_hv_age.133}"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["129DD069D81D09F2"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.134}"
+				""
+				"{sky_greg.quests.chapters_hv_age.135}"
+				""
+				"{sky_greg.quests.chapters_hv_age.136}"
+				""
+				"{sky_greg.quests.chapters_hv_age.137}"
+				""
+				"{sky_greg.quests.chapters_hv_age.138}"
+			]
+			icon: "gtceu:radon_bucket"
+			id: "15C8D2AD9D550F4A"
+			rewards: [{
+				id: "06C2D51183FDAF20"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.139}"
+			tasks: [
+				{
+					id: "410B294B1AA1704D"
+					item: "gtceu:radon_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C0DA250F9F9E815"
+					title: "{sky_greg.quests.chapters_hv_age.140}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_hv_age.141}"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["679BB2181F2367FC"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.142}"
+				""
+				"{sky_greg.quests.chapters_hv_age.143}"
+				""
+				"{sky_greg.quests.chapters_hv_age.144}"
+				""
+				"{sky_greg.quests.chapters_hv_age.145}"
+				""
+				"{sky_greg.quests.chapters_hv_age.146}"
+			]
+			id: "6D3C856B7C0F310A"
+			optional: true
+			rewards: [{
+				id: "30085B014C7378ED"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.147}"
+			tasks: [{
+				id: "6C3BC5A38C3DCDD2"
+				item: "gtceu:glass_box"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.148}"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"02D679B3A74DBEE8"
+				"69BC1B15A95D25D7"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.149}"
+				""
+				"{sky_greg.quests.chapters_hv_age.150}"
+			]
+			id: "4745FFA0A02EAC94"
+			rewards: [{
+				id: "7274E02BBF03198A"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.151}"
+			tasks: [{
+				id: "7D89658D986AAB8F"
+				item: "gtceu:hv_forming_press"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4745FFA0A02EAC94"
+				"2709EE6DCCAB43EA"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.152}"
+				""
+				"{sky_greg.quests.chapters_hv_age.153}"
+				""
+				"{sky_greg.quests.chapters_hv_age.154}"
+			]
+			id: "679BB2181F2367FC"
+			rewards: [{
+				id: "3AA7123A84C888FF"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.155}"
+			tasks: [{
+				id: "6A093870A42897BE"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["560C7763B0AA9B02"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.156}"
+				""
+				"{sky_greg.quests.chapters_hv_age.157}"
+			]
+			id: "70ABBE93FCD35564"
+			rewards: [{
+				id: "5F4461AA59511A65"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.158}"
+			tasks: [{
+				id: "625979E905A0FCE1"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["70ABBE93FCD35564"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.159}"
+				""
+				"{sky_greg.quests.chapters_hv_age.160}"
+				""
+				"{sky_greg.quests.chapters_hv_age.161}"
+				""
+				"{sky_greg.quests.chapters_hv_age.162}"
+			]
+			id: "3C9C17621460BA19"
+			optional: true
+			rewards: [
+				{
+					id: "7141B53394342836"
+					item: "kubejs:hv_credit"
+					type: "item"
+				}
+				{
+					id: "5F07D7ECC43DCF29"
+					item: "dimpaintings:overworld_painting"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.163}"
+			tasks: [{
+				id: "5CE60639AC315BB2"
+				item: "dimpaintings:end_painting"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_hv_age.164}"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"75D15295C7901382"
+				"69BC1B15A95D25D7"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.165}"
+				""
+				"{sky_greg.quests.chapters_hv_age.166}"
+			]
+			id: "161E17D61189DF1A"
+			optional: true
+			rewards: [{
+				id: "29E5C30F2A2E5310"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.167}"
+			tasks: [{
+				id: "652C911581D27792"
+				item: "gtceu:auto_maintenance_hatch"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47194BF44456B69F"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.168}"
+				""
+				"{sky_greg.quests.chapters_hv_age.169}"
+				""
+				"{sky_greg.quests.chapters_hv_age.170}"
+			]
+			id: "4308EEC7497BAA63"
+			rewards: [{
+				id: "30835B09BC7DF0E7"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{sky_greg.quests.chapters_hv_age.171}"
+			tasks: [{
+				id: "6CBA809992769790"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4308EEC7497BAA63"
+				"7890F48BB3CDB0C8"
+				"72EEEF8EC9D3693C"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.172}"
+				""
+				"{sky_greg.quests.chapters_hv_age.173}"
+				""
+				"{sky_greg.quests.chapters_hv_age.174}"
+			]
+			id: "01B05D3CDBB742DA"
+			rewards: [{
+				id: "0A0F5200268047CB"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.175}"
+			tasks: [{
+				id: "647C0973D2C659E9"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"70ABBE93FCD35564"
+				"4AE575A11212921D"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.176}"
+				""
+				"{sky_greg.quests.chapters_hv_age.177}"
+				""
+				"{sky_greg.quests.chapters_hv_age.178}"
+				""
+				"{sky_greg.quests.chapters_hv_age.179}"
+				""
+				"{sky_greg.quests.chapters_hv_age.180}"
+				""
+				"{sky_greg.quests.chapters_hv_age.181}"
+				"{sky_greg.quests.chapters_hv_age.182}"
+				"{sky_greg.quests.chapters_hv_age.183}"
+				"{sky_greg.quests.chapters_hv_age.184}"
+				""
+				"{sky_greg.quests.chapters_hv_age.185}"
+				"{sky_greg.quests.chapters_hv_age.186}"
+				""
+				"{sky_greg.quests.chapters_hv_age.187}"
+				"{sky_greg.quests.chapters_hv_age.188}"
+			]
+			icon: "fluxnetworks:flux_controller"
+			id: "31EE47898468CDBB"
+			optional: true
+			rewards: [{
+				id: "29E900A586582C64"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.189}"
+			tasks: [
+				{
+					id: "3E39B250A8580F53"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+				{
+					id: "5F3DCB566841E2A9"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "593B0D80C8CDDB06"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_hv_age.190}"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1D33BD3CBB4CEE32"
+				"394B072BDD61D2A6"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.191}"
+				""
+				"{sky_greg.quests.chapters_hv_age.192}"
+				"{sky_greg.quests.chapters_hv_age.193}"
+				"{sky_greg.quests.chapters_hv_age.194}"
+				"{sky_greg.quests.chapters_hv_age.195}"
+				""
+				"{sky_greg.quests.chapters_hv_age.196}"
+				""
+				"{sky_greg.quests.chapters_hv_age.197}"
+				""
+				"{sky_greg.quests.chapters_hv_age.198}"
+			]
+			id: "1EE9D272D05BA0A3"
+			optional: true
+			rewards: [{
+				id: "3EECD9ADE691F595"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.199}"
+			tasks: [{
+				id: "19C2C3DC47B3BD95"
+				item: "gtceu:quad_electric_blast_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C7DC2092E9EE13E"
+				"3C97B2BEF5077424"
+			]
+			description: ["{sky_greg.quests.chapters_hv_age.200}"]
+			id: "16F2E8832642298A"
+			rewards: [{
+				id: "715725791F4EFE33"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{sky_greg.quests.chapters_hv_age.201}"
+			tasks: [{
+				id: "30B623E74C0EF29E"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"13F69B03F2EF5CBF"
+				"2C7DC2092E9EE13E"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.202}"
+				""
+				"{sky_greg.quests.chapters_hv_age.203}"
+				""
+				"{sky_greg.quests.chapters_hv_age.204}"
+				""
+				"{sky_greg.quests.chapters_hv_age.205}"
+				""
+				"{sky_greg.quests.chapters_hv_age.206}"
+				""
+				"{sky_greg.quests.chapters_hv_age.207}"
+				""
+				"{sky_greg.quests.chapters_hv_age.208}"
+				""
+				"{sky_greg.quests.chapters_hv_age.209}"
+			]
+			id: "319313B33CD60970"
+			rewards: [{
+				id: "6BE87A4962D75A4B"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.210}"
+			tasks: [{
+				icon: "gtceu:hv_transformer_1a"
+				id: "307CB665C3435275"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_transformer_1a"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_battery_buffer_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_battery_buffer_8x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_battery_buffer_16x"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_hv_age.211}"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1322E409CC3BC950"
+				"32C2CF87C7C52797"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.212}"
+				""
+				"{sky_greg.quests.chapters_hv_age.213}"
+				""
+				"{sky_greg.quests.chapters_hv_age.214}"
+				""
+				"{sky_greg.quests.chapters_hv_age.215}"
+				""
+				"{sky_greg.quests.chapters_hv_age.216}"
+				""
+				"{sky_greg.quests.chapters_hv_age.217}"
+			]
+			icon: "gtceu:argon_bucket"
+			id: "20A74CB0A9B2E23B"
+			optional: true
+			rewards: [{
+				id: "7100ED1E2FA50392"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.218}"
+			tasks: [
+				{
+					id: "7F7B3C9A9948F10E"
+					item: "gtceu:argon_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04079A120FB5DEAC"
+					title: "{sky_greg.quests.chapters_hv_age.219}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_hv_age.220}"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"15C8D2AD9D550F4A"
+				"70ABBE93FCD35564"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.221}"
+				""
+				"{sky_greg.quests.chapters_hv_age.222}"
+			]
+			id: "407EF0FB2059BE2F"
+			rewards: [{
+				id: "427FC5F00919D929"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.223}"
+			tasks: [{
+				id: "69835D12710BA646"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"15C8D2AD9D550F4A"
+				"560C7763B0AA9B02"
+			]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.224}"
+				""
+				"{sky_greg.quests.chapters_hv_age.225}"
+				""
+				"{sky_greg.quests.chapters_hv_age.226}"
+			]
+			id: "3EEAD694C4BC3408"
+			rewards: [{
+				id: "5A2D1371A53F665B"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_hv_age.227}"
+			tasks: [{
+				id: "7C0DA0E0DC214C34"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3422A397FA4B23FC"]
+			description: [
+				"{sky_greg.quests.chapters_hv_age.228}"
+				""
+				"{sky_greg.quests.chapters_hv_age.229}"
+			]
+			id: "4FE7A0A30FB87005"
+			optional: true
+			rewards: [{
+				id: "25886F95D7063595"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_hv_age.230}"
+			tasks: [{
+				id: "52F12D07C32C456D"
+				item: "gtceu:forged_netherite_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Stainless Steel!"]
+	title: "{sky_greg.quests.chapters_hv_age.231}"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "sky-greg",
+  "name": "SkyGreg",
+  "summary": "Индустриальный скайблок на базе GregTech CEu Modern, AE2 и SkyblockBuilder.",
+  "description": "Индустриально-технологическая скайблок-сборка SkyGreg. Версия сборки: 2.7.1 · Minecraft 1.20.1 (Forge 47.4.13 · Java 17).",
+  "cover": "ForLauncher/bg-skygreg.jpg",
+  "version": "2.7.1",
+  "minecraft": "1.20.1",
+  "loader": {
+    "type": "forge",
+    "version": "47.4.13"
+  },
+  "recommendedMemoryMb": 8192,
+  "manifestUrl": "https://github.com/AbiBok89/SkyGreg/releases/download/v2.7.1/manifest.json",
+  "news": "ForLauncher/news.json"
+}

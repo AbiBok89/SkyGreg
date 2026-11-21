@@ -1,0 +1,893 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "intro"
+	group: "3483E4EBAD9C4714"
+	icon: "gtceu:rubber_log"
+	id: "5FA6F711B0CF7446"
+	images: [{
+		height: 3.0d
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [
+		{
+			id: "4CE70DE47CC43037"
+			linked_quest: "75D2A06BE6E6FFD9"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "762BA41C4F7DC444"
+			linked_quest: "3C9C17621460BA19"
+			shape: "rsquare"
+			x: -3.0d
+			y: 8.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.1}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_intro.2_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"707DAB26AC9F7E1E\"}, \"translate\": \"sky_greg.quests.chapters_intro.2_2\"}, {\"translate\": \"sky_greg.quests.chapters_intro.2_3\"}]"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_intro.3_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"77898BD300971A36\"}, \"translate\": \"sky_greg.quests.chapters_intro.3_2\"}, {\"translate\": \"sky_greg.quests.chapters_intro.3_3\"}]"
+				""
+				"{sky_greg.quests.chapters_intro.4}"
+				""
+				"{sky_greg.quests.chapters_intro.5}"
+				""
+				"{sky_greg.quests.chapters_intro.6}"
+			]
+			id: "4462E9F7062D4E87"
+			rewards: [{
+				id: "0FC8D8804E5C003E"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_intro.7}"
+			tasks: [{
+				id: "3F47ED63BF13E098"
+				item: "gtceu:rubber_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.8}"
+				""
+				"{sky_greg.quests.chapters_intro.9}"
+				""
+				"{sky_greg.quests.chapters_intro.10}"
+				""
+				"{sky_greg.quests.chapters_intro.11}"
+				""
+				"{sky_greg.quests.chapters_intro.12}"
+				""
+				"{sky_greg.quests.chapters_intro.13}"
+			]
+			id: "0DBCE651A4F464F7"
+			shape: "square"
+			subtitle: "{sky_greg.quests.chapters_intro.14}"
+			tasks: [{
+				icon: "simple_resource_generators:random_ore_block_generator_placement"
+				id: "0A1AC9096C3B53E9"
+				observe_type: 0
+				timer: 0L
+				title: "{sky_greg.quests.chapters_intro.15}"
+				to_observe: "simple_resource_generators:random_ore_block_generator_placement"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.16}"
+				""
+				"{sky_greg.quests.chapters_intro.17}"
+				""
+				"{sky_greg.quests.chapters_intro.18}"
+				""
+				"{sky_greg.quests.chapters_intro.19}"
+				""
+				"{sky_greg.quests.chapters_intro.20}"
+			]
+			id: "482C15EC43DAAFBA"
+			shape: "square"
+			subtitle: "{sky_greg.quests.chapters_intro.21}"
+			tasks: [{
+				icon: "simple_resource_generators:raw_conversion_generator"
+				id: "0225ADEC1F90B6E9"
+				observe_type: 0
+				timer: 0L
+				title: "{sky_greg.quests.chapters_intro.22}"
+				to_observe: "simple_resource_generators:raw_conversion_generator"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.23}"
+				""
+				"{sky_greg.quests.chapters_intro.24}"
+				""
+				"{sky_greg.quests.chapters_intro.25}"
+				""
+				"{sky_greg.quests.chapters_intro.26}"
+				"{sky_greg.quests.chapters_intro.27}"
+				"{sky_greg.quests.chapters_intro.28}"
+				""
+				"{sky_greg.quests.chapters_intro.29}"
+				""
+				"{sky_greg.quests.chapters_intro.30}"
+			]
+			id: "0AD0B4EAC2AA5209"
+			shape: "square"
+			subtitle: "{sky_greg.quests.chapters_intro.31}"
+			tasks: [{
+				icon: "simple_resource_generators:simple_water_condenser"
+				id: "677132354ED49F77"
+				observe_type: 0
+				timer: 0L
+				title: "{sky_greg.quests.chapters_intro.32}"
+				to_observe: "simple_resource_generators:simple_water_condenser"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0DBCE651A4F464F7"
+				"67A71A946653F866"
+			]
+			description: ["{sky_greg.quests.chapters_intro.33}"]
+			id: "492FE38D3B2C2F20"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.34}"
+			tasks: [{
+				id: "1B6C77D9E5C72ACA"
+				item: "simple_resource_generators:random_ore_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.35}"
+				""
+				"{sky_greg.quests.chapters_intro.36}"
+				""
+				"{sky_greg.quests.chapters_intro.37}"
+				""
+				"{sky_greg.quests.chapters_intro.38}"
+				""
+				"{sky_greg.quests.chapters_intro.39}"
+				""
+				"{sky_greg.quests.chapters_intro.40}"
+				""
+				"{sky_greg.quests.chapters_intro.41}"
+			]
+			id: "7F5745C91297CB3B"
+			rewards: [{
+				id: "2937F9159ADCE670"
+				item: {
+					Count: 1
+					id: "enderchests:ender_pouch"
+					tag: {
+						open: 0b
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{sky_greg.quests.chapters_intro.42}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ex_hammers:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1AA0896878FD6ACD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/crushing_hammers"
+					}
+				}
+				title: "{sky_greg.quests.chapters_intro.43}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_intro.44}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.45}"
+				""
+				"{sky_greg.quests.chapters_intro.46}"
+				""
+				"{sky_greg.quests.chapters_intro.47}"
+			]
+			id: "39D99BD0ACC2EEC1"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.48}"
+			tasks: [{
+				icon: "simple_resource_generators:simple_lava_condenser"
+				id: "765BE631063173B9"
+				observe_type: 0
+				timer: 0L
+				title: "{sky_greg.quests.chapters_intro.49}"
+				to_observe: "simple_resource_generators:simple_lava_condenser"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.50}"
+				""
+				"{sky_greg.quests.chapters_intro.51}"
+				""
+				"{sky_greg.quests.chapters_intro.52}"
+			]
+			icon: "mob_grinding_utils:golden_egg"
+			id: "39A9C44A376EE7DE"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.53}"
+			tasks: [{
+				id: "0BC51AF25C1008D0"
+				title: "{sky_greg.quests.chapters_intro.54}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.55}"
+				""
+				"{sky_greg.quests.chapters_intro.56}"
+				""
+				"{sky_greg.quests.chapters_intro.57}"
+				""
+				"{sky_greg.quests.chapters_intro.58}"
+				""
+				"{sky_greg.quests.chapters_intro.59}"
+				""
+				"{sky_greg.quests.chapters_intro.60}"
+				""
+				"{sky_greg.quests.chapters_intro.61}"
+				""
+				"{sky_greg.quests.chapters_intro.62}"
+			]
+			icon: "gtceu:endstone_diamond_ore"
+			id: "14A6545CEE50C10F"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.63}"
+			tasks: [{
+				id: "63BAA184B3B5F5C4"
+				title: "{sky_greg.quests.chapters_intro.64}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.65}"
+				""
+				"{sky_greg.quests.chapters_intro.66}"
+				"{sky_greg.quests.chapters_intro.67}"
+				"{sky_greg.quests.chapters_intro.68}"
+				"{sky_greg.quests.chapters_intro.69}"
+				"{sky_greg.quests.chapters_intro.70}"
+			]
+			hide_dependency_lines: true
+			id: "54585C31FF2226A2"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.71}"
+			tasks: [{
+				id: "5240727B9A9A849C"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.72}"
+				""
+				"{sky_greg.quests.chapters_intro.73}"
+				""
+				"{sky_greg.quests.chapters_intro.74}"
+				""
+				"{sky_greg.quests.chapters_intro.75}"
+				""
+				"{sky_greg.quests.chapters_intro.76}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_intro.77_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6F0C7C76D9BE56AE\"}, \"translate\": \"sky_greg.quests.chapters_intro.77_2\"}, {\"translate\": \"sky_greg.quests.chapters_intro.77_3\"}]"
+				""
+				"{sky_greg.quests.chapters_intro.78}"
+				""
+				"{sky_greg.quests.chapters_intro.79}"
+				""
+				"{sky_greg.quests.chapters_intro.80}"
+				""
+				"{sky_greg.quests.chapters_intro.81}"
+			]
+			icon: "minecraft:writable_book"
+			id: "40436BC7CC08D144"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.82}"
+			tasks: [{
+				id: "14524C8A4704DB86"
+				title: "{sky_greg.quests.chapters_intro.83}"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.84}"
+				""
+				"{sky_greg.quests.chapters_intro.85}"
+				""
+				"{sky_greg.quests.chapters_intro.86}"
+				""
+				"{sky_greg.quests.chapters_intro.87}"
+			]
+			hide_dependency_lines: true
+			icon: "dimpaintings:nether_painting"
+			id: "3DD7D6329124737E"
+			optional: true
+			rewards: [{
+				id: "72F98A8495E4BD35"
+				item: "dimpaintings:overworld_painting"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.88}"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "0056CF14E6B5231B"
+					title: "{sky_greg.quests.chapters_intro.89}"
+					type: "dimension"
+				}
+				{
+					id: "21F4298B0F0612A9"
+					item: "dimpaintings:nether_painting"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.90}"
+				""
+				"{sky_greg.quests.chapters_intro.91}"
+			]
+			icon: "enderio:ender_fluid_conduit"
+			id: "36140838F3343E92"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.92}"
+			tasks: [{
+				id: "4FD65DAE8F7E832C"
+				title: "{sky_greg.quests.chapters_intro.93}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_intro.94}"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.95}"
+				""
+				"[{\"translate\": \"sky_greg.quests.chapters_intro.96_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6F0C7C76D9BE56AE\"}, \"translate\": \"sky_greg.quests.chapters_intro.96_2\"}, {\"translate\": \"sky_greg.quests.chapters_intro.96_3\"}]"
+				""
+				"{sky_greg.quests.chapters_intro.97}"
+				""
+				"{sky_greg.quests.chapters_intro.98}"
+				""
+				"{sky_greg.quests.chapters_intro.99}"
+				""
+				"{sky_greg.quests.chapters_intro.100}"
+				""
+				"{sky_greg.quests.chapters_intro.101}"
+				""
+				"{sky_greg.quests.chapters_intro.102}"
+				""
+				"{sky_greg.quests.chapters_intro.103}"
+			]
+			icon: "ftbquests:book"
+			id: "1B5738B5D13B5A64"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.104}"
+			tasks: [{
+				id: "1D3DBB0EDA750461"
+				title: "{sky_greg.quests.chapters_intro.105}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F5745C91297CB3B"]
+			description: [
+				"{sky_greg.quests.chapters_intro.106}"
+				""
+				"{sky_greg.quests.chapters_intro.107}"
+				""
+				"{sky_greg.quests.chapters_intro.108}"
+			]
+			id: "3EA129DF35925916"
+			rewards: [{
+				count: 32
+				id: "6685F913924D0F95"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_intro.109}"
+			tasks: [{
+				id: "061BD8FFC13F0A08"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EA129DF35925916"]
+			description: [
+				"{sky_greg.quests.chapters_intro.110}"
+				""
+				"{sky_greg.quests.chapters_intro.111}"
+			]
+			id: "24E853EAA8010B8F"
+			rewards: [{
+				count: 32
+				id: "451793C49BF1945F"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_intro.112}"
+			tasks: [{
+				id: "41D9DBB8FA804633"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0AD0B4EAC2AA5209"
+				"5A979C11538C1E29"
+			]
+			description: [
+				"{sky_greg.quests.chapters_intro.113}"
+				""
+				"{sky_greg.quests.chapters_intro.114}"
+				""
+				"{sky_greg.quests.chapters_intro.115}"
+				""
+				"{sky_greg.quests.chapters_intro.116}"
+				""
+				"{sky_greg.quests.chapters_intro.117}"
+			]
+			icon: "minecraft:clay"
+			id: "1BC846356EB47249"
+			subtitle: "{sky_greg.quests.chapters_intro.118}"
+			tasks: [
+				{
+					id: "0177C4ABDE5290EE"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "21C7D906B47F1729"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24E853EAA8010B8F"]
+			description: [
+				"{sky_greg.quests.chapters_intro.119}"
+				""
+				"{sky_greg.quests.chapters_intro.120}"
+			]
+			id: "5A979C11538C1E29"
+			rewards: [{
+				count: 16
+				id: "1413013F8F1781B3"
+				item: "ex_hammers:dust"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_intro.121}"
+			tasks: [{
+				id: "10BD2411EF227AD0"
+				item: "ex_hammers:dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F5745C91297CB3B"]
+			description: [
+				"{sky_greg.quests.chapters_intro.122}"
+				""
+				"{sky_greg.quests.chapters_intro.123}"
+				""
+				"{sky_greg.quests.chapters_intro.124}"
+			]
+			id: "1FA571770C50B683"
+			rewards: [{
+				count: 8
+				id: "3791E66A42C67834"
+				item: "ex_hammers:plant_fiber"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_intro.125}"
+			tasks: [{
+				id: "417E7C485D572F33"
+				item: "ex_hammers:plant_fiber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FA571770C50B683"]
+			description: [
+				"{sky_greg.quests.chapters_intro.126}"
+				""
+				"{sky_greg.quests.chapters_intro.127}"
+				""
+				"{sky_greg.quests.chapters_intro.128}"
+			]
+			hide_dependency_lines: false
+			id: "29961CF6E960A4AB"
+			subtitle: "{sky_greg.quests.chapters_intro.129}"
+			tasks: [{
+				icon: "minecraft:white_bed"
+				id: "7ACE8F902222A6D9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "{sky_greg.quests.chapters_intro.130}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EA129DF35925916"]
+			description: [
+				"{sky_greg.quests.chapters_intro.131}"
+				""
+				"{sky_greg.quests.chapters_intro.132}"
+				""
+				"{sky_greg.quests.chapters_intro.133}"
+			]
+			id: "053BC0E8213BE28A"
+			rewards: [{
+				count: 12
+				id: "5D82D8BA396AEF86"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_intro.134}"
+			tasks: [{
+				id: "2D46DD4D0A96211F"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.135}"
+				""
+				"{sky_greg.quests.chapters_intro.136}"
+				""
+				"{sky_greg.quests.chapters_intro.137}"
+			]
+			hide_dependency_lines: true
+			icon: "simple_resource_generators:random_sapling_generator"
+			id: "4FBBE2E8A65A1AA9"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.138}"
+			tasks: [
+				{
+					id: "738098CB445D4E6A"
+					item: "simple_resource_generators:random_sapling_generator"
+					type: "item"
+				}
+				{
+					id: "6A1292E3C67EB9A5"
+					item: "simple_resource_generators:random_seed_generator"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_intro.139}"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.140}"
+				""
+				"{sky_greg.quests.chapters_intro.141}"
+				""
+				"{sky_greg.quests.chapters_intro.142}"
+			]
+			id: "05268F92296BA27D"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.143}"
+			tasks: [{
+				id: "15BB550CA90471F4"
+				item: "simple_resource_generators:simple_ore_generator_placement"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"75D2A06BE6E6FFD9"
+				"6886D21F1A09609E"
+			]
+			description: ["{sky_greg.quests.chapters_intro.144}"]
+			id: "633EEA4FEB41FB2E"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.145}"
+			tasks: [{
+				id: "58FB4CCDEF8902F1"
+				item: "simple_resource_generators:advanced_ore_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FA571770C50B683"]
+			description: [
+				"{sky_greg.quests.chapters_intro.146}"
+				""
+				"{sky_greg.quests.chapters_intro.147}"
+				""
+				"{sky_greg.quests.chapters_intro.148}"
+			]
+			id: "374D02B5D67CC32B"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "01631F3A127D4396"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{sky_greg.quests.chapters_intro.149}"
+			tasks: [{
+				id: "6ACFF07AB4245C45"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["053BC0E8213BE28A"]
+			description: [
+				"{sky_greg.quests.chapters_intro.150}"
+				""
+				"{sky_greg.quests.chapters_intro.151}"
+			]
+			id: "423AC183F2D9779C"
+			subtitle: "{sky_greg.quests.chapters_intro.152}"
+			tasks: [{
+				id: "50FF4C4E720C07DC"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_intro.153}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "2C5E252E4AAECD5F"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.154}"
+			tasks: [{
+				id: "20FDDBBB107FA58F"
+				title: "{sky_greg.quests.chapters_intro.155}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_intro.156}"
+				""
+				"{sky_greg.quests.chapters_intro.157}"
+				""
+				"{sky_greg.quests.chapters_intro.158}"
+				""
+				"{sky_greg.quests.chapters_intro.159}"
+				""
+				"{sky_greg.quests.chapters_intro.160}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "627573157941A262"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.161}"
+			tasks: [{
+				id: "5C941CD680C18C3F"
+				title: "{sky_greg.quests.chapters_intro.162}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_intro.163}"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["482C15EC43DAAFBA"]
+			description: [
+				"{sky_greg.quests.chapters_intro.164}"
+				""
+				"{sky_greg.quests.chapters_intro.165}"
+				""
+				"{sky_greg.quests.chapters_intro.166}"
+			]
+			id: "473153CD38D9CD1D"
+			rewards: [{
+				id: "2A382D7D2073F441"
+				item: "itemcollectors:advanced_collector"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_intro.167}"
+			tasks: [{
+				icon: "gtceu:raw_coal"
+				id: "0C1D857C61D1928E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials"
+					}
+				}
+				title: "{sky_greg.quests.chapters_intro.168}"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"[{\"translate\": \"sky_greg.quests.chapters_intro.169_1\"}, {\"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5B831D008A04AFDC\"}, \"translate\": \"sky_greg.quests.chapters_intro.169_2\"}, {\"translate\": \"sky_greg.quests.chapters_intro.169_3\"}]"
+				""
+				"{sky_greg.quests.chapters_intro.170}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "09D7B3F423239B71"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_intro.171}"
+			tasks: [{
+				id: "714F00FE5A09543D"
+				title: "{sky_greg.quests.chapters_intro.172}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["423AC183F2D9779C"]
+			description: [
+				"{sky_greg.quests.chapters_intro.173}"
+				""
+				"{sky_greg.quests.chapters_intro.174}"
+				""
+				"{sky_greg.quests.chapters_intro.175}"
+				""
+				"{sky_greg.quests.chapters_intro.176}"
+				""
+				"{sky_greg.quests.chapters_intro.177}"
+				"{sky_greg.quests.chapters_intro.178}"
+				"{sky_greg.quests.chapters_intro.179}"
+				"{sky_greg.quests.chapters_intro.180}"
+				"{sky_greg.quests.chapters_intro.181}"
+				"{sky_greg.quests.chapters_intro.182}"
+				"{sky_greg.quests.chapters_intro.183}"
+				"{sky_greg.quests.chapters_intro.184}"
+				"{sky_greg.quests.chapters_intro.185}"
+				"{sky_greg.quests.chapters_intro.186}"
+				""
+				"{sky_greg.quests.chapters_intro.187}"
+			]
+			id: "1695F926FFDE30FD"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_intro.188}"
+			tasks: [{
+				id: "73C6BD98B8B08D8F"
+				item: "infinite_blocks:infinite_block_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+	]
+	subtitle: ["A different start!"]
+	title: "{sky_greg.quests.chapters_intro.189}"
+}

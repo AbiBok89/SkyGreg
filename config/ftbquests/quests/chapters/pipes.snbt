@@ -1,0 +1,4268 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	disable_toast: true
+	filename: "pipes"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:neutronium_huge_fluid_pipe"
+	id: "151270BDAAF84948"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.1}"
+				""
+				"{sky_greg.quests.chapters_pipes.2}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "09B79FA15D29822E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5B95FD4E9AAA6B2B"
+				title: "{sky_greg.quests.chapters_pipes.3}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.4}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "63E3D66942078FF9"
+			subtitle: "{sky_greg.quests.chapters_pipes.5}"
+			tasks: [{
+				id: "7386FA655DA9847F"
+				item: "gtceu:niobium_titanium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "185127F01E17468B"
+			subtitle: "{sky_greg.quests.chapters_pipes.6}"
+			tasks: [{
+				id: "52D71F875E0AFE6B"
+				item: "gtceu:steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "2A066A50EB25BE1D"
+			subtitle: "{sky_greg.quests.chapters_pipes.7}"
+			tasks: [{
+				id: "6B333189B715377C"
+				item: "gtceu:vanadium_steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "2AC8C9697C00C13F"
+			subtitle: "{sky_greg.quests.chapters_pipes.8}"
+			tasks: [{
+				id: "48BC178600901E88"
+				item: "gtceu:stainless_steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "2E58A169FEA57F12"
+			subtitle: "{sky_greg.quests.chapters_pipes.9}"
+			tasks: [{
+				id: "7038E28E83D62B3A"
+				item: "gtceu:duranium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "5BAE57C6ED1ED530"
+			subtitle: "{sky_greg.quests.chapters_pipes.10}"
+			tasks: [{
+				id: "5B954200FB3904FF"
+				item: "gtceu:aluminium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "4C17081887AA6571"
+			subtitle: "{sky_greg.quests.chapters_pipes.11}"
+			tasks: [{
+				id: "4B65D433BAA44B38"
+				item: "gtceu:potin_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "7DD4DF4E39B52FC0"
+			subtitle: "{sky_greg.quests.chapters_pipes.12}"
+			tasks: [{
+				id: "33CA69B5A293F6F1"
+				item: "gtceu:copper_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "3F9552F0B415B4F2"
+			subtitle: "{sky_greg.quests.chapters_pipes.13}"
+			tasks: [{
+				id: "070F06311D8E7078"
+				item: "gtceu:bronze_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "2281D8D558A76507"
+			subtitle: "{sky_greg.quests.chapters_pipes.14}"
+			tasks: [{
+				id: "10FEAF3C1FFB03BB"
+				item: "gtceu:tungsten_carbide_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "4EE53187A92F5E1A"
+			subtitle: "{sky_greg.quests.chapters_pipes.15}"
+			tasks: [{
+				id: "7AE6433C9B9A9A89"
+				item: "gtceu:polytetrafluoroethylene_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "32A6589E366A9A3C"
+			subtitle: "{sky_greg.quests.chapters_pipes.16}"
+			tasks: [{
+				id: "71F74995A6A92146"
+				item: "gtceu:tungsten_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "5B3A625BA5508083"
+			subtitle: "{sky_greg.quests.chapters_pipes.17}"
+			tasks: [{
+				id: "5330023E5CBCCC0E"
+				item: "gtceu:polybenzimidazole_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "79F8EB2961ED699D"
+			subtitle: "{sky_greg.quests.chapters_pipes.18}"
+			tasks: [{
+				id: "53C4DED97B231BB9"
+				item: "gtceu:treated_wood_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "2F602B4C082AB95B"
+			subtitle: "{sky_greg.quests.chapters_pipes.19}"
+			tasks: [{
+				id: "6A74A1015B71640D"
+				item: "gtceu:chromium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "2B492E8C8737E783"
+			subtitle: "{sky_greg.quests.chapters_pipes.20}"
+			tasks: [{
+				id: "30487469760CFF79"
+				item: "gtceu:lead_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "7D35621B863AC1E4"
+			subtitle: "{sky_greg.quests.chapters_pipes.21}"
+			tasks: [{
+				id: "797F76361B38EEB1"
+				item: "gtceu:europium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "104C9CB223F93BA9"
+			subtitle: "{sky_greg.quests.chapters_pipes.22}"
+			tasks: [{
+				id: "7A9173BD81552A2E"
+				item: "gtceu:titanium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "4E7104F663805DF2"
+			subtitle: "{sky_greg.quests.chapters_pipes.23}"
+			tasks: [{
+				id: "27D85192223D16D9"
+				item: "gtceu:polyethylene_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6C407A217BF12DA0"
+			subtitle: "{sky_greg.quests.chapters_pipes.24}"
+			tasks: [{
+				id: "0245A1424933EDFE"
+				item: "gtceu:tungsten_steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "333162E43AD59A70"
+			subtitle: "{sky_greg.quests.chapters_pipes.25}"
+			tasks: [{
+				id: "13EFE7B26B75B769"
+				item: "gtceu:gold_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "568CF9778C1334B5"
+			subtitle: "{sky_greg.quests.chapters_pipes.26}"
+			tasks: [{
+				id: "4DDBDEEBCD0CB26F"
+				item: "gtceu:naquadah_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "78E82BA89780A425"
+			subtitle: "{sky_greg.quests.chapters_pipes.27}"
+			tasks: [{
+				id: "56AB8E570114DC4F"
+				item: "gtceu:neutronium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6F923D3A48415F61"
+			subtitle: "{sky_greg.quests.chapters_pipes.28}"
+			tasks: [{
+				id: "274804B02B0DAE6C"
+				item: "gtceu:wood_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "440CFC5D582EC33B"
+			subtitle: "{sky_greg.quests.chapters_pipes.29}"
+			tasks: [{
+				id: "261C8360D5CFBE23"
+				item: "gtceu:tin_alloy_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "401DDA546DC04812"
+			subtitle: "{sky_greg.quests.chapters_pipes.30}"
+			tasks: [{
+				id: "6523B6451A282B96"
+				item: "gtceu:iridium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "48C63A802B0143AD"
+			subtitle: "{sky_greg.quests.chapters_pipes.31}"
+			tasks: [{
+				id: "6000BE3D8FEAB69A"
+				item: "gttruesteam:infernal_alloy_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.32}"
+				""
+				"{sky_greg.quests.chapters_pipes.33}"
+				""
+				"{sky_greg.quests.chapters_pipes.34}"
+				"{sky_greg.quests.chapters_pipes.35}"
+				"{sky_greg.quests.chapters_pipes.36}"
+				"{sky_greg.quests.chapters_pipes.37}"
+				"{sky_greg.quests.chapters_pipes.38}"
+				""
+				"{sky_greg.quests.chapters_pipes.39}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "76BCB3FA4559BCD2"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_pipes.40}"
+			tasks: [{
+				id: "387159CA7D659C0A"
+				title: "{sky_greg.quests.chapters_pipes.41}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.42}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.43}"
+				""
+				"{sky_greg.quests.chapters_pipes.44}"
+				""
+				"{sky_greg.quests.chapters_pipes.45}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "0A277E74F28C4340"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_pipes.46}"
+			tasks: [{
+				id: "710FBA87CF6E16FB"
+				title: "{sky_greg.quests.chapters_pipes.47}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.48}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "5BFD395FE9F45640"
+			subtitle: "{sky_greg.quests.chapters_pipes.49}"
+			tasks: [{
+				id: "511DAEF997174132"
+				item: "gtceu:wood_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "58132AC29A4E51D8"
+			subtitle: "{sky_greg.quests.chapters_pipes.50}"
+			tasks: [{
+				id: "3332248AC01206DA"
+				item: "gtceu:copper_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "41C69B3F9EE05CBF"
+			subtitle: "{sky_greg.quests.chapters_pipes.51}"
+			tasks: [{
+				id: "56AE45D4576C2171"
+				item: "gtceu:treated_wood_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "2D7DC80C29D3DF7D"
+			subtitle: "{sky_greg.quests.chapters_pipes.52}"
+			tasks: [{
+				id: "0E6FB919AB4F4E03"
+				item: "gttruesteam:infernal_alloy_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "6EE9D321E9AF802F"
+			subtitle: "{sky_greg.quests.chapters_pipes.53}"
+			tasks: [{
+				id: "1A89C31AD8C1329B"
+				item: "gtceu:tin_alloy_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "574D8CAEDDFB8826"
+			subtitle: "{sky_greg.quests.chapters_pipes.54}"
+			tasks: [{
+				id: "67275209C777A6F5"
+				item: "gtceu:bronze_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "281BCFD00B91A2C6"
+			subtitle: "{sky_greg.quests.chapters_pipes.55}"
+			tasks: [{
+				id: "5C5434D5D4DC5478"
+				item: "gtceu:gold_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "1D8480D79F67EB5B"
+			subtitle: "{sky_greg.quests.chapters_pipes.56}"
+			tasks: [{
+				id: "0E73FD4D8E6A1E9E"
+				item: "gtceu:lead_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "3337194A6D9B9B1A"
+			subtitle: "{sky_greg.quests.chapters_pipes.57}"
+			tasks: [{
+				id: "28D176D1179C1B45"
+				item: "gtceu:chromium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "5E4645E90A95CBC6"
+			subtitle: "{sky_greg.quests.chapters_pipes.58}"
+			tasks: [{
+				id: "3806BB8EAAC02B4F"
+				item: "gtceu:potin_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "52B99ED812930D75"
+			subtitle: "{sky_greg.quests.chapters_pipes.59}"
+			tasks: [{
+				id: "480058E4C51995CE"
+				item: "gtceu:steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "4F7FDC1FA317880B"
+			subtitle: "{sky_greg.quests.chapters_pipes.60}"
+			tasks: [{
+				id: "7E0FCCD87F3BDD84"
+				item: "gtceu:vanadium_steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "6753DA1C489458D4"
+			subtitle: "{sky_greg.quests.chapters_pipes.61}"
+			tasks: [{
+				id: "2CA455791920221C"
+				item: "gtceu:tungsten_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "10ADD80AB9416452"
+			subtitle: "{sky_greg.quests.chapters_pipes.62}"
+			tasks: [{
+				id: "4E302643F8A236EE"
+				item: "gtceu:polyethylene_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "153A4334850807C0"
+			subtitle: "{sky_greg.quests.chapters_pipes.63}"
+			tasks: [{
+				id: "3981C12B68B606F5"
+				item: "gtceu:stainless_steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "5606075403873E2A"
+			subtitle: "{sky_greg.quests.chapters_pipes.64}"
+			tasks: [{
+				id: "1F9A8E959E5785F6"
+				item: "gtceu:polytetrafluoroethylene_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "56226A6B4ADD5A5B"
+			subtitle: "{sky_greg.quests.chapters_pipes.65}"
+			tasks: [{
+				id: "289C2AE2B186746F"
+				item: "gtceu:aluminium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "54F88E243253D016"
+			subtitle: "{sky_greg.quests.chapters_pipes.66}"
+			tasks: [{
+				id: "30A59FDE6AB6F7A2"
+				item: "gtceu:titanium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "2B486D8659E09F58"
+			subtitle: "{sky_greg.quests.chapters_pipes.67}"
+			tasks: [{
+				id: "3551DBCEB62C8E55"
+				item: "gtceu:niobium_titanium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "041E905A778617EB"
+			subtitle: "{sky_greg.quests.chapters_pipes.68}"
+			tasks: [{
+				id: "61F69152A4D7F3B5"
+				item: "gtceu:naquadah_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "17B793A0C2BC5A45"
+			subtitle: "{sky_greg.quests.chapters_pipes.69}"
+			tasks: [{
+				id: "27D8BF3047FFBFE5"
+				item: "gtceu:tungsten_carbide_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "6AD1891ABC6E87BF"
+			subtitle: "{sky_greg.quests.chapters_pipes.70}"
+			tasks: [{
+				id: "5873D9E2AD594DE7"
+				item: "gtceu:tungsten_steel_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "38A8342B7947B4B3"
+			subtitle: "{sky_greg.quests.chapters_pipes.71}"
+			tasks: [{
+				id: "587CEBF0CA308CD8"
+				item: "gtceu:iridium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "0394607A71271EED"
+			subtitle: "{sky_greg.quests.chapters_pipes.72}"
+			tasks: [{
+				id: "4A9B7FFA145B16DD"
+				item: "gtceu:europium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "72050EFDFB2BE51D"
+			subtitle: "{sky_greg.quests.chapters_pipes.73}"
+			tasks: [{
+				id: "08C94177239C595B"
+				item: "gtceu:polybenzimidazole_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "07715A670231FA31"
+			subtitle: "{sky_greg.quests.chapters_pipes.74}"
+			tasks: [{
+				id: "539D0A65EEE6D109"
+				item: "gtceu:duranium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "1D5C0342FFFD2B01"
+			subtitle: "{sky_greg.quests.chapters_pipes.75}"
+			tasks: [{
+				id: "3F3DDB358EEA8783"
+				item: "gtceu:neutronium_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 4.0d
+		}
+		{
+			id: "364A8345EACE0F15"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "23A21E4004A4DFE6"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.76}"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "5CE58CACCD9C1838"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "7BBD86CBE4E64CBB"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.77}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "583C4808A0CFEBFF"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "0ACB7CA866C4DA41"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.78}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "137AC807B5171B0A"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "22BB0B2AAFD0B550"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.79}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "685D47F90F330AF8"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "43D1E09980D24364"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.80}"
+				type: "custom"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "031AAD2996343AE9"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "49CB0D2020917105"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.81}"
+				type: "custom"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "3159366DBEF5DD2D"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "05DB9F1E32A0B7EE"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.82}"
+				type: "custom"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "5D6A698773CA9C02"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "09469BF1F12E4E7C"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.83}"
+				type: "custom"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "2AB96D4FBB9C331A"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "5F1B4957CDDCC4AC"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.84}"
+				type: "custom"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "3ADEA32F36C62AD9"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "1DD5AE66135F4A48"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.85}"
+				type: "custom"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "00330DAD35BD5081"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "16B1BCBBB419C2EB"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.86}"
+				type: "custom"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "098EC31D671727D9"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "40C469C7D8B861F7"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.87}"
+				type: "custom"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			id: "1F6E3FC9506A6E05"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "797C94BF645A5C60"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.88}"
+				type: "custom"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			id: "16BC3C079109BA92"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "01AC01AD39696E93"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.89}"
+				type: "custom"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			id: "557B85C5FEB93374"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "486EE3B1AA6136DB"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.90}"
+				type: "custom"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			id: "59FF5629CCA89161"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "5E89F4D39D3089C8"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.91}"
+				type: "custom"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			id: "54AE17D1BDE966AA"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "30937B131E5C2563"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.92}"
+				type: "custom"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			id: "00EF684AD32B727B"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "0B9A3D020A3AEAE5"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.93}"
+				type: "custom"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			id: "0A57D8F91305B9B1"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "3428EF0D99879933"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.94}"
+				type: "custom"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			id: "11D1B80BC0412632"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "2A8D587546900C8B"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.95}"
+				type: "custom"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			id: "6E6E557F7253CD71"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "26DEC18A91BF8221"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.96}"
+				type: "custom"
+			}]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			id: "41F214D82E9B773B"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "4C03853E21B268CB"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.97}"
+				type: "custom"
+			}]
+			x: 24.0d
+			y: -1.0d
+		}
+		{
+			id: "512453C935975C26"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "53B4D04399383F54"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.98}"
+				type: "custom"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			id: "68376EF6D4DA9BDE"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "6A7E1DE5FAC4A18A"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.99}"
+				type: "custom"
+			}]
+			x: 26.0d
+			y: -1.0d
+		}
+		{
+			id: "2CE174E172B48FE0"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "66FB16E1C104BA3C"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.100}"
+				type: "custom"
+			}]
+			x: 27.0d
+			y: -1.0d
+		}
+		{
+			id: "47F3B011B32EB7EC"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "70B9EC36978B1CE1"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.101}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: -1.0d
+		}
+		{
+			id: "49A29B0A852956FF"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "5ECF7E7A12C33BB2"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.102}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: -1.0d
+		}
+		{
+			id: "1BA7811B8804CE68"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "405BB72B1CE7EF43"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.103}"
+				type: "custom"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			id: "2A3F64282FAB0B3F"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "4A3A9E82815D6438"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.104}"
+				type: "custom"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			id: "7EE493AD7811E9CA"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "186D49CA0597C17B"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.105}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			id: "6DECAD802ED013AD"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "2B09F2E45F59D7FE"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.106}"
+				type: "custom"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			id: "1C4D219853A55F6E"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "507D3260B35C7C9A"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.107}"
+				type: "custom"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			id: "194E2A8676419024"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "17252A31CA14A226"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.108}"
+				type: "custom"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "2029EACD70DC39F7"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "5634DFD8DD6A77C4"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.109}"
+				type: "custom"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "3225EF5719083B27"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "3AA53BCFFDFC753A"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.110}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			id: "29ADAF742EAED41F"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "036E1E4ED548DE4B"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.111}"
+				type: "custom"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			id: "2C18CB4B21B81354"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "39C71F9F8EF9BB04"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.112}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: -2.0d
+		}
+		{
+			id: "0C81850ED7E683B6"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "59326877AA317784"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.113}"
+				type: "custom"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			id: "1760C3F1CC816A71"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "659D0681F2A3BB8E"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.114}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: -2.0d
+		}
+		{
+			id: "7C906AF4FD32F095"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "4DE7497D355E4DD1"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.115}"
+				type: "custom"
+			}]
+			x: 25.0d
+			y: -2.0d
+		}
+		{
+			id: "17A282C891A91CDF"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "6C939105266FC2E2"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.116}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: -2.5d
+		}
+		{
+			id: "7F1F2A6F71B2B78C"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "161028546E959016"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.117}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: -2.5d
+		}
+		{
+			id: "1097A0E393B3F85F"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "5ED7CAA82EEBF58D"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.118}"
+				type: "custom"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			id: "258F7AD29C4705B4"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "0661CDCF3F34A69A"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.119}"
+				type: "custom"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			id: "3D14402125B1F76F"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "7E52F7D7D05472C4"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.120}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "171B2AC6FF3BE8A4"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "0AA932B21DC899A5"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.121}"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "2761EC279961C4D8"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "4C981341A513C762"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.122}"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "391488EAB7DBB701"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "7F2F898E5FC56BFB"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.123}"
+				type: "custom"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "73E26BB109D2BF78"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "61672C505EB73C4E"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.124}"
+				type: "custom"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "7834CA80D510176B"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "444C91784A0A837C"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.125}"
+				type: "custom"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "487708A8D0F4403E"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "0CA33D5B21323404"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.126}"
+				type: "custom"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "7977F069CA308EFA"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "5C74BBF7CA22BA96"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.127}"
+				type: "custom"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "354B066374EC7820"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "19E111A3E1A047EB"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.128}"
+				type: "custom"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "2764F3B3A7296956"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "51135B7EFE0A9CCE"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.129}"
+				type: "custom"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "0B889F29BF79DB4C"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "56654BE84AB8AE26"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.130}"
+				type: "custom"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "615A01407C4BD2E7"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "625137878C7DE5F0"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.131}"
+				type: "custom"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			id: "78097745F36ED557"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "66BCC6CAEBEEAEC4"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.132}"
+				type: "custom"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			id: "5073B685D4D398FA"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "2C78B0FAD1939B5E"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.133}"
+				type: "custom"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			id: "0284A4617BFE8FA3"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "71DFEA1F3F909E96"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.134}"
+				type: "custom"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			id: "6F81C23815589936"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "5B525EF55C482CCF"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.135}"
+				type: "custom"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			id: "2F189C8D28AB18A9"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "6628167C0DF62AC6"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.136}"
+				type: "custom"
+			}]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			id: "27A432E94834081F"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "359BCE26098205CF"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.137}"
+				type: "custom"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			id: "438679FEE3DEBA35"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "1B3114D850D32DEC"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.138}"
+				type: "custom"
+			}]
+			x: 22.0d
+			y: 3.0d
+		}
+		{
+			id: "326AA3EF59C92366"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "14084AC680FBF6C9"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.139}"
+				type: "custom"
+			}]
+			x: 23.0d
+			y: 3.0d
+		}
+		{
+			id: "6B53246DF40F701C"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "67BB18D20D173965"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.140}"
+				type: "custom"
+			}]
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			id: "4C91C3F466C6575E"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "70B729E4E882067C"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.141}"
+				type: "custom"
+			}]
+			x: 26.0d
+			y: 3.0d
+		}
+		{
+			id: "38B1AABCF94A9253"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "25276A12FCBB952F"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.142}"
+				type: "custom"
+			}]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			id: "106C8B6493BA983D"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "6F84927335F57F92"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.143}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			id: "2C0570B616D71655"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "289854E793F37252"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.144}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: 3.0d
+		}
+		{
+			id: "65E72C9F4E686261"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_yellow_dye"
+				id: "19C33D1FFA24EB80"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.145}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "4777C24F98943E07"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "6E108B46C04E677B"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.146}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "3D22959A1F643B93"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "22210496A1BB8D08"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.147}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "7D628D6568780B78"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "632E2FCE8B42C3D5"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.148}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "571DC767E8CBF48B"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "5D3870818E235C49"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.149}"
+				type: "custom"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			id: "0B651D04CCC4A447"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "426A5F0D40082D5D"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.150}"
+				type: "custom"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			id: "76629DBAC5149A6B"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "5F3BA28704D7EC9B"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.151}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: 2.5d
+		}
+		{
+			id: "1BD6E22178F3B04B"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "5717CFD005C61104"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.152}"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "4AB4065D10151841"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "5648EDE58ED6D4BA"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.153}"
+				type: "custom"
+			}]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			id: "6D97CF438C7CA702"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "38C5A855689DF2D2"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.154}"
+				type: "custom"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			id: "73845748FCCC7778"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "57A8F91FAE368BA5"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.155}"
+				type: "custom"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "227645973BE42355"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_lime_dye"
+				id: "1A1A7F740DC12C34"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.156}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: 2.5d
+		}
+		{
+			id: "5674FD4D445B36A5"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "268DEC022660DB1B"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.157}"
+				type: "custom"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			id: "6FB632AE1DFDD1D9"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "310727C86A05EEE2"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.158}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			id: "222C2AC129DEAF94"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "767BBCACF1915C7D"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.159}"
+				type: "custom"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			id: "0188FF2AB88F160C"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "1C08C27C0B6AD907"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.160}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: 2.0d
+		}
+		{
+			id: "32E451C7FE3E479A"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_cyan_dye"
+				id: "5FA68092635EE1AC"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.161}"
+				type: "custom"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			id: "08FE37C401A771B7"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "37FD7E4C94EBA1AE"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.162}"
+				type: "custom"
+			}]
+			x: 28.0d
+			y: 1.5d
+		}
+		{
+			id: "4A1DB44009BE1CA5"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "076A279A395AED79"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.163}"
+				type: "custom"
+			}]
+			x: 29.0d
+			y: 1.5d
+		}
+		{
+			id: "48602AFAEEBC0A4D"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "31C04D09FD8EA229"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.164}"
+				type: "custom"
+			}]
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			id: "65862B1B912801C3"
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				icon: "gtceu:chemical_magenta_dye"
+				id: "1EA39A62B784F820"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_pipes.165}"
+				type: "custom"
+			}]
+			x: 25.0d
+			y: 1.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_pipes.166}"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "29810EB9B6561735"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6598699C195ED3F9"
+				title: "{sky_greg.quests.chapters_pipes.167}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.168}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.169}"
+				""
+				"{sky_greg.quests.chapters_pipes.170}"
+				""
+				"{sky_greg.quests.chapters_pipes.171}"
+				"{sky_greg.quests.chapters_pipes.172}"
+				"{sky_greg.quests.chapters_pipes.173}"
+				"{sky_greg.quests.chapters_pipes.174}"
+				""
+				"{sky_greg.quests.chapters_pipes.175}"
+				""
+				"{sky_greg.quests.chapters_pipes.176}"
+				""
+				"{sky_greg.quests.chapters_pipes.177}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "4D032258E0390A84"
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_pipes.178}"
+			tasks: [{
+				id: "08C3DC4F12D96ADA"
+				title: "{sky_greg.quests.chapters_pipes.179}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.180}"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "495A5BC8AE89817F"
+			subtitle: "{sky_greg.quests.chapters_pipes.181}"
+			tasks: [{
+				id: "6C28C775BA471BA3"
+				item: "gtceu:cobalt_brass_normal_item_pipe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "72B3892D33349124"
+			subtitle: "{sky_greg.quests.chapters_pipes.182}"
+			tasks: [{
+				id: "27F68B3B8EA4F95B"
+				item: "gtceu:black_bronze_normal_item_pipe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "59D07789C2BD3EF6"
+			subtitle: "{sky_greg.quests.chapters_pipes.183}"
+			tasks: [{
+				id: "176BDE295BFFB6A3"
+				item: "gtceu:platinum_normal_item_pipe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "3E28324BE8E225FE"
+			subtitle: "{sky_greg.quests.chapters_pipes.184}"
+			tasks: [{
+				id: "4577AE920EAD967F"
+				item: "gtceu:nickel_normal_item_pipe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "5DD128288F3CD07A"
+			subtitle: "{sky_greg.quests.chapters_pipes.185}"
+			tasks: [{
+				id: "7C3D152A8A40D576"
+				item: "gtceu:ultimet_normal_item_pipe"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "3E74BE49F2527FBB"
+			subtitle: "{sky_greg.quests.chapters_pipes.186}"
+			tasks: [{
+				id: "2E1BAF9A27057804"
+				item: "gtceu:americium_normal_item_pipe"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "1160BA3A188C6DFB"
+			subtitle: "{sky_greg.quests.chapters_pipes.187}"
+			tasks: [{
+				id: "5E6C2D8E9C3BACB4"
+				item: "gtceu:cupronickel_normal_item_pipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "5F3D587A19D698EA"
+			subtitle: "{sky_greg.quests.chapters_pipes.188}"
+			tasks: [{
+				id: "5A1EFD192F9556F8"
+				item: "gtceu:osmium_normal_item_pipe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "1C849A5A48DD8239"
+			subtitle: "{sky_greg.quests.chapters_pipes.189}"
+			tasks: [{
+				id: "593CBF6BCF98E5B4"
+				item: "gtceu:electrum_normal_item_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "2F44F88AE80EBD04"
+			subtitle: "{sky_greg.quests.chapters_pipes.190}"
+			tasks: [{
+				id: "23561B4073354222"
+				item: "gtceu:polyvinyl_chloride_normal_item_pipe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "38B3C139C9006BE9"
+			subtitle: "{sky_greg.quests.chapters_pipes.191}"
+			tasks: [{
+				id: "464F34DBD1B1C687"
+				item: "gtceu:osmiridium_normal_item_pipe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "44A7EFAA7064A092"
+			subtitle: "{sky_greg.quests.chapters_pipes.192}"
+			tasks: [{
+				id: "266E951731D5E69A"
+				item: "gtceu:magnalium_normal_item_pipe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "0D498965FD2F4071"
+			subtitle: "{sky_greg.quests.chapters_pipes.193}"
+			tasks: [{
+				id: "421C2D9D3CE6B02B"
+				item: "gtceu:cobalt_normal_item_pipe"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "4D4843989321DC4E"
+			subtitle: "{sky_greg.quests.chapters_pipes.194}"
+			tasks: [{
+				id: "38C019F05A797DF8"
+				item: "gtceu:rose_gold_normal_item_pipe"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "5B79A8FABCB7E32B"
+			subtitle: "{sky_greg.quests.chapters_pipes.195}"
+			tasks: [{
+				id: "47A31438F8B718F9"
+				item: "gtceu:sterling_silver_normal_item_pipe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "6345D3364917B097"
+			subtitle: "{sky_greg.quests.chapters_pipes.196}"
+			tasks: [{
+				id: "61B73EB828226A2E"
+				item: "gtceu:brass_normal_item_pipe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "51D1F118D84C73F1"
+			subtitle: "{sky_greg.quests.chapters_pipes.197}"
+			tasks: [{
+				id: "6E9DB678D517DE8B"
+				item: "gtceu:tin_normal_item_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "79B10910CA4415FB"
+			tasks: [{
+				id: "15B4CADC29E6A6A9"
+				item: "gtceu:long_distance_item_pipeline_endpoint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "406F05F995009843"
+			tasks: [{
+				id: "5EB6A5C5C1E281DD"
+				item: "gtceu:long_distance_fluid_pipeline_endpoint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "5276DEB1472D562B"
+			tasks: [{
+				id: "61133B629DCADA0A"
+				item: "gtceu:long_distance_item_pipeline"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "1B48CCFE3DF909F4"
+			tasks: [{
+				id: "2EEB3FAA0F098C33"
+				item: "gtceu:long_distance_fluid_pipeline"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.198}"
+				""
+				"{sky_greg.quests.chapters_pipes.199}"
+				""
+				"{sky_greg.quests.chapters_pipes.200}"
+				""
+				"{sky_greg.quests.chapters_pipes.201}"
+				""
+				"{sky_greg.quests.chapters_pipes.202}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "686A048B5F7EB089"
+			shape: "gear"
+			tasks: [{
+				id: "03118C91AD203C42"
+				title: "{sky_greg.quests.chapters_pipes.203}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.204}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.205}"
+				""
+				"{sky_greg.quests.chapters_pipes.206}"
+				""
+				"{sky_greg.quests.chapters_pipes.207}"
+				""
+				"{sky_greg.quests.chapters_pipes.208}"
+				"{sky_greg.quests.chapters_pipes.209}"
+				"{sky_greg.quests.chapters_pipes.210}"
+				"{sky_greg.quests.chapters_pipes.211}"
+			]
+			disable_toast: true
+			id: "16BC12DB61ADB254"
+			subtitle: "{sky_greg.quests.chapters_pipes.212}"
+			tasks: [{
+				id: "206582120B204B76"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.213}"
+				""
+				"{sky_greg.quests.chapters_pipes.214}"
+				""
+				"{sky_greg.quests.chapters_pipes.215}"
+				""
+				"{sky_greg.quests.chapters_pipes.216}"
+				"{sky_greg.quests.chapters_pipes.217}"
+				"{sky_greg.quests.chapters_pipes.218}"
+				"{sky_greg.quests.chapters_pipes.219}"
+			]
+			disable_toast: true
+			id: "5B24199B68E9A195"
+			subtitle: "{sky_greg.quests.chapters_pipes.220}"
+			tasks: [{
+				id: "17727F0BE8B2635C"
+				item: "enderio:pressurized_fluid_conduit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.221}"
+				""
+				"{sky_greg.quests.chapters_pipes.222}"
+				""
+				"{sky_greg.quests.chapters_pipes.223}"
+				""
+				"{sky_greg.quests.chapters_pipes.224}"
+				"{sky_greg.quests.chapters_pipes.225}"
+				"{sky_greg.quests.chapters_pipes.226}"
+				"{sky_greg.quests.chapters_pipes.227}"
+			]
+			disable_toast: true
+			id: "06C2DF96E3B7B967"
+			subtitle: "{sky_greg.quests.chapters_pipes.228}"
+			tasks: [{
+				id: "393A3F1C1EA8A732"
+				item: "enderio:ender_fluid_conduit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.229}"
+				""
+				"{sky_greg.quests.chapters_pipes.230}"
+				"{sky_greg.quests.chapters_pipes.231}"
+				"{sky_greg.quests.chapters_pipes.232}"
+				"{sky_greg.quests.chapters_pipes.233}"
+			]
+			disable_toast: true
+			id: "6E479387D87A6CC7"
+			subtitle: "{sky_greg.quests.chapters_pipes.234}"
+			tasks: [{
+				id: "04EF76B5C59BAE3B"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "49E76FE3EE9B350C"
+			subtitle: "{sky_greg.quests.chapters_pipes.235}"
+			tasks: [{
+				id: "7DE4DBA178F5E8FD"
+				item: "enderio:extraction_speed_upgrade_1"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "0387D2D64D9F9E4C"
+			subtitle: "{sky_greg.quests.chapters_pipes.236}"
+			tasks: [{
+				id: "7C32C052878EE15B"
+				item: "enderio:extraction_speed_upgrade_2"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "5D81725B57753188"
+			subtitle: "{sky_greg.quests.chapters_pipes.237}"
+			tasks: [{
+				id: "6C686AB495FA71FB"
+				item: "enderio:extraction_speed_upgrade_3"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "53E7F1057630FC0F"
+			subtitle: "{sky_greg.quests.chapters_pipes.238}"
+			tasks: [{
+				id: "3057DA46EC4E2209"
+				item: "enderio:extraction_speed_upgrade_4"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "2C70CAC11054D4E8"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1AD746D602F95FA5"
+				title: "{sky_greg.quests.chapters_pipes.239}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.240}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "1D9BF170E62227B1"
+			subtitle: "{sky_greg.quests.chapters_pipes.241}"
+			tasks: [{
+				id: "45B62794CECB1A81"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "6F6F11D86AFC056E"
+			subtitle: "{sky_greg.quests.chapters_pipes.242}"
+			tasks: [{
+				id: "2689490C136EE4DA"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.243}"
+				""
+				"{sky_greg.quests.chapters_pipes.244}"
+				""
+				"{sky_greg.quests.chapters_pipes.245}"
+				"{sky_greg.quests.chapters_pipes.246}"
+				"{sky_greg.quests.chapters_pipes.247}"
+				"{sky_greg.quests.chapters_pipes.248}"
+				""
+				"{sky_greg.quests.chapters_pipes.249}"
+				""
+				"{sky_greg.quests.chapters_pipes.250}"
+				"{sky_greg.quests.chapters_pipes.251}"
+				"{sky_greg.quests.chapters_pipes.252}"
+				"{sky_greg.quests.chapters_pipes.253}"
+			]
+			disable_toast: true
+			id: "532353DD80BF5032"
+			subtitle: "{sky_greg.quests.chapters_pipes.254}"
+			tasks: [{
+				id: "4BE741C07B3FBA4F"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.255}"
+				""
+				"{sky_greg.quests.chapters_pipes.256}"
+				""
+				"{sky_greg.quests.chapters_pipes.257}"
+				"{sky_greg.quests.chapters_pipes.258}"
+				""
+				"{sky_greg.quests.chapters_pipes.259}"
+				""
+				"{sky_greg.quests.chapters_pipes.260}"
+				""
+				"{sky_greg.quests.chapters_pipes.261}"
+			]
+			disable_toast: true
+			icon: "ae2:export_bus"
+			id: "3C7333338ADDFD95"
+			subtitle: "{sky_greg.quests.chapters_pipes.262}"
+			tasks: [
+				{
+					id: "2BDFC2DBF930F7C3"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "3C01117E2E4B29F8"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.263}"
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.264}"
+				""
+				"{sky_greg.quests.chapters_pipes.265}"
+				""
+				"{sky_greg.quests.chapters_pipes.266}"
+				""
+				"{sky_greg.quests.chapters_pipes.267}"
+				"{sky_greg.quests.chapters_pipes.268}"
+				"{sky_greg.quests.chapters_pipes.269}"
+				"{sky_greg.quests.chapters_pipes.270}"
+				"{sky_greg.quests.chapters_pipes.271}"
+				""
+				"{sky_greg.quests.chapters_pipes.272}"
+				"{sky_greg.quests.chapters_pipes.273}"
+				"{sky_greg.quests.chapters_pipes.274}"
+				""
+				"{sky_greg.quests.chapters_pipes.275}"
+				"{sky_greg.quests.chapters_pipes.276}"
+				"{sky_greg.quests.chapters_pipes.277}"
+				""
+				"{sky_greg.quests.chapters_pipes.278}"
+				"{sky_greg.quests.chapters_pipes.279}"
+				"{sky_greg.quests.chapters_pipes.280}"
+			]
+			disable_toast: true
+			id: "406E3E3B868DB7E9"
+			subtitle: "{sky_greg.quests.chapters_pipes.281}"
+			tasks: [{
+				id: "1307BC2E18912E45"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_pipes.282}"]
+			disable_toast: true
+			icon: "expatternprovider:ex_export_bus_part"
+			id: "1109259CC117DB9C"
+			subtitle: "{sky_greg.quests.chapters_pipes.283}"
+			tasks: [
+				{
+					id: "0E0B34765360A0D9"
+					item: "expatternprovider:ex_export_bus_part"
+					type: "item"
+				}
+				{
+					id: "689C26285FB9AD89"
+					item: "expatternprovider:ex_import_bus_part"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.284}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.285}"
+				""
+				"{sky_greg.quests.chapters_pipes.286}"
+			]
+			disable_toast: true
+			id: "6BF3D6291B578BB9"
+			subtitle: "{sky_greg.quests.chapters_pipes.287}"
+			tasks: [{
+				id: "60B415C5439AB80D"
+				item: "advanced_ae:advanced_io_bus_part"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.288}"
+				""
+				"{sky_greg.quests.chapters_pipes.289}"
+				"{sky_greg.quests.chapters_pipes.290}"
+			]
+			disable_toast: true
+			id: "7FDC53C53AED97D7"
+			subtitle: "{sky_greg.quests.chapters_pipes.291}"
+			tasks: [{
+				icon: "xnet:advanced_connector_blue"
+				id: "226B1A637EE043EE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "xnet:advanced_connectors"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.292}"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.293}"
+				""
+				"{sky_greg.quests.chapters_pipes.294}"
+				""
+				"{sky_greg.quests.chapters_pipes.295}"
+				"{sky_greg.quests.chapters_pipes.296}"
+				""
+				"{sky_greg.quests.chapters_pipes.297}"
+				""
+				"{sky_greg.quests.chapters_pipes.298}"
+			]
+			disable_toast: true
+			id: "2609FDD49D6737D9"
+			subtitle: "{sky_greg.quests.chapters_pipes.299}"
+			tasks: [{
+				icon: "xnet:connector_blue"
+				id: "2EEC34F308EF603B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "xnet:connectors"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.300}"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "5B8FDE8798D8CCD1"
+			shape: "gear"
+			tasks: [{
+				id: "771B248820F95CE0"
+				title: "{sky_greg.quests.chapters_pipes.301}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.302}"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "40F4E94A0AAAD58B"
+			shape: "gear"
+			tasks: [{
+				id: "7D40ED060745F7F7"
+				title: "{sky_greg.quests.chapters_pipes.303}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.304}"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "4B2B8E5B4F8D0F1C"
+			shape: "gear"
+			tasks: [{
+				id: "6360B8E0E052B13F"
+				title: "{sky_greg.quests.chapters_pipes.305}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.306}"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "7E59E6409AE7F620"
+			shape: "gear"
+			tasks: [{
+				id: "34D85EA5C1EDE427"
+				title: "{sky_greg.quests.chapters_pipes.307}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.308}"
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "1FC5F5921254EEA5"
+			shape: "gear"
+			tasks: [{
+				id: "6F61660ACDA4A4B2"
+				title: "{sky_greg.quests.chapters_pipes.309}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.310}"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.311}"
+				""
+				"{sky_greg.quests.chapters_pipes.312}"
+				""
+				"{sky_greg.quests.chapters_pipes.313}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "229E966DE49FFB2F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "108DD89D28CB70E4"
+				title: "{sky_greg.quests.chapters_pipes.314}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.315}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "1E8303F1B00B6BE4"
+			tasks: [{
+				id: "50E23AD984F252ED"
+				item: "tesseract:tesseract"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "1EE913A5F167C5A5"
+			tasks: [{
+				id: "6BF264D87829294B"
+				item: {
+					Count: 1
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "31D749DF7BD048A6"
+			tasks: [{
+				id: "359139A784591B0F"
+				item: "dimstorage:dimensional_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "12FEAF9BB06F33C0"
+			tasks: [{
+				id: "47C136002262237E"
+				item: "dimstorage:dimensional_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "74E2B353806D0405"
+			tasks: [{
+				id: "1A4FF2B636D791F1"
+				item: {
+					Count: 1
+					id: "endertanks:ender_tank"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "54CE08461E6E8214"
+			tasks: [{
+				id: "6AAFE6FB4994933C"
+				item: {
+					Count: 1
+					id: "enderchests:ender_chest"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.316}"
+				""
+				"{sky_greg.quests.chapters_pipes.317}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "542269110468FF6E"
+			shape: "gear"
+			tasks: [{
+				id: "24A397662677270A"
+				title: "{sky_greg.quests.chapters_pipes.318}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.319}"
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.320}"
+				""
+				"{sky_greg.quests.chapters_pipes.321}"
+				""
+				"{sky_greg.quests.chapters_pipes.322}"
+				""
+				"{sky_greg.quests.chapters_pipes.323}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "608507E6C89A5B7D"
+			optional: true
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{sky_greg.quests.chapters_pipes.324}"
+			tasks: [{
+				id: "066546332232862B"
+				title: "{sky_greg.quests.chapters_pipes.325}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.326}"
+				""
+				"{sky_greg.quests.chapters_pipes.327}"
+				""
+				"{sky_greg.quests.chapters_pipes.328}"
+			]
+			disable_toast: true
+			id: "70021AF9FB422B56"
+			subtitle: "{sky_greg.quests.chapters_pipes.329}"
+			tasks: [{
+				id: "3062E5A9C87AB00C"
+				item: "gtceu:ender_item_link_cover"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.330}"
+				""
+				"{sky_greg.quests.chapters_pipes.331}"
+				""
+				"{sky_greg.quests.chapters_pipes.332}"
+			]
+			disable_toast: true
+			id: "07B6333088182F03"
+			subtitle: "{sky_greg.quests.chapters_pipes.333}"
+			tasks: [{
+				id: "6E8F6D983B84EBF5"
+				item: "gtceu:ender_fluid_link_cover"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_pipes.334}"]
+			disable_toast: true
+			id: "58E937C9414D7184"
+			subtitle: "{sky_greg.quests.chapters_pipes.335}"
+			tasks: [{
+				id: "0CC9B29739677E00"
+				item: "gtceu:infinite_water_cover"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.336}"
+				""
+				"{sky_greg.quests.chapters_pipes.337}"
+				""
+				"{sky_greg.quests.chapters_pipes.338}"
+				""
+				"{sky_greg.quests.chapters_pipes.339}"
+				""
+				"{sky_greg.quests.chapters_pipes.340}"
+				""
+				"{sky_greg.quests.chapters_pipes.341}"
+				""
+				"{sky_greg.quests.chapters_pipes.342}"
+				""
+				"{sky_greg.quests.chapters_pipes.343}"
+				"{sky_greg.quests.chapters_pipes.344}"
+				"{sky_greg.quests.chapters_pipes.345}"
+				"{sky_greg.quests.chapters_pipes.346}"
+				"{sky_greg.quests.chapters_pipes.347}"
+				"{sky_greg.quests.chapters_pipes.348}"
+				"{sky_greg.quests.chapters_pipes.349}"
+				"{sky_greg.quests.chapters_pipes.350}"
+			]
+			disable_toast: true
+			id: "47C896613BF6D29E"
+			subtitle: "{sky_greg.quests.chapters_pipes.351}"
+			tasks: [{
+				icon: "gtceu:lv_robot_arm"
+				id: "478D3ABCC64D41F1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:robot_arms"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.352}"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.353}"
+				""
+				"{sky_greg.quests.chapters_pipes.354}"
+				""
+				"{sky_greg.quests.chapters_pipes.355}"
+				""
+				"{sky_greg.quests.chapters_pipes.356}"
+				""
+				"{sky_greg.quests.chapters_pipes.357}"
+				"{sky_greg.quests.chapters_pipes.358}"
+				"{sky_greg.quests.chapters_pipes.359}"
+				"{sky_greg.quests.chapters_pipes.360}"
+				"{sky_greg.quests.chapters_pipes.361}"
+				"{sky_greg.quests.chapters_pipes.362}"
+				"{sky_greg.quests.chapters_pipes.363}"
+				"{sky_greg.quests.chapters_pipes.364}"
+			]
+			disable_toast: true
+			id: "3CFC791C45EB221B"
+			subtitle: "{sky_greg.quests.chapters_pipes.365}"
+			tasks: [{
+				icon: "gtceu:lv_electric_pump"
+				id: "0A2F785EADEF0A7A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:electric_pumps"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.366}"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.367}"
+				""
+				"{sky_greg.quests.chapters_pipes.368}"
+				""
+				"{sky_greg.quests.chapters_pipes.369}"
+				""
+				"{sky_greg.quests.chapters_pipes.370}"
+				"{sky_greg.quests.chapters_pipes.371}"
+				"{sky_greg.quests.chapters_pipes.372}"
+				"{sky_greg.quests.chapters_pipes.373}"
+				"{sky_greg.quests.chapters_pipes.374}"
+				"{sky_greg.quests.chapters_pipes.375}"
+				"{sky_greg.quests.chapters_pipes.376}"
+				"{sky_greg.quests.chapters_pipes.377}"
+			]
+			disable_toast: true
+			id: "46C3B3381418698A"
+			subtitle: "{sky_greg.quests.chapters_pipes.378}"
+			tasks: [{
+				icon: "gtceu:lv_conveyor_module"
+				id: "423AF46D2E036EC5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:conveyor_modules"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.379}"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3CFC791C45EB221B"]
+			description: [
+				"{sky_greg.quests.chapters_pipes.380}"
+				""
+				"{sky_greg.quests.chapters_pipes.381}"
+				""
+				"{sky_greg.quests.chapters_pipes.382}"
+				""
+				"{sky_greg.quests.chapters_pipes.383}"
+				""
+				"{sky_greg.quests.chapters_pipes.384}"
+				""
+				"{sky_greg.quests.chapters_pipes.385}"
+				""
+				"{sky_greg.quests.chapters_pipes.386}"
+				"{sky_greg.quests.chapters_pipes.387}"
+				"{sky_greg.quests.chapters_pipes.388}"
+				"{sky_greg.quests.chapters_pipes.389}"
+				"{sky_greg.quests.chapters_pipes.390}"
+				"{sky_greg.quests.chapters_pipes.391}"
+				"{sky_greg.quests.chapters_pipes.392}"
+				"{sky_greg.quests.chapters_pipes.393}"
+			]
+			disable_toast: true
+			id: "21280AEBE60AC446"
+			subtitle: "{sky_greg.quests.chapters_pipes.394}"
+			tasks: [{
+				icon: "gtceu:lv_fluid_regulator"
+				id: "7526CC03139F5331"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:fluid_regulators"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.395}"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.396}"
+				""
+				"{sky_greg.quests.chapters_pipes.397}"
+			]
+			disable_toast: true
+			id: "19A4411BF6ADB5E4"
+			subtitle: "{sky_greg.quests.chapters_pipes.398}"
+			tasks: [{
+				id: "13D38F01C738F3E4"
+				item: "gtceu:item_filter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.399}"
+				""
+				"{sky_greg.quests.chapters_pipes.400}"
+				""
+				"{sky_greg.quests.chapters_pipes.401}"
+				""
+				"{sky_greg.quests.chapters_pipes.402}"
+			]
+			disable_toast: true
+			id: "78A6EB6E0BF70CE0"
+			subtitle: "{sky_greg.quests.chapters_pipes.403}"
+			tasks: [{
+				id: "590CC632D13E04E6"
+				item: "gtceu:item_tag_filter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.404}"
+				""
+				"{sky_greg.quests.chapters_pipes.405}"
+			]
+			disable_toast: true
+			id: "40EC276EA2923CE6"
+			subtitle: "{sky_greg.quests.chapters_pipes.406}"
+			tasks: [{
+				id: "6570EE95C2161756"
+				item: "gtceu:fluid_filter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.407}"
+				""
+				"{sky_greg.quests.chapters_pipes.408}"
+				""
+				"{sky_greg.quests.chapters_pipes.409}"
+				""
+				"{sky_greg.quests.chapters_pipes.410}"
+			]
+			disable_toast: true
+			id: "77E220B0E61067FB"
+			subtitle: "{sky_greg.quests.chapters_pipes.411}"
+			tasks: [{
+				id: "1133387142A80C61"
+				item: "gtceu:item_smart_filter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.412}"
+				""
+				"{sky_greg.quests.chapters_pipes.413}"
+				""
+				"{sky_greg.quests.chapters_pipes.414}"
+				""
+				"{sky_greg.quests.chapters_pipes.415}"
+			]
+			disable_toast: true
+			id: "1AC771A20567DFCE"
+			subtitle: "{sky_greg.quests.chapters_pipes.416}"
+			tasks: [{
+				id: "36CDA9C82FE50A80"
+				item: "gtceu:fluid_tag_filter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			id: "67A7B0C4C42F3C95"
+			tasks: [{
+				id: "4FB424D774DC51EA"
+				item: "gtceu:fluid_voiding_cover"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["67A7B0C4C42F3C95"]
+			disable_toast: true
+			id: "7152505B2E4D5058"
+			tasks: [{
+				id: "76F53B3FCD793CD2"
+				item: "gtceu:advanced_fluid_voiding_cover"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "79DF934D26D2F00F"
+			tasks: [{
+				id: "5A02BEAE07DEBA68"
+				item: "gtceu:item_voiding_cover"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["79DF934D26D2F00F"]
+			disable_toast: true
+			id: "0DBA014BD54ED142"
+			tasks: [{
+				id: "4EF6B51632A5D1D0"
+				item: "gtceu:advanced_item_voiding_cover"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "3BF230AABEB5E226"
+			shape: "gear"
+			tasks: [{
+				id: "28CA28BF0C221C2C"
+				title: "{sky_greg.quests.chapters_pipes.417}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.418}"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "2F23C31F186B9607"
+			shape: "gear"
+			tasks: [{
+				id: "0D625B2F08DE014D"
+				title: "{sky_greg.quests.chapters_pipes.419}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.420}"
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.421}"
+				""
+				"{sky_greg.quests.chapters_pipes.422}"
+				""
+				"{sky_greg.quests.chapters_pipes.423}"
+				""
+				"{sky_greg.quests.chapters_pipes.424}"
+			]
+			disable_toast: true
+			id: "358DFE40BF17052B"
+			subtitle: "{sky_greg.quests.chapters_pipes.425}"
+			tasks: [{
+				id: "392CBC1088BB253C"
+				item: "gtceu:machine_controller_cover"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "34DF8EC88AA8F9A1"
+			shape: "gear"
+			tasks: [{
+				id: "72004921EA18F55F"
+				title: "{sky_greg.quests.chapters_pipes.426}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.427}"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.428}"
+				""
+				"{sky_greg.quests.chapters_pipes.429}"
+				""
+				"{sky_greg.quests.chapters_pipes.430}"
+			]
+			disable_toast: true
+			id: "632435938D1C2ECC"
+			subtitle: "{sky_greg.quests.chapters_pipes.431}"
+			tasks: [{
+				id: "1BEB1E1B719FB372"
+				item: "gtceu:energy_detector_cover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["632435938D1C2ECC"]
+			description: [
+				"{sky_greg.quests.chapters_pipes.432}"
+				""
+				"{sky_greg.quests.chapters_pipes.433}"
+				""
+				"{sky_greg.quests.chapters_pipes.434}"
+				""
+				"{sky_greg.quests.chapters_pipes.435}"
+				""
+				"{sky_greg.quests.chapters_pipes.436}"
+			]
+			disable_toast: true
+			id: "38F79252244B9F4C"
+			subtitle: "{sky_greg.quests.chapters_pipes.437}"
+			tasks: [{
+				id: "500CDCC5D5577F53"
+				item: "gtceu:advanced_energy_detector_cover"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.438}"
+				""
+				"{sky_greg.quests.chapters_pipes.439}"
+				""
+				"{sky_greg.quests.chapters_pipes.440}"
+			]
+			disable_toast: true
+			id: "0AB0AD70CD322591"
+			subtitle: "{sky_greg.quests.chapters_pipes.441}"
+			tasks: [{
+				id: "038551094B7F1506"
+				item: "gtceu:item_detector_cover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0AB0AD70CD322591"]
+			description: [
+				"{sky_greg.quests.chapters_pipes.442}"
+				""
+				"{sky_greg.quests.chapters_pipes.443}"
+				""
+				"{sky_greg.quests.chapters_pipes.444}"
+			]
+			disable_toast: true
+			id: "330D4C0859096F4B"
+			subtitle: "{sky_greg.quests.chapters_pipes.445}"
+			tasks: [{
+				id: "51DA39171B677A64"
+				item: "gtceu:advanced_item_detector_cover"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.446}"
+				""
+				"{sky_greg.quests.chapters_pipes.447}"
+				""
+				"{sky_greg.quests.chapters_pipes.448}"
+			]
+			disable_toast: true
+			id: "5148AEA9B585FAF9"
+			subtitle: "{sky_greg.quests.chapters_pipes.449}"
+			tasks: [{
+				id: "5FB5B89855854110"
+				item: "gtceu:fluid_detector_cover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5148AEA9B585FAF9"]
+			description: [
+				"{sky_greg.quests.chapters_pipes.450}"
+				""
+				"{sky_greg.quests.chapters_pipes.451}"
+				""
+				"{sky_greg.quests.chapters_pipes.452}"
+			]
+			disable_toast: true
+			id: "17918BE9FF111326"
+			subtitle: "{sky_greg.quests.chapters_pipes.453}"
+			tasks: [{
+				id: "3539B8B8BD3A0EDC"
+				item: "gtceu:advanced_fluid_detector_cover"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.454}"
+				""
+				"{sky_greg.quests.chapters_pipes.455}"
+			]
+			disable_toast: true
+			id: "5512F9C8E0165294"
+			subtitle: "{sky_greg.quests.chapters_pipes.456}"
+			tasks: [{
+				id: "7E1718C51F1E7510"
+				item: "gtceu:activity_detector_cover"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.457}"
+				""
+				"{sky_greg.quests.chapters_pipes.458}"
+			]
+			disable_toast: true
+			id: "5E9A8B080F12B372"
+			subtitle: "{sky_greg.quests.chapters_pipes.459}"
+			tasks: [{
+				id: "547D9DF9317AB919"
+				item: "gtceu:advanced_activity_detector_cover"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "75FD9AAA6931C62B"
+			shape: "gear"
+			tasks: [{
+				id: "622865BEF92A7E86"
+				title: "{sky_greg.quests.chapters_pipes.460}"
+				type: "checkmark"
+			}]
+			title: "{sky_greg.quests.chapters_pipes.461}"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.462}"
+				""
+				"{sky_greg.quests.chapters_pipes.463}"
+				"{sky_greg.quests.chapters_pipes.464}"
+				"{sky_greg.quests.chapters_pipes.465}"
+				"{sky_greg.quests.chapters_pipes.466}"
+				"{sky_greg.quests.chapters_pipes.467}"
+				"{sky_greg.quests.chapters_pipes.468}"
+				"{sky_greg.quests.chapters_pipes.469}"
+				"{sky_greg.quests.chapters_pipes.470}"
+				"{sky_greg.quests.chapters_pipes.471}"
+				"{sky_greg.quests.chapters_pipes.472}"
+				"{sky_greg.quests.chapters_pipes.473}"
+			]
+			disable_toast: true
+			icon: "gtceu:lv_input_bus"
+			id: "54A0452761E1AA73"
+			subtitle: "{sky_greg.quests.chapters_pipes.474}"
+			tasks: [
+				{
+					icon: "gtceu:lv_input_bus"
+					id: "6B53EC64BD40D14A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:buses/input/standard"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.475}"
+					type: "item"
+				}
+				{
+					icon: "gtceu:lv_output_bus"
+					id: "11DDC34DB3A8FFA1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:buses/output/standard"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.476}"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.477}"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.478}"
+				""
+				"{sky_greg.quests.chapters_pipes.479}"
+				"{sky_greg.quests.chapters_pipes.480}"
+				"{sky_greg.quests.chapters_pipes.481}"
+				"{sky_greg.quests.chapters_pipes.482}"
+				"{sky_greg.quests.chapters_pipes.483}"
+				"{sky_greg.quests.chapters_pipes.484}"
+				"{sky_greg.quests.chapters_pipes.485}"
+				"{sky_greg.quests.chapters_pipes.486}"
+				"{sky_greg.quests.chapters_pipes.487}"
+				"{sky_greg.quests.chapters_pipes.488}"
+				"{sky_greg.quests.chapters_pipes.489}"
+			]
+			disable_toast: true
+			icon: "gtceu:lv_input_hatch"
+			id: "07F4C051FFB20971"
+			subtitle: "{sky_greg.quests.chapters_pipes.490}"
+			tasks: [
+				{
+					icon: "gtceu:lv_input_hatch"
+					id: "55C2DBDCBC92413B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/input/standard"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.491}"
+					type: "item"
+				}
+				{
+					icon: "gtceu:lv_output_hatch"
+					id: "75411C1756975CE7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/output/standard"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.492}"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.493}"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.494}"
+				""
+				"{sky_greg.quests.chapters_pipes.495}"
+				""
+				"{sky_greg.quests.chapters_pipes.496}"
+				""
+				"{sky_greg.quests.chapters_pipes.497}"
+				""
+				"{sky_greg.quests.chapters_pipes.498}"
+			]
+			disable_toast: true
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "23A9AC86ACC53F8C"
+			subtitle: "{sky_greg.quests.chapters_pipes.499}"
+			tasks: [{
+				icon: "gtceu:lv_energy_input_hatch"
+				id: "546537F9AE5BFCDF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/energy/standard"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.500}"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_pipes.501}"]
+			disable_toast: true
+			icon: "gtceu:lv_muffler_hatch"
+			id: "41D4D8FC8598C992"
+			tasks: [{
+				icon: "gtceu:lv_muffler_hatch"
+				id: "4517DA489B89117A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/muffler"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.502}"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_pipes.503}"]
+			disable_toast: true
+			icon: "gtceu:maintenance_hatch"
+			id: "686DAE23683D5753"
+			tasks: [{
+				id: "087F44F401789B13"
+				item: "gtceu:maintenance_hatch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "5BF3DD556C19E431"
+			subtitle: "{sky_greg.quests.chapters_pipes.504}"
+			tasks: [{
+				icon: "gtceu:lv_energy_output_hatch"
+				id: "7FD6EA9E39E07A27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/dynamo/standard"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.505}"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.506}"
+				""
+				"{sky_greg.quests.chapters_pipes.507}"
+				"{sky_greg.quests.chapters_pipes.508}"
+				"{sky_greg.quests.chapters_pipes.509}"
+				"{sky_greg.quests.chapters_pipes.510}"
+				"{sky_greg.quests.chapters_pipes.511}"
+			]
+			disable_toast: true
+			icon: "gtceu:luv_dual_input_hatch"
+			id: "1988A974F6ABDEEE"
+			subtitle: "{sky_greg.quests.chapters_pipes.512}"
+			tasks: [
+				{
+					icon: "gtceu:luv_dual_input_hatch"
+					id: "3CE4330E04576D97"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/input/dual"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.513}"
+					type: "item"
+				}
+				{
+					icon: "gtceu:luv_dual_output_hatch"
+					id: "4BA84909F63642E6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/output/dual"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.514}"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.515}"
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_pipes.516}"]
+			disable_toast: true
+			id: "2D6A9A0F870CAF48"
+			tasks: [{
+				id: "3A46CC4DD0D3B611"
+				item: "gtceu:configurable_maintenance_hatch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.517}"
+				""
+				"{sky_greg.quests.chapters_pipes.518}"
+			]
+			disable_toast: true
+			id: "0B8CDDA7CED63878"
+			subtitle: "{sky_greg.quests.chapters_pipes.519}"
+			tasks: [{
+				id: "5ED1C85F06344F1F"
+				item: "gtceu:auto_maintenance_hatch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.520}"
+				""
+				"{sky_greg.quests.chapters_pipes.521}"
+			]
+			disable_toast: true
+			id: "257C105833909188"
+			subtitle: "{sky_greg.quests.chapters_pipes.522}"
+			tasks: [{
+				id: "582157586485FD4D"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.523}"
+				""
+				"{sky_greg.quests.chapters_pipes.524}"
+			]
+			disable_toast: true
+			id: "76067A35BE5C8CAB"
+			subtitle: "{sky_greg.quests.chapters_pipes.525}"
+			tasks: [{
+				id: "1B5F0B090EF20E69"
+				item: "gtceu:uiv_sterilizing_cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			disable_toast: true
+			id: "20F34447E7EB28EF"
+			subtitle: "{sky_greg.quests.chapters_pipes.526}"
+			tasks: [{
+				icon: "gtceu:hv_energy_input_hatch_4a"
+				id: "69D786CFE8483467"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/energy/4a"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.527}"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "0AB84809073C9607"
+			subtitle: "{sky_greg.quests.chapters_pipes.528}"
+			tasks: [{
+				icon: "gtceu:lv_energy_output_hatch_4a"
+				id: "131E7515C80F990C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/dynamo/4a"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.529}"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "3FFC53BB4B9CF1BD"
+			subtitle: "{sky_greg.quests.chapters_pipes.530}"
+			tasks: [{
+				icon: "gtceu:lv_energy_output_hatch_16a"
+				id: "10358E3CE64B0286"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/dynamo/16a"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.531}"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			id: "7E5D64F0F07967C6"
+			subtitle: "{sky_greg.quests.chapters_pipes.532}"
+			tasks: [{
+				icon: "gtceu:ev_energy_input_hatch_16a"
+				id: "0540FF1EE0965E60"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/energy/16a"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.533}"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			id: "0B67C873AAB3FB93"
+			subtitle: "{sky_greg.quests.chapters_pipes.534}"
+			tasks: [{
+				icon: "gtceu:lv_energy_output_hatch_64a"
+				id: "7B99701980E37FBC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/dynamo/64a"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.535}"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "25993F4D6554BF5A"
+			subtitle: "{sky_greg.quests.chapters_pipes.536}"
+			tasks: [{
+				icon: "gtceu:ev_substation_input_hatch_64a"
+				id: "460564DF4DCCEE0A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/energy/64a"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.537}"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.538}"
+				""
+				"{sky_greg.quests.chapters_pipes.539}"
+				""
+				"{sky_greg.quests.chapters_pipes.540}"
+				"{sky_greg.quests.chapters_pipes.541}"
+				"{sky_greg.quests.chapters_pipes.542}"
+				"{sky_greg.quests.chapters_pipes.543}"
+				"{sky_greg.quests.chapters_pipes.544}"
+				"{sky_greg.quests.chapters_pipes.545}"
+				"{sky_greg.quests.chapters_pipes.546}"
+			]
+			disable_toast: true
+			icon: "gtceu:ev_input_hatch_4x"
+			id: "4981B1089AA1F6AB"
+			subtitle: "{sky_greg.quests.chapters_pipes.547}"
+			tasks: [
+				{
+					icon: "gtceu:ev_input_hatch_4x"
+					id: "714624B35D34A211"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/input/quad"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.548}"
+					type: "item"
+				}
+				{
+					icon: "gtceu:ev_output_hatch_4x"
+					id: "6C04EE7707CE42D3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/output/quad"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.549}"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.550}"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.551}"
+				""
+				"{sky_greg.quests.chapters_pipes.552}"
+				""
+				"{sky_greg.quests.chapters_pipes.553}"
+				"{sky_greg.quests.chapters_pipes.554}"
+				"{sky_greg.quests.chapters_pipes.555}"
+				"{sky_greg.quests.chapters_pipes.556}"
+				"{sky_greg.quests.chapters_pipes.557}"
+				"{sky_greg.quests.chapters_pipes.558}"
+				"{sky_greg.quests.chapters_pipes.559}"
+			]
+			disable_toast: true
+			icon: "gtceu:ev_input_hatch_9x"
+			id: "6B0CEDF6363D5690"
+			subtitle: "{sky_greg.quests.chapters_pipes.560}"
+			tasks: [
+				{
+					icon: "gtceu:ev_input_hatch_9x"
+					id: "48632A7CEF75A612"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/input/nonuple"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.561}"
+					type: "item"
+				}
+				{
+					icon: "gtceu:ev_output_hatch_9x"
+					id: "6CB835E186EFEB4A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:hatches/output/nonuple"
+						}
+					}
+					title: "{sky_greg.quests.chapters_pipes.562}"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.563}"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.564}"
+				""
+				"{sky_greg.quests.chapters_pipes.565}"
+				""
+				"{sky_greg.quests.chapters_pipes.566}"
+				""
+				"{sky_greg.quests.chapters_pipes.567}"
+				""
+				"{sky_greg.quests.chapters_pipes.568}"
+				"{sky_greg.quests.chapters_pipes.569}"
+				"{sky_greg.quests.chapters_pipes.570}"
+				"{sky_greg.quests.chapters_pipes.571}"
+				"{sky_greg.quests.chapters_pipes.572}"
+			]
+			icon: "gtceu:iv_parallel_hatch"
+			id: "7F1D1679B206BC38"
+			subtitle: "{sky_greg.quests.chapters_pipes.573}"
+			tasks: [{
+				icon: "gtceu:iv_parallel_hatch"
+				id: "2461CC9985913B67"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:hatches/parallel"
+					}
+				}
+				title: "{sky_greg.quests.chapters_pipes.574}"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.575}"
+				""
+				"{sky_greg.quests.chapters_pipes.576}"
+				""
+				"{sky_greg.quests.chapters_pipes.577}"
+			]
+			disable_toast: true
+			id: "46ED929BEF7D2371"
+			subtitle: "{sky_greg.quests.chapters_pipes.578}"
+			tasks: [{
+				id: "6833CD4CE5EA01C4"
+				item: "gtceu:me_stocking_input_bus"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.579}"
+				""
+				"{sky_greg.quests.chapters_pipes.580}"
+				""
+				"{sky_greg.quests.chapters_pipes.581}"
+			]
+			disable_toast: true
+			id: "371EE68B194C79E8"
+			subtitle: "{sky_greg.quests.chapters_pipes.582}"
+			tasks: [{
+				id: "4EC6605A0C868888"
+				item: "gtceu:me_stocking_input_hatch"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.583}"
+				"{sky_greg.quests.chapters_pipes.584}"
+				""
+				"{sky_greg.quests.chapters_pipes.585}"
+				""
+				"{sky_greg.quests.chapters_pipes.586}"
+				"{sky_greg.quests.chapters_pipes.587}"
+				""
+				"{sky_greg.quests.chapters_pipes.588}"
+			]
+			disable_toast: true
+			icon: "gtceu:me_input_bus"
+			id: "30602D2333E04537"
+			subtitle: "{sky_greg.quests.chapters_pipes.589}"
+			tasks: [
+				{
+					id: "34D2B091A5D09422"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "33D00AFF40CFB1C5"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.590}"
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_pipes.591}"
+				"{sky_greg.quests.chapters_pipes.592}"
+				""
+				"{sky_greg.quests.chapters_pipes.593}"
+				""
+				"{sky_greg.quests.chapters_pipes.594}"
+				"{sky_greg.quests.chapters_pipes.595}"
+				""
+				"{sky_greg.quests.chapters_pipes.596}"
+			]
+			disable_toast: true
+			icon: "gtceu:me_input_hatch"
+			id: "4BE3F1FCDE7FA6D2"
+			subtitle: "{sky_greg.quests.chapters_pipes.597}"
+			tasks: [
+				{
+					id: "4B8F810F7E3289B0"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3784622458D00487"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_pipes.598}"
+			x: -11.0d
+			y: 6.0d
+		}
+	]
+	subtitle: ["Transfering things!"]
+	title: "{sky_greg.quests.chapters_pipes.599}"
+}

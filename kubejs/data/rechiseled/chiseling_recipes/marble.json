@@ -1,0 +1,9 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+      { "item": "gtceu:marble" },
+      { "item": "kubejs:marble_dent" },
+      { "item": "kubejs:marble_dent_large" }
+    ],
+    "overwrite": false
+  }

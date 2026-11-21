@@ -1,0 +1,10 @@
+#52B53D minecraft:air
+#5D698F angelblockrenewed:angel_block
+#058353 minecraft:cobblestone
+#194874 minecraft:cyan_terracotta
+#3F84B7 minecraft:grass_block
+#2D74D4 minecraft:gray_concrete
+#91B682 gtceu:lv_super_chest
+#45DA85 gtceu:rubber_leaves
+#7210AF gtceu:rubber_log
+#872D76 minecraft:snow

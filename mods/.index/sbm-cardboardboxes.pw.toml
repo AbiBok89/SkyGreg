@@ -1,0 +1,18 @@
+filename = 'cardboardboxes-1.20.1-0.1.2.jar'
+name = '[SBM] Cardboard Boxes'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cardboardboxes-1.20.1-0.1.2.jar'
+
+[download]
+hash = '8a3d2239f8eeaef5b21d5c11c3a3121b0577207c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5313547
+project-id = 248343

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/custom_casings/medium_temperature_smelting_casing/medium_temperature_smelting_casing_ctm"
+    }
+}

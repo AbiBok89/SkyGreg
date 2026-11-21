@@ -1,0 +1,18 @@
+filename = 'laboratoryblocks-1.20.1-0.7r-fusion.jar'
+name = "Artemis' Laboratory Blocks"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'laboratoryblocks-1.20.1-0.7r-fusion'
+
+[download]
+hash = '9e28706b31d4e2013c637b56b31a29e789d81c96'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7083700
+project-id = 737135

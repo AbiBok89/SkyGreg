@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "kubejs:block/custom_casings/cryo_stable_casing/cryo_stable_casing"
+    }
+}

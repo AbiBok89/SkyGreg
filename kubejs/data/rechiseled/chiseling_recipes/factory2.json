@@ -1,0 +1,30 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        { "item": "factory_blocks:sturdy" },
+        { "item": "factory_blocks:insulation" },
+        { "item": "factory_blocks:gears" },
+        { "item": "factory_blocks:cables" },
+        { "item": "factory_blocks:rust_bplates" },
+        { "item": "factory_blocks:grate" },
+        { "item": "factory_blocks:rgrate" },
+        { "item": "factory_blocks:hex" },
+        { "item": "factory_blocks:wgpanel" },
+        { "item": "factory_blocks:wopanel" },
+        { "item": "factory_blocks:megacell" },
+        { "item": "factory_blocks:exhaust" },
+        { "item": "factory_blocks:engineer" },
+        { "item": "factory_blocks:scaffold" },
+        { "item": "factory_blocks:piping" },
+        { "item": "factory_blocks:large_plating" },
+        { "item": "factory_blocks:fan_side" },
+        { "item": "factory_blocks:fan_on" },
+        { "item": "factory_blocks:fan_four_on" },
+        { "item": "factory_blocks:fan_malfunction_on" },
+        { "item": "factory_blocks:fan" },
+        { "item": "factory_blocks:fan_four" },
+        { "item": "factory_blocks:fan_malfunction" },
+        { "item": "factory_blocks:medium_fan" }
+    ],
+    "overwrite": false
+  }

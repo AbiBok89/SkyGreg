@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "kubejs:block/square_darker_concrete_bricks"
+        }
+    }
+}

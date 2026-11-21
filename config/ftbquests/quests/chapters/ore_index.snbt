@@ -1,0 +1,2343 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "ore_index"
+	group: "52FBD9CE03396779"
+	icon: "gtceu:endstone_naquadah_ore"
+	id: "40D6E23E28120A9F"
+	images: [
+		{
+			height: 2.0d
+			image: "ftblibrary:icons/sort_az"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:textures/gui/icon/gregtech_logo.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 7.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "25D25C928D874D3D"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_almandine_ore"
+				id: "6F3B5D4AE64FE19C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/almandine"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.1}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.2}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "3975597C552B4047"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_aluminium_ore"
+				id: "24D32DFF76E9BABE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/aluminium"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.3}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.4}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "79BBE1C2C079497F"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_alunite_ore"
+				id: "78A64778FB3026F2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/alunite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.5}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.6}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "6E3647ACFB544CB7"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_amethyst_ore"
+				id: "06B03633E5DCF352"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/amethyst"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.7}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.8}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "657092FE3D84404C"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_apatite_ore"
+				id: "44445BBACA66BE64"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/apatite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.9}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.10}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "6075F4360B4A475C"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_asbestos_ore"
+				id: "0DA461B280664301"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/asbestos"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.11}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.12}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "3968C538F8D02249"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_barite_ore"
+				id: "68444D0E33CE4F27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/barite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.13}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.14}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "6FD8C68E61744524"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_basaltic_mineral_sand_ore"
+				id: "2F0E82197CE14462"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/basaltic_mineral_sand"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.15}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.16}"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "0D7653E5F97614AE"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_bastnasite_ore"
+				id: "47214FA69C6CA83C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/bastnasite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.17}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.18}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "55F5BEDBC13A48B5"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_bauxite_ore"
+				id: "6A33528EE1A25268"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/bauxite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.19}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.20}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "736A8403999F46DA"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_bentonite_ore"
+				id: "0BB7FB9B86081A75"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/bentonite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.21}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.22}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "3D0F9B7BBFD3F29D"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_beryllium_ore"
+				id: "091FB029A2E6B79B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/beryllium"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.23}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.24}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "75BADDEF426E505D"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_blue_topaz_ore"
+				id: "6061EB38323AD2A9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/blue_topaz"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.25}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.26}"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "5887A30C84E8788B"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_bornite_ore"
+				id: "2BDF1C39D8C313EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/bornite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.27}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.28}"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "6EDED34AB7C6281E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_calcite_ore"
+				id: "18E893AF3A7A0523"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/calcite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.29}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.30}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "232805E3C1B7F759"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_cassiterite_ore"
+				id: "10320799C297B5F9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cassiterite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.31}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.32}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "2D9FFEE470874A38"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_cassiterite_sand_ore"
+				id: "3EF48C7CF2613C94"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cassiterite_sand"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.33}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.34}"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "723D6F574D1B492F"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_certus_quartz_ore"
+				id: "6BF7F884EA3D4E44"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/certus_quartz"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.35}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.36}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "4423923335E34BAA"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_chalcocite_ore"
+				id: "5D0765AFDACF80F5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/chalcocite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.37}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.38}"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "5D51D34C302EBD9E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_chalcopyrite_ore"
+				id: "31FB322C4C624F7D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/chalcopyrite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.39}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.40}"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "0C442865826A7FBD"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_chromite_ore"
+				id: "25762047B1031BD5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/chromite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.41}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.42}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "34DFA43DB76E4A0B"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_cinnabar_ore"
+				id: "007329379587B7D2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cinnabar"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.43}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.44}"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "343B11B76BD14F20"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_coal_ore"
+				id: "716FC25898F84C37"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/coal"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.45}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.46}"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "390E8B1875B79A25"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_cobalt_ore"
+				id: "1A784104569C4798"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cobalt"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.47}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.48}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "0E9688FF83F94A2E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_cobaltite_ore"
+				id: "194AF2E507724487"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cobaltite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.49}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.50}"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "4245E6990EDCB5DC"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_copper_ore"
+				id: "5478802841D81D88"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/copper"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.51}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.52}"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "10846ACD98606F15"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_diamond_ore"
+				id: "37B5877FDFFE4085"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/diamond"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.53}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.54}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "6C142A1BF8302E6D"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_diatomite_ore"
+				id: "64463B895FBC2924"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/diatomite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.55}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.56}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "642F712801F84085"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_electrotine_ore"
+				id: "736D55CE65484F73"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/electrotine"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.57}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.58}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			id: "51930C339A98C747"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_emerald_ore"
+				id: "62B8BCC89B7E5AC7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/emerald"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.59}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.60}"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			id: "548E46B17D251127"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_fullers_earth_ore"
+				id: "12990167D5001014"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/fullers_earth"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.61}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.62}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "5363C930599846DE"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_galena_ore"
+				id: "2A7A54285FAB957E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/galena"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.63}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.64}"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "475F3A970CB3443E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_garnet_sand_ore"
+				id: "1DF4468C2C194449"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/garnet_sand"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.65}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.66}"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "46EE208EC680CF86"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_garnierite_ore"
+				id: "1D6CDE17FF3E4B1F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/garnierite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.67}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.68}"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "3E3E3D34867FC0BC"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_glauconite_sand_ore"
+				id: "70184D3C88086FAC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/glauconite_sand"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.69}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.70}"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "76C3773E5E32B8B3"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_goethite_ore"
+				id: "1BF1FF006E93453B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/goethite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.71}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.72}"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "40E1D74CCD5B4A2C"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_gold_ore"
+				id: "294222B4965E49AF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/gold"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.73}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.74}"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "5722933D859043BA"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_granitic_mineral_sand_ore"
+				id: "59228908F2248CA7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/granitic_mineral_sand"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.75}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.76}"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "35C46C88DB1065C5"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_graphite_ore"
+				id: "743565FB56D007C9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/graphite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.77}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.78}"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "1C4701D58ED57059"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_green_sapphire_ore"
+				id: "0600FBFD1A0C4B18"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/green_sapphire"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.79}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.80}"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "7A47F60A73784CD6"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_grossular_ore"
+				id: "25F5A754A7184CAE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/grossular"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.81}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.82}"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "047CCD1E360F4D6E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_gypsum_ore"
+				id: "4B85FB283705BCFA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/gypsum"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.83}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.84}"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "002482914C9D6591"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_hematite_ore"
+				id: "3D778F0CA7A757C1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/hematite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.85}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.86}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			id: "1BA1D27A8A6C783B"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_ilmenite_ore"
+				id: "653BAE7E9F454639"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/ilmenite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.87}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.88}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "26FE85EF95B7B265"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_iron_ore"
+				id: "43292749679D3B5E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/iron"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.89}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.90}"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "782A5153BFDE43E4"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_kyanite_ore"
+				id: "265A702F062AAC97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/kyanite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.91}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.92}"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "1C95927435F15B01"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_lapis_ore"
+				id: "11A7A55F6404FAE5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lapis"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.93}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.94}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "1E2C29967F824A81"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_lazurite_ore"
+				id: "18397D70CF9E46A8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lazurite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.95}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.96}"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "70F8E069322B5930"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_lead_ore"
+				id: "03B556D1E45D4566"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lead"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.97}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.98}"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "3452CEB68B1A0698"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_lepidolite_ore"
+				id: "504E5A295975F5A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lepidolite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.99}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.100}"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "4D15062857DDBA08"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_lithium_ore"
+				id: "3A6E9F96E56DCDA4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lithium"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.101}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.102}"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "30B65DDEB1EC433F"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_magnesite_ore"
+				id: "5D9B52361E674FED"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/magnesite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.103}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.104}"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "033C4E9B0FA959B9"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_magnetite_ore"
+				id: "77F7F8337F74CCA6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/magnetite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.105}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.106}"
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "390808CD97474AC1"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_malachite_ore"
+				id: "0B92DBB2A1A0DFE2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/malachite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.107}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.108}"
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "32073D367B17731E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_mica_ore"
+				id: "66FCE1B842FE4756"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/mica"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.109}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.110}"
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "4E3F8003EE904A7E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_molybdenite_ore"
+				id: "36CE124D9628ED9E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/molybdenite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.111}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.112}"
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "62F3C6ECE8294F51"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_molybdenum_ore"
+				id: "6B6CDBF1305D4843"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/molybdenum"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.113}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.114}"
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "05F07283B00349B3"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_monazite_ore"
+				id: "13F69DBEFDEEE3F1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/monazite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.115}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.116}"
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "073A7159A6E94C12"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_naquadah_ore"
+				id: "27E2B1A739BA4A54"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/naquadah"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.117}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.118}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "3CC21D56D8A941CE"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_neodymium_ore"
+				id: "6E50D3CF9AC74D4D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/neodymium"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.119}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.120}"
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "14A7F86863D54673"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_nether_quartz_ore"
+				id: "03CC1719B0B936E6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/nether_quartz"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.121}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.122}"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "710F73CDC44B48D3"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_nickel_ore"
+				id: "47310EF32BC237C2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/nickel"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.123}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.124}"
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "3C4AF8589EC27C07"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_oilsands_ore"
+				id: "230DDA9D657149C1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/oilsands"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.125}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.126}"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "61C9F050354789DF"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_olivine_ore"
+				id: "1153B83881223B22"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/olivine"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.127}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.128}"
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "3442B43D526D1F74"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_opal_ore"
+				id: "3F86D352A63841C5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/opal"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.129}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.130}"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "349E080A54867DEC"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_palladium_ore"
+				id: "70DDEFB170AA93A2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/palladium"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.131}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.132}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "6820BB3643EA3E08"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_pentlandite_ore"
+				id: "77531F4B43F6F268"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pentlandite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.133}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.134}"
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "3D35112E97209FC2"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_pitchblende_ore"
+				id: "3FC3E8DD8F884F48"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pitchblende"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.135}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.136}"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "2B875BB8C7174706"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_platinum_ore"
+				id: "2D16A6191163453D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/platinum"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.137}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.138}"
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "684D607E02854948"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_plutonium_ore"
+				id: "40D04E0B102CE587"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/plutonium"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.139}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.140}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "6F19AC81998D116F"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_pollucite_ore"
+				id: "416C906A3A750C5A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pollucite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.141}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.142}"
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "041EFB8FCAA3753B"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_powellite_ore"
+				id: "0CE8DC84E7AA4F34"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/powellite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.143}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.144}"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "6E3B32A3FE698E6E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_pyrite_ore"
+				id: "1E8FBEF061A67FAA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pyrite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.145}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.146}"
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "527321D22DDCBAB9"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_pyrochlore_ore"
+				id: "2B61CAB4141E4106"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pyrochlore"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.147}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.148}"
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "771E07410330B28A"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_pyrolusite_ore"
+				id: "4A8FA7259E604A5C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pyrolusite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.149}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.150}"
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "12A57DF6C6034B55"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_pyrope_ore"
+				id: "0FF4BF3857854A9F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pyrope"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.151}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.152}"
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "46414889E42241F8"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_quartzite_ore"
+				id: "73263A00C3B646C1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/quartzite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.153}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.154}"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			disable_toast: true
+			id: "613F40FDC5922B86"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_realgar_ore"
+				id: "23B6F256061DA93D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/realgar"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.155}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.156}"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "3090BD98F7974BA7"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_red_garnet_ore"
+				id: "48FAF3E1BBAF3FE1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/red_garnet"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.157}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.158}"
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "242AD0CE5BD04E49"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_redstone_ore"
+				id: "63016726514A7F27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/redstone"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.159}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.160}"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "34213926A3C7997E"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_rock_salt_ore"
+				id: "546FCFD4458615E9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/rock_salt"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.161}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.162}"
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "5CA6495C05A24AB6"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_ruby_ore"
+				id: "5BEF254B62A240B6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/ruby"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.163}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.164}"
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "735A1916C8264357"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_salt_ore"
+				id: "00870239C28043E0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/salt"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.165}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.166}"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "5510BCDB5B1D4944"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_saltpeter_ore"
+				id: "2D8C92834B2C6937"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/saltpeter"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.167}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.168}"
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "63B2C92E76AC2B00"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_sapphire_ore"
+				id: "644112CBA7852282"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/sapphire"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.169}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.170}"
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "364FDBF0D3E0B2A9"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_scheelite_ore"
+				id: "11D0A650A3304A99"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/scheelite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.171}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.172}"
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "429F67FB66682B83"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_cooperite_ore"
+				id: "1978DB5210454624"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cooperite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.173}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.174}"
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "47E5496F448447BC"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_silver_ore"
+				id: "3E8B16F0D4114340"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/silver"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.175}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.176}"
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "505769194622A256"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_soapstone_ore"
+				id: "52E0EE14FFDE45ED"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/soapstone"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.177}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.178}"
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "16ABA6C1E33096E1"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_sodalite_ore"
+				id: "4AC87196E0E67E1E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/sodalite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.179}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.180}"
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "3828AFC785BC1D68"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_spessartine_ore"
+				id: "023D74A4D5FF43B7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/spessartine"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.181}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.182}"
+			x: 8.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "00BDD7BCCAF443CF"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_sphalerite_ore"
+				id: "3815C0B3F5081697"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/sphalerite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.183}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.184}"
+			x: 9.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "22D158AAED69421B"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_spodumene_ore"
+				id: "1E50D21193654CA4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/spodumene"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.185}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.186}"
+			x: 10.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "70428B3352454C92"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_stibnite_ore"
+				id: "15B38DBB4AF4500E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/stibnite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.187}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.188}"
+			x: 11.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "0FF0547AF9A64841"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_sulfur_ore"
+				id: "08DD9C3F1D846C52"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/sulfur"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.189}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.190}"
+			x: 12.0d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "6584864E1D344622"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_talc_ore"
+				id: "2D30C71085A82964"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/talc"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.191}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.192}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "003A23B35CDB4155"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_tantalite_ore"
+				id: "4B41092FDA6077F1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/tantalite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.193}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.194}"
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "42DB9E0D639981D2"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_tetrahedrite_ore"
+				id: "7917F055E4B04603"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/tetrahedrite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.195}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.196}"
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "6060730F4A5C45F3"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_thorium_ore"
+				id: "785EA1980741424D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/thorium"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.197}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.198}"
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "690B9F0066C88F5A"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_tin_ore"
+				id: "6761F988A1E94CBC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/tin"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.199}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.200}"
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "7B21FDDAD9914FD7"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_topaz_ore"
+				id: "0A5A033B61BF4818"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/topaz"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.201}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.202}"
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "4674FDADEEB04869"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_tricalcium_phosphate_ore"
+				id: "5346AC2261DF4953"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/tricalcium_phosphate"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.203}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.204}"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "2953422D037F4CA8"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_trona_ore"
+				id: "313E5608EBAF4438"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/trona"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.205}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.206}"
+			x: 7.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "47D6E9A780334FDA"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_tungstate_ore"
+				id: "4ED1B93F75014E34"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/tungstate"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.207}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.208}"
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "552A21F4F0454D0D"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_uraninite_ore"
+				id: "19D96D954D884C50"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/uraninite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.209}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.210}"
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			disable_toast: true
+			id: "341CBB4F72EE42E0"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_vanadium_magnetite_ore"
+				id: "4A969508F39710BF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/vanadium_magnetite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.211}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.212}"
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "0A697001D5DDA804"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_wulfenite_ore"
+				id: "13D84522E0B34E69"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/wulfenite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.213}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.214}"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			disable_toast: true
+			id: "0FE9ACAB8AB70A63"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_yellow_garnet_ore"
+				id: "4ED494C6BAC54885"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/yellow_garnet"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.215}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.216}"
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			disable_toast: true
+			id: "163BBBA20DFB6571"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_yellow_limonite_ore"
+				id: "3DDF146E80D24B07"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/yellow_limonite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.217}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.218}"
+			x: 1.0d
+			y: 25.0d
+		}
+		{
+			disable_toast: true
+			id: "35E6E1DDC18C41FD"
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:endstone_zeolite_ore"
+				id: "65FDBE047FF5CE1F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/zeolite"
+					}
+				}
+				title: "{sky_greg.quests.chapters_ore_index.219}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_ore_index.220}"
+			x: 0.0d
+			y: 26.0d
+		}
+	]
+	subtitle: ["Alphabetical ore chart?"]
+	title: "{sky_greg.quests.chapters_ore_index.221}"
+}

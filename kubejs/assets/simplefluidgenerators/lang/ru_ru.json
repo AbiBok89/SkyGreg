@@ -1,0 +1,5 @@
+{
+  "block.simplefluidgenerators.basic_fluid_tank": "Базовый жидкостный резервуар",
+  "block.simplefluidgenerators.basic_water_generator": "Базовый генератор воды",
+  "block.simplefluidgenerators.basic_lava_generator": "Базовый генератор лавы"
+}

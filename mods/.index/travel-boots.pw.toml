@@ -1,0 +1,18 @@
+filename = 'TravelBootsJAR1.02.jar'
+name = 'Travel Boots'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TravelBootsJAR1.02.jar'
+
+[download]
+hash = '30b84e1770415b5d5e347e550ef31182458e892c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5025301
+project-id = 960430

@@ -1,0 +1,6368 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	disable_toast: true
+	filename: "processing_lines_a"
+	group: "613DEDD8B543A860"
+	icon: "gtceu:lv_robot_arm"
+	id: "29272B9B4BF248A4"
+	images: [
+		{
+			height: 2.0d
+			image: "gtceu:textures/gui/icon/gregtech_logo.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -13.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -12.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -13.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -12.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -13.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -14.0d
+			y: 24.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -12.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -13.0d
+			y: 33.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 40.5d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -7.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 47.0d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/capacitor_additionals/capacitor_bank_bar_energy"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.0d
+			y: 40.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.1}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.2}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.3}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.4}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.5}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.6}"
+				"{@pagebreak}"
+				"{sky_greg.quests.chapters_processing_lines_a.7}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.8}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.9}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.10}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.11}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.12}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.13}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "32175B025699B449"
+			optional: true
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.14}"
+			tasks: [{
+				id: "2015CECBFB0177EB"
+				optional_task: true
+				title: "{sky_greg.quests.chapters_processing_lines_a.15}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E3D090DDBB203E9"]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.16}"]
+			icon: "gtceu:nitric_acid_bucket"
+			id: "131E3C6408AF7753"
+			rewards: [{
+				id: "51BCAF12B1CAF78A"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37ECE5E38E5361B1"
+					item: "gtceu:nitric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D3E52AA56951EBE"
+					title: "{sky_greg.quests.chapters_processing_lines_a.17}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.18}"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"131E3C6408AF7753"
+				"16219211496A9A72"
+			]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.19}"]
+			id: "7E2299F2C3C81636"
+			rewards: [{
+				id: "7616E77133499A07"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BC82BCA1FFEDEAB"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.20}"]
+			icon: "gtceu:nitrogen_bucket"
+			id: "1E3D090DDBB203E9"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					icon: "gtceu:nitrogen_bucket"
+					id: "4300D1B3B8B20E63"
+					item: "gtceu:nitrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					icon: "gtceu:hydrogen_bucket"
+					id: "5B21F0BF8FE5A721"
+					item: "gtceu:hydrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F00CD52C0DE10FF"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38AD27530213BF15"
+					title: "{sky_greg.quests.chapters_processing_lines_a.21}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.22}"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.23}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.24}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.25}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "09CB1D2AA8386AED"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.26}"
+			tasks: [{
+				id: "7C11355F9AD99334"
+				title: "{sky_greg.quests.chapters_processing_lines_a.27}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:hv_centrifuge"
+			id: "7B16B35D083C0241"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.28}"
+			tasks: [
+				{
+					icon: "gtceu:hv_centrifuge"
+					id: "308FA34E0A719169"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.29}"
+					type: "custom"
+				}
+				{
+					id: "1EE740FC16F5D918"
+					title: "{sky_greg.quests.chapters_processing_lines_a.30}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.31}"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "55D069734BA85380"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.32}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "64C3CDE55F5E8A20"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.33}"
+					type: "custom"
+				}
+				{
+					id: "115B1D04BE7F56FB"
+					title: "{sky_greg.quests.chapters_processing_lines_a.34}"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.35}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.36}"
+			]
+			id: "16219211496A9A72"
+			rewards: [{
+				id: "1D06F70C5C1058DD"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.37}"
+			tasks: [{
+				icon: "gtceu:purified_cooperite_ore"
+				id: "6A5C3A4F362ACB9B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:purified_cooperite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:purified_bornite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:purified_pentlandite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:purified_chalcopyrite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:purified_tetrahedrite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:purified_chalcocite_ore"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_processing_lines_a.38}"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["131E3C6408AF7753"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.39}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.40}"
+			]
+			icon: "gtceu:aqua_regia_bucket"
+			id: "60A17263B8EE893A"
+			rewards: [{
+				id: "1ED99EE5F86F2745"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C43445EC4896C83"
+					item: "gtceu:aqua_regia_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "72EA93FFC52812EF"
+					title: "{sky_greg.quests.chapters_processing_lines_a.41}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.42}"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:lv_mixer"
+			id: "04B6A906B92F3606"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.43}"
+			tasks: [
+				{
+					icon: "gtceu:lv_mixer"
+					id: "2A5436D67BC23FA3"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.44}"
+					type: "custom"
+				}
+				{
+					id: "555062BE9849CCC3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.45}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.46}"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"60A17263B8EE893A"
+				"7E2299F2C3C81636"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.47}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.48}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.49}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.50}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.51}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.52}"
+			]
+			icon: "gtceu:platinum_raw_dust"
+			id: "4E375A44DF65E556"
+			rewards: [{
+				id: "117DBBB3A7703FCD"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "370EC194F67350E3"
+					item: "gtceu:platinum_raw_dust"
+					type: "item"
+				}
+				{
+					id: "1364BE47C7838944"
+					item: "gtceu:palladium_raw_dust"
+					type: "item"
+				}
+				{
+					id: "25F61E5B76D3C6EB"
+					item: "gtceu:platinum_sludge_residue_dust"
+					type: "item"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.53}"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"60A17263B8EE893A"
+				"7E2299F2C3C81636"
+			]
+			id: "272A2458BF34FD5F"
+			rewards: [{
+				id: "2F921B85745529E4"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "135C7F9AB28EE036"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"60A17263B8EE893A"
+				"7E2299F2C3C81636"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.54}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.55}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.56}"
+			]
+			id: "75A5161FDAB02DB7"
+			rewards: [{
+				id: "1976DF26AB3D9803"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "099FA6A6311B390E"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["272A2458BF34FD5F"]
+			id: "612024945233C3A9"
+			rewards: [{
+				id: "5B137855655D4A9B"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B61CE4B9C4FB22D"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["272A2458BF34FD5F"]
+			icon: "gtceu:rhodium_sulfate_bucket"
+			id: "31658DCD2B562D88"
+			rewards: [{
+				id: "125F0D30FB37455C"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "122E5CB5A7F228AB"
+					item: "gtceu:rhodium_sulfate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BDB2CE95DEE7227"
+					title: "{sky_greg.quests.chapters_processing_lines_a.57}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.58}"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75A5161FDAB02DB7"]
+			id: "62385AC7B82945D5"
+			rewards: [{
+				id: "18CB5EBD74A8C75E"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.59}"
+			tasks: [{
+				id: "4228408D756D746A"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75A5161FDAB02DB7"]
+			icon: "gtceu:acidic_osmium_solution_bucket"
+			id: "055F57C2C827FC37"
+			rewards: [{
+				id: "44C493F88F11CB61"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.60}"
+			tasks: [
+				{
+					id: "091AD3C588CDCDCC"
+					item: "gtceu:acidic_osmium_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "629836CA7C8CC707"
+					title: "{sky_greg.quests.chapters_processing_lines_a.61}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.62}"
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "304D229C7DA2D5D3"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.63}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "43579841B175EA83"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.64}"
+					type: "custom"
+				}
+				{
+					id: "27635ADEA227A266"
+					title: "{sky_greg.quests.chapters_processing_lines_a.65}"
+					type: "checkmark"
+				}
+			]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["612024945233C3A9"]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.66}"]
+			id: "67E2C5405551C079"
+			rewards: [{
+				id: "15EDE82BA5FF76A1"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EAD1FD35A3F825"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31658DCD2B562D88"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.67}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.68}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.69}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.70}"
+			]
+			id: "45C63E6F42E8D335"
+			rewards: [{
+				id: "3631E1867C366CD2"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.71}"
+			tasks: [{
+				id: "23F590D1A9B84C3E"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:mv_electrolyzer"
+			id: "2EC8646C1A854856"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.72}"
+			tasks: [
+				{
+					icon: "gtceu:mv_electrolyzer"
+					id: "2F92894F41C946F0"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.73}"
+					type: "custom"
+				}
+				{
+					id: "3388870A7D035ED3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.74}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.75}"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62385AC7B82945D5"]
+			id: "745725D909E1DF99"
+			rewards: [{
+				id: "2BBB63210BE65560"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ED4E39252AC078F"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:mv_centrifuge"
+			id: "1EF5BC0E172E980A"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.76}"
+			tasks: [
+				{
+					icon: "gtceu:mv_centrifuge"
+					id: "3DCE2D97B400A139"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.77}"
+					type: "custom"
+				}
+				{
+					id: "461644C44549C53D"
+					title: "{sky_greg.quests.chapters_processing_lines_a.78}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.79}"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["055F57C2C827FC37"]
+			id: "3FA786D229D4D61D"
+			rewards: [{
+				id: "48E7ED4CD5B31D37"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23680A7374E437BE"
+				item: "gtceu:osmium_tetroxide_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:lv_distillery"
+			id: "0631FB8FD79C0B6B"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.80}"
+			tasks: [
+				{
+					icon: "gtceu:lv_distillery"
+					id: "6F97F66C87592C00"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.81}"
+					type: "custom"
+				}
+				{
+					id: "1A007EC2E2B6F1A3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.82}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.83}"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67E2C5405551C079"]
+			id: "2FF41A7843C8248D"
+			rewards: [{
+				id: "1883DE96683EC5E4"
+				item: "kubejs:ev_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0738151390A6E61E"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:ev_mixer"
+			id: "519BAE396923C245"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.84}"
+			tasks: [
+				{
+					icon: "gtceu:ev_mixer"
+					id: "47ED2A99B50CBDC7"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.85}"
+					type: "custom"
+				}
+				{
+					id: "15C935499F5AF895"
+					title: "{sky_greg.quests.chapters_processing_lines_a.86}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.87}"
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["45C63E6F42E8D335"]
+			id: "2ACAC8FDDEC5AAAD"
+			rewards: [{
+				id: "4F1F0197B5CF70E1"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "70358ABE0F2A6C74"
+				item: "gtceu:rhodium_plated_palladium_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:iv_mixer"
+			id: "2B2D4409E253DDB3"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.88}"
+			tasks: [
+				{
+					icon: "gtceu:iv_mixer"
+					id: "3A1890930B31DDE7"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.89}"
+					type: "custom"
+				}
+				{
+					id: "332CE7952A6F3ECC"
+					title: "{sky_greg.quests.chapters_processing_lines_a.90}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.91}"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["745725D909E1DF99"]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.92}"]
+			id: "5173B85534EA794D"
+			rewards: [{
+				id: "23A3B0967B258BB4"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.93}"
+			tasks: [{
+				id: "6E4763FE0646C98E"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3FA786D229D4D61D"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.94}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.95}"
+			]
+			id: "2B433854F4009839"
+			rewards: [{
+				id: "40BA0B733A8FCDA2"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.96}"
+			tasks: [{
+				id: "4EE9EAFC6F89E3A6"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "2B206541F0E96AAC"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.97}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "2605031C3DB0AE4E"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.98}"
+					type: "custom"
+				}
+				{
+					id: "6E12D9477ECD0F63"
+					title: "{sky_greg.quests.chapters_processing_lines_a.99}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.100}"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5173B85534EA794D"
+				"67E2C5405551C079"
+			]
+			id: "029705197E81267C"
+			rewards: [{
+				id: "04DB20B3D0220096"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42EB2D03DFB3761D"
+				item: "gtceu:ruridit_dust"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			icon: "gtceu:iv_mixer"
+			id: "739CE8A68EB2F79B"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.101}"
+			tasks: [
+				{
+					icon: "gtceu:iv_mixer"
+					id: "182E32D562C5B2B1"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.102}"
+					type: "custom"
+				}
+				{
+					id: "096DCC0581BFFA30"
+					title: "{sky_greg.quests.chapters_processing_lines_a.103}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.104}"
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5173B85534EA794D"
+				"2B433854F4009839"
+			]
+			id: "7FD1D62FF87DB376"
+			rewards: [{
+				id: "0909840D8F8D0F7E"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "540340237829DA28"
+				item: "gtceu:osmiridium_dust"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:luv_mixer"
+			id: "702239DD145CB73A"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.105}"
+			tasks: [
+				{
+					icon: "gtceu:luv_mixer"
+					id: "540D6AC0C278D9AF"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.106}"
+					type: "custom"
+				}
+				{
+					id: "2421361D8445675E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.107}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.108}"
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "3508A96670AD819D"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.109}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "1D51C2647B4AE2FE"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.110}"
+					type: "custom"
+				}
+				{
+					id: "2D23EAA5FF4D3ED6"
+					title: "{sky_greg.quests.chapters_processing_lines_a.111}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.112}"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:mv_chemical_reactor"
+			id: "7010F22262A4F840"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.113}"
+			tasks: [
+				{
+					icon: "gtceu:mv_chemical_reactor"
+					id: "16999F310E0E5C58"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.114}"
+					type: "custom"
+				}
+				{
+					id: "00D5C518171B596C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.115}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.116}"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:ev_chemical_reactor"
+			id: "0F85CBA4FE6DCC85"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.117}"
+			tasks: [
+				{
+					icon: "gtceu:ev_chemical_reactor"
+					id: "7FBFD82F9ECE1DB3"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.118}"
+					type: "custom"
+				}
+				{
+					id: "59B5D98B92416C0A"
+					title: "{sky_greg.quests.chapters_processing_lines_a.119}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.120}"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "4CCE6C9BC41FBC27"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.121}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "54FCA3C94CD2F56B"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.122}"
+					type: "custom"
+				}
+				{
+					id: "73390DF8A75DE327"
+					title: "{sky_greg.quests.chapters_processing_lines_a.123}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.124}"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["312405248B8826EC"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.125}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.126}"
+			]
+			icon: "gtceu:polyvinyl_chloride_bucket"
+			id: "2C7DC2092E9EE13E"
+			rewards: [{
+				id: "180F41DBCB8C6D2B"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.127}"
+			tasks: [
+				{
+					id: "6B028760D60B321F"
+					item: "gtceu:polyvinyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D4FFCB96A8D1F3B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.128}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.129}"
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.130}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.131}"
+				"{sky_greg.quests.chapters_processing_lines_a.132}"
+				"{sky_greg.quests.chapters_processing_lines_a.133}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.134}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.135}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.136}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.137}"
+			]
+			icon: "gtceu:vinyl_chloride_bucket"
+			id: "312405248B8826EC"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.138}"
+			tasks: [
+				{
+					id: "3F1E7AEA4F938AAC"
+					item: "gtceu:vinyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "298951DC4B7784F0"
+					title: "{sky_greg.quests.chapters_processing_lines_a.139}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.140}"
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "537051A3F21314AA"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.141}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "52105E24800BAE9E"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.142}"
+					type: "custom"
+				}
+				{
+					id: "09CD87CFE4C35A07"
+					title: "{sky_greg.quests.chapters_processing_lines_a.143}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.144}"
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "266AD363EA91D6DE"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.145}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "25F05947210EDA65"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.146}"
+					type: "custom"
+				}
+				{
+					id: "3BEA3A374FCE83C7"
+					title: "{sky_greg.quests.chapters_processing_lines_a.147}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.148}"
+			x: -5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"05824C7F631244BC"
+				"208530E80C3866D0"
+				"04F2E85D6D81D764"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.149}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.150}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.151}"
+			]
+			icon: "gtceu:polyethylene_bucket"
+			id: "7CED9BF03C5DDD5D"
+			rewards: [{
+				id: "5EE3B28D9342A928"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.152}"
+			tasks: [
+				{
+					id: "659A662140E044A9"
+					item: "gtceu:polyethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "208D2AF8E524880B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.153}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.154}"
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"7968D12C83CA8DF6"
+				"71F35B4352185269"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.155}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.156}"
+			]
+			icon: "gtceu:rubber_bucket"
+			id: "2148A200DF322568"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.157}"
+			tasks: [
+				{
+					id: "447FADB4B5AE7404"
+					item: "gtceu:rubber_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "351954468E5A4870"
+					title: "{sky_greg.quests.chapters_processing_lines_a.158}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.159}"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5EC245650B454C31"]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.160}"]
+			icon: "gtceu:glue_bucket"
+			id: "67D664E7A032DF56"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.161}"
+			tasks: [
+				{
+					id: "5F4BE54A1509656B"
+					item: "gtceu:glue_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14B58DBD38733804"
+					title: "{sky_greg.quests.chapters_processing_lines_a.162}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.163}"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"20AE2A8DEB8B3062"
+				"2CA1629F217D146C"
+			]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.164}"]
+			icon: "gtceu:silicone_rubber_bucket"
+			id: "039C158C964422F9"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.165}"
+			tasks: [
+				{
+					id: "6D8122825A6DA84A"
+					item: "gtceu:silicone_rubber_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6618766ED0283199"
+					title: "{sky_greg.quests.chapters_processing_lines_a.166}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.167}"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"12205504A62BE308"
+				"48877ADEB968FF57"
+			]
+			icon: "gtceu:styrene_butadiene_rubber_bucket"
+			id: "21BE602B24C8AA5B"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.168}"
+			tasks: [
+				{
+					id: "4E9BA87ADC9E1A62"
+					item: "gtceu:styrene_butadiene_rubber_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "392776AA6AE0B033"
+					title: "{sky_greg.quests.chapters_processing_lines_a.169}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.170}"
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.171}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.172}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.173}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.174}"
+			]
+			id: "5EC245650B454C31"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.175}"
+			tasks: [{
+				id: "059784F5EDAF1EA8"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_centrifuge"
+			id: "17E69342CCDD39CA"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.176}"
+			tasks: [
+				{
+					icon: "gtceu:lv_centrifuge"
+					id: "55F9ADEC554417A3"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.177}"
+					type: "custom"
+				}
+				{
+					id: "2E5F820B36E0B2A4"
+					title: "{sky_greg.quests.chapters_processing_lines_a.178}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.179}"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.180}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.181}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "727236891126BC31"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.182}"
+			tasks: [{
+				id: "2F5AE7153CF614EC"
+				title: "{sky_greg.quests.chapters_processing_lines_a.183}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5EC245650B454C31"
+				"67471C4EE581B230"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.184}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.185}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.186}"
+			]
+			id: "7968D12C83CA8DF6"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.187}"
+			tasks: [{
+				id: "28F48DE449C8EC4F"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "75C46132339904A1"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.188}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "5AF2239BC26365AD"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.189}"
+					type: "custom"
+				}
+				{
+					id: "792B7A584FCC1EE7"
+					title: "{sky_greg.quests.chapters_processing_lines_a.190}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.191}"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"11A4D12B682C40BB"
+				"112B93E780EAEFEF"
+				"5AD08CFC6C1EC92F"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{sky_greg.quests.chapters_processing_lines_a.192}"]
+			id: "2CA1629F217D146C"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.193}"
+			tasks: [{
+				id: "66677241AE959844"
+				item: "gtceu:polydimethylsiloxane_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "6F703A5C3866A0ED"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.194}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "69271D273702FA18"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.195}"
+					type: "custom"
+				}
+				{
+					id: "06C9324D33EFDEB8"
+					title: "{sky_greg.quests.chapters_processing_lines_a.196}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.197}"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.198}"]
+			id: "20AE2A8DEB8B3062"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.199}"
+			tasks: [{
+				id: "1033A291FB792E5B"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.200}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.201}"
+			]
+			icon: "gtceu:chlorine_bucket"
+			id: "5AD08CFC6C1EC92F"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.202}"
+			tasks: [
+				{
+					id: "4F16C1D92CDC0F3B"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11D4C31BAFD73333"
+					item: "gtceu:chlorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5ED441ED53276644"
+					item: "gtceu:methane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4CB2B34960653A49"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+				{
+					id: "4E73A16C547523A8"
+					title: "{sky_greg.quests.chapters_processing_lines_a.203}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.204}"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:mv_chemical_reactor"
+			id: "2117D3697A938DBC"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.205}"
+			tasks: [
+				{
+					icon: "gtceu:mv_chemical_reactor"
+					id: "51EC716AC2E1EEED"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.206}"
+					type: "custom"
+				}
+				{
+					id: "7C89F0BA63097A90"
+					title: "{sky_greg.quests.chapters_processing_lines_a.207}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.208}"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.209}"]
+			icon: "gtceu:dimethyldichlorosilane_bucket"
+			id: "112B93E780EAEFEF"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.210}"
+			tasks: [
+				{
+					id: "3943FA2EB2603287"
+					item: "gtceu:dimethyldichlorosilane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "429E8E7AC5AEF5EA"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "62A150172D5292E4"
+					title: "{sky_greg.quests.chapters_processing_lines_a.211}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.212}"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.213}"]
+			icon: "gtceu:methanol_bucket"
+			id: "11A4D12B682C40BB"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.214}"
+			tasks: [
+				{
+					id: "526A73B03B9F8728"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BA4FA2F9A4B5E8C"
+					item: "gtceu:methanol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C9EB4ABFA618F3B"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+				{
+					id: "35D1444EBD10F30B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.215}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.216}"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2FD380B34324B660"
+				"0949C2CAA8288511"
+				"035EFE64C25C9E1A"
+			]
+			id: "12205504A62BE308"
+			tasks: [{
+				id: "635B38B2F28895F9"
+				item: "gtceu:raw_styrene_butadiene_rubber_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "3BDF2C0D1990C3FF"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.217}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "279320C682F17D1E"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.218}"
+					type: "custom"
+				}
+				{
+					id: "625F31517B5385AE"
+					title: "{sky_greg.quests.chapters_processing_lines_a.219}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.220}"
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.221}"]
+			id: "48877ADEB968FF57"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.222}"
+			tasks: [{
+				id: "075E0EB91FDB19A1"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:hv_chemical_reactor"
+			id: "44BAAF50CF2A97A9"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.223}"
+			tasks: [
+				{
+					icon: "gtceu:hv_chemical_reactor"
+					id: "6507CA38C8776EB3"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.224}"
+					type: "custom"
+				}
+				{
+					id: "59E50A3B7AA65CCF"
+					title: "{sky_greg.quests.chapters_processing_lines_a.225}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.226}"
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.227}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.228}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.229}"
+			]
+			icon: "gtceu:butadiene_bucket"
+			id: "035EFE64C25C9E1A"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.230}"
+			tasks: [
+				{
+					id: "2401EA87BA87E81C"
+					item: "gtceu:butadiene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DC5D35FEDAE0633"
+					title: "{sky_greg.quests.chapters_processing_lines_a.231}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.232}"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7882FC393EE6440B"
+				"6E3907F5FA72CE23"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{sky_greg.quests.chapters_processing_lines_a.233}"]
+			icon: "gtceu:styrene_bucket"
+			id: "2FD380B34324B660"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.234}"
+			tasks: [
+				{
+					id: "41993EF9D3C3F758"
+					item: "gtceu:styrene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24DE7D0A4036FE56"
+					title: "{sky_greg.quests.chapters_processing_lines_a.235}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.236}"
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.237}"]
+			icon: "gtceu:oxygen_bucket"
+			id: "0949C2CAA8288511"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.238}"
+			tasks: [
+				{
+					id: "4EB5440391F50F76"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "142F75E49D25011F"
+					title: "{sky_greg.quests.chapters_processing_lines_a.239}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.240}"
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.241}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.242}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.243}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.244}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.245}"
+			]
+			icon: "gtceu:ethylene_bucket"
+			id: "7882FC393EE6440B"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.246}"
+			tasks: [
+				{
+					id: "52A955266DEB48C6"
+					item: "gtceu:ethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08CFC8FDEF3EA1E3"
+					item: "gtceu:benzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53F8655E1D388116"
+					title: "{sky_greg.quests.chapters_processing_lines_a.247}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.248}"
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F9F522DEF044C80"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.249}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.250}"
+			]
+			icon: "gtceu:ethylbenzene_bucket"
+			id: "6E3907F5FA72CE23"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.251}"
+			tasks: [
+				{
+					id: "17BF9B5F902B6B2F"
+					item: "gtceu:ethylbenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D9DA0691EC6650D"
+					title: "{sky_greg.quests.chapters_processing_lines_a.252}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.253}"
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "69AD029FC5738ABC"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.254}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "74556A1B306568B5"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.255}"
+					type: "custom"
+				}
+				{
+					id: "5631AC864C90521D"
+					title: "{sky_greg.quests.chapters_processing_lines_a.256}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.257}"
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.258}"]
+			id: "71F35B4352185269"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.259}"
+			tasks: [{
+				id: "603C195A366269D5"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.260}"]
+			icon: "gtceu:coal_gas_bucket"
+			id: "3F9F522DEF044C80"
+			tasks: [
+				{
+					id: "7EEE28EFD83C2986"
+					item: "gtceu:coal_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2C5A2044F70AE8F0"
+					title: "{sky_greg.quests.chapters_processing_lines_a.261}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.262}"
+			x: -12.0d
+			y: 11.5d
+		}
+		{
+			icon: "gtceu:lv_distillery"
+			id: "4565C420F8CB4A32"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.263}"
+			tasks: [
+				{
+					icon: "gtceu:lv_distillery"
+					id: "089A9D4BB40C93D5"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.264}"
+					type: "custom"
+				}
+				{
+					id: "0ED5C2E6159E928E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.265}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.266}"
+			x: -11.0d
+			y: 11.5d
+		}
+		{
+			icon: "gtceu:pyrolyse_oven"
+			id: "561BA5DE1A898A90"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.267}"
+			tasks: [
+				{
+					icon: "gtceu:pyrolyse_oven"
+					id: "2FC7A9A54F13293C"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.268}"
+					type: "custom"
+				}
+				{
+					id: "358B0EEEFE0303C7"
+					title: "{sky_greg.quests.chapters_processing_lines_a.269}"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 11.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.270}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.271}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "2C9F9B8E82F955DE"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.272}"
+			tasks: [{
+				id: "13C02913E884CC36"
+				title: "{sky_greg.quests.chapters_processing_lines_a.273}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.274}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.275}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "4D1209D68086ED99"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.276}"
+			tasks: [{
+				id: "25782F2E2DACF3FE"
+				title: "{sky_greg.quests.chapters_processing_lines_a.277}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"579DC28D0166F90A"
+				"4F2FA6648F96A0C4"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.278}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.279}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.280}"
+			]
+			icon: "gtceu:ethylene_bucket"
+			id: "05824C7F631244BC"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.281}"
+			tasks: [
+				{
+					id: "207E7C9764296FF3"
+					item: "gtceu:ethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4EAD10C8C6915A08"
+					title: "{sky_greg.quests.chapters_processing_lines_a.282}"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.283}"]
+			icon: "gtceu:oxygen_bucket"
+			id: "208530E80C3866D0"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.284}"
+			tasks: [
+				{
+					id: "691D5699750FF5A1"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D9C128A7840E24A"
+					title: "{sky_greg.quests.chapters_processing_lines_a.285}"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "0E87C58107036918"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.286}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "611D69F7BEBD2746"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.287}"
+					type: "custom"
+				}
+				{
+					id: "69A02F59736673F0"
+					title: "{sky_greg.quests.chapters_processing_lines_a.288}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.289}"
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["15094EE0039D81BE"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.290}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.291}"
+			]
+			icon: "gtceu:wood_gas_bucket"
+			id: "579DC28D0166F90A"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.292}"
+			tasks: [
+				{
+					id: "77BE1FD7F590B04D"
+					item: "gtceu:wood_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "169F7174588F3DA7"
+					title: "{sky_greg.quests.chapters_processing_lines_a.293}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			icon: "gtceu:mv_distillery"
+			id: "27E4ED3C1BB86142"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.294}"
+			tasks: [
+				{
+					icon: "gtceu:mv_distillery"
+					id: "61868BDEC5F5F3B3"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.295}"
+					type: "custom"
+				}
+				{
+					id: "1025F6D4D83649EA"
+					title: "{sky_greg.quests.chapters_processing_lines_a.296}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.297}"
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.298}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.299}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.300}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.301}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.302}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.303}"
+			]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "4F2FA6648F96A0C4"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.304}"
+			tasks: [
+				{
+					id: "2C7089BA6568286A"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "273DF33F30E72D4A"
+					item: "gtceu:ethanol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7AF8371FE14C80DA"
+					title: "{sky_greg.quests.chapters_processing_lines_a.305}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.306}"
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:mv_chemical_reactor"
+			id: "25C303746B120857"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.307}"
+			tasks: [
+				{
+					icon: "gtceu:mv_chemical_reactor"
+					id: "71CB57631228BC3B"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.308}"
+					type: "custom"
+				}
+				{
+					id: "2CE515C5C5757B8C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.309}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.310}"
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			icon: "gtceu:pyrolyse_oven"
+			id: "793D6EE69D115969"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.311}"
+			tasks: [
+				{
+					icon: "gtceu:pyrolyse_oven"
+					id: "1496764F2FA5B9A6"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.312}"
+					type: "custom"
+				}
+				{
+					id: "22FE39164E7ADD88"
+					title: "{sky_greg.quests.chapters_processing_lines_a.313}"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.314}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.315}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.316}"
+			]
+			id: "67471C4EE581B230"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.317}"
+			tasks: [{
+				icon: "gtceu:rubber_log"
+				id: "52B8E99F0215AD72"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:sticky_resin"
+							}
+							{
+								Count: 1b
+								id: "gtceu:rubber_log"
+							}
+							{
+								Count: 1b
+								id: "gtceu:rubber_sapling"
+							}
+							{
+								Count: 1b
+								id: "gtceu:rubber_leaves"
+							}
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:slime_block"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_processing_lines_a.318}"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_extractor"
+			id: "7EF520978C43D26E"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.319}"
+			tasks: [
+				{
+					icon: "gtceu:lv_extractor"
+					id: "3C170B00A7742151"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.320}"
+					type: "custom"
+				}
+				{
+					id: "1ED50B48E660A94F"
+					title: "{sky_greg.quests.chapters_processing_lines_a.321}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.322}"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.323}"]
+			id: "15094EE0039D81BE"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.324}"
+			tasks: [{
+				icon: "gtceu:rubber_log"
+				id: "260036894AC02DFB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs_that_burn"
+					}
+				}
+				title: "{sky_greg.quests.chapters_processing_lines_a.325}"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.326}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.327}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "2EADDE705F566D8C"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.328}"
+			tasks: [{
+				id: "645FE0D22073A922"
+				title: "{sky_greg.quests.chapters_processing_lines_a.329}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.330}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.331}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "2D8983D995F6CF09"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.332}"
+			tasks: [{
+				id: "53F670FC11CDB065"
+				title: "{sky_greg.quests.chapters_processing_lines_a.333}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.334}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.335}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "116DBF8667D1D192"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.336}"
+			tasks: [{
+				id: "0301DD3D8B4DFFB0"
+				title: "{sky_greg.quests.chapters_processing_lines_a.337}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.338}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.339}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "48D8B85A773C2E69"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.340}"
+			tasks: [{
+				id: "192375052418C835"
+				title: "{sky_greg.quests.chapters_processing_lines_a.341}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"5DBBBD1E5560F744"
+				"691703631785C2F9"
+				"5027E1163D4DCC38"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.342}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.343}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.344}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.345}"
+			]
+			icon: "gtceu:polytetrafluoroethylene_bucket"
+			id: "394B072BDD61D2A6"
+			rewards: [{
+				id: "4885C2FC60F8E430"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.346}"
+			tasks: [
+				{
+					id: "3DFBC34729C5D65A"
+					item: "gtceu:polytetrafluoroethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "154BF7137B085EE8"
+					title: "{sky_greg.quests.chapters_processing_lines_a.347}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.348}"
+			x: -4.0d
+			y: 21.0d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "733E680E49F5AEFE"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.349}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "2FE051A5E6285341"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.350}"
+					type: "custom"
+				}
+				{
+					id: "409A9B17ACA0D829"
+					title: "{sky_greg.quests.chapters_processing_lines_a.351}"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 21.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.352}"]
+			icon: "gtceu:oxygen_bucket"
+			id: "5DBBBD1E5560F744"
+			tasks: [
+				{
+					id: "495E874BA41CC55B"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AE8E80F48AB9F6F"
+					title: "{sky_greg.quests.chapters_processing_lines_a.353}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.354}"
+			x: -6.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"0C871FB88FF9D226"
+				"74DD9D84F6220BA3"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.355}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.356}"
+			]
+			icon: "gtceu:tetrafluoroethylene_bucket"
+			id: "691703631785C2F9"
+			tasks: [
+				{
+					id: "660F3C50E1AB29AE"
+					item: "gtceu:tetrafluoroethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F79AFD449C9AA90"
+					title: "{sky_greg.quests.chapters_processing_lines_a.357}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.358}"
+			x: -6.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"476A8F0A4E66CBBD"
+				"0B68A6F9E4B7936D"
+			]
+			icon: "gtceu:chloroform_bucket"
+			id: "74DD9D84F6220BA3"
+			tasks: [
+				{
+					id: "120FC23A5E93ED0E"
+					item: "gtceu:chloroform_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AFBF65A9946D560"
+					title: "{sky_greg.quests.chapters_processing_lines_a.359}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.360}"
+			x: -8.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"29DBD5EF626FAE21"
+				"27A960231D2CC768"
+			]
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "0C871FB88FF9D226"
+			tasks: [
+				{
+					id: "5E29AD2C66A71E9D"
+					item: "gtceu:hydrofluoric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CC97F94D9660962"
+					title: "{sky_greg.quests.chapters_processing_lines_a.361}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.362}"
+			x: -8.0d
+			y: 22.5d
+		}
+		{
+			icon: "gtceu:hv_chemical_reactor"
+			id: "27B496D708BCF028"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.363}"
+			tasks: [
+				{
+					icon: "gtceu:hv_chemical_reactor"
+					id: "5811991BC4F6712B"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.364}"
+					type: "custom"
+				}
+				{
+					id: "1727D579AF99D0A3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.365}"
+					type: "checkmark"
+				}
+			]
+			x: -7.0d
+			y: 21.5d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "6FC0FEF49FFAC557"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.366}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "657D643951FC9E23"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.367}"
+					type: "custom"
+				}
+				{
+					id: "302E20DFFAF3FDEA"
+					title: "{sky_greg.quests.chapters_processing_lines_a.368}"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 20.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.369}"]
+			icon: "gtceu:chlorine_bucket"
+			id: "476A8F0A4E66CBBD"
+			tasks: [
+				{
+					id: "68B7465C069F2599"
+					item: "gtceu:chlorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "186A0E83D13B00C4"
+					title: "{sky_greg.quests.chapters_processing_lines_a.370}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.371}"
+			x: -10.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.372}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.373}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.374}"
+			]
+			icon: "gtceu:methane_bucket"
+			id: "0B68A6F9E4B7936D"
+			tasks: [
+				{
+					id: "04684AB5D55044F5"
+					item: "gtceu:methane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4945C054FB3EF02E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.375}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.376}"
+			x: -10.0d
+			y: 21.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.377}"]
+			icon: "gtceu:hydrogen_bucket"
+			id: "27A960231D2CC768"
+			tasks: [
+				{
+					id: "5BB21E375E1C1985"
+					item: "gtceu:hydrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FD85E3F8635920A"
+					title: "{sky_greg.quests.chapters_processing_lines_a.378}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.379}"
+			x: -10.0d
+			y: 23.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.380}"]
+			icon: "gtceu:fluorine_bucket"
+			id: "29DBD5EF626FAE21"
+			tasks: [
+				{
+					id: "58D8F133709BDAD4"
+					item: "gtceu:fluorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77DE944A9F0363AD"
+					title: "{sky_greg.quests.chapters_processing_lines_a.381}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.382}"
+			x: -10.0d
+			y: 22.0d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "79E2A8DF817B69F8"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.383}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "5E1C2BA5B50E1225"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.384}"
+					type: "custom"
+				}
+				{
+					id: "08513A686748623B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.385}"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 22.5d
+		}
+		{
+			icon: "gtceu:mv_electrolyzer"
+			id: "31034F65CB9BF334"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.386}"
+			tasks: [
+				{
+					icon: "gtceu:mv_electrolyzer"
+					id: "5E727DB2CC4027D0"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.387}"
+					type: "custom"
+				}
+				{
+					id: "088EA2892A244BAC"
+					title: "{sky_greg.quests.chapters_processing_lines_a.388}"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 22.0d
+		}
+		{
+			icon: "gtceu:mv_electrolyzer"
+			id: "31CE72316E031ADF"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.389}"
+			tasks: [
+				{
+					icon: "gtceu:mv_electrolyzer"
+					id: "69C6342316B33FC2"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.390}"
+					type: "custom"
+				}
+				{
+					id: "39E7CCCBEDB8BBD6"
+					title: "{sky_greg.quests.chapters_processing_lines_a.391}"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 20.0d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "62FC3477A448AA74"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.392}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "4CA1E709A5040A7B"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.393}"
+					type: "custom"
+				}
+				{
+					id: "479A3412C2FD7539"
+					title: "{sky_greg.quests.chapters_processing_lines_a.394}"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"0BEC0A440BACE325"
+				"1DFA3854B5A0717F"
+			]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.395}"]
+			icon: "gtceu:polybenzimidazole_bucket"
+			id: "4EA16B6BB2F87180"
+			rewards: [{
+				id: "692D242CD21E4CF1"
+				item: "kubejs:iv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.396}"
+			tasks: [
+				{
+					id: "3FB8E3202E409D95"
+					item: "gtceu:polybenzimidazole_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "376207117B36A0F3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.397}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.398}"
+			x: -4.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"03B49AC9FA83FEC4"
+				"0578FC8F7C847FDE"
+			]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.399}"]
+			icon: "gtceu:diaminobenzidine_bucket"
+			id: "0BEC0A440BACE325"
+			tasks: [
+				{
+					id: "3500368BE26DABE2"
+					item: "gtceu:diaminobenzidine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58D6702C0771C9F9"
+					title: "{sky_greg.quests.chapters_processing_lines_a.400}"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"190FF0D7E19312B9"
+				"3B8CE3E7D0FAC55C"
+				"431CE0281381BA31"
+			]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.401}"]
+			icon: "gtceu:diphenyl_isophthalate_bucket"
+			id: "1DFA3854B5A0717F"
+			tasks: [
+				{
+					id: "1483F3B57A617C9B"
+					item: "gtceu:diphenyl_isophthalate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14E982C794094C8C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.402}"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 30.5d
+		}
+		{
+			dependencies: [
+				"486F0359B85372AD"
+				"358270866F420D1E"
+			]
+			icon: "gtceu:dichlorobenzidine_bucket"
+			id: "03B49AC9FA83FEC4"
+			tasks: [
+				{
+					id: "66520F499EE7BFDF"
+					item: "gtceu:dichlorobenzidine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0681645C57A4C22E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.403}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.404}"
+			x: -8.0d
+			y: 27.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.405}"]
+			icon: "gtceu:ammonia_bucket"
+			id: "0578FC8F7C847FDE"
+			tasks: [
+				{
+					id: "684B85CB20FDD8E5"
+					item: "gtceu:ammonia_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "76E2E4F8B9C96F22"
+					title: "{sky_greg.quests.chapters_processing_lines_a.406}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.407}"
+			x: -8.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"3DFBBA8F56C36971"
+				"5B4C32D2906F2FAC"
+			]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.408}"]
+			icon: "gtceu:phthalic_acid_bucket"
+			id: "190FF0D7E19312B9"
+			tasks: [
+				{
+					id: "37C21F841D9B53E4"
+					item: "gtceu:phthalic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2053E9526F275C7C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.409}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.410}"
+			x: -8.0d
+			y: 31.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.411}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.412}"
+			]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "5B4C32D2906F2FAC"
+			tasks: [
+				{
+					id: "32AB874A5612BC5A"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "054409E69018F8A1"
+					title: "{sky_greg.quests.chapters_processing_lines_a.413}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.414}"
+			x: -10.0d
+			y: 32.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.415}"]
+			icon: "gtceu:phenol_bucket"
+			id: "3B8CE3E7D0FAC55C"
+			tasks: [
+				{
+					id: "17E4959DCB632B0B"
+					item: "gtceu:phenol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5AF5FCD452F3BC2C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.416}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.417}"
+			x: -8.0d
+			y: 29.5d
+		}
+		{
+			dependencies: ["02B9616EDD3BDE8E"]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.418}"]
+			icon: "gtceu:naphthalene_bucket"
+			id: "3DFBBA8F56C36971"
+			tasks: [
+				{
+					id: "7FDB95F5F431DCD6"
+					item: "gtceu:naphthalene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "698105C867969683"
+					title: "{sky_greg.quests.chapters_processing_lines_a.419}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.420}"
+			x: -10.0d
+			y: 31.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.421}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.422}"
+			]
+			icon: "gtceu:coal_tar_bucket"
+			id: "02B9616EDD3BDE8E"
+			tasks: [
+				{
+					id: "3AA10E2117D172BA"
+					item: "gtceu:coal_tar_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2CDE393AE2D3ECC7"
+					title: "{sky_greg.quests.chapters_processing_lines_a.423}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.424}"
+			x: -12.0d
+			y: 31.0d
+		}
+		{
+			icon: "gtceu:iv_chemical_reactor"
+			id: "44ECFEF9768776BC"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.425}"
+			tasks: [
+				{
+					icon: "gtceu:iv_chemical_reactor"
+					id: "4820893193370F20"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.426}"
+					type: "custom"
+				}
+				{
+					id: "67515B165A5B9FAD"
+					title: "{sky_greg.quests.chapters_processing_lines_a.427}"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 29.0d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "529636B1753DE519"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.428}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "26592CABABADDB8B"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.429}"
+					type: "custom"
+				}
+				{
+					id: "08D23225280753D3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.430}"
+					type: "checkmark"
+				}
+			]
+			x: -7.0d
+			y: 27.5d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "0AE923D49ED573DD"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.431}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "52C5136DBA2AFED6"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.432}"
+					type: "custom"
+				}
+				{
+					id: "21763B20F2ECFF4C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.433}"
+					type: "checkmark"
+				}
+			]
+			x: -7.0d
+			y: 30.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.434}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.435}"
+			]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "431CE0281381BA31"
+			tasks: [
+				{
+					id: "09D2B3E5ABE42B51"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F2E996209E489E1"
+					title: "{sky_greg.quests.chapters_processing_lines_a.436}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.437}"
+			x: -8.0d
+			y: 30.5d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "026B98961F72BA0D"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.438}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "4D7B8C6DD778C590"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.439}"
+					type: "custom"
+				}
+				{
+					id: "14D159A9C9BCC66D"
+					title: "{sky_greg.quests.chapters_processing_lines_a.440}"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 31.5d
+		}
+		{
+			icon: "gtceu:pyrolyse_oven"
+			id: "11AD4E82346805E7"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.441}"
+			tasks: [
+				{
+					icon: "gtceu:pyrolyse_oven"
+					id: "746BD531495CD867"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.442}"
+					type: "custom"
+				}
+				{
+					id: "2B07D6C4A6121149"
+					title: "{sky_greg.quests.chapters_processing_lines_a.443}"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 31.0d
+		}
+		{
+			icon: "gtceu:lv_distillery"
+			id: "249DED9DE2864334"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.444}"
+			tasks: [
+				{
+					icon: "gtceu:lv_distillery"
+					id: "244C6F55A0ABA309"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.445}"
+					type: "custom"
+				}
+				{
+					id: "0D2F324432DB8AC0"
+					title: "{sky_greg.quests.chapters_processing_lines_a.446}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.447}"
+			x: -11.0d
+			y: 31.0d
+		}
+		{
+			icon: "gtceu:ev_chemical_reactor"
+			id: "4F5569B31CB49074"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.448}"
+			tasks: [
+				{
+					icon: "gtceu:ev_chemical_reactor"
+					id: "49201874901BB5A0"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.449}"
+					type: "custom"
+				}
+				{
+					id: "4EE6B2B4F3FC1C4E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.450}"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"7EB26599CF68EF01"
+				"64800897AE4D147C"
+			]
+			icon: "gtceu:nitrochlorobenzene_bucket"
+			id: "486F0359B85372AD"
+			tasks: [
+				{
+					id: "2511157965B962BF"
+					item: "gtceu:nitrochlorobenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4BEAA68489035A12"
+					title: "{sky_greg.quests.chapters_processing_lines_a.451}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.452}"
+			x: -10.0d
+			y: 26.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.453}"]
+			icon: "gtceu:hydrogen_bucket"
+			id: "358270866F420D1E"
+			tasks: [
+				{
+					id: "755DD4D8C7512C95"
+					item: "gtceu:hydrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "578F72CA59A57B2C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.454}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.455}"
+			x: -10.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"7F6E3C429D80844B"
+				"6F651E46A4AB65B1"
+			]
+			icon: "gtceu:nitration_mixture_bucket"
+			id: "7EB26599CF68EF01"
+			tasks: [
+				{
+					id: "1B5C0DD3C22BA754"
+					item: "gtceu:nitration_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C58876EE47D6A8A"
+					title: "{sky_greg.quests.chapters_processing_lines_a.456}"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"2110F52F3B7F6D35"
+				"77F38FDEC2357B52"
+			]
+			icon: "gtceu:chlorobenzene_bucket"
+			id: "64800897AE4D147C"
+			tasks: [
+				{
+					id: "7971BF639E0839D4"
+					item: "gtceu:chlorobenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15C5B082AA7094B2"
+					title: "{sky_greg.quests.chapters_processing_lines_a.457}"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 27.5d
+		}
+		{
+			icon: "gtceu:hv_chemical_reactor"
+			id: "7A38F178BEF6C26C"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.458}"
+			tasks: [
+				{
+					icon: "gtceu:hv_chemical_reactor"
+					id: "5117F6E8405F6781"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.459}"
+					type: "custom"
+				}
+				{
+					id: "26C9D88D5FD52A5B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.460}"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 26.5d
+		}
+		{
+			icon: "gtceu:chlorine_bucket"
+			id: "2110F52F3B7F6D35"
+			tasks: [
+				{
+					id: "4FC086F70BB77D72"
+					item: "gtceu:chlorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74BE49D0C36D2605"
+					title: "{sky_greg.quests.chapters_processing_lines_a.461}"
+					type: "checkmark"
+				}
+			]
+			x: -14.0d
+			y: 27.0d
+		}
+		{
+			icon: "gtceu:benzene_bucket"
+			id: "77F38FDEC2357B52"
+			tasks: [
+				{
+					id: "3B98F4F07B312784"
+					item: "gtceu:benzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42D62959E275CB6E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.462}"
+					type: "checkmark"
+				}
+			]
+			x: -14.0d
+			y: 28.0d
+		}
+		{
+			icon: "gtceu:lv_chemical_reactor"
+			id: "1091C82C8F2B46CF"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.463}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "03BA024D2DFDB726"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.464}"
+					type: "custom"
+				}
+				{
+					id: "714F30D61D2D00B2"
+					title: "{sky_greg.quests.chapters_processing_lines_a.465}"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 27.5d
+		}
+		{
+			icon: "gtceu:nitric_acid_bucket"
+			id: "7F6E3C429D80844B"
+			tasks: [
+				{
+					id: "645AA0EF3B7A0F23"
+					item: "gtceu:nitric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CC011F5EE8B639B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.466}"
+					type: "checkmark"
+				}
+			]
+			x: -14.0d
+			y: 25.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.467}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.468}"
+			]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "6F651E46A4AB65B1"
+			tasks: [
+				{
+					id: "3D86164FE9437654"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "445A7A857F752C9D"
+					title: "{sky_greg.quests.chapters_processing_lines_a.469}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.470}"
+			x: -14.0d
+			y: 26.0d
+		}
+		{
+			icon: "gtceu:lv_mixer"
+			id: "602824C717B6DECA"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.471}"
+			tasks: [
+				{
+					icon: "gtceu:lv_mixer"
+					id: "268449E0DBDC0760"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.472}"
+					type: "custom"
+				}
+				{
+					id: "6EA601FB765327E8"
+					title: "{sky_greg.quests.chapters_processing_lines_a.473}"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"655294752313CC50"
+				"6A4AC4E9E635B80E"
+				"5027E1163D4DCC38"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.474}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.475}"
+			]
+			icon: "gtceu:polyvinyl_butyral_bucket"
+			id: "2709EE6DCCAB43EA"
+			rewards: [{
+				id: "126D553983D88537"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.476}"
+			tasks: [
+				{
+					id: "4D90CA40B5DF46A8"
+					item: "gtceu:polyvinyl_butyral_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5641BFFFE18B3611"
+					title: "{sky_greg.quests.chapters_processing_lines_a.477}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.478}"
+			x: -4.0d
+			y: 36.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:hv_chemical_reactor"
+			id: "26648429BAC80B29"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.479}"
+			tasks: [
+				{
+					icon: "gtceu:hv_chemical_reactor"
+					id: "6C89FC3686E8F44A"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.480}"
+					type: "custom"
+				}
+				{
+					id: "2E4B293A122F43C0"
+					title: "{sky_greg.quests.chapters_processing_lines_a.481}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.482}"
+			x: -5.0d
+			y: 36.5d
+		}
+		{
+			dependencies: [
+				"7F2ABFFE56E1B393"
+				"79CA7C7A5AE06F6A"
+				"67F0AD06AD8E1FE4"
+			]
+			icon: "gtceu:butyraldehyde_bucket"
+			id: "655294752313CC50"
+			rewards: [{
+				id: "4454362FED8AE8E3"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09296525456161B6"
+					item: "gtceu:butyraldehyde_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DB259B1DBAA9ECF"
+					title: "{sky_greg.quests.chapters_processing_lines_a.483}"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"63ACC0DAB78F2163"
+				"6B6B744521A29B91"
+			]
+			icon: "gtceu:polyvinyl_acetate_bucket"
+			id: "6A4AC4E9E635B80E"
+			rewards: [{
+				id: "7622F8CA10719E46"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "579DDABEF55562AF"
+					item: "gtceu:polyvinyl_acetate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2CDD4F5C9B3D8CAC"
+					title: "{sky_greg.quests.chapters_processing_lines_a.484}"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 38.0d
+		}
+		{
+			icon: "gtceu:propene_bucket"
+			id: "79CA7C7A5AE06F6A"
+			rewards: [{
+				id: "4A4E876D93B5FF61"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58389A55D11A96BF"
+					item: "gtceu:propene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0FA89CB7C8C778AC"
+					title: "{sky_greg.quests.chapters_processing_lines_a.485}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 34.0d
+		}
+		{
+			icon: "gtceu:hydrogen_bucket"
+			id: "7F2ABFFE56E1B393"
+			tasks: [
+				{
+					id: "3AF5F7DC67FEAF2B"
+					item: "gtceu:hydrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7FDB493C3819CCEB"
+					title: "{sky_greg.quests.chapters_processing_lines_a.486}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 35.0d
+		}
+		{
+			icon: "gtceu:carbon_monoxide_bucket"
+			id: "67F0AD06AD8E1FE4"
+			rewards: [{
+				id: "05BBB0E56D2F0033"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "44A7EB1EDF59294A"
+					item: "gtceu:carbon_monoxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "092C6800AC31CE4B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.487}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 36.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:hv_chemical_reactor"
+			id: "11A2436BE67266E5"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.488}"
+			tasks: [
+				{
+					icon: "gtceu:hv_chemical_reactor"
+					id: "1792F46B5AC78BD5"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.489}"
+					type: "custom"
+				}
+				{
+					id: "58EB85B413DCB127"
+					title: "{sky_greg.quests.chapters_processing_lines_a.490}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.491}"
+			x: -7.0d
+			y: 35.0d
+		}
+		{
+			icon: "gtceu:oxygen_bucket"
+			id: "6B6B744521A29B91"
+			tasks: [
+				{
+					id: "125210741FF5CA51"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F0838A87C7559D6"
+					title: "{sky_greg.quests.chapters_processing_lines_a.492}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 37.5d
+		}
+		{
+			dependencies: [
+				"0D62EF177A926A86"
+				"2145C855580845FE"
+				"0DC52F6ACC1EB27E"
+			]
+			icon: "gtceu:vinyl_acetate_bucket"
+			id: "63ACC0DAB78F2163"
+			rewards: [{
+				id: "38136FF9A202EFCA"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E5F1CCC5DCDA795"
+					item: "gtceu:vinyl_acetate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DAB9CE6E0694693"
+					title: "{sky_greg.quests.chapters_processing_lines_a.493}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 38.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "1B1BE64EA0163067"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.494}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "36A05AB5F01A2F4E"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.495}"
+					type: "custom"
+				}
+				{
+					id: "6AFAC3F4C1AA2FA0"
+					title: "{sky_greg.quests.chapters_processing_lines_a.496}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.497}"
+			x: -7.0d
+			y: 38.0d
+		}
+		{
+			icon: "gtceu:oxygen_bucket"
+			id: "0D62EF177A926A86"
+			tasks: [
+				{
+					id: "14CFA6AF08A48F7D"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7101B28B9EE329D3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.498}"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 37.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.499}"]
+			icon: "gtceu:acetic_acid_bucket"
+			id: "2145C855580845FE"
+			rewards: [{
+				id: "5B5F7A05AE48D9F8"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22058F74CE8CF535"
+					item: "gtceu:acetic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D36C413EBE3FA7A"
+					title: "{sky_greg.quests.chapters_processing_lines_a.500}"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 38.5d
+		}
+		{
+			icon: "gtceu:ethylene_bucket"
+			id: "0DC52F6ACC1EB27E"
+			rewards: [{
+				id: "41D60381D39004E3"
+				item: "kubejs:mv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77EB889DC86419E4"
+					item: "gtceu:ethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48A24990B936F647"
+					title: "{sky_greg.quests.chapters_processing_lines_a.501}"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 39.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "3D837E278AFF8ABD"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.502}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "40589BD49484D6DB"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.503}"
+					type: "custom"
+				}
+				{
+					id: "75E5AA014E107A55"
+					title: "{sky_greg.quests.chapters_processing_lines_a.504}"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 38.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.505}"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "7A9CA464B4D5218C"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.506}"
+			tasks: [{
+				id: "302B3975F7C357AF"
+				title: "{sky_greg.quests.chapters_processing_lines_a.507}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["21F8C3C0CDE07328"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.508}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.509}"
+			]
+			disable_toast: true
+			icon: "gtceu:impure_naquadria_solution_bucket"
+			id: "6C42377C5717B5B4"
+			rewards: [{
+				id: "0C7153DC4FC92A26"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.510}"
+			tasks: [
+				{
+					id: "7A6E78320582563D"
+					item: "gtceu:impure_naquadria_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D0A07C194461F94"
+					title: "{sky_greg.quests.chapters_processing_lines_a.511}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.512}"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "47BEE00F25D0A141"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.513}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "22A3FCEB7E181245"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.514}"
+					type: "custom"
+				}
+				{
+					id: "0F6653343B8A7851"
+					title: "{sky_greg.quests.chapters_processing_lines_a.515}"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["586D48673B288FFE"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.516}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.517}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.518}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.519}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.520}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.521}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.522}"
+			]
+			disable_toast: true
+			icon: "gtceu:naquadah_dust"
+			id: "21F8C3C0CDE07328"
+			rewards: [{
+				id: "757FC5549707F98C"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.523}"
+			tasks: [
+				{
+					id: "6E5E4A8E28D8B976"
+					item: "gtceu:naquadah_dust"
+					type: "item"
+				}
+				{
+					id: "392253E802C0F0B0"
+					item: "gtceu:fluoroantimonic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51A7882B41DD934E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.524}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.525}"
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C5237C6BC8BE509"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.526}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.527}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.528}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.529}"
+			]
+			disable_toast: true
+			icon: "gtceu:antimony_trifluoride_dust"
+			id: "586D48673B288FFE"
+			rewards: [{
+				id: "64784D59BCABE015"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3508B4CFE5B8837E"
+					item: "gtceu:antimony_trifluoride_dust"
+					type: "item"
+				}
+				{
+					id: "5333C108A617A550"
+					item: "gtceu:hydrofluoric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "254D74DA84541AE3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.530}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.531}"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:hv_chemical_reactor"
+			id: "085095B616AE2C25"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.532}"
+			tasks: [
+				{
+					icon: "gtceu:hv_chemical_reactor"
+					id: "6B1B0F4395EFBAFC"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.533}"
+					type: "custom"
+				}
+				{
+					id: "253513318B711D75"
+					title: "{sky_greg.quests.chapters_processing_lines_a.534}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.535}"
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.536}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.537}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.538}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.539}"
+			]
+			disable_toast: true
+			icon: "gtceu:antimony_trioxide_dust"
+			id: "2C5237C6BC8BE509"
+			rewards: [{
+				id: "40B6F1EC4EF5A690"
+				item: "kubejs:lv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.540}"
+			tasks: [
+				{
+					id: "7EF00516FE33901C"
+					item: "gtceu:antimony_trioxide_dust"
+					type: "item"
+				}
+				{
+					id: "27AC237C4413F9F1"
+					item: "gtceu:hydrofluoric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E61DEFA0EF46645"
+					title: "{sky_greg.quests.chapters_processing_lines_a.541}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.542}"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "5E4AFFFC282555CD"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.543}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "67FD0741E125F242"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.544}"
+					type: "custom"
+				}
+				{
+					id: "37868EBD7FE07322"
+					title: "{sky_greg.quests.chapters_processing_lines_a.545}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.546}"
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			icon: "gtceu:ev_centrifuge"
+			id: "243E14F59C21C7D1"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.547}"
+			tasks: [
+				{
+					icon: "gtceu:ev_centrifuge"
+					id: "4B29909878614970"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.548}"
+					type: "custom"
+				}
+				{
+					id: "6475AA1EB48AE32C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.549}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.550}"
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7C0BB54D60D8D6A8"]
+			disable_toast: true
+			icon: "gtceu:enriched_naquadah_solution_bucket"
+			id: "3AD0BF61FF32A525"
+			rewards: [{
+				id: "32CC64380F038F7A"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7527102BAB9FE6B8"
+					item: "gtceu:enriched_naquadah_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16C41B3A7CCFFE90"
+					title: "{sky_greg.quests.chapters_processing_lines_a.551}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.552}"
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6C42377C5717B5B4"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.553}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.554}"
+			]
+			disable_toast: true
+			icon: "gtceu:indium_phosphide_dust"
+			id: "202F319C36E05851"
+			rewards: [{
+				id: "3EC2125766CF1306"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.555}"
+			tasks: [{
+				id: "53D39BDE9A9DEA86"
+				item: "gtceu:indium_phosphide_dust"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_processing_lines_a.556}"
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			icon: "gtceu:ev_centrifuge"
+			id: "02310E1B74C0F636"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.557}"
+			tasks: [
+				{
+					icon: "gtceu:ev_centrifuge"
+					id: "1C97A2E86C6618E4"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.558}"
+					type: "custom"
+				}
+				{
+					id: "63B4CE1A426885E9"
+					title: "{sky_greg.quests.chapters_processing_lines_a.559}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.560}"
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2131A369BF95B3AF"
+				"0759334CF0F1E399"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.561}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.562}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.563}"
+			]
+			id: "3F9F9F9BE2962F2B"
+			rewards: [{
+				id: "7E4B1127D6CD1618"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.564}"
+			tasks: [{
+				id: "7F8C020FFBA7FBBD"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			icon: "gtceu:electric_blast_furnace"
+			id: "084535FD7C6FFAED"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.565}"
+			tasks: [
+				{
+					icon: "gtceu:electric_blast_furnace"
+					id: "28CA6EE28A8ECAD8"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.566}"
+					type: "custom"
+				}
+				{
+					id: "203696506CFD31C2"
+					title: "{sky_greg.quests.chapters_processing_lines_a.567}"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3AD0BF61FF32A525"]
+			disable_toast: true
+			icon: "gtceu:acidic_enriched_naquadah_solution_bucket"
+			id: "7AA81DAA7524DFEF"
+			tasks: [
+				{
+					id: "693F047EBCB88433"
+					item: "gtceu:acidic_enriched_naquadah_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "357EBADBB56E1EF6"
+					title: "{sky_greg.quests.chapters_processing_lines_a.568}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.569}"
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			icon: "gtceu:hv_mixer"
+			id: "72862C0E1293D6A3"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.570}"
+			tasks: [
+				{
+					icon: "gtceu:hv_mixer"
+					id: "1843C98809B58AC8"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.571}"
+					type: "custom"
+				}
+				{
+					id: "0D2CAD5AC4564DFB"
+					title: "{sky_greg.quests.chapters_processing_lines_a.572}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.573}"
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7AA81DAA7524DFEF"]
+			disable_toast: true
+			icon: "gtceu:enriched_naquadah_sulfate_dust"
+			id: "69562A462476AEA2"
+			tasks: [{
+				id: "46F6166108233282"
+				item: "gtceu:enriched_naquadah_sulfate_dust"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_processing_lines_a.574}"
+			x: 16.0d
+			y: 10.5d
+		}
+		{
+			icon: "gtceu:hv_centrifuge"
+			id: "4F31241EFFD5AA27"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.575}"
+			tasks: [
+				{
+					icon: "gtceu:hv_centrifuge"
+					id: "37914418AF74BF48"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.576}"
+					type: "custom"
+				}
+				{
+					id: "47444B5A7D436D09"
+					title: "{sky_greg.quests.chapters_processing_lines_a.577}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.578}"
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["69562A462476AEA2"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.579}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.580}"
+			]
+			id: "0B1B0A65DDF78028"
+			rewards: [{
+				id: "29EE1DC4E0F815B5"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.581}"
+			tasks: [{
+				id: "0E1DF08D8E9FD190"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			icon: "gtceu:electric_blast_furnace"
+			id: "2055647E3ABD78C2"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.582}"
+			tasks: [
+				{
+					icon: "gtceu:electric_blast_furnace"
+					id: "21A5D06312DEECA2"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.583}"
+					type: "custom"
+				}
+				{
+					id: "2CE1AA13A54A1386"
+					title: "{sky_greg.quests.chapters_processing_lines_a.584}"
+					type: "checkmark"
+				}
+			]
+			x: 17.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["77C2A929E86DEDF5"]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.585}"]
+			disable_toast: true
+			icon: "gtceu:enriched_naquadah_solution_bucket"
+			id: "7FB60218A0B789AC"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.586}"
+			tasks: [
+				{
+					id: "13699BEFE59A016C"
+					item: "gtceu:enriched_naquadah_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08BD76475D091C9A"
+					item: "gtceu:naquadria_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "662C67DC9026A91F"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2799FD3F899492C5"
+					item: "gtceu:barium_sulfide_dust"
+					type: "item"
+				}
+				{
+					id: "24B2541207AFD785"
+					title: "{sky_greg.quests.chapters_processing_lines_a.587}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.588}"
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			icon: "gtceu:mv_distillery"
+			id: "7151B57614F15F01"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.589}"
+			tasks: [
+				{
+					icon: "gtceu:mv_distillery"
+					id: "661CF18B1CAB42A0"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.590}"
+					type: "custom"
+				}
+				{
+					id: "1BB31DEFAA72C238"
+					title: "{sky_greg.quests.chapters_processing_lines_a.591}"
+					type: "checkmark"
+				}
+			]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7C0BB54D60D8D6A8"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.592}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.593}"
+			]
+			disable_toast: true
+			icon: "gtceu:trinium_sulfide_dust"
+			id: "2131A369BF95B3AF"
+			rewards: [{
+				id: "18BCB375A59A2A6B"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.594}"
+			tasks: [{
+				id: "5FCA85BB4D8FD249"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["21F8C3C0CDE07328"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.595}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.596}"
+			]
+			disable_toast: true
+			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
+			id: "7C0BB54D60D8D6A8"
+			rewards: [{
+				id: "37FB5E5B84365A15"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.597}"
+			tasks: [
+				{
+					id: "6A8F61343646E2C4"
+					item: "gtceu:impure_enriched_naquadah_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02C2CEA5AE0A402B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.598}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.599}"
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["21F8C3C0CDE07328"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.600}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.601}"
+			]
+			disable_toast: true
+			id: "33D3DD46C84132C9"
+			rewards: [{
+				id: "628EC70DA11C2AAF"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.602}"
+			tasks: [{
+				id: "7408DA58387BB865"
+				item: "gtceu:titanium_trifluoride_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6C42377C5717B5B4"]
+			disable_toast: true
+			icon: "gtceu:naquadria_solution_bucket"
+			id: "52150C8C20C0774F"
+			rewards: [{
+				id: "36CC38D4E27CF1CD"
+				item: "kubejs:luv_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E7D3EC5196AD556"
+					item: "gtceu:naquadria_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53310D3A72FD22A5"
+					title: "{sky_greg.quests.chapters_processing_lines_a.603}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.604}"
+			x: 12.0d
+			y: 12.5d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "14808A806965F3BF"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.605}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "0BE57A1B51779981"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.606}"
+					type: "custom"
+				}
+				{
+					id: "7221FF34C6702AF3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.607}"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "0186A6D849A5713D"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.608}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "4D3EE93B820A3AB3"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.609}"
+					type: "custom"
+				}
+				{
+					id: "169238BA61B53A90"
+					title: "{sky_greg.quests.chapters_processing_lines_a.610}"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.611}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.612}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.613}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "112803A3E5485236"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.614}"
+			tasks: [{
+				id: "58D23D0EEBE1020C"
+				title: "{sky_greg.quests.chapters_processing_lines_a.615}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["52150C8C20C0774F"]
+			disable_toast: true
+			icon: "gtceu:acidic_naquadria_solution_bucket"
+			id: "1D8E2E587E486375"
+			tasks: [
+				{
+					id: "661A99D8D03DEB1B"
+					item: "gtceu:acidic_naquadria_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "137285CFA4A6957E"
+					title: "{sky_greg.quests.chapters_processing_lines_a.616}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.617}"
+			x: 14.0d
+			y: 12.5d
+		}
+		{
+			icon: "gtceu:hv_mixer"
+			id: "3BBA9F5BF0CB6CDE"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.618}"
+			tasks: [
+				{
+					icon: "gtceu:hv_mixer"
+					id: "3D39143B3C8A63D5"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.619}"
+					type: "custom"
+				}
+				{
+					id: "3EAB2FCEC83A2B69"
+					title: "{sky_greg.quests.chapters_processing_lines_a.620}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.621}"
+			x: 13.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1D8E2E587E486375"]
+			disable_toast: true
+			icon: "gtceu:naquadria_waste_bucket"
+			id: "5B9648E77C9A677D"
+			tasks: [
+				{
+					id: "771B21F17C2F083F"
+					item: "gtceu:naquadria_waste_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D2BB06750C16D58"
+					title: "{sky_greg.quests.chapters_processing_lines_a.622}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.623}"
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1D8E2E587E486375"]
+			disable_toast: true
+			icon: "gtceu:naquadria_sulfate_dust"
+			id: "7FB4944F8EC7396A"
+			tasks: [{
+				id: "0B11B49584F2F921"
+				item: "gtceu:naquadria_sulfate_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			icon: "gtceu:hv_centrifuge"
+			id: "45BBB86ED01AB06C"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.624}"
+			tasks: [
+				{
+					icon: "gtceu:hv_centrifuge"
+					id: "302192A024880783"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.625}"
+					type: "custom"
+				}
+				{
+					id: "3DA06FD3F9A7F4F6"
+					title: "{sky_greg.quests.chapters_processing_lines_a.626}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.627}"
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7AA81DAA7524DFEF"]
+			disable_toast: true
+			icon: "gtceu:enriched_naquadah_waste_bucket"
+			id: "77C2A929E86DEDF5"
+			tasks: [
+				{
+					id: "22A606F58ACA0887"
+					item: "gtceu:enriched_naquadah_waste_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "015E1B1E5DA54CF3"
+					title: "{sky_greg.quests.chapters_processing_lines_a.628}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.629}"
+			x: 16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7FB4944F8EC7396A"
+				"42E8BDBA04A7EB49"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.630}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.631}"
+			]
+			id: "4E192CE0D4B93646"
+			rewards: [{
+				id: "4B7851E9AF0868BC"
+				item: "kubejs:zpm_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.632}"
+			tasks: [{
+				id: "5810325A866B75C2"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			icon: "gtceu:electric_blast_furnace"
+			id: "0C070092EAC55215"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.633}"
+			tasks: [
+				{
+					icon: "gtceu:electric_blast_furnace"
+					id: "33EBD39EB32091DD"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.634}"
+					type: "custom"
+				}
+				{
+					id: "7CE210F663034337"
+					title: "{sky_greg.quests.chapters_processing_lines_a.635}"
+					type: "checkmark"
+				}
+			]
+			x: 17.0d
+			y: 13.0d
+		}
+		{
+			icon: "gtceu:mv_distillery"
+			id: "648BE61516E5A79F"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.636}"
+			tasks: [
+				{
+					icon: "gtceu:mv_distillery"
+					id: "464EA1C4B562302F"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.637}"
+					type: "custom"
+				}
+				{
+					id: "3ABD9A6496AE880B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.638}"
+					type: "checkmark"
+				}
+			]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5B9648E77C9A677D"]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.639}"]
+			disable_toast: true
+			icon: "gtceu:enriched_naquadah_solution_bucket"
+			id: "2C6927BDE3453F0B"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.640}"
+			tasks: [
+				{
+					id: "37686820BAD18CE9"
+					item: "gtceu:enriched_naquadah_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33447C7EFCAECFAE"
+					item: "gtceu:naquadria_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35F91DE0A5625ECC"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5063226CF2113BE7"
+					item: "gtceu:gallium_sulfide_dust"
+					type: "item"
+				}
+				{
+					id: "611D402041E9F345"
+					title: "{sky_greg.quests.chapters_processing_lines_a.641}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.642}"
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.643}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.644}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.645}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.646}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "301730B449BD081A"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.647}"
+			tasks: [{
+				id: "6253C2FFD26B98F0"
+				title: "{sky_greg.quests.chapters_processing_lines_a.648}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 45.5d
+		}
+		{
+			dependencies: [
+				"237B2221688A21A1"
+				"716AD91F0921D6B0"
+				"72065A1B8E8B8F4E"
+				"2993528861EF1F1D"
+				"7F8072BECC6D252F"
+				"1C3B320B4018880A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.649}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.650}"
+			]
+			icon: "gtceu:epoxy_bucket"
+			id: "72B9D63E4926014B"
+			rewards: [{
+				id: "11FA6BFF78D1A549"
+				item: "kubejs:hv_credit"
+				type: "item"
+			}]
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.651}"
+			tasks: [
+				{
+					id: "301EB75F9F421D32"
+					item: "gtceu:epoxy_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7126FD0F5B4B65D1"
+					title: "{sky_greg.quests.chapters_processing_lines_a.652}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.653}"
+			x: -4.0d
+			y: 45.5d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "18CF819C6114C12D"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.654}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "684E5255D307EF26"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.655}"
+					type: "custom"
+				}
+				{
+					id: "33B93FE4CCBAEBB6"
+					title: "{sky_greg.quests.chapters_processing_lines_a.656}"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 44.5d
+		}
+		{
+			dependencies: [
+				"318CB9C43DC4AE3E"
+				"1C4BC03734356ED5"
+			]
+			description: ["{sky_greg.quests.chapters_processing_lines_a.657}"]
+			icon: "gtceu:salt_water_bucket"
+			id: "04FA0C1305827152"
+			tasks: [
+				{
+					id: "39341003FF21CF33"
+					item: "gtceu:salt_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "746FCA51C5D32317"
+					title: "{sky_greg.quests.chapters_processing_lines_a.658}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.659}"
+			x: -9.0d
+			y: 45.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_electrolyzer"
+			id: "1FB32DA19164D23E"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.660}"
+			tasks: [
+				{
+					icon: "gtceu:lv_electrolyzer"
+					id: "3B376EBF04A64354"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.661}"
+					type: "custom"
+				}
+				{
+					id: "21B85B2D6E05A4BB"
+					title: "{sky_greg.quests.chapters_processing_lines_a.662}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["04FA0C1305827152"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.663}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.664}"
+			]
+			icon: "gtceu:sodium_hydroxide_dust"
+			id: "7F8072BECC6D252F"
+			tasks: [{
+				id: "4D5FE109408B73B6"
+				item: "gtceu:sodium_hydroxide_dust"
+				optional_task: true
+				type: "item"
+			}]
+			x: -7.0d
+			y: 45.5d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.665}"]
+			icon: "gtceu:salt_dust"
+			id: "318CB9C43DC4AE3E"
+			tasks: [{
+				id: "207CF9293C9DDFC6"
+				item: "gtceu:salt_dust"
+				optional_task: true
+				type: "item"
+			}]
+			x: -11.0d
+			y: 45.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_processing_lines_a.666}"]
+			icon: "minecraft:water_bucket"
+			id: "1C4BC03734356ED5"
+			tasks: [
+				{
+					id: "138F844AB0B5A948"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "320F92D0CAD618A7"
+					title: "{sky_greg.quests.chapters_processing_lines_a.667}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.668}"
+			x: -11.0d
+			y: 46.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_mixer"
+			id: "41C4D1C9166FFD78"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.669}"
+			tasks: [
+				{
+					icon: "gtceu:lv_mixer"
+					id: "30E0E5F3DA3DA0B1"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.670}"
+					type: "custom"
+				}
+				{
+					id: "5AC17D30FDC569EA"
+					title: "{sky_greg.quests.chapters_processing_lines_a.671}"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 45.5d
+		}
+		{
+			dependencies: [
+				"237B2221688A21A1"
+				"716AD91F0921D6B0"
+				"2993528861EF1F1D"
+			]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.672}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.673}"
+			]
+			icon: "gtceu:bisphenol_a_bucket"
+			id: "1C3B320B4018880A"
+			tasks: [
+				{
+					id: "5AC46445C99A6138"
+					item: "gtceu:bisphenol_a_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "706FA986243399AB"
+					title: "{sky_greg.quests.chapters_processing_lines_a.674}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.675}"
+			x: -4.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["7F8072BECC6D252F"]
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.676}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.677}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.678}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.679}"
+			]
+			disable_toast: true
+			icon: "gtceu:epichlorohydrin_bucket"
+			id: "72065A1B8E8B8F4E"
+			tasks: [
+				{
+					id: "42D35E3A6041FEF7"
+					item: "gtceu:epichlorohydrin_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AC5532A935CF73C"
+					title: "{sky_greg.quests.chapters_processing_lines_a.680}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.681}"
+			x: -7.0d
+			y: 44.5d
+		}
+		{
+			icon: "gtceu:large_chemical_reactor"
+			id: "608C927E89328032"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.682}"
+			tasks: [
+				{
+					icon: "gtceu:large_chemical_reactor"
+					id: "2199BA9607EA4B95"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.683}"
+					type: "custom"
+				}
+				{
+					id: "1C5A6B7E117033AD"
+					title: "{sky_greg.quests.chapters_processing_lines_a.684}"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 44.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.685}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.686}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.687}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.688}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.689}"
+			]
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "2993528861EF1F1D"
+			tasks: [
+				{
+					id: "4B66640537607E13"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0EB22590AFFB53FC"
+					title: "{sky_greg.quests.chapters_processing_lines_a.690}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.691}"
+			x: -7.0d
+			y: 41.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.692}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.693}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.694}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.695}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.696}"
+			]
+			icon: "gtceu:acetone_bucket"
+			id: "237B2221688A21A1"
+			tasks: [
+				{
+					id: "303C60E5D9859D82"
+					item: "gtceu:acetone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "560E5865FFBE4756"
+					title: "{sky_greg.quests.chapters_processing_lines_a.697}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.698}"
+			x: -7.0d
+			y: 42.5d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_processing_lines_a.699}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.700}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.701}"
+				""
+				"{sky_greg.quests.chapters_processing_lines_a.702}"
+			]
+			icon: "gtceu:phenol_bucket"
+			id: "716AD91F0921D6B0"
+			tasks: [
+				{
+					id: "429867329A2F9C38"
+					item: "gtceu:phenol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "692FAEFE23DF6B77"
+					title: "{sky_greg.quests.chapters_processing_lines_a.703}"
+					type: "checkmark"
+				}
+			]
+			title: "{sky_greg.quests.chapters_processing_lines_a.704}"
+			x: -7.0d
+			y: 43.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:lv_chemical_reactor"
+			id: "53D1208A543115E6"
+			optional: true
+			shape: "none"
+			subtitle: "{sky_greg.quests.chapters_processing_lines_a.705}"
+			tasks: [
+				{
+					icon: "gtceu:lv_chemical_reactor"
+					id: "4FCCFC78A78AA210"
+					optional_task: true
+					title: "{sky_greg.quests.chapters_processing_lines_a.706}"
+					type: "custom"
+				}
+				{
+					id: "236915B1E798441B"
+					title: "{sky_greg.quests.chapters_processing_lines_a.707}"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 41.5d
+		}
+	]
+	subtitle: ["In depth!"]
+	title: "{sky_greg.quests.chapters_processing_lines_a.708}"
+}

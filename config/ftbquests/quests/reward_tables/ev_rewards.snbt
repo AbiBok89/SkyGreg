@@ -1,0 +1,32 @@
+{
+	icon: "gtceu:micro_processor_computer"
+	id: "28274FF1DC31A637"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "gtceu:ev_electric_motor" }
+		{ item: "gtceu:ev_electric_pump" }
+		{ item: "gtceu:ev_fluid_regulator", weight: 0.5f }
+		{ item: "gtceu:ev_conveyor_module" }
+		{ item: "gtceu:ev_robot_arm" }
+		{ item: "gtceu:micro_processor_computer" }
+		{ item: "gtceu:ev_machine_hull" }
+		{ count: 8, item: "gtceu:aluminium_quadruple_cable" }
+		{ item: "gtceu:ev_super_chest", weight: 0.1f }
+		{ item: "gtceu:ev_super_tank", weight: 0.1f }
+		{ item: "dimstorage:dimensional_tank", weight: 0.2f }
+		{
+			item: {
+				Count: 1
+				id: "endertanks:ender_tank"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
+			weight: 0.2f
+		}
+	]
+	title: "{sky_greg.quests.reward_tables_ev_rewards.1}"
+	use_title: true
+}

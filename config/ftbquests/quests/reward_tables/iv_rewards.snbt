@@ -1,0 +1,32 @@
+{
+	icon: "gtceu:micro_processor_mainframe"
+	id: "606627D0EE47B39D"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "gtceu:iv_electric_motor" }
+		{ item: "gtceu:iv_electric_pump" }
+		{ item: "gtceu:iv_fluid_regulator", weight: 0.5f }
+		{ item: "gtceu:iv_conveyor_module" }
+		{ item: "gtceu:iv_robot_arm" }
+		{ item: "gtceu:micro_processor_mainframe" }
+		{ item: "gtceu:iv_machine_hull" }
+		{ count: 8, item: "gtceu:platinum_quadruple_cable" }
+		{ item: "gtceu:iv_quantum_chest", weight: 0.1f }
+		{ item: "gtceu:iv_quantum_tank", weight: 0.1f }
+		{ item: "dimstorage:dimensional_tank", weight: 0.2f }
+		{
+			item: {
+				Count: 1
+				id: "endertanks:ender_tank"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
+			weight: 0.2f
+		}
+	]
+	title: "{sky_greg.quests.reward_tables_iv_rewards.1}"
+	use_title: true
+}

@@ -1,0 +1,560 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "laserio"
+	group: "3483E4EBAD9C4714"
+	icon: "laserio:laser_node"
+	id: "3848B27D2CCF62DD"
+	images: [
+		{
+			height: 2.0d
+			image: "gtceu:block/machines/laser_engraver/overlay_front_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/machines/laser_engraver/overlay_front_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.1}"
+				""
+				"{sky_greg.quests.chapters_laserio.2}"
+				""
+				"{sky_greg.quests.chapters_laserio.3}"
+				""
+				"{sky_greg.quests.chapters_laserio.4}"
+				""
+				"{sky_greg.quests.chapters_laserio.5}"
+				""
+				"{sky_greg.quests.chapters_laserio.6}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "519B636AF8E06A4C"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_laserio.7}"
+			tasks: [{
+				id: "0AF0FE8ADCE7B86A"
+				title: "{sky_greg.quests.chapters_laserio.8}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A6CD266FAA6DBF"]
+			description: [
+				"{sky_greg.quests.chapters_laserio.9}"
+				""
+				"{sky_greg.quests.chapters_laserio.10}"
+				""
+				"{sky_greg.quests.chapters_laserio.11}"
+				""
+				"{sky_greg.quests.chapters_laserio.12}"
+				""
+				"{sky_greg.quests.chapters_laserio.13}"
+				"{sky_greg.quests.chapters_laserio.14}"
+				"{sky_greg.quests.chapters_laserio.15}"
+				"{sky_greg.quests.chapters_laserio.16}"
+				"{sky_greg.quests.chapters_laserio.17}"
+				"{sky_greg.quests.chapters_laserio.18}"
+				"{sky_greg.quests.chapters_laserio.19}"
+				"{sky_greg.quests.chapters_laserio.20}"
+				"{sky_greg.quests.chapters_laserio.21}"
+				""
+				"{sky_greg.quests.chapters_laserio.22}"
+				""
+				"{sky_greg.quests.chapters_laserio.23}"
+				""
+				"{sky_greg.quests.chapters_laserio.24}"
+			]
+			id: "679ABE9E98C1709B"
+			subtitle: "{sky_greg.quests.chapters_laserio.25}"
+			tasks: [{
+				id: "0D7BA0C3574232C4"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.26}"
+				""
+				"{sky_greg.quests.chapters_laserio.27}"
+				""
+				"{sky_greg.quests.chapters_laserio.28}"
+				"{sky_greg.quests.chapters_laserio.29}"
+				"{sky_greg.quests.chapters_laserio.30}"
+				""
+				"{sky_greg.quests.chapters_laserio.31}"
+			]
+			id: "45A6CD266FAA6DBF"
+			subtitle: "{sky_greg.quests.chapters_laserio.32}"
+			tasks: [{
+				id: "30E968F153EFF9F6"
+				item: "laserio:laser_connector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_laserio.33}"]
+			id: "768F2FC3807EC380"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.34}"
+			tasks: [{
+				id: "60D578C13C135966"
+				item: "laserio:laser_connector_advanced"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.35}"
+				""
+				"{sky_greg.quests.chapters_laserio.36}"
+			]
+			id: "17CDC25D61D7583A"
+			subtitle: "{sky_greg.quests.chapters_laserio.37}"
+			tasks: [{
+				id: "2AE4006330A142BC"
+				item: "laserio:laser_wrench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.38}"
+				""
+				"{sky_greg.quests.chapters_laserio.39}"
+			]
+			id: "0D7DB9E5309B6962"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.40}"
+			tasks: [{
+				id: "69D3A2B33B08AB67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+					id: "laserio:card_holder"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.41}"
+				""
+				"{sky_greg.quests.chapters_laserio.42}"
+				"{sky_greg.quests.chapters_laserio.43}"
+				"{sky_greg.quests.chapters_laserio.44}"
+				"{sky_greg.quests.chapters_laserio.45}"
+			]
+			id: "66892C15F6E146DA"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.46}"
+			tasks: [{
+				id: "1C7D11EE74364C28"
+				item: "laserio:card_cloner"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.47}"
+				""
+				"{sky_greg.quests.chapters_laserio.48}"
+			]
+			id: "07781B0BFF2676DA"
+			subtitle: "{sky_greg.quests.chapters_laserio.49}"
+			tasks: [{
+				id: "549FCEAF34F80BA6"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.50}"
+				""
+				"{sky_greg.quests.chapters_laserio.51}"
+			]
+			id: "38AB7E52587B7BA3"
+			subtitle: "{sky_greg.quests.chapters_laserio.52}"
+			tasks: [{
+				id: "27EEC32457CF6F96"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.53}"
+				""
+				"{sky_greg.quests.chapters_laserio.54}"
+			]
+			id: "72D2D9C370A31CE8"
+			subtitle: "{sky_greg.quests.chapters_laserio.55}"
+			tasks: [{
+				id: "16EA295976B1A387"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.56}"
+				""
+				"{sky_greg.quests.chapters_laserio.57}"
+			]
+			id: "28B8933C3334C688"
+			subtitle: "{sky_greg.quests.chapters_laserio.58}"
+			tasks: [{
+				id: "4CDC7F63A0F9D76B"
+				item: "laserio:card_redstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.59}"
+				""
+				"{sky_greg.quests.chapters_laserio.60}"
+				""
+				"{sky_greg.quests.chapters_laserio.61}"
+			]
+			id: "32ACDA33BEEA6D7B"
+			subtitle: "{sky_greg.quests.chapters_laserio.62}"
+			tasks: [{
+				id: "1A17C1F54B99F19A"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_laserio.63}"
+				""
+				"{sky_greg.quests.chapters_laserio.64}"
+			]
+			id: "3DAE8E48CEB8191A"
+			subtitle: "{sky_greg.quests.chapters_laserio.65}"
+			tasks: [{
+				id: "002C6F5FC648C32B"
+				item: "laserio:overclocker_node"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_laserio.66}"]
+			id: "07CFD9D729D15A13"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.67}"
+			tasks: [{
+				id: "6AB96252E03F7CD8"
+				item: {
+					Count: 1
+					id: "laserio:filter_basic"
+					tag: {
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07CFD9D729D15A13"]
+			description: [
+				"{sky_greg.quests.chapters_laserio.68}"
+				""
+				"{sky_greg.quests.chapters_laserio.69}"
+			]
+			id: "00C7354860853729"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.70}"
+			tasks: [{
+				id: "25C8429FD1AF5EA6"
+				item: {
+					Count: 1
+					id: "laserio:filter_count"
+					tag: {
+						counts: [
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 0
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 1
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 2
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 3
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 4
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 5
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 6
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 7
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 8
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 9
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 10
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 11
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 12
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 13
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 14
+							}
+						]
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07CFD9D729D15A13"]
+			description: [
+				"{sky_greg.quests.chapters_laserio.71}"
+				""
+				"{sky_greg.quests.chapters_laserio.72}"
+			]
+			id: "43DE84845CB4B086"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.73}"
+			tasks: [{
+				id: "70EE31F7808DD4D2"
+				item: {
+					Count: 1
+					id: "laserio:filter_tag"
+					tag: {
+						tags: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07CFD9D729D15A13"]
+			description: ["{sky_greg.quests.chapters_laserio.74}"]
+			id: "71B758FEC591400E"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.75}"
+			tasks: [{
+				id: "4F1D0068B9532C0D"
+				item: {
+					Count: 1
+					id: "laserio:filter_mod"
+					tag: {
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["07CFD9D729D15A13"]
+			description: [
+				"{sky_greg.quests.chapters_laserio.76}"
+				""
+				"{sky_greg.quests.chapters_laserio.77}"
+			]
+			id: "77F67F39DF53AA09"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.78}"
+			tasks: [{
+				id: "790F67174A594271"
+				item: "laserio:filter_nbt"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24077F274DED7F5B"]
+			description: [
+				"{sky_greg.quests.chapters_laserio.79}"
+				""
+				"{sky_greg.quests.chapters_laserio.80}"
+				""
+				"{sky_greg.quests.chapters_laserio.81}"
+			]
+			id: "19BCAD1B255977FC"
+			optional: true
+			shape: "rsquare"
+			subtitle: "{sky_greg.quests.chapters_laserio.82}"
+			tasks: [{
+				icon: "gtceu:lv_card_assembler"
+				id: "2930EE004F5E0A0F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_card_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_card_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_card_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_card_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_card_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_card_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_card_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_card_assembler"
+							}
+						]
+					}
+				}
+				title: "{sky_greg.quests.chapters_laserio.83}"
+				type: "item"
+			}]
+			title: "{sky_greg.quests.chapters_laserio.84}"
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Laser transfer!"]
+	title: "{sky_greg.quests.chapters_laserio.85}"
+}

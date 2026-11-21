@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "kubejs:block/custom_casings/medium_temperature_smelting_casing"
+        }
+    }
+}

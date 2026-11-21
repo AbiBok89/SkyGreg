@@ -1,0 +1,9 @@
+{
+  "item.mob_bottle.tooltip_empty": "Нажмите ПКМ стеклянным пузырьком по уменьшенному существу, чтобы поймать его",
+  "item.shrink.mob_bottle": "Стеклянный пузырёк",
+  "item.shrink.shrinking_device": "Персональный уменьшитель",
+  "itemGroup.shrink": "Уменьшение",
+  "key.shrink.category": "Уменьшение",
+  "key.shrink.shrink": "Переключить уменьшение",
+  "shrink.deny_shrink": "Уменьшение сущности заблокировано из-за запрещающего тега"
+}

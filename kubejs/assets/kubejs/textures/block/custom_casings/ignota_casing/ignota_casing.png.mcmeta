@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/custom_casings/ignota_casing/ignota_casing_ctm"
+    }
+}

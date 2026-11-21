@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "apotheosis"
+	group: "3483E4EBAD9C4714"
+	icon: "apotheosis:mythic_material"
+	id: "40B0A2E0C2F9246E"
+	images: [
+		{
+			height: 2.0d
+			image: "apotheosis:items/gems/endersurge"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "apotheosis:items/gems/endersurge"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.1}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "0D642F46D5B2D49E"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.3}"
+			tasks: [{
+				id: "042A8517F770E54E"
+				title: "{sky_greg.quests.chapters_apotheosis.4}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.5}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.6}"
+			]
+			id: "2A65525784753B5F"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.7}"
+			tasks: [{
+				id: "4DC4DF0F4650DAEB"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.8}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.9}"
+			]
+			id: "5FD2B6FB77DC7F0D"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.10}"
+			tasks: [{
+				id: "61AFD1365CBAFAF6"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.11}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.12}"
+			]
+			id: "19547B9F9A33392D"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.13}"
+			tasks: [{
+				id: "765579459AB5892E"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.14}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.15}"
+			]
+			id: "7AFDDBE73892AB06"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.16}"
+			tasks: [{
+				id: "7F8C66FA91D7B36A"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.17}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.18}"
+			]
+			id: "5003A125D6DB8843"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.19}"
+			tasks: [{
+				id: "256CDF701D479D9B"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.20}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.21}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.22}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.23}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.24}"
+			]
+			id: "0E385363F618E41B"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.25}"
+			tasks: [{
+				id: "793DF2FBC7D5CB4D"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.26}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.27}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.28}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "5F4077525D8F3B9F"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.29}"
+			tasks: [{
+				id: "5F5159841A179964"
+				title: "{sky_greg.quests.chapters_apotheosis.30}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["{sky_greg.quests.chapters_apotheosis.31}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "5E080B4A0D10557E"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.32}"
+			tasks: [{
+				id: "3782FD2CF16360EE"
+				title: "{sky_greg.quests.chapters_apotheosis.33}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.34}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.35}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.36}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.37}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.38}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "7508E162C0766C47"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.39}"
+			tasks: [{
+				id: "4DDC44E40121C48C"
+				title: "{sky_greg.quests.chapters_apotheosis.40}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.41}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.42}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.43}"
+			]
+			id: "6E7DE4C920AB864D"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.44}"
+			tasks: [{
+				id: "74AABE36336D96A2"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6E7DE4C920AB864D"
+				"7AFDDBE73892AB06"
+			]
+			description: ["{sky_greg.quests.chapters_apotheosis.45}"]
+			id: "0582FFF89D2C47F8"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.46}"
+			tasks: [{
+				id: "17A2B25D54F62E9B"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.47}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.48}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.49}"
+			]
+			id: "3503EF6239B80645"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.50}"
+			tasks: [{
+				id: "799BB53A7000570D"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: ["{sky_greg.quests.chapters_apotheosis.51}"]
+			icon: "apotheosis:sigil_of_socketing"
+			id: "3979730388188E0C"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.52}"
+			tasks: [{
+				id: "058B44924825DB6A"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.53}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.54}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/widget/information.png"
+				}
+			}
+			id: "1FF7962C5B93E720"
+			optional: true
+			shape: "gear"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.55}"
+			tasks: [{
+				id: "69ADDFB72A4C9235"
+				title: "{sky_greg.quests.chapters_apotheosis.56}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: ["{sky_greg.quests.chapters_apotheosis.57}"]
+			id: "4ABA44E8584D2468"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.58}"
+			tasks: [{
+				id: "497FD575953D6222"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"{sky_greg.quests.chapters_apotheosis.59}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.60}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.61}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.62}"
+				""
+				"{sky_greg.quests.chapters_apotheosis.63}"
+			]
+			id: "3DC198787AC39065"
+			subtitle: "{sky_greg.quests.chapters_apotheosis.64}"
+			tasks: [{
+				id: "0D9F0B12432ECAEF"
+				item: "gtceu:apothic_condenser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+	]
+	subtitle: ["Everything is craftable!"]
+	title: "{sky_greg.quests.chapters_apotheosis.65}"
+}

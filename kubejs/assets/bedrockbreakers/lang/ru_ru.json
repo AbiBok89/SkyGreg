@@ -1,0 +1,13 @@
+{
+  "bedrockbreakers.group.bedrockbreakers": "Разрушители бедрока",
+  "item.bedrockbreakers.obsidian_infused_diamond_breaker": "Насыщенный обсидианом разрушитель",
+  "item.bedrockbreakers.bedrock_plated_obsidian_infused_diamond_breaker": "Обшитый бедроком разрушитель",
+  "item.bedrockbreakers.bedrock_plated_obsidian_infused_diamond": "Обшитый бедроком, насыщенный обсидианом алмаз",
+  "item.bedrockbreakers.obsidian_infused_diamond": "Насыщенный обсидианом алмаз",
+  "tooltip.obsidian_infused_diamond.breaker": "Эффективность сильно снижена на блоках, кроме бедрока",
+  "block.bedrockbreakers.pure_bedrock": "Очищенный бедрок",
+  "block.bedrockbreakers.pure_bedrock_stairs": "Ступеньки из очищенного бедрока",
+  "block.bedrockbreakers.pure_bedrock_slab": "Плита из очищенного бедрока",
+  "block.bedrockbreakers.pure_bedrock_wall": "Ограда из очищенного бедрока",
+  "block.bedrockbreakers.pure_obsidian": "Очищенный обсидиан"
+}

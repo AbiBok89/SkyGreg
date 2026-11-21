@@ -1,0 +1,126 @@
+"Quick" crash course for basic autocrafting:
+
+
+==========================
+    Basic Requirements
+==========================
+
+1: ME Pattern Encoding Terminal:
+    This is what allows you to set "Patterns" for crafting recipes that can later be ordered from the system.
+    
+    It looks like the normal Crafting Terminal, but has a slot on the right to insert a Blank Pattern.
+    
+    Place a Blank Pattern in the slot in the ME Pattern Encoding Terminal, and when if you try to use the "Fill Recipe" button in EMI like you would to craft something, it instead will fill the "recipe area" that looks like the normal crafting grid with placeholder items, not actual items from the system.
+    
+    Press the "Encode Pattern" button underneath the slot for the Blank Patterns and it will save that recipe to a Pattern, making a Crafting Pattern if it is something that can be crafted in a normal Crafting Table, or a Processing Pattern if it is a machine of some kind.
+
+2: ME Pattern Provider:
+    This is what stores the encoded Patterns for autocrafting use.
+    
+    There are 2 versions, a full block version that will interact with anything it is touching, and the cable part version that will only interact with the block it is aimed at. 
+    
+    If it is a Crafting Pattern, the ME Pattern Provider needs to be attached to a Molecular Assembler.
+    
+    If it is a Processing Pattern, the ME Pattern Provider needs to be attached to either the machine to do the craft, or any kind of storage buffer (a Chest or anything similar) that you will send the items to what needs to do the craft. For Processing Patterns, the system does not check if it is a valid machine for the recipe, this is so you can push everything into a container then send different items to different places if needed.
+    
+    The ME Pattern Provider will send all the items required into either the Molecular Assembler or whatever the ME Pattern Provider containing a Processing Pattern is attached to.
+    
+    For Crafting Patterns, the Molecular Assembler will automatically craft the item if it is a valid recipe.
+    
+    For Processing Patterns, the ME Pattern Provider will push all the items in the Processing Pattern into whatever machine or container is there. If pushing directly into a machine, the machine will start crafting as long as it actually can.
+    
+    The craft is not considered complete until the system sees the result enter the system.
+    
+    You can push the result back into the ME Pattern Provider and it will send it back to the system, anything pushed into the ME Pattern Provider will be put back in the system. If you can't do that for any reason, you can either send the result into an ME Interface or an Import Bus and in turn either would send the item back into the system.
+    
+    GregTech machines have a weird quirk in that by default they do not allow receiving items from the output side of the machine, this can be toggled in the GUI of the machine, allowing you to push results back into the ME Pattern Provider to send back to the system.
+
+3: Molecular Assembler:
+    This is what actually does a standard Crafting Table recipe, it's basically just an automatic Crafting Table.
+    
+    Needs to be connected to the AE2 network, either with an AE2 Cable, or directly touching something else that is connected to the network.
+    
+    With an ME Pattern Provider touching it that contains a valid Crafting Pattern, when a craft is requested, the system will automatically push the items required into the Molecular Assembler if the system actually contains the items required.
+    
+    The Molecular Assembler will automatically push the result item back into the ME Pattern Provider, sending it back to the system.
+
+4: Crafting CPU
+    A Crafting CPU is a multiblock that contains at least 1 block to be functional.
+    
+    Any size of Crafting Storage block being connected to the network will count as a valid Crafting CPU.
+    
+    Crafting Storage blocks are what decide what the maximum size of craft you can request is. You can see this when you request a craft in the top of the Crafting Plan window, shown in Bytes.
+    
+    For basic crafts, just 1 of any size is fine, but if ordering something like 1000 of something, you may need a larger Crafting Storage.
+    
+    Being a multiblock, you can add more Crafting Storages together to increase the available storage size.
+    
+    There are other things you can add to the multiblock to increase functionality, but the most common other thing to add is a Crafting Co-Processing Unit, which allows more things to be done at once.
+    
+    There is a limitation on how the blocks can be placed to form a valid multiblock, basically it just has to be a rectangular prism of some kind, or a square.
+    
+    You can only order as many crafts as you have Crafting CPUs as they basically are what is handling the craft. This is for unique crafting requests, not total crafts requested, meaning 1 Crafting CPU can handle 1000 of the same item ordered at once, but ordering 2 separate things would need 2 Crafting CPUs.
+
+
+=========================   =========================   =========================
+
+    That is all that is technically required for basic autocrafting, many other things exist that can help the process or change how things work, but that is the basics.
+    There are a handful of addon mods for AE2 present as well that handle a ton of different things but that's not quite in the scope of a basic tutorial.
+    Below is some other information that will be helpful to know.
+
+=========================   =========================   =========================
+
+
+=========================
+    Extra Information
+=========================
+
+A: Chaining Recipes
+    The system will always try to use available items required for crafting that are in the system if they are present, if not it will try to add what it needs to craft to the current crafting job.
+    
+    You can make a "chain" of Patterns. For example, if you make a Pattern for an LV Machine Hull, it requires other things that need to be crafted within it's recipe, like the LV Machine Casing, Plates, and 1x Tin Cables.
+    
+    As long as the system has valid Patterns to craft the prerequisite items, the system will craft each item in the order it needs them to make the final result.
+    
+    So if you have all the proper Patterns in place, you can order 1000 items that all require more micro crafting, and the system will craft everything required automatically.
+
+B: Partial Requests
+    If you are trying to craft something and the system has Patterns for some or all of the items required, when you hover over the "Fill Recipe" button in EMI, anything that has a known Pattern to craft will highlight blue.
+    
+    You can CTRL + click to request the items that can be autocrafted.
+    
+    Each separate item type will count as 1 crafting request each.
+
+C: Fluids
+    Fluids can be autocrafted and used for autocrafting as well.
+    
+    If the fluids are present in the system, they will be used for the crafting jobs if needed, as long as they were added in the Pattern if required.
+    
+    Sometimes it can be easier to just keep a machine full of the fluid required (like an Assembler with Liquid Rubber or Liquid Polyethylene), and you can just remove the fluid from the Pattern while encoding the recipe.
+
+D: Processing Patterns
+    For Crafting Patterns, the recipe must be valid.
+    
+    For Processing Patterns, the system doesn't actually care if what you put in the Pattern is a valid recipe or not.
+    
+    This is helpful for things like omitting fluids from Patterns when a machine is already passively stocked with the proper fluids, or sending an input item into a machine, then having that machine send it's result to another machine, and eventually sending the result back into the system.
+    
+    You can technically say that 2 Oak Logs will craft 1 Chest. Even though that is not a valid recipe anywhere, if you send the Oak Logs into something to make them into Oak Planks, then send the Oak Planks into something that can make a Chest and the Chest is eventually sent back into the system, that is fine.
+    
+    All the system cares about for Processing Patterns is that it can export the required items that you declare in the Processing Pattern, and eventually it will receive the result, it does not care from where, or how it happens.
+
+E: Viewing and Cancelling a Crafting Job
+    You may need to cancel a crafting job for various reasons, maybe you set an invalid Pattern, maybe you had the ME Pattern Provider in the wrong place, maybe any other reason really.
+    
+    When you request a crafting job from the system, the required items are immediately taken out of the system, they are actually stored inside the Crafting CPU that is doing the crafting job.
+    
+    If you cancel a crafting job, anything that was taken out to do the crafting job will be returned from the Crafting CPU to the system. If items are still inside machines then those you would have to retrieve manually.
+    
+    In the top right of the system GUI there is a hammer icon. If you click this you will go to the Crafting Status screen, showing any current crafting jobs.
+    
+    If you select the crafting job on the left in the list, you can cancel the craft with the "Cancel" button in the bottom right.
+    
+    Here is where you can also view ongoing crafting jobs, to see what is currently being crafted, how much is left to craft, and some other information.
+
+=========================
+=========================

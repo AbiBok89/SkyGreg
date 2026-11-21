@@ -1,0 +1,8 @@
+{
+    "parent": "gtceu:block/hv_machine_casing",
+    "textures": {
+        "bottom": "kubejs:block/quartz_alloy_casing/bottom",
+        "side": "kubejs:block/quartz_alloy_casing/side",
+        "top": "kubejs:block/quartz_alloy_casing/top"
+    }
+}

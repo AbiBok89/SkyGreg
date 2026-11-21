@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "kubejs:block/custom_casings/primitive_smelting_bricks/primitive_smelting_bricks"
+    }
+}

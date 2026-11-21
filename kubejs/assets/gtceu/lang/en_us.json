@@ -1,0 +1,204 @@
+{
+        "block.gtceu.large_gas_collector":"Large Gas Collector",
+        "gtceu.large_gas_collector":"Large Gas Collector",
+
+        "block.gtceu.desulfurizer":"Desulfurizer",
+        "gtceu.desulfurizer":"Desulfurizer",
+
+        "block.gtceu.fusion_assembler":"Fusion Assembler",
+        "gtceu.fusion_assembler":"Fusion Assembler",
+
+        "block.gtceu.elicitor_rimae_ignotus":"Elicitor Rimae Ignotus",
+        "gtceu.elicitor_rimae_ignotus":"Elicitor Rimae Ignotus",
+
+        "block.gtceu.meat_box":"Meat Box",
+        "gtceu.meat_box":"Meat Box",
+
+        "block.gtceu.natural_fluid_generator":"Natural Fluid Generator",
+        "gtceu.natural_fluid_generator":"Natural Fluid Generator",
+
+        "block.gtceu.large_resource_generator":"Large Resource Generator",
+        "gtceu.large_resource_generator":"Large Resource Generator",
+
+        "block.gtceu.creosote_generator":"Creosote Oil Generator",
+        "gtceu.creosote_generator":"Creosote Oil Generator",
+
+        "block.gtceu.large_inscriber":"Large Inscriber",
+        "gtceu.large_inscriber":"Large Inscriber",
+
+        "block.gtceu.glass_box":"Glass Box",
+        "gtceu.glass_box":"Glass Box",
+
+        "block.gtceu.greenhouse": "Greenhouse",
+        "gtceu.greenhouse": "Greenhouse",
+
+        "block.gtceu.certus_quartz_charger": "Certus Quartz Charger",
+        "gtceu.certus_quartz_charger": "Certus Quartz Charger",
+
+        "block.gtceu.auto_cutting_board": "Auto Cutting Board",
+        "gtceu.auto_cutting_board": "Auto Cutting Board",
+
+        "block.gtceu.auto_cooking_pot": "Auto Cooking Pot",
+        "gtceu.auto_cooking_pot": "Auto Cooking Pot",
+
+        "block.gtceu.simulation_arena": "Simulation Arena",
+        "gtceu.simulation_arena": "Simulation Arena",
+
+        "block.gtceu.apothic_condenser": "Apothic Condenser",
+        "gtceu.apothic_condenser": "Apothic Condenser",
+
+        "block.gtceu.super_extruder": "Super Extruder",
+        "gtceu.super_extruder": "Super Extruder",
+
+        "block.gtceu.steam_alloy_smelter": "Steam Bulk Alloy Smelter",
+        "gtceu.steam_alloy_smelter": "Steam Bulk Alloy Smelter",
+
+        "block.gtceu.steam_wiremill": "Steam Bulk Wiremill",
+        "gtceu.steam_wiremill": "Steam Bulk Wiremill",
+
+        "block.gtceu.steam_compressor": "Steam Bulk Compressor",
+        "gtceu.steam_compressor": "Steam Bulk Compressor",
+
+        "block.gtceu.hydrovolcanism_generator": "Hydrovolcanism Generator",
+        "gtceu.hydrovolcanism_generator": "Hydrovolcanism Generator",
+
+        "block.gtceu.large_pyrolyse_oven": "Large Pyrolysis Chamber",
+        "gtceu.large_pyrolyse_oven": "Large Pyrolysis Chamber",
+
+
+
+        "block.gtceu.ev_perfect_macerator": "Semi Perfect Macerator",
+        "gtceu.ev_perfect_macerator": "Semi Perfect Macerator",
+
+        "block.gtceu.ev_perfect_chemical_bath": "Semi Perfect Chemical Bath",
+        "gtceu.ev_perfect_chemical_bath": "Semi Perfect Chemical Bath",
+
+        "block.gtceu.ev_perfect_centrifuge": "Semi Perfect Centrifuge",
+        "gtceu.ev_perfect_centrifuge": "Semi Perfect Centrifuge",
+
+        "block.gtceu.ev_perfect_mixer": "Semi Perfect Mixer",
+        "gtceu.ev_perfect_mixer": "Semi Perfect Mixer",
+
+        "block.gtceu.ev_perfect_electrolyzer": "Semi Perfect Electrolyzer",
+        "gtceu.ev_perfect_electrolyzer": "Semi Perfect Electrolyzer",
+
+        "block.gtceu.ev_perfect_electromagnet": "Semi Perfect Electromagnet",
+        "gtceu.ev_perfect_electromagnet": "Semi Perfect Electromagnet",
+
+        "block.gtceu.ev_perfect_assembler": "Semi Perfect Assembler",
+        "gtceu.ev_perfect_assembler": "Semi Perfect Assembler",
+
+        "block.gtceu.ev_perfect_circuit_assembler": "Semi Perfect Circuit Assembler",
+        "gtceu.ev_perfect_circuit_assembler": "Semi Perfect Circuit Assembler",
+
+        "block.gtceu.ev_perfect_arc_furnace": "Semi Perfect Arc Furnace",
+        "gtceu.ev_perfect_arc_furnace": "Semi Perfect Arc Furnace",
+
+        "block.gtceu.ev_perfect_laser_engraver": "Semi Perfect Laser Engraver",
+        "gtceu.ev_perfect_laser_engraver": "Semi Perfect Laser Engraver",
+
+        "block.gtceu.ev_perfect_sifter": "Semi Perfect Sifter",
+        "gtceu.ev_perfect_sifter": "Semi Perfect Sifter",
+
+        "block.gtceu.ev_perfect_crystallization_chamber": "Semi Perfect Crystallization Chamber",
+        "gtceu.ev_perfect_crystallization_chamber": "Semi Perfect Crystallization Chamber",
+
+        "block.gtceu.ev_perfect_material_press": "Semi Perfect Material Press",
+        "gtceu.ev_perfect_material_press": "Semi Perfect Material Press",
+
+        "block.gtceu.ev_perfect_brewing_vat": "Semi Perfect Brewing Vat",
+        "gtceu.ev_perfect_brewing_vat": "Semi Perfect Brewing Vat",
+
+        "block.gtceu.ev_perfect_cutting_saw": "Semi Perfect Cutting Saw",
+        "gtceu.ev_perfect_cutting_saw": "Semi Perfect Cutting Saw",
+
+        "block.gtceu.ev_perfect_fractionating_distillery": "Semi Perfect Fractionating Distillery",
+        "gtceu.ev_perfect_fractionating_distillery": "Semi Perfect Fractionating Distillery",
+
+        "block.gtceu.ev_perfect_extraction_machine": "Semi Perfect Extraction Machine",
+        "gtceu.ev_perfect_extraction_machine": "Semi Perfect Extraction Machine",
+
+        "block.gtceu.ev_perfect_extrusion_machine": "Semi Perfect Extrusion Machine",
+        "gtceu.ev_perfect_extrusion_machine": "Semi Perfect Extrusion Machine",
+
+        "block.gtceu.ev_perfect_solidification_array": "Semi Perfect Solidification Array",
+        "gtceu.ev_perfect_solidification_array": "Semi Perfect Solidification Array",
+
+        "block.gtceu.ev_perfect_wire_factory": "Semi Perfect Wire Factory",
+        "gtceu.ev_perfect_wire_factory": "Semi Perfect Wire Factory",
+
+        "block.gtceu.ev_perfect_gas_collector": "Semi Perfect Gas Collector",
+        "gtceu.ev_perfect_gas_collector": "Semi Perfect Gas Collector",
+
+
+
+        "block.gtceu.bronze_bulk_smelter": "Primitive Bulk Smelter",
+        "gtceu.bronze_bulk_smelter": "Primitive Bulk Smelter",
+
+        "block.gtceu.primitive_farm": "Primitive Farm",
+        "gtceu.primitive_farm": "Primitive Farm",
+
+        "block.gtceu.lv_solar_generator": "LV Solar Generator",
+        "gtceu.lv_solar_generator": "LV Solar Generator",
+
+        "block.gtceu.mv_solar_generator": "MV Solar Generator",
+        "gtceu.mv_solar_generator": "MV Solar Generator",
+
+        "block.gtceu.hv_solar_generator": "HV Solar Generator",
+        "gtceu.hv_solar_generator": "HV Solar Generator",
+
+        "block.gtceu.quad_electric_blast_furnace": "Quad Electric Blast Furnace",
+        "gtceu.quad_electric_blast_furnace": "Quad Electric Blast Furnace",
+
+        "block.gtceu.woodworking_station": "Woodworking Station",
+        "gtceu.woodworking_station": "Woodworking Station",
+
+        "block.gtceu.celestial_harvester": "Celestial Harvester",
+        "gtceu.celestial_harvester": "Celestial Harvester",
+
+        "block.gtceu.steel_blast_furnace": "Steel Blast Furnace",
+        "gtceu.steel_blast_furnace": "Steel Blast Furnace",
+
+        "block.gtceu.advanced_greenhouse": "Advanced Greenhouse",
+        "gtceu.advanced_greenhouse": "Advanced Greenhouse",
+
+        "block.gtceu.cryogenic_distillation_tower": "Cryogenic Distillation Tower",
+        "gtceu.cryogenic_distillation_tower": "Cryogenic Distillation Tower",
+
+
+
+        "gtceu.firebrick_mixer": "Firebrick Mixer",
+        "gtceu.card_assembler": "Card Assembler",
+        "gtceu.cablemill": "Cablemill",
+
+        "block.gtceu.hv_energy_input_hatch_4a": "§6HV 4A Energy Hatch",
+        "block.gtceu.hv_energy_output_hatch_64a": "§6HV 64A Substation Dynamo Hatch",
+        "block.gtceu.hv_energy_output_hatch_16a": "§6HV 16A Dynamo Hatch",
+        "block.gtceu.hv_energy_output_hatch_4a": "§6HV 4A Dynamo Hatch",
+        "block.gtceu.mv_energy_output_hatch_64a": "§bMV 64A Substation Dynamo Hatch",
+        "block.gtceu.mv_energy_output_hatch_16a": "§bMV 16A Dynamo Hatch",
+        "block.gtceu.mv_energy_output_hatch_4a": "§bMV 4A Dynamo Hatch",
+        "block.gtceu.lv_energy_output_hatch_64a": "§7LV 64A Substation Dynamo Hatch",
+        "block.gtceu.lv_energy_output_hatch_16a": "§7LV 16A Dynamo Hatch",
+        "block.gtceu.lv_energy_output_hatch_4a": "§7LV 4A Dynamo Hatch",
+
+
+
+        "material.gtceu.quartz_alloy": "Quartz Alloy",
+        "material.gtceu.silky_quartz": "Silky Quartz",
+        "material.gtceu.forged_netherite": "Forged Netherite",
+        "material.gtceu.rough_concrete": "Rough Concrete",
+
+        "material.gtceu.materialized_experience": "Materialized Experience",
+        "material.gtceu.activated_lava": "Activated Lava",
+        "material.gtceu.crystalized_water": "Crystalized Water",
+        
+        "material.gtceu.hyperconcentrated_helium": "Hyperconcentrated Helium",
+        "material.gtceu.materia_ignota": "Materia Ignota",
+
+        "material.gtceu.titanobarium_electrotine": "Titanobarium Electrotine",
+        "material.gtceu.red_titanium": "Red Titanium",
+        "material.gtceu.titanosteel_alloy": "Titanosteel Alloy"
+
+
+}
