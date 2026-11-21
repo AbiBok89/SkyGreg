@@ -18,7 +18,6 @@ debug/
 .mixin.out/
 .abilauncher/
 justzoom_instance_data/
-servers.dat
 servers.dat_old
 servers.essential.dat
 usercache.json
